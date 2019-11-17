@@ -1,4 +1,4 @@
-function [] = usrpErrorChecker()
+function [] = usrpErrorChecker(loadBarProgress,loadBar)
 %USRPERRORHANDLER Checks for errors in USRP boot and reboots if necessary
 %   If a USRP error occurs, then the system will send a reboot command to
 %   the USRP and wait until it responds back with a successful bootup
@@ -15,6 +15,7 @@ function [] = usrpErrorChecker()
           while (usrpError)
               
               fprintf('[%s] Error in USRP Boot\n',datestr(now,'HH:MM:SS.FFF'));
+              waitbar(loadBarProgress,loadBar,sprintf('Error in USRP Boot. Restarting GNU & USRP'));
               
               fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
               unix('echo Restart GNU and USRP');
@@ -24,6 +25,7 @@ function [] = usrpErrorChecker()
               if (~usrpError)
                   
                   fprintf('[%s] Error Cleared from USRP. Time elapsed: %.2f seconds\n',datestr(now,'HH:MM:SS.FFF'),toc');
+                  waitbar(loadBarProgress,loadBar,sprintf('Error Cleared from USRP. Continuing...'));
                   break;
               
               end
@@ -31,6 +33,7 @@ function [] = usrpErrorChecker()
           end
           
           fprintf('[%s] No initial Error!\n',datestr(now,'HH:MM:SS.FFF'));
+          waitbar(loadBarProgress,loadBar,sprintf('No initial Error from USRP. Continuing...'));
           
           break;
     
