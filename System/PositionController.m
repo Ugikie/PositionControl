@@ -59,7 +59,9 @@ verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,'v');
 %Allow user to input desired increment size for degree changes on Axis (AZ)
 incrementSize = -1;
 while ((incrementSize <= 0) || (incrementSize > 180)) 
+    
     fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
+    
     incrementSize = input('Enter the desired degree increment size (Must be between 1-180): ');
 end
 degInterval = -90:incrementSize:90;
@@ -88,17 +90,26 @@ for currentDegree = degInterval
     %and also check that it is not moving.
     AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR);
     if (AZIdle && AZInPosition)
+        
         fprintf('[%s] Measure angle %.2f',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
         dots(3);
+        
         if (currentDegree ~= degInterval(end))
+            
             fprintf('[%s] Increment 4190 Position by %.2f degrees',datestr(now,'HH:MM:SS.FFF'),incrementSize);
-            incrementAxisByDegree(MI4190,incrementSize);
             dots(4);
+            incrementAxisByDegree(MI4190,incrementSize);
+            
         else
+            
             fprintf('[%s] Done with current set of measurements!\n',datestr(now,'HH:MM:SS.FFF'));
+        
         end
+        
     elseif (~AZIdle)
+        
         stopAxisMotion(MI4190);
+    
     end
     
 end

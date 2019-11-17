@@ -4,7 +4,9 @@ function [axisInPosition] = verifyIfInPosition(MI4190,desiredPosition, positionE
 %       position, if it is at the desired position, then it breaks from the loop
 %       and notifies the user.
 if (nargin < 4)
+    
     verbose = 'a';
+
 end
 desiredPosMin = desiredPosition - positionError;
 desiredPosMax = desiredPosition + positionError;
