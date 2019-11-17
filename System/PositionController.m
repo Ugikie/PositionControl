@@ -51,7 +51,13 @@ AZCurrPos = getAZCurrPos(MI4190);
 AZStartPos = -90.0000;
 POSITION_ERROR = 0.6;
 
+%Create a waitbar to show progress during measurement cycle. Add elapsed
+%time
+startTime = datestr(now,'HH:MM:SS.FFF');
 loadBar = waitbar(0,'Initializing MI4190...');
+frames = java.awt.Frame.getFrames();
+frames(end).setAlwaysOnTop(1);
+
 
 %If the current position of Axis (AZ) is outside the range of the desired
 %starting position, in this case outside the range: (-90.06,-89.94), then
@@ -75,9 +81,11 @@ degInterval = -90:incrementSize:90;
 itr = 0;
 for currentDegree = degInterval
     itr = itr + 1;
+    
     loadBarProgress = (itr/length(degInterval));
     waitbar(loadBarProgress,loadBar,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
     fprintf('\n[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
+    
     verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
     
     fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
@@ -98,7 +106,7 @@ for currentDegree = degInterval
     if (AZIdle && AZInPosition)
         
         fprintf('[%s] Measure angle %.2f',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
-        waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement...'));
+        waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
         dots(3);
         
         if (currentDegree ~= degInterval(end))
@@ -106,6 +114,7 @@ for currentDegree = degInterval
             fprintf('[%s] Incrementing MI4190 Position by %.2f degrees',datestr(now,'HH:MM:SS.FFF'),incrementSize);
             waitbar(loadBarProgress,loadBar,sprintf('Incrementing MI4190 Position by %.2f degrees',incrementSize));
             dots(4);
+            
             incrementAxisByDegree(MI4190,incrementSize);
             
         else
@@ -123,6 +132,10 @@ for currentDegree = degInterval
     end
     
 end
+
+endTime = datestr(now,'HH:MM:SS.FFF');
+fprintf('Elapsed Time: %s\n',datestr(datetime(endTime) - datetime(startTime),'HH:MM:SS'));
+
 close(loadBar);
 fclose(MI4190);
 
