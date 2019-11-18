@@ -1,8 +1,16 @@
 function [] = moveAxisToPosition(MI4190,desiredPos,AZCurrPos,loadBarProgress,loadBar)
-%MOVEAXISTOPOSITION Summary of this function goes here
-%   Detailed explanation goes here
+%MOVEAXISTOPOSITION Commands Axis (AZ) to move to specified degree position
+%   Ensures that the Axis is not moving before sending a command to move to
+%   the specified position. Different than incrementAxsByDegree in that
+%   this will move to the exact degree specified.
 
 if (getAZCurrVelocity(MI4190) == 0.0000)
+    
+    if getappdata(loadBar,'canceling')
+            cancelSystem(loadBarProgress,loadBar)
+            return
+    end
+    
     fprintf('[%s] Moving Axis (AZ) from position: %.2f, to desired position: %.2f',datestr(now,'HH:MM:SS.FFF'), AZCurrPos, desiredPos);
     waitbar(loadBarProgress,loadBar,sprintf(' Moving Axis (AZ) from position: %.2f, to desired position: %.2f',AZCurrPos, desiredPos));
     fprintf(MI4190, 'CONT1:AXIS(1):POS:COMM %f\n', desiredPos);

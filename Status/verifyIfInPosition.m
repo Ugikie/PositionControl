@@ -13,11 +13,20 @@ desiredPosMax = desiredPosition + positionError;
 axisInPosition = false;
 tic
     while toc<=60
+        
           fprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF'));
           waitbar(loadBarProgress,loadBar,sprintf('Verifying if Axis is in Position'));
+          
           AZCurrPosDoub = getAZCurrPos(MI4190);
           AZCurrVel = getAZCurrVelocity(MI4190);
+          
+          if getappdata(loadBar,'canceling')
+            cancelSystem(loadBarProgress,loadBar)
+            break
+          end
+          
           dots(4)
+          
           if ((AZCurrPosDoub >= desiredPosMin) && (AZCurrPosDoub <= desiredPosMax))
               if (verbose == 'v')
                 waitbar(loadBarProgress,loadBar,sprintf('Axis (AZ) is in desired position. Continuing...'));

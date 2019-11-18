@@ -14,6 +14,11 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
           
           while (usrpError)
               
+              if getappdata(loadBar,'canceling')
+                cancelSystem(loadBarProgress,loadBar)
+                return
+              end
+              
               fprintf('[%s] Error in USRP Boot\n',datestr(now,'HH:MM:SS.FFF'));
               waitbar(loadBarProgress,loadBar,sprintf('Error in USRP Boot. Restarting GNU & USRP'));
               
@@ -26,7 +31,7 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
                   
                   fprintf('[%s] Error Cleared from USRP. Time elapsed: %.2f seconds\n',datestr(now,'HH:MM:SS.FFF'),toc');
                   waitbar(loadBarProgress,loadBar,sprintf('Error Cleared from USRP. Continuing...'));
-                  break;
+                  return;
               
               end
               

@@ -1,5 +1,7 @@
 
 close all; clear all; clc;
+diary log.txt
+fprintf('\n');
 %===================================SETUP=================================%
 % Specify the virtual serial port created by USB driver. It is currently
 % configured to work for a Mac, so if a PC is being used this will need to
@@ -54,10 +56,10 @@ POSITION_ERROR = 0.6;
 %Create a waitbar to show progress during measurement cycle. Add elapsed
 %time
 startTime = datestr(now,'HH:MM:SS.FFF');
-loadBar = waitbar(0,'Initializing MI4190...');
+loadBar = waitbar(0,'Initializing MI4190...','CreateCancelBtn','setappdata(gcbf,''canceling'',1)');
 frames = java.awt.Frame.getFrames();
 frames(end).setAlwaysOnTop(1);
-
+setappdata(loadBar,'canceling',0);
 
 %If the current position of Axis (AZ) is outside the range of the desired
 %starting position, in this case outside the range: (-90.06,-89.94), then
@@ -80,9 +82,15 @@ degInterval = -90:incrementSize:90;
 %the safety of the system.
 itr = 0;
 for currentDegree = degInterval
-    itr = itr + 1;
     
+    itr = itr + 1;
     loadBarProgress = (itr/length(degInterval));
+    
+    if getappdata(loadBar,'canceling')
+        cancelSystem(loadBarProgress,loadBar)
+        break
+    end
+    
     waitbar(loadBarProgress,loadBar,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
     fprintf('\n[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
     
@@ -105,17 +113,26 @@ for currentDegree = degInterval
     AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar);
     if (AZIdle && AZInPosition)
         
+        if getappdata(loadBar,'canceling')
+            cancelSystem(loadBarProgress,loadBar)
+            break
+        end
+        
         fprintf('[%s] Measure angle %.2f',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
         waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
         dots(3);
         
         if (currentDegree ~= degInterval(end))
             
+            if getappdata(loadBar,'canceling')
+                cancelSystem(loadBarProgress,loadBar)
+                break
+            end
+            
             fprintf('[%s] Incrementing MI4190 Position by %.2f degrees',datestr(now,'HH:MM:SS.FFF'),incrementSize);
             waitbar(loadBarProgress,loadBar,sprintf('Incrementing MI4190 Position by %.2f degrees',incrementSize));
-            dots(4);
-            
             incrementAxisByDegree(MI4190,incrementSize);
+            dots(4);
             
         else
             
@@ -136,7 +153,8 @@ end
 endTime = datestr(now,'HH:MM:SS.FFF');
 fprintf('Elapsed Time: %s\n',datestr(datetime(endTime) - datetime(startTime),'HH:MM:SS'));
 
-close(loadBar);
+delete(loadBar);
 fclose(MI4190);
+diary off;
 
 

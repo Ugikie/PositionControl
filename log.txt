@@ -1,0 +1,109 @@
+[18:57:49.279] Enter the desired degree increment size (Must be between 1-180): 5
+
+[18:57:51.629] Current Degree Measurement: -90.00
+[18:57:51.633] Turn on GNU 
+. . . 
+[18:57:56.305] Incrementing MI4190 Position by 5.00 degrees. . . . 
+{Unrecognized function or variable 'loadbarProgress'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m', 50)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m',50,0)">line 50</a>)
+        waitbar(loadbarProgress,loadBar,sprintf('Cancelling...'));
+} 
+delete(loadBar)
+testing
+[18:58:53.228] Enter the desired degree increment size (Must be between 1-180): 90
+
+[18:58:55.980] Current Degree Measurement: -90.00
+[18:58:55.984] Turn on GNU 
+. . . 
+[18:59:00.707] Incrementing MI4190 Position by 90.00 degrees. . . . 
+
+[18:59:06.782] Cancelling. . . . 
+Elapsed Time: 00:00:20
+[19:01:05.746] Enter the desired degree increment size (Must be between 1-180): 0
+
+[19:01:15.947] Cancelling. . . . 
+Elapsed Time: 00:00:16
+[19:04:07.375] Enter the desired degree increment size (Must be between 1-180): 1
+
+[19:04:09.264] Current Degree Measurement: -90.00
+[19:04:09.268] Turn on GNU 
+. . . 
+[19:04:13.936] Incrementing MI4190 Position by 1.00 degrees. . . . 
+
+[19:04:19.998] Cancelling. . . . 
+Elapsed Time: 00:00:19
+[19:11:07.913] Enter the desired degree increment size (Must be between 1-180): 5
+
+[19:11:09.871] Current Degree Measurement: -90.00
+[19:11:09.875] Turn on GNU 
+. . . 
+
+[19:11:14.560] Cancelling. . 
+Elapsed Time: 00:00:10
+[19:22:55.023] Enter the desired degree increment size (Must be between 1-180): 45
+
+[19:22:58.418] Current Degree Measurement: -90.00
+[19:22:58.422] Turn on GNU 
+. . . . 
+[19:23:04.615] No initial Error!
+. . . 
+[19:23:09.165] Incrementing MI4190 Position by 45.00 degrees. . . . 
+
+[19:23:15.243] Current Degree Measurement: -45.00
+[19:23:15.244] Turn on GNU 
+. . . . 
+[19:23:21.397] No initial Error!
+. . . 
+[19:23:25.924] Incrementing MI4190 Position by 45.00 degrees. . . . 
+
+[19:23:31.959] Current Degree Measurement: 0.00
+[19:23:31.960] Turn on GNU 
+. . . . 
+[19:23:38.126] No initial Error!
+. . . 
+[19:23:42.650] Incrementing MI4190 Position by 45.00 degrees. . . . 
+
+[19:23:48.683] Current Degree Measurement: 45.00
+[19:23:48.684] Turn on GNU 
+. . . . 
+[19:23:54.852] Error in USRP Boot
+[19:23:54.863] Restart GNU and USRP 
+. . . . 
+[19:24:01.072] Error in USRP Boot
+[19:24:01.080] Restart GNU and USRP 
+. . . . 
+[19:24:07.247] Error Cleared from USRP. Time elapsed: 18.40 seconds
+. . . 
+[19:24:11.773] Incrementing MI4190 Position by 45.00 degrees. . . . 
+
+[19:24:17.806] Current Degree Measurement: 90.00
+[19:24:17.807] Turn on GNU 
+. . . . 
+[19:24:23.966] Error in USRP Boot
+[19:24:23.978] Restart GNU and USRP 
+. . . . 
+[19:24:30.167] Error in USRP Boot
+[19:24:30.179] Restart GNU and USRP 
+. . . . 
+[19:24:36.339] Error Cleared from USRP. Time elapsed: 18.38 seconds
+. . . 
+[19:24:40.869] Done with current set of measurements!
+Elapsed Time: 00:01:46
+[19:49:56.590] Enter the desired degree increment size (Must be between 1-180): 60
+
+[19:50:06.994] Current Degree Measurement: -90.00
+[19:50:06.998] Turn on GNU 
+. . . . 
+[19:50:13.181] No initial Error!
+. . . 
+[19:50:17.728] Incrementing MI4190 Position by 60.00 degrees. . . . 
+
+[19:50:23.762] Current Degree Measurement: -30.00
+[19:50:23.764] Turn on GNU 
+. . . . 
+[19:50:29.978] No initial Error!
+. . . 
+
+[19:50:34.519] Cancelling. . 
+Elapsed Time: 00:00:41
