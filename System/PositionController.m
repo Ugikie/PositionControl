@@ -1,13 +1,19 @@
 
 close all; clear all; clc;
-diary log.txt
+
+logFile = logFilePath();
+diary(logFile);
+cprintf('strings','Saving log to: %s\n',logFile);
 fprintf('\n');
 %===================================SETUP=================================%
 % Specify the virtual serial port created by USB driver. It is currently
 % configured to work for a Mac, so if a PC is being used this will need to
 % be changed (e.g., to a port such as COM3)
-% MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM');
-MI4190 = serial('COM3');
+MI4190 = serial('/dev/ttyUSB0');                 % Linux
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
 
 % Prologix Controller 4.2 requires CR as command terminator, LF is
 % optional. The controller terminates internal query responses with CR and
@@ -68,7 +74,7 @@ verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,0,loadBar,'v');
 
 %Allow user to input desired increment size for degree changes on Axis (AZ)
 incrementSize = -1;
-while ((incrementSize <= 0) || (incrementSize > 180)) 
+while (~getappdata(loadBar,'canceling') && (incrementSize <= 0) || (incrementSize > 180)) 
     
     fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
     
@@ -92,7 +98,7 @@ for currentDegree = degInterval
     end
     
     waitbar(loadBarProgress,loadBar,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
-    fprintf('\n[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
+    cprintf('-comment','\n[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
     
     verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
     
@@ -118,7 +124,7 @@ for currentDegree = degInterval
             break
         end
         
-        fprintf('[%s] Measure angle %.2f',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
+        fprintf('\n[%s] Measure angle %.2f',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
         waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
         dots(3);
         
@@ -136,7 +142,7 @@ for currentDegree = degInterval
             
         else
             
-            fprintf('[%s] Done with current set of measurements!\n',datestr(now,'HH:MM:SS.FFF'));
+            cprintf('-comments','[%s] Done with current set of measurements!\n',datestr(now,'HH:MM:SS.FFF'));
             waitbar(1,loadBar,sprintf('Done with current set of measurements!'));
             
         
@@ -155,6 +161,6 @@ fprintf('Elapsed Time: %s\n',datestr(datetime(endTime) - datetime(startTime),'HH
 
 delete(loadBar);
 fclose(MI4190);
+cprintf('strings','Log saved to: %s\n',logFile);
 diary off;
-
 

@@ -12,7 +12,7 @@ desiredPosMin = desiredPosition - positionError;
 desiredPosMax = desiredPosition + positionError;
 axisInPosition = false;
 tic
-    while toc<=60
+    while toc<=80
         
           fprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF'));
           waitbar(loadBarProgress,loadBar,sprintf('Verifying if Axis is in Position'));
@@ -28,8 +28,8 @@ tic
           dots(4)
           
           if ((AZCurrPosDoub >= desiredPosMin) && (AZCurrPosDoub <= desiredPosMax))
+              waitbar(loadBarProgress,loadBar,sprintf('Axis (AZ) is in desired position. Continuing...'));
               if (verbose == 'v')
-                waitbar(loadBarProgress,loadBar,sprintf('Axis (AZ) is in desired position. Continuing...'));
                 fprintf('[%s] Axis (AZ) is in desired position: %.2f. Time elapsed: %.2f seconds.\n',datestr(now,'HH:MM:SS.FFF'), AZCurrPosDoub, toc');
               end
               axisInPosition = true;

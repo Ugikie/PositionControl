@@ -19,7 +19,7 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
                 return
               end
               
-              fprintf('[%s] Error in USRP Boot\n',datestr(now,'HH:MM:SS.FFF'));
+              fprintf(2,'[%s][ERROR] Error in USRP Boot\n',datestr(now,'HH:MM:SS.FFF'));
               waitbar(loadBarProgress,loadBar,sprintf('Error in USRP Boot. Restarting GNU & USRP'));
               
               fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
