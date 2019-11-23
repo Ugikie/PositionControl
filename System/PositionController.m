@@ -86,6 +86,8 @@ degInterval = -90:incrementSize:90;
 %Loops through each degree in the interval and communicates with the USRP
 %to take automatic measurements, with many checks along the way to ensure
 %the safety of the system.
+%%%check is USRP is on here, loop until it is
+[~,usrpBoot] = system('echo turn on USRP');
 itr = 0;
 for currentDegree = degInterval
     
@@ -94,7 +96,7 @@ for currentDegree = degInterval
     
     if getappdata(loadBar,'canceling')
         cancelSystem(loadBarProgress,loadBar)
-        break
+        return;
     end
     
     waitbar(loadBarProgress,loadBar,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
@@ -102,12 +104,13 @@ for currentDegree = degInterval
     
     verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
     
-    fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
-    unix('echo Turn on GNU');
-    
+    %verify connection to USRP via uhd_find_devices
     %Calls the USRP Error Checking function that for now simulates a random
     %USRP error by generating a '1' for an error and '0' for no error.
     usrpErrorChecker(loadBarProgress,loadBar);
+    [~, gnuOn] = system('echo Turn on GNU');
+    fprintf('[%s] Turn on GNU',datestr(now,'HH:MM:SS.FFF'));
+    dots(3);
     
     %Get Axis (AZ) current Velocity and make sure it is idle before
     %taking measurement

@@ -17,7 +17,7 @@ if (getAZCurrVelocity(MI4190) == 0.0000)
     fprintf(MI4190, 'CONT1:AXIS(1):MOT:STAR');
     dots(4);
 else
-    fprintf(2,'[%s][WARNING] Axis is in motion and cannot be moved!\n',datestr(now,'HH:MM:SS.FFF'));
+    cprintf('err','[%s][WARNING] Axis is in motion and cannot be moved!\n',datestr(now,'HH:MM:SS.FFF'));
     waitbar(loadBarProgress,loadBar,sprintf('Warning: Axis is in motion and cannot be moved!'));
 end
 end

@@ -4,40 +4,39 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
 %   the USRP and wait until it responds back with a successful bootup
 %   message. The program will then resume as normal to take measurements.
 
-    cprintf('strings','[%s] Checking USRP for errors',datestr(now,'HH:MM:SS.FFF'));
-    waitbar(loadBarProgress,loadBar,sprintf('Checking USRP for errors.'));
-    dots(3);
-    
     MAX_ERROR_WAIT_TIME = 10000; %seconds
+    
     tic
     while toc<=MAX_ERROR_WAIT_TIME
           
-          usrpResponse = pingUSRP();
-          while (~contains(usrpResponse,'TTL=')) %TTL= will only show on a successful ping
+          dots(4);
+          usrpError = randsrc(1,1,[0,1;0.9,0.1]); %replace with input from USRP saying if had error or not
+          
+          while (usrpError)
               
-
-              cprintf('err','[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF'));
-              waitbar(loadBarProgress,loadBar,sprintf('USRP not connected. Rebooting it...'));
-              [~, usrpBoot] = system('echo reboot USRP');
-              fprintf('[%s]Rebooting USRP',datestr(now,'HH:MM:SS.FFF'));
-              dots(5); %long pause because usrp has to reboot up
+              if getappdata(loadBar,'canceling')
+                cancelSystem(loadBarProgress,loadBar)
+                return
+              end
               
-
-              cprintf('strings','[%s] Checking USRP for errors. . .\n',datestr(now,'HH:MM:SS.FFF'));
-              waitbar(loadBarProgress,loadBar,sprintf('Checking USRP for errors...'));
-              usrpResponse = pingUSRP();
+              cprintf('err','[%s][ERROR] Error in USRP Boot\n',datestr(now,'HH:MM:SS.FFF'));
+              waitbar(loadBarProgress,loadBar,sprintf('Error in USRP Boot. Restarting GNU & USRP'));
               
-
-              if (contains(usrpResponse,'TTL='))
-
+              fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
+              unix('echo Restart GNU and USRP');
+              dots(4);
+              
+              usrpError = randsrc(1,1,[0,1;0.7,0.3]); %replace with input from USRP saying if had error or not
+              if (~usrpError)
+                  
                   fprintf('[%s] Error Cleared from USRP. Time elapsed: %.2f seconds\n',datestr(now,'HH:MM:SS.FFF'),toc');
                   waitbar(loadBarProgress,loadBar,sprintf('Error Cleared from USRP. Continuing...'));
                   return;
-
+              
               end
-
+              
           end
-    
+          
           fprintf('[%s] No initial Error!\n',datestr(now,'HH:MM:SS.FFF'));
           waitbar(loadBarProgress,loadBar,sprintf('No initial Error from USRP. Continuing...'));
           
@@ -46,3 +45,4 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
     end
     
 end
+

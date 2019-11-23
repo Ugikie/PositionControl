@@ -1,0 +1,38 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_17.11.19.txt
+
+[17:33:20.023] Enter the desired degree increment size (Must be between 1-180): 60
+[17:33:21.499] Turn on USRP. . . 
+<a href="">
+[17:33:26.025] Current Degree Measurement: -90.00
+</a>[17:33:26.054]Checking USRP for errors. . . 
+[17:33:32.822] No initial Error!
+[17:33:33.021] Turn on GNU. . . 
+
+[17:33:37.524] Measure angle -90.00. . . 
+[17:33:42.046] Incrementing MI4190 Position by 60.00 degrees. . . . 
+<a href="">
+[17:33:48.080] Current Degree Measurement: -30.00
+</a>[17:33:48.110]Checking USRP for errors. . . 
+[17:33:54.981] No initial Error!
+[17:33:55.148] Turn on GNU. . . 
+
+[17:33:59.651] Measure angle -30.00. . . 
+[17:34:04.169] Incrementing MI4190 Position by 60.00 degrees. . . . 
+<a href="">
+[17:34:10.191] Current Degree Measurement: 30.00
+</a>[17:34:10.214]Checking USRP for errors. . . 
+[17:34:16.964] No initial Error!
+[17:34:17.127] Turn on GNU. . . 
+
+[17:34:21.629] Measure angle 30.00. . . 
+[17:34:26.155] Incrementing MI4190 Position by 60.00 degrees. . . . 
+<a href="">
+[17:34:32.184] Current Degree Measurement: 90.00
+</a>[17:34:32.204]Checking USRP for errors. . . 
+[17:34:39.055] No initial Error!
+[17:34:39.220] Turn on GNU. . . 
+
+[17:34:43.722] Measure angle 90.00. . . 
+<a href="">[17:34:48.240] Done with current set of measurements!
+</a>Elapsed Time: 00:01:28
+Log saved to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_17.11.19.txt

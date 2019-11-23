@@ -1,0 +1,30 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_18.11.45.txt
+
+[18:12:46.501] Enter the desired degree increment size (Must be between 1-180): 60
+[18:12:48.326] Turn on USRP. . . 
+<a href="">
+[18:12:52.849] Current Degree Measurement: -90.00
+</a>[18:12:52.890] Checking USRP for errors. {Unrecognized function or variable 'loadBarProgress'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing>cancelSystem', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m', 172)" style="font-weight:bold">testing>cancelSystem</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m',172,0)">line 172</a>)
+    waitbar(loadBarProgress,loadBar,sprintf('Cancelling...'));
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dots', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\dots.m', 5)" style="font-weight:bold">dots</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\dots.m',5,0)">line 5</a>)
+Error while evaluating UIControl Callback.
+
+. . 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dos', 'D:\Program Files\MATLAB\R2019b\toolbox\matlab\general\dos.m', 67)" style="font-weight:bold">dos</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019b\toolbox\matlab\general\dos.m',67,0)">line 67</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pingUSRP', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\pingUSRP.m', 5)" style="font-weight:bold">pingUSRP</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\pingUSRP.m',5,0)">line 5</a>)
+    [~,usrpPingResponse] = system('ping -n 3 127.0.0.1');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('usrpErrorChecker', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Status\usrpErrorChecker.m', 15)" style="font-weight:bold">usrpErrorChecker</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Status\usrpErrorChecker.m',15,0)">line 15</a>)
+          usrpResponse = pingUSRP();
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m', 111)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m',111,0)">line 111</a>)
+    usrpErrorChecker(loadBarProgress,loadBar);
+} 
+delete(loadBar)
+testing
+Beginning Measurements 22-Nov-2019 18:13:39
