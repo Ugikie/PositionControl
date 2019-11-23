@@ -1,5 +1,0 @@
-Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_18.11.08.txt
-
-[18:17:08.715] Enter the desired degree increment size (Must be between 1-180): 
-[18:17:09.688] Cancelling. . .
-Log saved to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_18.11.08.txt

@@ -13,22 +13,20 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
     while toc<=MAX_ERROR_WAIT_TIME
           
           usrpResponse = pingUSRP();
-          while (~contains(usrpResponse,'TTL=')) %TTL= will only show on a successful ping
+          while (~contains(usrpResponse,'ttl=')) %TTL= will only show on a successful ping
               
 
               cprintf('err','[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF'));
               waitbar(loadBarProgress,loadBar,sprintf('USRP not connected. Rebooting it...'));
-              [~, usrpBoot] = system('echo reboot USRP');
-              fprintf('[%s]Rebooting USRP',datestr(now,'HH:MM:SS.FFF'));
-              dots(5); %long pause because usrp has to reboot up
-              
-
+              fprintf('[%s]Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF'));
+              bootUSRPs(loadBarProgress,loadBar);
+             
               cprintf('strings','[%s] Checking USRP for errors. . .\n',datestr(now,'HH:MM:SS.FFF'));
               waitbar(loadBarProgress,loadBar,sprintf('Checking USRP for errors...'));
               usrpResponse = pingUSRP();
               
 
-              if (contains(usrpResponse,'TTL='))
+              if (contains(usrpResponse,'ttl='))
 
                   fprintf('[%s] Error Cleared from USRP. Time elapsed: %.2f seconds\n',datestr(now,'HH:MM:SS.FFF'),toc');
                   waitbar(loadBarProgress,loadBar,sprintf('Error Cleared from USRP. Continuing...'));

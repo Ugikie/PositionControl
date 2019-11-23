@@ -1,4 +1,3 @@
-
 close all; clear all; clc;
 
 logFile = logFilePath();
@@ -6,7 +5,7 @@ diary(logFile);
 cprintf('strings','Saving log to: %s\n',logFile);
 fprintf('\n');
 %===================================SETUP=================================%
-% Specify the virtual serial port created by USB driver. It is currently
+% % Specify the virtual serial port created by USB driver. It is currently
 % % configured to work for a Mac, so if a PC is being used this will need to
 % % be changed (e.g., to a port such as COM3)
 % MI4190 = serial('/dev/ttyUSB0');                 % Linux
@@ -62,9 +61,10 @@ POSITION_ERROR = 0.6;
 %Create a waitbar to show progress during measurement cycle. Add elapsed
 %time
 startTime = datestr(now,'HH:MM:SS.FFF');
-loadBar = waitbar(0,'Initializing MI4190...','CreateCancelBtn',{@cancelSystem,logFile});
+loadBar = waitbar(0,'Initializing MI4190...','CreateCancelBtn','setappdata(gcbf,''canceling'',1)');
 frames = java.awt.Frame.getFrames();
 frames(end).setAlwaysOnTop(1);
+setappdata(loadBar,'canceling',0);
 
 %If the current position of Axis (AZ) is outside the range of the desired
 %starting position, in this case outside the range: (-90.06,-89.94), then
@@ -73,7 +73,7 @@ frames(end).setAlwaysOnTop(1);
 
 %Allow user to input desired increment size for degree changes on Axis (AZ)
 incrementSize = -1;
-while ((incrementSize <= 0) || (incrementSize > 180)) 
+while (~getappdata(loadBar,'canceling') && (incrementSize <= 0) || (incrementSize > 180)) 
     
     fprintf('[%s] ',datestr(now,'HH:MM:SS.FFF'));
     
@@ -82,51 +82,74 @@ while ((incrementSize <= 0) || (incrementSize > 180))
 end
 degInterval = -90:incrementSize:90;
 
+
+%Initiates the boot process for the USRP N210 & N310.
+bootUSRPs(0,loadBar);
+gnuFileName = '/ArrayTest2.py ';
+gnuFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
+
 %Loops through each degree in the interval and communicates with the USRP
 %to take automatic measurements, with many checks along the way to ensure
 %the safety of the system.
-[~, usrpOn] = system('echo Turn on USRP');
-fprintf('[%s] Turn on USRP',datestr(now,'HH:MM:SS.FFF'));
-dots(3);
 itr = 0;
 for currentDegree = degInterval
-    
+    if (currentDegree == degInterval(1))
+        takeFirstMeasurementCommand = ['sudo timeout 30 python ' gnuFilePath gnuFileName num2str(currentDegree)];
+    else
+        takeMeasurementCommand = ['sudo timeout 12 python ' gnuFilePath gnuFileName num2str(currentDegree)];
+    end
     itr = itr + 1;
     loadBarProgress = (itr/length(degInterval));
+    
+    if getappdata(loadBar,'canceling')
+        cancelSystem(loadBarProgress,loadBar)
+        return;
+    end
     
     waitbar(loadBarProgress,loadBar,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
     cprintf('-comment','\n[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
     
- %   verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
+  %  verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
     
     %verify connection to USRP via uhd_find_devices
     %Calls the USRP Error Checking function that for now simulates a random
     %USRP error by generating a '1' for an error and '0' for no error.
     usrpErrorChecker(loadBarProgress,loadBar);
-    [~, gnuOn] = system('echo Turn on GNU');
-    fprintf('[%s] Turn on GNU',datestr(now,'HH:MM:SS.FFF'));
-    dots(3);
-    
+        
     %Get Axis (AZ) current Velocity and make sure it is idle before
     %taking measurement
-   % AZCurrVel = getAZCurrVelocity(MI4190);
-  %  AZIdle = verifyIfIdle(MI4190,AZCurrVel);
+ %   AZCurrVel = getAZCurrVelocity(MI4190);
+ %   AZIdle = verifyIfIdle(MI4190,AZCurrVel);
     
     %Make sure Axis (AZ) position did not change during USRP error checking
     %and also check that it is not moving.
-   % AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar);
+    %AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar);
     if (true)
-       
-        fprintf('\n[%s] Measure angle %.2f',datestr(now,'HH:MM:SS.FFF'),currentDegree);
+        
+        if getappdata(loadBar,'canceling')
+            cancelSystem(loadBarProgress,loadBar)
+            break
+        end
+        
+        fprintf('\n[%s] Measure angle %.2f. . .\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
+        if(currentDegree == degInterval(1))
+            system(takeFirstMeasurementCommand);
+        else
+            system(takeMeasurementCommand);
+        end
+        
         waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
-        dots(3);
         
         if (currentDegree ~= degInterval(end))
-         
+            
+            if getappdata(loadBar,'canceling')
+                cancelSystem(loadBarProgress,loadBar)
+                break
+            end
             
             fprintf('[%s] Incrementing MI4190 Position by %.2f degrees',datestr(now,'HH:MM:SS.FFF'),incrementSize);
             waitbar(loadBarProgress,loadBar,sprintf('Incrementing MI4190 Position by %.2f degrees',incrementSize));
-           % incrementAxisByDegree(MI4190,incrementSize);
+        %    incrementAxisByDegree(MI4190,incrementSize);
             dots(4);
             
         else
@@ -137,9 +160,9 @@ for currentDegree = degInterval
         
         end
         
-    %elseif (~AZIdle)
+    elseif (~AZIdle)
         
-        %stopAxisMotion(MI4190,loadBarProgress,loadBar);
+      %  stopAxisMotion(MI4190,loadBarProgress,loadBar);
     
     end
     

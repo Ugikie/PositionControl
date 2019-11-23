@@ -1,7 +1,0 @@
-Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_18.11.32.txt
-
-[18:14:33.384] Enter the desired degree increment size (Must be between 1-180): {Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m', 82)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\testing.m',82,0)">line 82</a>)
-} 
-delete(loadBar)
-testing
-Beginning Measurements 22-Nov-2019 18:14:42

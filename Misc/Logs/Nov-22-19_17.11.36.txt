@@ -1,8 +1,0 @@
-Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_17.11.36.txt
-
-[17:40:36.690] Enter the desired degree increment size (Must be between 1-180): 60
-[17:40:37.827] Turn on USRP. . . 
-
-[17:40:42.359] Cancelling
-Elapsed Time: 00:00:05
-Log saved to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-22-19_17.11.36.txt

@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo timeout 15 uhd_find_devices
+sudo timeout 60 uhd_usrp_probe
+sudo sysctl -w net.core.wmem_max=2500000
+sudo timeout 60 uhd_usrp_probe
+sudo sysctl -w net.core.wmem_max=6250000
+
