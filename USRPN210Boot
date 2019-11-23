@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo '/home/ugikie/workarea-uhd/uhd/host/build/examples/tx_waveforms' --args "addr=192.168.10.15,type=usrp2" --freq 3.99998e9 --ant "TX/RX" --subdev "A:0" --channels 0 --rate 1.25e6 --gain 30.75
+sudo '/home/ugikie/workarea-uhd/uhd/host/build/examples/tx_waveforms' --args "addr=192.168.10.15,type=usrp2" --freq 4.00000e9 --ant "TX/RX" --subdev "A:0" --channels 0 --rate 1.25e6 --gain 31.5
