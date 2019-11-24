@@ -128,7 +128,7 @@ for currentDegree = degInterval
             break
         end
         
-        fprintf('\n[%s] Taking measurement at %.2f degrees',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
+        fprintf('\n[%s] Taking measurement at %.2f degrees\n',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
         waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
         
         [~,usrpMeasurement] = system(takeMeasurementCommand);

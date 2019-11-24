@@ -1,0 +1,19 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.03.15_log.txt
+
+[15:03:16.481] Enter the desired degree increment size (Must be between 1-180): 5
+[15:03:20.741]Booting up USRPs. . .
+[15:03:20.976][ERROR] USRP not found. Rebooting. . .
+[15:03:21.143][ERROR] USRP not found. Rebooting. . .
+[15:03:21.319][ERROR] USRP not found. Rebooting. . .
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dos', 'D:\Program Files\MATLAB\R2019b\toolbox\matlab\general\dos.m', 67)" style="font-weight:bold">dos</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019b\toolbox\matlab\general\dos.m',67,0)">line 67</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootUSRPs', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\bootUSRPs.m', 11)" style="font-weight:bold">bootUSRPs</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\bootUSRPs.m',11,0)">line 11</a>)
+    [~,usrpBoot] = system('bash USRPBoot');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m', 87)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m',87,0)">line 87</a>)
+bootUSRPs(0,loadBar);
+} 
+delete(loadBar)
+testing
+Beginning Measurements 24-Nov-2019 15:08:54

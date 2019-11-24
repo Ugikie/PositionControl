@@ -1,0 +1,26 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.08.54_log.txt
+
+[15:08:54.981] Enter the desired degree increment size (Must be between 1-180): 60
+[15:08:57.000]Booting up USRPs. . .
+[15:08:57.266][ERROR] USRP not found. Rebooting. . .
+[15:08:57.421][ERROR] USRP not found. Rebooting. . .
+[15:08:57.575][ERROR] USRP not found. Rebooting. . .
+[15:08:57.723][ERROR] USRP not found. Rebooting. . .
+[15:08:57.899][ERROR] USRP not found. Rebooting. . .
+[15:08:58.049][ERROR] USRP not found. Rebooting. . .
+[15:08:58.407][ERROR] USRP not found. Rebooting. . .
+[15:08:58.589][ERROR] USRP not found. Rebooting. . .
+[15:08:58.732][ERROR] USRP not found. Rebooting. . .
+[15:08:58.931][ERROR] USRP not found. Rebooting. . .
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cprintf', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\cprintf\cprintf.m', 204)" style="font-weight:bold">cprintf</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\cprintf\cprintf.m',204,0)">line 204</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootUSRPs', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\bootUSRPs.m', 10)" style="font-weight:bold">bootUSRPs</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\bootUSRPs.m',10,0)">line 10</a>)
+    cprintf('err','[%s][ERROR] USRP not found. Rebooting. . .\n',datestr(now,'HH:MM:SS.FFF'));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m', 87)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m',87,0)">line 87</a>)
+bootUSRPs(0,loadBar);
+} 
+delete(loadBar)
+testing
+Beginning Measurements 24-Nov-2019 15:09:15

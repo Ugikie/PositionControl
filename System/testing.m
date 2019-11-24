@@ -1,6 +1,6 @@
 close all; clear all; clc;
 
-logFile = logFilePath();
+[logFileName,logFile] = logFilePath();
 diary(logFile);
 cprintf('strings','Saving log to: %s\n',logFile);
 fprintf('\n');
@@ -84,20 +84,17 @@ degInterval = -90:incrementSize:90;
 
 
 %Initiates the boot process for the USRP N210 & N310.
-bootUSRPs(0,loadBar);
+%bootUSRPs(0,loadBar);
 gnuFileName = '/ArrayTest3.py ';
 gnuFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
-
 %Loops through each degree in the interval and communicates with the USRP
 %to take automatic measurements, with many checks along the way to ensure
 %the safety of the system.
 itr = 0;
 for currentDegree = degInterval
-    if (currentDegree == degInterval(1))
-        takeFirstMeasurementCommand = ['sudo timeout 30 python ' gnuFilePath gnuFileName num2str(currentDegree)];
-    else
-        takeMeasurementCommand = ['sudo timeout 12 python ' gnuFilePath gnuFileName num2str(currentDegree)];
-    end
+    
+    takeMeasurementCommand = ['sudo python ' gnuFilePath gnuFileName ' ' num2str(incrementSize) ' ' logFileName ' ' num2str(currentDegree)];
+    
     itr = itr + 1;
     loadBarProgress = (itr/length(degInterval));
     
@@ -109,21 +106,21 @@ for currentDegree = degInterval
     waitbar(loadBarProgress,loadBar,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
     cprintf('-comment','\n[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
     
-  %  verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
+ %   verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
     
     %verify connection to USRP via uhd_find_devices
     %Calls the USRP Error Checking function that for now simulates a random
     %USRP error by generating a '1' for an error and '0' for no error.
-    usrpErrorChecker(loadBarProgress,loadBar);
-        
+    %usrpErrorChecker(loadBarProgress,loadBar);
+    
     %Get Axis (AZ) current Velocity and make sure it is idle before
     %taking measurement
- %   AZCurrVel = getAZCurrVelocity(MI4190);
- %   AZIdle = verifyIfIdle(MI4190,AZCurrVel);
+    %AZCurrVel = getAZCurrVelocity(MI4190);
+    %AZIdle = verifyIfIdle(MI4190,AZCurrVel);
     
     %Make sure Axis (AZ) position did not change during USRP error checking
     %and also check that it is not moving.
-    %AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar);
+  %  AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar);
     if (true)
         
         if getappdata(loadBar,'canceling')
@@ -131,15 +128,11 @@ for currentDegree = degInterval
             break
         end
         
-        fprintf('\n[%s] Measure angle %.2f. . .\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
-        if(currentDegree == degInterval(1))
-            system(takeFirstMeasurementCommand);
-        else
-            system(takeMeasurementCommand);
-        end
-        
+        fprintf('\n[%s] Taking measurement at %.2f degrees\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
         waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
         
+       % [~,usrpMeasurement] = system(takeMeasurementCommand);
+
         if (currentDegree ~= degInterval(end))
             
             if getappdata(loadBar,'canceling')
@@ -149,7 +142,7 @@ for currentDegree = degInterval
             
             fprintf('[%s] Incrementing MI4190 Position by %.2f degrees',datestr(now,'HH:MM:SS.FFF'),incrementSize);
             waitbar(loadBarProgress,loadBar,sprintf('Incrementing MI4190 Position by %.2f degrees',incrementSize));
-        %    incrementAxisByDegree(MI4190,incrementSize);
+          %  incrementAxisByDegree(MI4190,incrementSize);
             dots(4);
             
         else
@@ -162,14 +155,15 @@ for currentDegree = degInterval
         
     elseif (~AZIdle)
         
-      %  stopAxisMotion(MI4190,loadBarProgress,loadBar);
+        %stopAxisMotion(MI4190,loadBarProgress,loadBar);
     
     end
     
 end
 
 endTime = datestr(now,'HH:MM:SS.FFF');
-fprintf('Elapsed Time: %s\n',datestr(datetime(endTime) - datetime(startTime),'HH:MM:SS'));
+elapsedTime = datestr(datetime(endTime) - datetime(startTime),'HH:MM:SS');
+fprintf('Elapsed Time: %s\n',elapsedTime);
 
 delete(loadBar);
 %fclose(MI4190);

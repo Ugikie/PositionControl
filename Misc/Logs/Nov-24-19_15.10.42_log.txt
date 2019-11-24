@@ -1,0 +1,11 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.10.42_log.txt
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fopen', 'D:\Program Files\MATLAB\R2019b\toolbox\matlab\serial\@serial\fopen.m', 72)" style="font-weight:bold">serial/fopen</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019b\toolbox\matlab\serial\@serial\fopen.m',72,0)">line 72</a>)
+Open failed: Port: /DEV/TTYUSB0 is not available. No ports are available.
+Use INSTRFIND to determine if other instrument objects are connected to the requested device.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PositionController', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\PositionController.m', 28)" style="font-weight:bold">PositionController</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\PositionController.m',28,0)">line 28</a>)
+fopen(MI4190);
+} 
+testing
+Beginning Measurements 24-Nov-2019 15:10:47

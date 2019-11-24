@@ -1,0 +1,41 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.09.38_log.txt
+
+[15:09:39.202] Enter the desired degree increment size (Must be between 1-180): 60
+
+takeMeasurementCommand =
+
+    'sudo python C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System/ArrayTest3.py  60 Nov-24-19_15.09.38_log -90'
+
+<a href="">
+[15:09:40.297] Current Degree Measurement: -90.00
+</a>
+[15:09:40.321] Taking measurement at -90.00 degrees[15:09:40.339] Incrementing MI4190 Position by 60.00 degrees. . . . 
+
+takeMeasurementCommand =
+
+    'sudo python C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System/ArrayTest3.py  60 Nov-24-19_15.09.38_log -30'
+
+<a href="">
+[15:09:40.389] Current Degree Measurement: -30.00
+</a>
+[15:09:40.410] Taking measurement at -30.00 degrees[15:09:40.418] Incrementing MI4190 Position by 60.00 degrees. . . . 
+
+takeMeasurementCommand =
+
+    'sudo python C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System/ArrayTest3.py  60 Nov-24-19_15.09.38_log 30'
+
+<a href="">
+[15:09:40.441] Current Degree Measurement: 30.00
+</a>
+[15:09:40.464] Taking measurement at 30.00 degrees[15:09:40.475] Incrementing MI4190 Position by 60.00 degrees. . . . 
+
+takeMeasurementCommand =
+
+    'sudo python C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System/ArrayTest3.py  60 Nov-24-19_15.09.38_log 90'
+
+<a href="">
+[15:09:40.492] Current Degree Measurement: 90.00
+</a>
+[15:09:40.531] Taking measurement at 90.00 degrees<a href="">[15:09:40.536] Done with current set of measurements!
+</a>Elapsed Time: 00:00:01
+Log saved to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.09.38_log.txt

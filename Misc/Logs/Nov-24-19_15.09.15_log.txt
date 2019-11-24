@@ -1,0 +1,18 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.09.15_log.txt
+
+[15:09:16.408] Enter the desired degree increment size (Must be between 1-180): 60
+
+takeMeasurementCommand =
+
+    'sudo python C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System/ArrayTest3.py  60 Nov-24-19_15.09.15_log -90'
+
+<a href="">
+[15:09:17.615] Current Degree Measurement: -90.00
+</a>{Unrecognized function or variable 'True'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m', 124)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m',124,0)">line 124</a>)
+    if (True)
+} 
+delete(loadBar)
+testing
+Beginning Measurements 24-Nov-2019 15:09:38

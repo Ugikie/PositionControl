@@ -1,0 +1,73 @@
+Saving log to: Nov-24-19_15.00.41_log
+
+[15:00:46.925] Enter the desired degree increment size (Must be between 1-180): 5
+[15:01:16.400]Booting up USRPs. . .
+[15:01:16.872][ERROR] USRP not found. Rebooting. . .
+[15:01:17.054][ERROR] USRP not found. Rebooting. . .
+[15:01:17.242][ERROR] USRP not found. Rebooting. . .
+[15:01:17.414][ERROR] USRP not found. Rebooting. . .
+[15:01:17.586][ERROR] USRP not found. Rebooting. . .
+[15:01:17.755][ERROR] USRP not found. Rebooting. . .
+[15:01:17.910][ERROR] USRP not found. Rebooting. . .
+[15:01:18.076][ERROR] USRP not found. Rebooting. . .
+[15:01:18.235][ERROR] USRP not found. Rebooting. . .
+[15:01:18.398][ERROR] USRP not found. Rebooting. . .
+[15:01:18.558][ERROR] USRP not found. Rebooting. . .
+[15:01:18.729][ERROR] USRP not found. Rebooting. . .
+[15:01:18.889][ERROR] USRP not found. Rebooting. . .
+[15:01:19.049][ERROR] USRP not found. Rebooting. . .
+[15:01:19.292][ERROR] USRP not found. Rebooting. . .
+[15:01:19.459][ERROR] USRP not found. Rebooting. . .
+[15:01:19.629][ERROR] USRP not found. Rebooting. . .
+[15:01:19.799][ERROR] USRP not found. Rebooting. . .
+[15:01:19.955][ERROR] USRP not found. Rebooting. . .
+[15:01:20.111][ERROR] USRP not found. Rebooting. . .
+[15:01:20.275][ERROR] USRP not found. Rebooting. . .
+[15:01:20.448][ERROR] USRP not found. Rebooting. . .
+[15:01:20.620][ERROR] USRP not found. Rebooting. . .
+[15:01:20.794][ERROR] USRP not found. Rebooting. . .
+[15:01:20.960][ERROR] USRP not found. Rebooting. . .
+[15:01:21.146][ERROR] USRP not found. Rebooting. . .
+[15:01:21.302][ERROR] USRP not found. Rebooting. . .
+[15:01:21.473][ERROR] USRP not found. Rebooting. . .
+[15:01:21.629][ERROR] USRP not found. Rebooting. . .
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dos', 'D:\Program Files\MATLAB\R2019b\toolbox\matlab\general\dos.m', 67)" style="font-weight:bold">dos</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2019b\toolbox\matlab\general\dos.m',67,0)">line 67</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootUSRPs', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\bootUSRPs.m', 11)" style="font-weight:bold">bootUSRPs</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\bootUSRPs.m',11,0)">line 11</a>)
+    [~,usrpBoot] = system('bash USRPBoot');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', 'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m', 87)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\System\testing.m',87,0)">line 87</a>)
+bootUSRPs(0,loadBar);
+} 
+delete(loadBar)
+matlab.desktop.editor.openDocument(which('logFilePath.m')); 
+logFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
+logFilePath = fileparts(matlab.desktop.editor.getActiveFilename)
+
+logFilePath =
+
+    'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs'
+
+currentDate = datestr(now,'mmm-dd-yy');
+currentTime = datestr(now,'HH.MM.SS');
+logFileName = strcat(currentDate,'_',currentTime,'_log');
+logFileFullPath = fullfile(logFilePath, strcat(logFileName,'.txt'));
+logFileFullPath = fullfile(logFilePath, strcat(logFileName,'.txt'));
+logFileFullPath = fullfile(logFilePath, strcat(logFileName,'.txt'))
+
+logFileFullPath =
+
+    'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.01.59_log.txt'
+
+logFile = logFilePath();
+logFile = logFilePath()
+
+logFile =
+
+    'C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs'
+
+cprintf('strings','Saving log to: %s\n',logFile);
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs
+testing
+Beginning Measurements 24-Nov-2019 15:02:40

@@ -1,0 +1,30 @@
+Saving log to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.10.36_log.txt
+
+[15:10:36.641] Enter the desired degree increment size (Must be between 1-180): 45
+<a href="">
+[15:10:38.522] Current Degree Measurement: -90.00
+</a>
+[15:10:38.546] Taking measurement at -90.00 degrees
+[15:10:38.561] Incrementing MI4190 Position by 45.00 degrees. . . . 
+<a href="">
+[15:10:38.585] Current Degree Measurement: -45.00
+</a>
+[15:10:38.601] Taking measurement at -45.00 degrees
+[15:10:38.636] Incrementing MI4190 Position by 45.00 degrees. . . . 
+<a href="">
+[15:10:38.654] Current Degree Measurement: 0.00
+</a>
+[15:10:38.669] Taking measurement at 0.00 degrees
+[15:10:38.675] Incrementing MI4190 Position by 45.00 degrees. . . . 
+<a href="">
+[15:10:38.696] Current Degree Measurement: 45.00
+</a>
+[15:10:38.731] Taking measurement at 45.00 degrees
+[15:10:38.738] Incrementing MI4190 Position by 45.00 degrees. . . . 
+<a href="">
+[15:10:38.752] Current Degree Measurement: 90.00
+</a>
+[15:10:38.780] Taking measurement at 90.00 degrees
+<a href="">[15:10:38.798] Done with current set of measurements!
+</a>Elapsed Time: 00:00:02
+Log saved to: C:\Users\User\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Nov-24-19_15.10.36_log.txt
