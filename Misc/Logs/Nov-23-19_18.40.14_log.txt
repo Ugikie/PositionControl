@@ -1,0 +1,1277 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Nov-23-19_18.40.14_log.txt
+
+[18:40:14.995] Enter the desired degree increment size (Must be between 1-180): 1
+[18:40:24.116]Booting up USRPs. . .
+[18:40:53.804]Verified connection to USRPs. . .
+USRP N310 Has IP: <a href="">192.168.10.2
+</a>USRP N210 Has IP: <a href="">192.168.10.15
+</a>[18:40:53.852]Initiating USRP N210. . .
+<a href="">
+[18:40:53.881] Current Degree Measurement: -90.00
+</a>[18:40:53.893] Checking USRP for errors. . . 
+[18:40:55.930] No USRP Error!
+
+[18:40:55.940] Measure angle -90.00. . .
+[18:41:20.085] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:41:20.107] Current Degree Measurement: -89.00
+</a>[18:41:20.122] Checking USRP for errors. . . 
+[18:41:22.145] No USRP Error!
+
+[18:41:22.163] Measure angle -89.00. . .
+[18:41:30.350] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:41:30.366] Current Degree Measurement: -88.00
+</a>[18:41:30.375] Checking USRP for errors. . . 
+[18:41:32.394] No USRP Error!
+
+[18:41:32.412] Measure angle -88.00. . .
+[18:41:41.651] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:41:41.663] Current Degree Measurement: -87.00
+</a>[18:41:41.675] Checking USRP for errors. . . 
+[18:41:43.712] No USRP Error!
+
+[18:41:43.730] Measure angle -87.00. . .
+[18:41:51.891] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:41:51.905] Current Degree Measurement: -86.00
+</a>[18:41:51.917] Checking USRP for errors. . . 
+[18:41:53.939] No USRP Error!
+
+[18:41:53.957] Measure angle -86.00. . .
+[18:42:02.127] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:42:02.139] Current Degree Measurement: -85.00
+</a>[18:42:02.145] Checking USRP for errors. . . 
+[18:42:04.164] No USRP Error!
+
+[18:42:04.181] Measure angle -85.00. . .
+[18:42:12.361] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:42:12.373] Current Degree Measurement: -84.00
+</a>[18:42:12.380] Checking USRP for errors. . . 
+[18:42:14.398] No USRP Error!
+
+[18:42:14.415] Measure angle -84.00. . .
+[18:42:22.601] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:42:22.616] Current Degree Measurement: -83.00
+</a>[18:42:22.629] Checking USRP for errors. . . 
+[18:42:24.665] No USRP Error!
+
+[18:42:24.684] Measure angle -83.00. . .
+[18:42:32.967] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:42:32.979] Current Degree Measurement: -82.00
+</a>[18:42:32.993] Checking USRP for errors. . . 
+[18:42:35.013] No USRP Error!
+
+[18:42:35.030] Measure angle -82.00. . .
+[18:42:43.217] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:42:43.230] Current Degree Measurement: -81.00
+</a>[18:42:43.236] Checking USRP for errors. . . 
+[18:42:45.254] No USRP Error!
+
+[18:42:45.271] Measure angle -81.00. . .
+[18:42:54.514] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:42:54.526] Current Degree Measurement: -80.00
+</a>[18:42:54.538] Checking USRP for errors. . . 
+[18:42:56.556] No USRP Error!
+
+[18:42:56.575] Measure angle -80.00. . .
+[18:43:05.741] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:43:05.754] Current Degree Measurement: -79.00
+</a>[18:43:05.765] Checking USRP for errors. . . 
+[18:43:07.791] No USRP Error!
+
+[18:43:07.808] Measure angle -79.00. . .
+[18:43:15.975] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:43:15.988] Current Degree Measurement: -78.00
+</a>[18:43:16.000] Checking USRP for errors. . . 
+[18:43:18.043] No USRP Error!
+
+[18:43:18.060] Measure angle -78.00. . .
+[18:43:27.299] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:43:27.313] Current Degree Measurement: -77.00
+</a>[18:43:27.319] Checking USRP for errors. . . 
+[18:43:29.344] No USRP Error!
+
+[18:43:29.362] Measure angle -77.00. . .
+[18:43:37.553] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:43:37.570] Current Degree Measurement: -76.00
+</a>[18:43:37.582] Checking USRP for errors. . . 
+[18:43:39.611] No USRP Error!
+
+[18:43:39.630] Measure angle -76.00. . .
+[18:43:48.805] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:43:48.819] Current Degree Measurement: -75.00
+</a>[18:43:48.831] Checking USRP for errors. . . 
+[18:43:50.853] No USRP Error!
+
+[18:43:50.873] Measure angle -75.00. . .
+[18:43:59.026] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:43:59.039] Current Degree Measurement: -74.00
+</a>[18:43:59.047] Checking USRP for errors. . . 
+[18:44:01.087] No USRP Error!
+
+[18:44:01.103] Measure angle -74.00. . .
+[18:44:09.288] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:44:09.305] Current Degree Measurement: -73.00
+</a>[18:44:09.317] Checking USRP for errors. . . 
+[18:44:11.340] No USRP Error!
+
+[18:44:11.359] Measure angle -73.00. . .
+[18:44:19.532] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:44:19.548] Current Degree Measurement: -72.00
+</a>[18:44:19.559] Checking USRP for errors. . . 
+[18:44:21.585] No USRP Error!
+
+[18:44:21.602] Measure angle -72.00. . .
+[18:44:30.792] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:44:30.808] Current Degree Measurement: -71.00
+</a>[18:44:30.814] Checking USRP for errors. . . 
+[18:44:32.838] No USRP Error!
+
+[18:44:32.859] Measure angle -71.00. . .
+[18:44:41.026] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:44:41.043] Current Degree Measurement: -70.00
+</a>[18:44:41.050] Checking USRP for errors. . . 
+[18:44:43.076] No USRP Error!
+
+[18:44:43.094] Measure angle -70.00. . .
+[18:44:51.284] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:44:51.298] Current Degree Measurement: -69.00
+</a>[18:44:51.309] Checking USRP for errors. . . 
+[18:44:53.355] No USRP Error!
+
+[18:44:53.375] Measure angle -69.00. . .
+[18:45:01.544] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:45:01.560] Current Degree Measurement: -68.00
+</a>[18:45:01.566] Checking USRP for errors. . . 
+[18:45:03.592] No USRP Error!
+
+[18:45:03.613] Measure angle -68.00. . .
+[18:45:12.766] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:45:12.781] Current Degree Measurement: -67.00
+</a>[18:45:12.793] Checking USRP for errors. . . 
+[18:45:14.822] No USRP Error!
+
+[18:45:14.839] Measure angle -67.00. . .
+[18:45:23.015] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:45:23.032] Current Degree Measurement: -66.00
+</a>[18:45:23.041] Checking USRP for errors. . . 
+[18:45:25.067] No USRP Error!
+
+[18:45:25.087] Measure angle -66.00. . .
+[18:45:33.257] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:45:33.270] Current Degree Measurement: -65.00
+</a>[18:45:33.284] Checking USRP for errors. . . 
+[18:45:35.323] No USRP Error!
+
+[18:45:35.340] Measure angle -65.00. . .
+[18:45:43.506] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:45:43.519] Current Degree Measurement: -64.00
+</a>[18:45:43.526] Checking USRP for errors. . . 
+[18:45:45.554] No USRP Error!
+
+[18:45:45.571] Measure angle -64.00. . .
+[18:45:54.812] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:45:54.828] Current Degree Measurement: -63.00
+</a>[18:45:54.835] Checking USRP for errors. . . 
+[18:45:56.860] No USRP Error!
+
+[18:45:56.877] Measure angle -63.00. . .
+[18:46:05.040] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:46:05.052] Current Degree Measurement: -62.00
+</a>[18:46:05.064] Checking USRP for errors. . . 
+[18:46:07.086] No USRP Error!
+
+[18:46:07.105] Measure angle -62.00. . .
+[18:46:15.276] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:46:15.292] Current Degree Measurement: -61.00
+</a>[18:46:15.298] Checking USRP for errors. . . 
+[18:46:17.323] No USRP Error!
+
+[18:46:17.341] Measure angle -61.00. . .
+[18:46:25.522] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:46:25.538] Current Degree Measurement: -60.00
+</a>[18:46:25.568] Checking USRP for errors. . . 
+[18:46:27.588] No USRP Error!
+
+[18:46:27.608] Measure angle -60.00. . .
+[18:46:36.758] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:46:36.774] Current Degree Measurement: -59.00
+</a>[18:46:36.786] Checking USRP for errors. . . 
+[18:46:38.806] No USRP Error!
+
+[18:46:38.825] Measure angle -59.00. . .
+[18:46:46.978] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:46:46.993] Current Degree Measurement: -58.00
+</a>[18:46:47.007] Checking USRP for errors. . . 
+[18:46:49.030] No USRP Error!
+
+[18:46:49.048] Measure angle -58.00. . .
+[18:46:57.219] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:46:57.235] Current Degree Measurement: -57.00
+</a>[18:46:57.242] Checking USRP for errors. . . 
+[18:46:59.266] No USRP Error!
+
+[18:46:59.284] Measure angle -57.00. . .
+[18:47:07.467] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:47:07.482] Current Degree Measurement: -56.00
+</a>[18:47:07.494] Checking USRP for errors. . . 
+[18:47:09.536] No USRP Error!
+
+[18:47:09.553] Measure angle -56.00. . .
+[18:47:18.734] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:47:18.750] Current Degree Measurement: -55.00
+</a>[18:47:18.761] Checking USRP for errors. . . 
+[18:47:20.784] No USRP Error!
+
+[18:47:20.803] Measure angle -55.00. . .
+[18:47:28.995] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:47:29.011] Current Degree Measurement: -54.00
+</a>[18:47:29.024] Checking USRP for errors. . . 
+[18:47:31.047] No USRP Error!
+
+[18:47:31.064] Measure angle -54.00. . .
+[18:47:39.250] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:47:39.263] Current Degree Measurement: -53.00
+</a>[18:47:39.275] Checking USRP for errors. . . 
+[18:47:41.299] No USRP Error!
+
+[18:47:41.317] Measure angle -53.00. . .
+[18:47:49.479] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:47:49.497] Current Degree Measurement: -52.00
+</a>[18:47:49.509] Checking USRP for errors. . . 
+[18:47:51.535] No USRP Error!
+
+[18:47:51.553] Measure angle -52.00. . .
+[18:48:00.740] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:48:00.756] Current Degree Measurement: -51.00
+</a>[18:48:00.768] Checking USRP for errors. . . 
+[18:48:02.808] No USRP Error!
+
+[18:48:02.827] Measure angle -51.00. . .
+[18:48:10.989] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:48:11.003] Current Degree Measurement: -50.00
+</a>[18:48:11.010] Checking USRP for errors. . . 
+[18:48:13.032] No USRP Error!
+
+[18:48:13.049] Measure angle -50.00. . .
+[18:48:21.231] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:48:21.245] Current Degree Measurement: -49.00
+</a>[18:48:21.253] Checking USRP for errors. . . 
+[18:48:23.276] No USRP Error!
+
+[18:48:23.293] Measure angle -49.00. . .
+[18:48:31.476] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:48:31.494] Current Degree Measurement: -48.00
+</a>[18:48:31.506] Checking USRP for errors. . . 
+[18:48:33.531] No USRP Error!
+
+[18:48:33.548] Measure angle -48.00. . .
+[18:48:42.732] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:48:42.745] Current Degree Measurement: -47.00
+</a>[18:48:42.758] Checking USRP for errors. . . 
+[18:48:44.779] No USRP Error!
+
+[18:48:44.795] Measure angle -47.00. . .
+[18:48:53.966] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:48:53.984] Current Degree Measurement: -46.00
+</a>[18:48:54.019] Checking USRP for errors. . . 
+[18:48:56.043] No USRP Error!
+
+[18:48:56.060] Measure angle -46.00. . .
+[18:49:04.237] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:49:04.250] Current Degree Measurement: -45.00
+</a>[18:49:04.258] Checking USRP for errors. . . 
+[18:49:06.280] No USRP Error!
+
+[18:49:06.298] Measure angle -45.00. . .
+[18:49:15.528] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:49:15.540] Current Degree Measurement: -44.00
+</a>[18:49:15.553] Checking USRP for errors. . . 
+[18:49:17.580] No USRP Error!
+
+[18:49:17.600] Measure angle -44.00. . .
+[18:49:26.843] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:49:26.857] Current Degree Measurement: -43.00
+</a>[18:49:26.868] Checking USRP for errors. . . 
+[18:49:28.896] No USRP Error!
+
+[18:49:28.915] Measure angle -43.00. . .
+[18:49:37.151] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:49:37.167] Current Degree Measurement: -42.00
+</a>[18:49:37.179] Checking USRP for errors. . . 
+[18:49:39.219] No USRP Error!
+
+[18:49:39.237] Measure angle -42.00. . .
+[18:49:47.424] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:49:47.437] Current Degree Measurement: -41.00
+</a>[18:49:47.443] Checking USRP for errors. . . 
+[18:49:49.465] No USRP Error!
+
+[18:49:49.484] Measure angle -41.00. . .
+[18:49:58.658] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:49:58.671] Current Degree Measurement: -40.00
+</a>[18:49:58.677] Checking USRP for errors. . . 
+[18:50:00.700] No USRP Error!
+
+[18:50:00.718] Measure angle -40.00. . .
+[18:50:08.957] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:50:08.971] Current Degree Measurement: -39.00
+</a>[18:50:08.986] Checking USRP for errors. . . 
+[18:50:11.008] No USRP Error!
+
+[18:50:11.025] Measure angle -39.00. . .
+[18:50:20.270] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:50:20.284] Current Degree Measurement: -38.00
+</a>[18:50:20.292] Checking USRP for errors. . . 
+[18:50:22.314] No USRP Error!
+
+[18:50:22.330] Measure angle -38.00. . .
+[18:50:30.500] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:50:30.513] Current Degree Measurement: -37.00
+</a>[18:50:30.540] Checking USRP for errors. . . 
+[18:50:32.565] No USRP Error!
+
+[18:50:32.584] Measure angle -37.00. . .
+[18:50:41.752] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:50:41.766] Current Degree Measurement: -36.00
+</a>[18:50:41.778] Checking USRP for errors. . . 
+[18:50:43.804] No USRP Error!
+
+[18:50:43.824] Measure angle -36.00. . .
+[18:50:51.994] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:50:52.007] Current Degree Measurement: -35.00
+</a>[18:50:52.020] Checking USRP for errors. . . 
+[18:50:54.040] No USRP Error!
+
+[18:50:54.058] Measure angle -35.00. . .
+[18:51:02.229] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:51:02.245] Current Degree Measurement: -34.00
+</a>[18:51:02.252] Checking USRP for errors. . . 
+[18:51:04.276] No USRP Error!
+
+[18:51:04.292] Measure angle -34.00. . .
+[18:51:12.483] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:51:12.496] Current Degree Measurement: -33.00
+</a>[18:51:12.508] Checking USRP for errors. . . 
+[18:51:14.548] No USRP Error!
+
+[18:51:14.566] Measure angle -33.00. . .
+[18:51:23.731] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:51:23.744] Current Degree Measurement: -32.00
+</a>[18:51:23.757] Checking USRP for errors. . . 
+[18:51:25.781] No USRP Error!
+
+[18:51:25.799] Measure angle -32.00. . .
+[18:51:33.965] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:51:33.980] Current Degree Measurement: -31.00
+</a>[18:51:33.988] Checking USRP for errors. . . 
+[18:51:36.009] No USRP Error!
+
+[18:51:36.027] Measure angle -31.00. . .
+[18:51:45.264] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:51:45.278] Current Degree Measurement: -30.00
+</a>[18:51:45.286] Checking USRP for errors. . . 
+[18:51:47.313] No USRP Error!
+
+[18:51:47.329] Measure angle -30.00. . .
+[18:51:55.492] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:51:55.506] Current Degree Measurement: -29.00
+</a>[18:51:55.518] Checking USRP for errors. . . 
+[18:51:57.540] No USRP Error!
+
+[18:51:57.557] Measure angle -29.00. . .
+[18:52:06.739] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:52:06.753] Current Degree Measurement: -28.00
+</a>[18:52:06.778] Checking USRP for errors. . . 
+[18:52:08.803] No USRP Error!
+
+[18:52:08.820] Measure angle -28.00. . .
+[18:52:16.990] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:52:17.005] Current Degree Measurement: -27.00
+</a>[18:52:17.012] Checking USRP for errors. . . 
+[18:52:19.038] No USRP Error!
+
+[18:52:19.056] Measure angle -27.00. . .
+[18:52:27.236] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:52:27.250] Current Degree Measurement: -26.00
+</a>[18:52:27.262] Checking USRP for errors. . . 
+[18:52:29.284] No USRP Error!
+
+[18:52:29.302] Measure angle -26.00. . .
+[18:52:37.473] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:52:37.488] Current Degree Measurement: -25.00
+</a>[18:52:37.500] Checking USRP for errors. . . 
+[18:52:39.527] No USRP Error!
+
+[18:52:39.544] Measure angle -25.00. . .
+[18:52:48.703] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:52:48.719] Current Degree Measurement: -24.00
+</a>[18:52:48.727] Checking USRP for errors. . . 
+[18:52:50.767] No USRP Error!
+
+[18:52:50.786] Measure angle -24.00. . .
+[18:52:58.948] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:52:58.964] Current Degree Measurement: -23.00
+</a>[18:52:58.972] Checking USRP for errors. . . 
+[18:53:00.999] No USRP Error!
+
+[18:53:01.017] Measure angle -23.00. . .
+[18:53:09.166] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:53:09.179] Current Degree Measurement: -22.00
+</a>[18:53:09.185] Checking USRP for errors. . . 
+[18:53:11.209] No USRP Error!
+
+[18:53:11.227] Measure angle -22.00. . .
+[18:53:20.469] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:53:20.483] Current Degree Measurement: -21.00
+</a>[18:53:20.495] Checking USRP for errors. . . 
+[18:53:22.517] No USRP Error!
+
+[18:53:22.537] Measure angle -21.00. . .
+[18:53:31.715] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:53:31.730] Current Degree Measurement: -20.00
+</a>[18:53:31.741] Checking USRP for errors. . . 
+[18:53:33.764] No USRP Error!
+
+[18:53:33.784] Measure angle -20.00. . .
+[18:53:41.963] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:53:41.983] Current Degree Measurement: -19.00
+</a>[18:53:41.991] Checking USRP for errors. . . 
+[18:53:44.030] No USRP Error!
+
+[18:53:44.042] Measure angle -19.00. . .
+[18:53:52.207] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:53:52.220] Current Degree Measurement: -18.00
+</a>[18:53:52.231] Checking USRP for errors. . . 
+[18:53:54.256] No USRP Error!
+
+[18:53:54.274] Measure angle -18.00. . .
+[18:54:02.458] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:54:02.472] Current Degree Measurement: -17.00
+</a>[18:54:02.478] Checking USRP for errors. . . 
+[18:54:04.504] No USRP Error!
+
+[18:54:04.522] Measure angle -17.00. . .
+[18:54:13.695] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:54:13.710] Current Degree Measurement: -16.00
+</a>[18:54:13.723] Checking USRP for errors. . . 
+[18:54:15.747] No USRP Error!
+
+[18:54:15.763] Measure angle -16.00. . .
+[18:54:24.938] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:54:24.952] Current Degree Measurement: -15.00
+</a>[18:54:24.959] Checking USRP for errors. . . 
+[18:54:26.983] No USRP Error!
+
+[18:54:27.000] Measure angle -15.00. . .
+[18:54:35.246] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:54:35.259] Current Degree Measurement: -14.00
+</a>[18:54:35.266] Checking USRP for errors. . . 
+[18:54:37.290] No USRP Error!
+
+[18:54:37.307] Measure angle -14.00. . .
+[18:54:45.489] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:54:45.505] Current Degree Measurement: -13.00
+</a>[18:54:45.517] Checking USRP for errors. . . 
+[18:54:47.542] No USRP Error!
+
+[18:54:47.559] Measure angle -13.00. . .
+[18:54:56.713] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:54:56.728] Current Degree Measurement: -12.00
+</a>[18:54:56.735] Checking USRP for errors. . . 
+[18:54:58.758] No USRP Error!
+
+[18:54:58.775] Measure angle -12.00. . .
+[18:55:06.943] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:55:06.962] Current Degree Measurement: -11.00
+</a>[18:55:06.969] Checking USRP for errors. . . 
+[18:55:09.000] No USRP Error!
+
+[18:55:09.022] Measure angle -11.00. . .
+[18:55:17.172] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:55:17.187] Current Degree Measurement: -10.00
+</a>[18:55:17.193] Checking USRP for errors. . . 
+[18:55:19.232] No USRP Error!
+
+[18:55:19.251] Measure angle -10.00. . .
+[18:55:27.416] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:55:27.431] Current Degree Measurement: -9.00
+</a>[18:55:27.437] Checking USRP for errors. . . 
+[18:55:29.459] No USRP Error!
+
+[18:55:29.476] Measure angle -9.00. . .
+[18:55:38.670] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:55:38.681] Current Degree Measurement: -8.00
+</a>[18:55:38.693] Checking USRP for errors. . . 
+[18:55:40.718] No USRP Error!
+
+[18:55:40.742] Measure angle -8.00. . .
+[18:55:48.913] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:55:48.929] Current Degree Measurement: -7.00
+</a>[18:55:48.942] Checking USRP for errors. . . 
+[18:55:50.964] No USRP Error!
+
+[18:55:50.981] Measure angle -7.00. . .
+[18:55:59.152] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:55:59.165] Current Degree Measurement: -6.00
+</a>[18:55:59.171] Checking USRP for errors. . . 
+[18:56:01.195] No USRP Error!
+
+[18:56:01.211] Measure angle -6.00. . .
+[18:56:09.376] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:56:09.391] Current Degree Measurement: -5.00
+</a>[18:56:09.421] Checking USRP for errors. . . 
+[18:56:11.446] No USRP Error!
+
+[18:56:11.463] Measure angle -5.00. . .
+[18:56:20.636] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:56:20.653] Current Degree Measurement: -4.00
+</a>[18:56:20.665] Checking USRP for errors. . . 
+[18:56:22.690] No USRP Error!
+
+[18:56:22.708] Measure angle -4.00. . .
+[18:56:31.870] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:56:31.888] Current Degree Measurement: -3.00
+</a>[18:56:31.901] Checking USRP for errors. . . 
+[18:56:33.924] No USRP Error!
+
+[18:56:33.943] Measure angle -3.00. . .
+[18:56:42.128] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:56:42.140] Current Degree Measurement: -2.00
+</a>[18:56:42.152] Checking USRP for errors. . . 
+[18:56:44.175] No USRP Error!
+
+[18:56:44.193] Measure angle -2.00. . .
+[18:56:52.384] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:56:52.404] Current Degree Measurement: -1.00
+</a>[18:56:52.412] Checking USRP for errors. . . 
+[18:56:54.454] No USRP Error!
+
+[18:56:54.470] Measure angle -1.00. . .
+[18:57:03.660] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:57:03.673] Current Degree Measurement: 0.00
+</a>[18:57:03.685] Checking USRP for errors. . . 
+[18:57:05.711] No USRP Error!
+
+[18:57:05.730] Measure angle 0.00. . .
+[18:57:14.912] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:57:14.926] Current Degree Measurement: 1.00
+</a>[18:57:14.932] Checking USRP for errors. . . 
+[18:57:16.955] No USRP Error!
+
+[18:57:16.973] Measure angle 1.00. . .
+[18:57:25.144] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:57:25.161] Current Degree Measurement: 2.00
+</a>[18:57:25.169] Checking USRP for errors. . . 
+[18:57:27.192] No USRP Error!
+
+[18:57:27.209] Measure angle 2.00. . .
+[18:57:35.386] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:57:35.401] Current Degree Measurement: 3.00
+</a>[18:57:35.407] Checking USRP for errors. . . 
+[18:57:37.431] No USRP Error!
+
+[18:57:37.448] Measure angle 3.00. . .
+[18:57:46.629] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:57:46.647] Current Degree Measurement: 4.00
+</a>[18:57:46.678] Checking USRP for errors. . . 
+[18:57:48.699] No USRP Error!
+
+[18:57:48.716] Measure angle 4.00. . .
+[18:57:57.891] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:57:57.907] Current Degree Measurement: 5.00
+</a>[18:57:57.919] Checking USRP for errors. . . 
+[18:57:59.942] No USRP Error!
+
+[18:57:59.958] Measure angle 5.00. . .
+[18:58:08.144] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:58:08.158] Current Degree Measurement: 6.00
+</a>[18:58:08.172] Checking USRP for errors. . . 
+[18:58:10.196] No USRP Error!
+
+[18:58:10.216] Measure angle 6.00. . .
+[18:58:18.394] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:58:18.409] Current Degree Measurement: 7.00
+</a>[18:58:18.421] Checking USRP for errors. . . 
+[18:58:20.443] No USRP Error!
+
+[18:58:20.460] Measure angle 7.00. . .
+[18:58:29.721] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:58:29.734] Current Degree Measurement: 8.00
+</a>[18:58:29.746] Checking USRP for errors. . . 
+[18:58:31.783] No USRP Error!
+
+[18:58:31.801] Measure angle 8.00. . .
+[18:58:40.052] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:58:40.067] Current Degree Measurement: 9.00
+</a>[18:58:40.075] Checking USRP for errors. . . 
+[18:58:42.102] No USRP Error!
+
+[18:58:42.120] Measure angle 9.00. . .
+[18:58:51.295] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:58:51.310] Current Degree Measurement: 10.00
+</a>[18:58:51.323] Checking USRP for errors. . . 
+[18:58:53.347] No USRP Error!
+
+[18:58:53.364] Measure angle 10.00. . .
+[18:59:02.546] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:59:02.559] Current Degree Measurement: 11.00
+</a>[18:59:02.567] Checking USRP for errors. . . 
+[18:59:04.591] No USRP Error!
+
+[18:59:04.608] Measure angle 11.00. . .
+[18:59:13.795] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:59:13.810] Current Degree Measurement: 12.00
+</a>[18:59:13.822] Checking USRP for errors. . . 
+[18:59:15.843] No USRP Error!
+
+[18:59:15.858] Measure angle 12.00. . .
+[18:59:24.034] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:59:24.052] Current Degree Measurement: 13.00
+</a>[18:59:24.080] Checking USRP for errors. . . 
+[18:59:26.106] No USRP Error!
+
+[18:59:26.125] Measure angle 13.00. . .
+[18:59:34.306] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:59:34.319] Current Degree Measurement: 14.00
+</a>[18:59:34.327] Checking USRP for errors. . . 
+[18:59:36.351] No USRP Error!
+
+[18:59:36.369] Measure angle 14.00. . .
+[18:59:45.566] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:59:45.581] Current Degree Measurement: 15.00
+</a>[18:59:45.587] Checking USRP for errors. . . 
+[18:59:47.610] No USRP Error!
+
+[18:59:47.627] Measure angle 15.00. . .
+[18:59:56.802] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:59:56.814] Current Degree Measurement: 16.00
+</a>[18:59:56.826] Checking USRP for errors. . . 
+[18:59:58.848] No USRP Error!
+
+[18:59:58.864] Measure angle 16.00. . .
+[19:00:07.046] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:00:07.063] Current Degree Measurement: 17.00
+</a>[19:00:07.069] Checking USRP for errors. . . 
+[19:00:09.092] No USRP Error!
+
+[19:00:09.110] Measure angle 17.00. . .
+[19:00:17.282] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:00:17.298] Current Degree Measurement: 18.00
+</a>[19:00:17.327] Checking USRP for errors. . . 
+[19:00:19.350] No USRP Error!
+
+[19:00:19.368] Measure angle 18.00. . .
+[19:00:28.549] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:00:28.565] Current Degree Measurement: 19.00
+</a>[19:00:28.578] Checking USRP for errors. . . 
+[19:00:30.604] No USRP Error!
+
+[19:00:30.623] Measure angle 19.00. . .
+[19:00:39.815] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:00:39.828] Current Degree Measurement: 20.00
+</a>[19:00:39.834] Checking USRP for errors. . . 
+[19:00:41.855] No USRP Error!
+
+[19:00:41.871] Measure angle 20.00. . .
+[19:00:50.042] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:00:50.059] Current Degree Measurement: 21.00
+</a>[19:00:50.065] Checking USRP for errors. . . 
+[19:00:52.091] No USRP Error!
+
+[19:00:52.110] Measure angle 21.00. . .
+[19:01:00.272] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:01:00.285] Current Degree Measurement: 22.00
+</a>[19:01:00.294] Checking USRP for errors. . . 
+[19:01:02.336] No USRP Error!
+
+[19:01:02.353] Measure angle 22.00. . .
+[19:01:11.542] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:01:11.554] Current Degree Measurement: 23.00
+</a>[19:01:11.566] Checking USRP for errors. . . 
+[19:01:13.588] No USRP Error!
+
+[19:01:13.607] Measure angle 23.00. . .
+[19:01:22.789] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:01:22.803] Current Degree Measurement: 24.00
+</a>[19:01:22.815] Checking USRP for errors. . . 
+[19:01:24.836] No USRP Error!
+
+[19:01:24.855] Measure angle 24.00. . .
+[19:01:33.010] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:01:33.025] Current Degree Measurement: 25.00
+</a>[19:01:33.037] Checking USRP for errors. . . 
+[19:01:35.062] No USRP Error!
+
+[19:01:35.074] Measure angle 25.00. . .
+[19:01:43.235] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:01:43.247] Current Degree Measurement: 26.00
+</a>[19:01:43.255] Checking USRP for errors. . . 
+[19:01:45.275] No USRP Error!
+
+[19:01:45.295] Measure angle 26.00. . .
+[19:01:53.470] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:01:53.483] Current Degree Measurement: 27.00
+</a>[19:01:53.490] Checking USRP for errors. . . 
+[19:01:55.532] No USRP Error!
+
+[19:01:55.549] Measure angle 27.00. . .
+[19:02:04.811] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:02:04.828] Current Degree Measurement: 28.00
+</a>[19:02:04.841] Checking USRP for errors. . . 
+[19:02:06.864] No USRP Error!
+
+[19:02:06.881] Measure angle 28.00. . .
+[19:02:15.052] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:02:15.065] Current Degree Measurement: 29.00
+</a>[19:02:15.073] Checking USRP for errors. . . 
+[19:02:17.094] No USRP Error!
+
+[19:02:17.112] Measure angle 29.00. . .
+[19:02:25.302] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:02:25.315] Current Degree Measurement: 30.00
+</a>[19:02:25.328] Checking USRP for errors. . . 
+[19:02:27.349] No USRP Error!
+
+[19:02:27.366] Measure angle 30.00. . .
+[19:02:36.552] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:02:36.565] Current Degree Measurement: 31.00
+</a>[19:02:36.573] Checking USRP for errors. . . 
+[19:02:38.597] No USRP Error!
+
+[19:02:38.615] Measure angle 31.00. . .
+[19:02:47.797] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:02:47.813] Current Degree Measurement: 32.00
+</a>[19:02:47.837] Checking USRP for errors. . . 
+[19:02:49.862] No USRP Error!
+
+[19:02:49.883] Measure angle 32.00. . .
+[19:02:58.040] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:02:58.055] Current Degree Measurement: 33.00
+</a>[19:02:58.062] Checking USRP for errors. . . 
+[19:03:00.087] No USRP Error!
+
+[19:03:00.105] Measure angle 33.00. . .
+[19:03:08.285] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:03:08.302] Current Degree Measurement: 34.00
+</a>[19:03:08.309] Checking USRP for errors. . . 
+[19:03:10.335] No USRP Error!
+
+[19:03:10.352] Measure angle 34.00. . .
+[19:03:19.534] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:03:19.549] Current Degree Measurement: 35.00
+</a>[19:03:19.562] Checking USRP for errors. . . 
+[19:03:21.588] No USRP Error!
+
+[19:03:21.606] Measure angle 35.00. . .
+[19:03:30.797] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:03:30.814] Current Degree Measurement: 36.00
+</a>[19:03:30.825] Checking USRP for errors. . . 
+[19:03:32.848] No USRP Error!
+
+[19:03:32.864] Measure angle 36.00. . .
+[19:03:41.017] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:03:41.031] Current Degree Measurement: 37.00
+</a>[19:03:41.056] Checking USRP for errors. . . 
+[19:03:43.078] No USRP Error!
+
+[19:03:43.096] Measure angle 37.00. . .
+[19:03:51.299] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:03:51.315] Current Degree Measurement: 38.00
+</a>[19:03:51.324] Checking USRP for errors. . . 
+[19:03:53.350] No USRP Error!
+
+[19:03:53.367] Measure angle 38.00. . .
+[19:04:02.613] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:04:02.627] Current Degree Measurement: 39.00
+</a>[19:04:02.639] Checking USRP for errors. . . 
+[19:04:04.662] No USRP Error!
+
+[19:04:04.679] Measure angle 39.00. . .
+[19:04:13.869] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:04:13.885] Current Degree Measurement: 40.00
+</a>[19:04:13.898] Checking USRP for errors. . . 
+[19:04:15.923] No USRP Error!
+
+[19:04:15.940] Measure angle 40.00. . .
+[19:04:24.120] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:04:24.132] Current Degree Measurement: 41.00
+</a>[19:04:24.141] Checking USRP for errors. . . 
+[19:04:26.184] No USRP Error!
+
+[19:04:26.202] Measure angle 41.00. . .
+[19:04:35.449] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:04:35.462] Current Degree Measurement: 42.00
+</a>[19:04:35.470] Checking USRP for errors. . . 
+[19:04:37.493] No USRP Error!
+
+[19:04:37.511] Measure angle 42.00. . .
+[19:04:46.692] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:04:46.708] Current Degree Measurement: 43.00
+</a>[19:04:46.720] Checking USRP for errors. . . 
+[19:04:48.743] No USRP Error!
+
+[19:04:48.762] Measure angle 43.00. . .
+[19:04:56.932] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:04:56.945] Current Degree Measurement: 44.00
+</a>[19:04:56.957] Checking USRP for errors. . . 
+[19:04:58.981] No USRP Error!
+
+[19:04:58.999] Measure angle 44.00. . .
+[19:05:07.177] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:05:07.193] Current Degree Measurement: 45.00
+</a>[19:05:07.205] Checking USRP for errors. . . 
+[19:05:09.232] No USRP Error!
+
+[19:05:09.251] Measure angle 45.00. . .
+[19:05:18.439] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:05:18.453] Current Degree Measurement: 46.00
+</a>[19:05:18.464] Checking USRP for errors. . . 
+[19:05:20.500] No USRP Error!
+
+[19:05:20.517] Measure angle 46.00. . .
+[19:05:29.683] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:05:29.696] Current Degree Measurement: 47.00
+</a>[19:05:29.710] Checking USRP for errors. . . 
+[19:05:31.731] No USRP Error!
+
+[19:05:31.748] Measure angle 47.00. . .
+[19:05:40.910] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:05:40.925] Current Degree Measurement: 48.00
+</a>[19:05:40.931] Checking USRP for errors. . . 
+[19:05:42.955] No USRP Error!
+
+[19:05:42.971] Measure angle 48.00. . .
+[19:05:52.189] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:05:52.203] Current Degree Measurement: 49.00
+</a>[19:05:52.209] Checking USRP for errors. . . 
+[19:05:54.232] No USRP Error!
+
+[19:05:54.249] Measure angle 49.00. . .
+[19:06:02.429] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:06:02.446] Current Degree Measurement: 50.00
+</a>[19:06:02.452] Checking USRP for errors. . . 
+[19:06:04.476] No USRP Error!
+
+[19:06:04.493] Measure angle 50.00. . .
+[19:06:13.670] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:06:13.684] Current Degree Measurement: 51.00
+</a>[19:06:13.696] Checking USRP for errors. . . 
+[19:06:15.742] No USRP Error!
+
+[19:06:15.759] Measure angle 51.00. . .
+[19:06:23.953] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:06:23.973] Current Degree Measurement: 52.00
+</a>[19:06:23.985] Checking USRP for errors. . . 
+[19:06:26.011] No USRP Error!
+
+[19:06:26.028] Measure angle 52.00. . .
+[19:06:34.223] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:06:34.236] Current Degree Measurement: 53.00
+</a>[19:06:34.249] Checking USRP for errors. . . 
+[19:06:36.271] No USRP Error!
+
+[19:06:36.290] Measure angle 53.00. . .
+[19:06:45.463] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:06:45.476] Current Degree Measurement: 54.00
+</a>[19:06:45.488] Checking USRP for errors. . . 
+[19:06:47.514] No USRP Error!
+
+[19:06:47.530] Measure angle 54.00. . .
+[19:06:56.702] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:06:56.719] Current Degree Measurement: 55.00
+</a>[19:06:56.731] Checking USRP for errors. . . 
+[19:06:58.751] No USRP Error!
+
+[19:06:58.760] Measure angle 55.00. . .
+[19:07:07.929] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:07:07.947] Current Degree Measurement: 56.00
+</a>[19:07:07.959] Checking USRP for errors. . . 
+[19:07:09.982] No USRP Error!
+
+[19:07:10.001] Measure angle 56.00. . .
+[19:07:18.171] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:07:18.186] Current Degree Measurement: 57.00
+</a>[19:07:18.194] Checking USRP for errors. . . 
+[19:07:20.219] No USRP Error!
+
+[19:07:20.236] Measure angle 57.00. . .
+[19:07:28.431] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:07:28.449] Current Degree Measurement: 58.00
+</a>[19:07:28.482] Checking USRP for errors. . . 
+[19:07:30.510] No USRP Error!
+
+[19:07:30.527] Measure angle 58.00. . .
+[19:07:39.762] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:07:39.777] Current Degree Measurement: 59.00
+</a>[19:07:39.783] Checking USRP for errors. . . 
+[19:07:41.810] No USRP Error!
+
+[19:07:41.829] Measure angle 59.00. . .
+[19:07:50.056] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:07:50.069] Current Degree Measurement: 60.00
+</a>[19:07:50.075] Checking USRP for errors. . . 
+[19:07:52.101] No USRP Error!
+
+[19:07:52.118] Measure angle 60.00. . .
+[19:08:01.319] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:08:01.334] Current Degree Measurement: 61.00
+</a>[19:08:01.343] Checking USRP for errors. . . 
+[19:08:03.365] No USRP Error!
+
+[19:08:03.385] Measure angle 61.00. . .
+[19:08:12.555] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:08:12.569] Current Degree Measurement: 62.00
+</a>[19:08:12.602] Checking USRP for errors. . . 
+[19:08:14.629] No USRP Error!
+
+[19:08:14.648] Measure angle 62.00. . .
+[19:08:23.810] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:08:23.828] Current Degree Measurement: 63.00
+</a>[19:08:23.839] Checking USRP for errors. . . 
+[19:08:25.865] No USRP Error!
+
+[19:08:25.883] Measure angle 63.00. . .
+[19:08:34.040] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:08:34.053] Current Degree Measurement: 64.00
+</a>[19:08:34.061] Checking USRP for errors. . . 
+[19:08:36.084] No USRP Error!
+
+[19:08:36.103] Measure angle 64.00. . .
+[19:08:45.353] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:08:45.368] Current Degree Measurement: 65.00
+</a>[19:08:45.376] Checking USRP for errors. . . 
+[19:08:47.401] No USRP Error!
+
+[19:08:47.420] Measure angle 65.00. . .
+[19:08:56.577] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:08:56.592] Current Degree Measurement: 66.00
+</a>[19:08:56.600] Checking USRP for errors. . . 
+[19:08:58.629] No USRP Error!
+
+[19:08:58.646] Measure angle 66.00. . .
+[19:09:07.821] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:09:07.838] Current Degree Measurement: 67.00
+</a>[19:09:07.854] Checking USRP for errors. . . 
+[19:09:09.900] No USRP Error!
+
+[19:09:09.920] Measure angle 67.00. . .
+[19:09:18.066] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:09:18.078] Current Degree Measurement: 68.00
+</a>[19:09:18.089] Checking USRP for errors. . . 
+[19:09:20.108] No USRP Error!
+
+[19:09:20.124] Measure angle 68.00. . .
+[19:09:29.392] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:09:29.405] Current Degree Measurement: 69.00
+</a>[19:09:29.417] Checking USRP for errors. . . 
+[19:09:31.455] No USRP Error!
+
+[19:09:31.471] Measure angle 69.00. . .
+[19:09:40.635] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:09:40.646] Current Degree Measurement: 70.00
+</a>[19:09:40.659] Checking USRP for errors. . . 
+[19:09:42.679] No USRP Error!
+
+[19:09:42.696] Measure angle 70.00. . .
+[19:09:50.874] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:09:50.886] Current Degree Measurement: 71.00
+</a>[19:09:50.901] Checking USRP for errors. . . 
+[19:09:52.919] No USRP Error!
+
+[19:09:52.936] Measure angle 71.00. . .
+[19:10:01.121] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:10:01.133] Current Degree Measurement: 72.00
+</a>[19:10:01.139] Checking USRP for errors. . . 
+[19:10:03.177] No USRP Error!
+
+[19:10:03.197] Measure angle 72.00. . .
+[19:10:11.394] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:10:11.406] Current Degree Measurement: 73.00
+</a>[19:10:11.412] Checking USRP for errors. . . 
+[19:10:13.430] No USRP Error!
+
+[19:10:13.449] Measure angle 73.00. . .
+[19:10:22.614] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:10:22.626] Current Degree Measurement: 74.00
+</a>[19:10:22.638] Checking USRP for errors. . . 
+[19:10:24.656] No USRP Error!
+
+[19:10:24.676] Measure angle 74.00. . .
+[19:10:33.833] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:10:33.844] Current Degree Measurement: 75.00
+</a>[19:10:33.852] Checking USRP for errors. . . 
+[19:10:35.871] No USRP Error!
+
+[19:10:35.890] Measure angle 75.00. . .
+[19:10:44.072] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:10:44.087] Current Degree Measurement: 76.00
+</a>[19:10:44.094] Checking USRP for errors. . . 
+[19:10:46.113] No USRP Error!
+
+[19:10:46.132] Measure angle 76.00. . .
+[19:10:54.309] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:10:54.321] Current Degree Measurement: 77.00
+</a>[19:10:54.348] Checking USRP for errors. . . 
+[19:10:56.367] No USRP Error!
+
+[19:10:56.383] Measure angle 77.00. . .
+[19:11:05.619] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:11:05.631] Current Degree Measurement: 78.00
+</a>[19:11:05.643] Checking USRP for errors. . . 
+[19:11:07.662] No USRP Error!
+
+[19:11:07.679] Measure angle 78.00. . .
+[19:11:16.867] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:11:16.881] Current Degree Measurement: 79.00
+</a>[19:11:16.894] Checking USRP for errors. . . 
+[19:11:18.912] No USRP Error!
+
+[19:11:18.929] Measure angle 79.00. . .
+[19:11:27.100] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:11:27.111] Current Degree Measurement: 80.00
+</a>[19:11:27.117] Checking USRP for errors. . . 
+[19:11:29.135] No USRP Error!
+
+[19:11:29.151] Measure angle 80.00. . .
+[19:11:38.337] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:11:38.352] Current Degree Measurement: 81.00
+</a>[19:11:38.358] Checking USRP for errors. . . 
+[19:11:40.380] No USRP Error!
+
+[19:11:40.396] Measure angle 81.00. . .
+[19:11:49.623] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:11:49.639] Current Degree Measurement: 82.00
+</a>[19:11:49.651] Checking USRP for errors. . . 
+[19:11:51.691] No USRP Error!
+
+[19:11:51.707] Measure angle 82.00. . .
+[19:12:00.880] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:12:00.896] Current Degree Measurement: 83.00
+</a>[19:12:00.908] Checking USRP for errors. . . 
+[19:12:02.936] No USRP Error!
+
+[19:12:02.952] Measure angle 83.00. . .
+[19:12:11.135] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:12:11.152] Current Degree Measurement: 84.00
+</a>[19:12:11.159] Checking USRP for errors. . . 
+[19:12:13.182] No USRP Error!
+
+[19:12:13.200] Measure angle 84.00. . .
+[19:12:21.400] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:12:21.419] Current Degree Measurement: 85.00
+</a>[19:12:21.428] Checking USRP for errors. . . 
+[19:12:23.450] No USRP Error!
+
+[19:12:23.466] Measure angle 85.00. . .
+[19:12:32.644] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:12:32.660] Current Degree Measurement: 86.00
+</a>[19:12:32.672] Checking USRP for errors. . . 
+[19:12:34.698] No USRP Error!
+
+[19:12:34.715] Measure angle 86.00. . .
+[19:12:43.895] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:12:43.916] Current Degree Measurement: 87.00
+</a>[19:12:43.922] Checking USRP for errors. . . 
+[19:12:45.963] No USRP Error!
+
+[19:12:45.979] Measure angle 87.00. . .
+[19:12:54.150] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:12:54.166] Current Degree Measurement: 88.00
+</a>[19:12:54.179] Checking USRP for errors. . . 
+[19:12:56.202] No USRP Error!
+
+[19:12:56.221] Measure angle 88.00. . .
+[19:13:05.401] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:13:05.418] Current Degree Measurement: 89.00
+</a>[19:13:05.430] Checking USRP for errors. . . 
+[19:13:07.455] No USRP Error!
+
+[19:13:07.473] Measure angle 89.00. . .
+[19:13:16.642] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[19:13:16.656] Current Degree Measurement: 90.00
+</a>[19:13:16.667] Checking USRP for errors. . . 
+[19:13:18.693] No USRP Error!
+
+[19:13:18.711] Measure angle 90.00. . .
+<a href="">[19:13:27.877] Done with current set of measurements!
+</a>Elapsed Time: 00:33:13
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Nov-23-19_18.40.14_log.txt

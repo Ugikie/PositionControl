@@ -1,6 +1,6 @@
 close all; clear all; clc;
 
-logFile = logFilePath();
+[logFileName,logFile] = logFilePath();
 diary(logFile);
 cprintf('strings','Saving log to: %s\n',logFile);
 fprintf('\n');
@@ -85,7 +85,7 @@ degInterval = -90:incrementSize:90;
 
 %Initiates the boot process for the USRP N210 & N310.
 bootUSRPs(0,loadBar);
-gnuFileName = '/ArrayTest2.py ';
+gnuFileName = '/ArrayTest3.py ';
 gnuFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
 
 %Loops through each degree in the interval and communicates with the USRP
@@ -93,11 +93,8 @@ gnuFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
 %the safety of the system.
 itr = 0;
 for currentDegree = degInterval
-    if (currentDegree == degInterval(1))
-        takeFirstMeasurementCommand = ['sudo timeout 30 python ' gnuFilePath gnuFileName num2str(currentDegree)];
-    else
-        takeMeasurementCommand = ['sudo timeout 12 python ' gnuFilePath gnuFileName num2str(currentDegree)];
-    end
+    takeMeasurementCommand = ['sudo python ' gnuFilePath gnuFileName ' ' num2str(incrementSize) ' ' logFileName ' ' num2str(currentDegree)];
+
     itr = itr + 1;
     loadBarProgress = (itr/length(degInterval));
     
@@ -132,13 +129,9 @@ for currentDegree = degInterval
         end
         
         fprintf('\n[%s] Measure angle %.2f. . .\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
-        if(currentDegree == degInterval(1))
-            system(takeFirstMeasurementCommand);
-        else
-            system(takeMeasurementCommand);
-        end
-        
         waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
+        
+        [~,usrpMeasurement] = system(takeMeasurementCommand);
         
         if (currentDegree ~= degInterval(end))
             

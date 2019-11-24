@@ -5,7 +5,7 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
 %   message. The program will then resume as normal to take measurements.
 
     cprintf('strings','[%s] Checking USRP for errors',datestr(now,'HH:MM:SS.FFF'));
-    waitbar(loadBarProgress,loadBar,sprintf('Checking USRP for errors.'));
+    waitbar(loadBarProgress,loadBar,sprintf('Checking USRP for errors...'));
     dots(3);
     
     MAX_ERROR_WAIT_TIME = 10000; %seconds
@@ -36,7 +36,7 @@ function [] = usrpErrorChecker(loadBarProgress,loadBar)
 
           end
     
-          fprintf('[%s] No initial Error!\n',datestr(now,'HH:MM:SS.FFF'));
+          fprintf('[%s] No USRP Error!\n',datestr(now,'HH:MM:SS.FFF'));
           waitbar(loadBarProgress,loadBar,sprintf('No initial Error from USRP. Continuing...'));
           
           break;

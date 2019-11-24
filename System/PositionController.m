@@ -1,7 +1,6 @@
-
 close all; clear all; clc;
 
-logFile = logFilePath();
+[logFileName,logFile] = logFilePath();
 diary(logFile);
 cprintf('strings','Saving log to: %s\n',logFile);
 fprintf('\n');
@@ -86,7 +85,7 @@ degInterval = -90:incrementSize:90;
 
 %Initiates the boot process for the USRP N210 & N310.
 bootUSRPs(0,loadBar);
-gnuFileName = '/ArrayTest2.py ';
+gnuFileName = '/ArrayTest3.py ';
 gnuFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
 %Loops through each degree in the interval and communicates with the USRP
 %to take automatic measurements, with many checks along the way to ensure
@@ -94,11 +93,7 @@ gnuFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
 itr = 0;
 for currentDegree = degInterval
     
-    if (currentDegree == degInterval(1))
-        takeFirstMeasurementCommand = ['sudo timeout 30 python ' gnuFilePath gnuFileName num2str(currentDegree)];
-    else
-        takeMeasurementCommand = ['sudo timeout 12 python ' gnuFilePath gnuFileName num2str(currentDegree)];
-    end
+    takeMeasurementCommand = ['sudo python ' gnuFilePath gnuFileName ' ' num2str(incrementSize) ' ' logFileName ' ' num2str(currentDegree)];
     
     itr = itr + 1;
     loadBarProgress = (itr/length(degInterval));
@@ -133,16 +128,11 @@ for currentDegree = degInterval
             break
         end
         
-        fprintf('\n[%s] Measuring angle %.2f',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
-        
-        if(currentDegree == degInterval(1))
-            system(takeFirstMeasurementCommand);
-        else
-            system(takeMeasurementCommand);
-        end
-        
+        fprintf('\n[%s] Taking measurement at %.2f degrees',datestr(now,'HH:MM:SS.FFF'),getAZCurrPos(MI4190));
         waitbar(loadBarProgress,loadBar,sprintf('Taking Measurement at %.2f degrees...',currentDegree));
         
+        [~,usrpMeasurement] = system(takeMeasurementCommand);
+
         if (currentDegree ~= degInterval(end))
             
             if getappdata(loadBar,'canceling')
@@ -172,7 +162,8 @@ for currentDegree = degInterval
 end
 
 endTime = datestr(now,'HH:MM:SS.FFF');
-fprintf('Elapsed Time: %s\n',datestr(datetime(endTime) - datetime(startTime),'HH:MM:SS'));
+elapsedTime = datestr(datetime(endTime) - datetime(startTime),'HH:MM:SS');
+fprintf('Elapsed Time: %s\n',elapsedTime);
 
 delete(loadBar);
 fclose(MI4190);
