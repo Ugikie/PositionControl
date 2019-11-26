@@ -22,7 +22,7 @@
 - A log of the output will be created in the `/Misc/Logs` folder that contains an output of the entire measurement run. It will however contain some command information, as it was created using the `diary` command.
 
 ## Logging
-- Each time you run the program, a log file will be generated in `/Misc/Logs` that is named appropriately with the exact time and date of the moment you clicked the `run` button. You can however provide an optional filename to the log file, that will go at the beginning of the timestamp in the file name. For example, the default file name will look something like:
+Each time you run the program, a log file will be generated in `/Misc/Logs` that is named appropriately with the exact time and date of the moment you clicked the `run` button. You can however provide an optional filename to the log file, that will go at the beginning of the timestamp in the file name. For example, the default file name will look something like:
 
 ```
 Nov-23-19_18.40.14_log.txt
