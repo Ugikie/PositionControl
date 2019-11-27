@@ -55,9 +55,8 @@ Here are some ideas for the future of the project. The list will be updated with
 
 ## Known Issues
 - Obviously running the script without either the USRP or Position Controller connected will result in errors in the console.
-- Terminating the script early while the Position Controller is connected will sometimes result in an issue where it says the serial port is not available, and you have to close, and reopen Matlab. To fix this, simply type 
+- Terminating the script early while the Position Controller is connected will sometimes result in an issue where it says the serial port is not available, and you have to close, and reopen Matlab. To fix this, simply type this command into the command window after the script terminates early:
 ```
 fclose(MI4190)
 ``` 
-in the command window after the early termination.
 - If not using a `Head` block in the GNU radio file that you are using, the USRP will occasionally experience connectivity issues, in that it will say the device has already been claimed. This usually appears in an error message upon trying to run the script that says "Someone has already tried to claim this device." In this scenario, you must manually reboot the USRP. 
