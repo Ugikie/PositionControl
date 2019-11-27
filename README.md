@@ -8,6 +8,7 @@
 ### Table of contents
 
 - [Prerequisites](#prerequisites)
+- [What's Included?](#whats-included?)
 - [Running An Automated Measurement](#running-an-automated-measurement)
 - [Logging](#logging)
 - [Future Plans](#future-plans)
@@ -16,6 +17,48 @@
 
 ## Prerequisites
 - You need to be using Matlab R2019b or later, and on Linux platform. Ubuntu 19.04 LTS was used for the creation of the scripts, so has not been tested on the other Linux versions.
+
+## What's Included?
+
+Within the library you'll find the following directories and files. You'll see something like this:
+
+```text
+Automation/
+└── PositionControl/
+    ├── Docs/
+    │   ├── Automation Flowchart.jpg
+    ├── Misc/
+    │   ├── cprintf/
+    │   ├── Example Scripts/
+    |   |   ├── AntennaPhiMeasurement.m
+    |   |   ├── hp8720saveTrace.m
+    |   ├── Logs/
+    |   ├── cancelSystem.m
+    |   ├── checkForCancel.m
+    |   ├── dots.m
+    ├── Motion/
+    |   ├── incrementAxisByDegree.m
+    |   ├── moveAxisToPosition.m
+    |   ├── stopAxisMotion.m
+    ├── Status/
+    │   ├── getAZCurrPos.m
+    │   ├── getAZCurrVelocity.m
+    |   ├── verifyIfIdle.m
+    |   ├── verifyIfInPosition.m
+    ├── System/
+    |   ├── ArrayTest2.grc
+    |   ├── ArrayTest2.py
+    |   ├── ArrayTest3.grc
+    |   ├── ArrayTest3.py
+    |   ├── PositionController.m
+    |   ├── testing.m
+    ├── USRP/
+    |   ├── bootUSRPs.m
+    |   ├── pingUSRPs.m
+    |   └── usrpErrorChecker.m
+    ├── USRPBoot.sh
+    └── USRPN210Boot.sh
+```
 
 ## Running An Automated Measurement
 - In order to use the script, you will have to connect a computer to the MI-4190 Position Controller. One can be found in the CSUN Microwave Lab. Use a GPIB-USB serial adapter, and make sure the primary address of the device is set to 4. 
@@ -60,3 +103,4 @@ Here are some ideas for the future of the project. The list will be updated with
 fclose(MI4190)
 ``` 
 - If not using a `Head` block in the GNU radio file that you are using, the USRP will occasionally experience connectivity issues, in that it will say the device has already been claimed. This usually appears in an error message upon trying to run the script that says "Someone has already tried to claim this device." In this scenario, you must manually reboot the USRP. 
+
