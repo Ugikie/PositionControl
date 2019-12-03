@@ -20,7 +20,7 @@
 
 ## What's Included?
 
-Within the library you'll find the following directories and files. You'll see something like this:
+Within the library you'll find the following directories and files:
 
 ```text
 Automation/
