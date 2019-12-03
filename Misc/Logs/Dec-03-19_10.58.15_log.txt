@@ -1,0 +1,910 @@
+Saving log to: C:\Users\austi\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Dec-03-19_10.58.15_log.txt
+
+[10:58:18.836] Enter the desired degree increment size (Must be between 1-180): 1
+<a href="">
+[10:58:25.313] Current Degree Measurement: -90.00
+</a>
+[10:58:25.349] Taking measurement at -90.00 degrees
+[10:58:25.398] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.434] Current Degree Measurement: -89.00
+</a>
+[10:58:25.452] Taking measurement at -89.00 degrees
+[10:58:25.463] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.493] Current Degree Measurement: -88.00
+</a>
+[10:58:25.521] Taking measurement at -88.00 degrees
+[10:58:25.529] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.553] Current Degree Measurement: -87.00
+</a>
+[10:58:25.590] Taking measurement at -87.00 degrees
+[10:58:25.599] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.627] Current Degree Measurement: -86.00
+</a>
+[10:58:25.647] Taking measurement at -86.00 degrees
+[10:58:25.661] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.682] Current Degree Measurement: -85.00
+</a>
+[10:58:25.699] Taking measurement at -85.00 degrees
+[10:58:25.714] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.738] Current Degree Measurement: -84.00
+</a>
+[10:58:25.756] Taking measurement at -84.00 degrees
+[10:58:25.777] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.803] Current Degree Measurement: -83.00
+</a>
+[10:58:25.823] Taking measurement at -83.00 degrees
+[10:58:25.836] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.857] Current Degree Measurement: -82.00
+</a>
+[10:58:25.875] Taking measurement at -82.00 degrees
+[10:58:25.887] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.910] Current Degree Measurement: -81.00
+</a>
+[10:58:25.929] Taking measurement at -81.00 degrees
+[10:58:25.942] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:25.965] Current Degree Measurement: -80.00
+</a>
+[10:58:25.985] Taking measurement at -80.00 degrees
+[10:58:25.999] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.020] Current Degree Measurement: -79.00
+</a>
+[10:58:26.039] Taking measurement at -79.00 degrees
+[10:58:26.052] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.072] Current Degree Measurement: -78.00
+</a>
+[10:58:26.093] Taking measurement at -78.00 degrees
+[10:58:26.105] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.127] Current Degree Measurement: -77.00
+</a>
+[10:58:26.146] Taking measurement at -77.00 degrees
+[10:58:26.158] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.177] Current Degree Measurement: -76.00
+</a>
+[10:58:26.193] Taking measurement at -76.00 degrees
+[10:58:26.213] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.231] Current Degree Measurement: -75.00
+</a>
+[10:58:26.246] Taking measurement at -75.00 degrees
+[10:58:26.255] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.272] Current Degree Measurement: -74.00
+</a>
+[10:58:26.287] Taking measurement at -74.00 degrees
+[10:58:26.298] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.313] Current Degree Measurement: -73.00
+</a>
+[10:58:26.330] Taking measurement at -73.00 degrees
+[10:58:26.338] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.357] Current Degree Measurement: -72.00
+</a>
+[10:58:26.372] Taking measurement at -72.00 degrees
+[10:58:26.381] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.397] Current Degree Measurement: -71.00
+</a>
+[10:58:26.413] Taking measurement at -71.00 degrees
+[10:58:26.422] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.439] Current Degree Measurement: -70.00
+</a>
+[10:58:26.454] Taking measurement at -70.00 degrees
+[10:58:26.462] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.480] Current Degree Measurement: -69.00
+</a>
+[10:58:26.496] Taking measurement at -69.00 degrees
+[10:58:26.505] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.521] Current Degree Measurement: -68.00
+</a>
+[10:58:26.536] Taking measurement at -68.00 degrees
+[10:58:26.545] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.561] Current Degree Measurement: -67.00
+</a>
+[10:58:26.581] Taking measurement at -67.00 degrees
+[10:58:26.600] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.618] Current Degree Measurement: -66.00
+</a>
+[10:58:26.633] Taking measurement at -66.00 degrees
+[10:58:26.645] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.664] Current Degree Measurement: -65.00
+</a>
+[10:58:26.680] Taking measurement at -65.00 degrees
+[10:58:26.689] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.707] Current Degree Measurement: -64.00
+</a>
+[10:58:26.725] Taking measurement at -64.00 degrees
+[10:58:26.735] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.751] Current Degree Measurement: -63.00
+</a>
+[10:58:26.766] Taking measurement at -63.00 degrees
+[10:58:26.775] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.792] Current Degree Measurement: -62.00
+</a>
+[10:58:26.808] Taking measurement at -62.00 degrees
+[10:58:26.817] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.833] Current Degree Measurement: -61.00
+</a>
+[10:58:26.848] Taking measurement at -61.00 degrees
+[10:58:26.857] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.873] Current Degree Measurement: -60.00
+</a>
+[10:58:26.888] Taking measurement at -60.00 degrees
+[10:58:26.897] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.913] Current Degree Measurement: -59.00
+</a>
+[10:58:26.930] Taking measurement at -59.00 degrees
+[10:58:26.938] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:26.954] Current Degree Measurement: -58.00
+</a>
+[10:58:26.978] Taking measurement at -58.00 degrees
+[10:58:26.988] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.008] Current Degree Measurement: -57.00
+</a>
+[10:58:27.024] Taking measurement at -57.00 degrees
+[10:58:27.032] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.053] Current Degree Measurement: -56.00
+</a>
+[10:58:27.074] Taking measurement at -56.00 degrees
+[10:58:27.087] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.192] Current Degree Measurement: -55.00
+</a>
+[10:58:27.206] Taking measurement at -55.00 degrees
+[10:58:27.216] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.234] Current Degree Measurement: -54.00
+</a>
+[10:58:27.249] Taking measurement at -54.00 degrees
+[10:58:27.258] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.276] Current Degree Measurement: -53.00
+</a>
+[10:58:27.291] Taking measurement at -53.00 degrees
+[10:58:27.300] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.317] Current Degree Measurement: -52.00
+</a>
+[10:58:27.333] Taking measurement at -52.00 degrees
+[10:58:27.344] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.449] Current Degree Measurement: -51.00
+</a>
+[10:58:27.466] Taking measurement at -51.00 degrees
+[10:58:27.476] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.495] Current Degree Measurement: -50.00
+</a>
+[10:58:27.512] Taking measurement at -50.00 degrees
+[10:58:27.531] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.553] Current Degree Measurement: -49.00
+</a>
+[10:58:27.570] Taking measurement at -49.00 degrees
+[10:58:27.578] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.597] Current Degree Measurement: -48.00
+</a>
+[10:58:27.613] Taking measurement at -48.00 degrees
+[10:58:27.623] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.643] Current Degree Measurement: -47.00
+</a>
+[10:58:27.660] Taking measurement at -47.00 degrees
+[10:58:27.671] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.691] Current Degree Measurement: -46.00
+</a>
+[10:58:27.708] Taking measurement at -46.00 degrees
+[10:58:27.717] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.737] Current Degree Measurement: -45.00
+</a>
+[10:58:27.754] Taking measurement at -45.00 degrees
+[10:58:27.763] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.780] Current Degree Measurement: -44.00
+</a>
+[10:58:27.795] Taking measurement at -44.00 degrees
+[10:58:27.805] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.822] Current Degree Measurement: -43.00
+</a>
+[10:58:27.838] Taking measurement at -43.00 degrees
+[10:58:27.847] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.864] Current Degree Measurement: -42.00
+</a>
+[10:58:27.882] Taking measurement at -42.00 degrees
+[10:58:27.892] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.909] Current Degree Measurement: -41.00
+</a>
+[10:58:27.927] Taking measurement at -41.00 degrees
+[10:58:27.949] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:27.971] Current Degree Measurement: -40.00
+</a>
+[10:58:27.989] Taking measurement at -40.00 degrees
+[10:58:28.001] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.021] Current Degree Measurement: -39.00
+</a>
+[10:58:28.124] Taking measurement at -39.00 degrees
+[10:58:28.132] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.153] Current Degree Measurement: -38.00
+</a>
+[10:58:28.168] Taking measurement at -38.00 degrees
+[10:58:28.179] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.200] Current Degree Measurement: -37.00
+</a>
+[10:58:28.215] Taking measurement at -37.00 degrees
+[10:58:28.227] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.247] Current Degree Measurement: -36.00
+</a>
+[10:58:28.264] Taking measurement at -36.00 degrees
+[10:58:28.275] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.298] Current Degree Measurement: -35.00
+</a>
+[10:58:28.314] Taking measurement at -35.00 degrees
+[10:58:28.325] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.343] Current Degree Measurement: -34.00
+</a>
+[10:58:28.359] Taking measurement at -34.00 degrees
+[10:58:28.367] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.383] Current Degree Measurement: -33.00
+</a>
+[10:58:28.399] Taking measurement at -33.00 degrees
+[10:58:28.408] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.426] Current Degree Measurement: -32.00
+</a>
+[10:58:28.442] Taking measurement at -32.00 degrees
+[10:58:28.459] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.477] Current Degree Measurement: -31.00
+</a>
+[10:58:28.492] Taking measurement at -31.00 degrees
+[10:58:28.500] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.516] Current Degree Measurement: -30.00
+</a>
+[10:58:28.531] Taking measurement at -30.00 degrees
+[10:58:28.540] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.559] Current Degree Measurement: -29.00
+</a>
+[10:58:28.575] Taking measurement at -29.00 degrees
+[10:58:28.584] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.603] Current Degree Measurement: -28.00
+</a>
+[10:58:28.618] Taking measurement at -28.00 degrees
+[10:58:28.626] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.642] Current Degree Measurement: -27.00
+</a>
+[10:58:28.658] Taking measurement at -27.00 degrees
+[10:58:28.666] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.681] Current Degree Measurement: -26.00
+</a>
+[10:58:28.696] Taking measurement at -26.00 degrees
+[10:58:28.705] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.721] Current Degree Measurement: -25.00
+</a>
+[10:58:28.739] Taking measurement at -25.00 degrees
+[10:58:28.751] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.770] Current Degree Measurement: -24.00
+</a>
+[10:58:28.787] Taking measurement at -24.00 degrees
+[10:58:28.795] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.810] Current Degree Measurement: -23.00
+</a>
+[10:58:28.826] Taking measurement at -23.00 degrees
+[10:58:28.843] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.860] Current Degree Measurement: -22.00
+</a>
+[10:58:28.876] Taking measurement at -22.00 degrees
+[10:58:28.889] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.911] Current Degree Measurement: -21.00
+</a>
+[10:58:28.929] Taking measurement at -21.00 degrees
+[10:58:28.943] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:28.966] Current Degree Measurement: -20.00
+</a>
+[10:58:28.984] Taking measurement at -20.00 degrees
+[10:58:28.996] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.017] Current Degree Measurement: -19.00
+</a>
+[10:58:29.034] Taking measurement at -19.00 degrees
+[10:58:29.044] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.063] Current Degree Measurement: -18.00
+</a>
+[10:58:29.078] Taking measurement at -18.00 degrees
+[10:58:29.089] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.107] Current Degree Measurement: -17.00
+</a>
+[10:58:29.122] Taking measurement at -17.00 degrees
+[10:58:29.129] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.146] Current Degree Measurement: -16.00
+</a>
+[10:58:29.161] Taking measurement at -16.00 degrees
+[10:58:29.172] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.190] Current Degree Measurement: -15.00
+</a>
+[10:58:29.206] Taking measurement at -15.00 degrees
+[10:58:29.214] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.233] Current Degree Measurement: -14.00
+</a>
+[10:58:29.249] Taking measurement at -14.00 degrees
+[10:58:29.267] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.282] Current Degree Measurement: -13.00
+</a>
+[10:58:29.305] Taking measurement at -13.00 degrees
+[10:58:29.315] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.334] Current Degree Measurement: -12.00
+</a>
+[10:58:29.350] Taking measurement at -12.00 degrees
+[10:58:29.359] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.378] Current Degree Measurement: -11.00
+</a>
+[10:58:29.395] Taking measurement at -11.00 degrees
+[10:58:29.405] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.422] Current Degree Measurement: -10.00
+</a>
+[10:58:29.436] Taking measurement at -10.00 degrees
+[10:58:29.444] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.461] Current Degree Measurement: -9.00
+</a>
+[10:58:29.483] Taking measurement at -9.00 degrees
+[10:58:29.493] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.512] Current Degree Measurement: -8.00
+</a>
+[10:58:29.616] Taking measurement at -8.00 degrees
+[10:58:29.623] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.643] Current Degree Measurement: -7.00
+</a>
+[10:58:29.659] Taking measurement at -7.00 degrees
+[10:58:29.667] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.856] Current Degree Measurement: -6.00
+</a>
+[10:58:29.874] Taking measurement at -6.00 degrees
+[10:58:29.972] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:29.989] Current Degree Measurement: -5.00
+</a>
+[10:58:30.004] Taking measurement at -5.00 degrees
+[10:58:30.013] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.028] Current Degree Measurement: -4.00
+</a>
+[10:58:30.043] Taking measurement at -4.00 degrees
+[10:58:30.061] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.078] Current Degree Measurement: -3.00
+</a>
+[10:58:30.093] Taking measurement at -3.00 degrees
+[10:58:30.103] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.119] Current Degree Measurement: -2.00
+</a>
+[10:58:30.135] Taking measurement at -2.00 degrees
+[10:58:30.143] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.162] Current Degree Measurement: -1.00
+</a>
+[10:58:30.177] Taking measurement at -1.00 degrees
+[10:58:30.187] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.231] Current Degree Measurement: 0.00
+</a>
+[10:58:30.252] Taking measurement at 0.00 degrees
+[10:58:30.259] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.276] Current Degree Measurement: 1.00
+</a>
+[10:58:30.291] Taking measurement at 1.00 degrees
+[10:58:30.298] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.314] Current Degree Measurement: 2.00
+</a>
+[10:58:30.330] Taking measurement at 2.00 degrees
+[10:58:30.338] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.355] Current Degree Measurement: 3.00
+</a>
+[10:58:30.370] Taking measurement at 3.00 degrees
+[10:58:30.382] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.401] Current Degree Measurement: 4.00
+</a>
+[10:58:30.416] Taking measurement at 4.00 degrees
+[10:58:30.426] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.528] Current Degree Measurement: 5.00
+</a>
+[10:58:30.545] Taking measurement at 5.00 degrees
+[10:58:30.552] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.575] Current Degree Measurement: 6.00
+</a>
+[10:58:30.591] Taking measurement at 6.00 degrees
+[10:58:30.600] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.616] Current Degree Measurement: 7.00
+</a>
+[10:58:30.630] Taking measurement at 7.00 degrees
+[10:58:30.638] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.655] Current Degree Measurement: 8.00
+</a>
+[10:58:30.670] Taking measurement at 8.00 degrees
+[10:58:30.678] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.693] Current Degree Measurement: 9.00
+</a>
+[10:58:30.708] Taking measurement at 9.00 degrees
+[10:58:30.715] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.730] Current Degree Measurement: 10.00
+</a>
+[10:58:30.745] Taking measurement at 10.00 degrees
+[10:58:30.753] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.768] Current Degree Measurement: 11.00
+</a>
+[10:58:30.784] Taking measurement at 11.00 degrees
+[10:58:30.792] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.807] Current Degree Measurement: 12.00
+</a>
+[10:58:30.822] Taking measurement at 12.00 degrees
+[10:58:30.830] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.845] Current Degree Measurement: 13.00
+</a>
+[10:58:30.859] Taking measurement at 13.00 degrees
+[10:58:30.867] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.882] Current Degree Measurement: 14.00
+</a>
+[10:58:30.897] Taking measurement at 14.00 degrees
+[10:58:30.905] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.920] Current Degree Measurement: 15.00
+</a>
+[10:58:30.935] Taking measurement at 15.00 degrees
+[10:58:30.949] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:30.964] Current Degree Measurement: 16.00
+</a>
+[10:58:30.979] Taking measurement at 16.00 degrees
+[10:58:30.987] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.004] Current Degree Measurement: 17.00
+</a>
+[10:58:31.019] Taking measurement at 17.00 degrees
+[10:58:31.027] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.045] Current Degree Measurement: 18.00
+</a>
+[10:58:31.059] Taking measurement at 18.00 degrees
+[10:58:31.068] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.084] Current Degree Measurement: 19.00
+</a>
+[10:58:31.100] Taking measurement at 19.00 degrees
+[10:58:31.107] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.122] Current Degree Measurement: 20.00
+</a>
+[10:58:31.137] Taking measurement at 20.00 degrees
+[10:58:31.145] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.161] Current Degree Measurement: 21.00
+</a>
+[10:58:31.176] Taking measurement at 21.00 degrees
+[10:58:31.184] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.201] Current Degree Measurement: 22.00
+</a>
+[10:58:31.216] Taking measurement at 22.00 degrees
+[10:58:31.224] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.239] Current Degree Measurement: 23.00
+</a>
+[10:58:31.254] Taking measurement at 23.00 degrees
+[10:58:31.262] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.279] Current Degree Measurement: 24.00
+</a>
+[10:58:31.294] Taking measurement at 24.00 degrees
+[10:58:31.302] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.316] Current Degree Measurement: 25.00
+</a>
+[10:58:31.331] Taking measurement at 25.00 degrees
+[10:58:31.346] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.360] Current Degree Measurement: 26.00
+</a>
+[10:58:31.375] Taking measurement at 26.00 degrees
+[10:58:31.384] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.402] Current Degree Measurement: 27.00
+</a>
+[10:58:31.416] Taking measurement at 27.00 degrees
+[10:58:31.424] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.440] Current Degree Measurement: 28.00
+</a>
+[10:58:31.455] Taking measurement at 28.00 degrees
+[10:58:31.463] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.484] Current Degree Measurement: 29.00
+</a>
+[10:58:31.499] Taking measurement at 29.00 degrees
+[10:58:31.508] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.523] Current Degree Measurement: 30.00
+</a>
+[10:58:31.539] Taking measurement at 30.00 degrees
+[10:58:31.546] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.564] Current Degree Measurement: 31.00
+</a>
+[10:58:31.578] Taking measurement at 31.00 degrees
+[10:58:31.586] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.603] Current Degree Measurement: 32.00
+</a>
+[10:58:31.618] Taking measurement at 32.00 degrees
+[10:58:31.625] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.642] Current Degree Measurement: 33.00
+</a>
+[10:58:31.656] Taking measurement at 33.00 degrees
+[10:58:31.664] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.685] Current Degree Measurement: 34.00
+</a>
+[10:58:31.699] Taking measurement at 34.00 degrees
+[10:58:31.707] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.807] Current Degree Measurement: 35.00
+</a>
+[10:58:31.822] Taking measurement at 35.00 degrees
+[10:58:31.836] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.853] Current Degree Measurement: 36.00
+</a>
+[10:58:31.869] Taking measurement at 36.00 degrees
+[10:58:31.878] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.897] Current Degree Measurement: 37.00
+</a>
+[10:58:31.914] Taking measurement at 37.00 degrees
+[10:58:31.923] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.940] Current Degree Measurement: 38.00
+</a>
+[10:58:31.955] Taking measurement at 38.00 degrees
+[10:58:31.962] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:31.979] Current Degree Measurement: 39.00
+</a>
+[10:58:31.994] Taking measurement at 39.00 degrees
+[10:58:32.002] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.020] Current Degree Measurement: 40.00
+</a>
+[10:58:32.037] Taking measurement at 40.00 degrees
+[10:58:32.045] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.062] Current Degree Measurement: 41.00
+</a>
+[10:58:32.079] Taking measurement at 41.00 degrees
+[10:58:32.101] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.122] Current Degree Measurement: 42.00
+</a>
+[10:58:32.139] Taking measurement at 42.00 degrees
+[10:58:32.153] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.177] Current Degree Measurement: 43.00
+</a>
+[10:58:32.193] Taking measurement at 43.00 degrees
+[10:58:32.206] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.224] Current Degree Measurement: 44.00
+</a>
+[10:58:32.241] Taking measurement at 44.00 degrees
+[10:58:32.251] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.271] Current Degree Measurement: 45.00
+</a>
+[10:58:32.286] Taking measurement at 45.00 degrees
+[10:58:32.303] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.323] Current Degree Measurement: 46.00
+</a>
+[10:58:32.338] Taking measurement at 46.00 degrees
+[10:58:32.354] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.373] Current Degree Measurement: 47.00
+</a>
+[10:58:32.389] Taking measurement at 47.00 degrees
+[10:58:32.398] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.419] Current Degree Measurement: 48.00
+</a>
+[10:58:32.435] Taking measurement at 48.00 degrees
+[10:58:32.448] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.467] Current Degree Measurement: 49.00
+</a>
+[10:58:32.482] Taking measurement at 49.00 degrees
+[10:58:32.493] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.509] Current Degree Measurement: 50.00
+</a>
+[10:58:32.523] Taking measurement at 50.00 degrees
+[10:58:32.531] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.548] Current Degree Measurement: 51.00
+</a>
+[10:58:32.562] Taking measurement at 51.00 degrees
+[10:58:32.570] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.585] Current Degree Measurement: 52.00
+</a>
+[10:58:32.600] Taking measurement at 52.00 degrees
+[10:58:32.607] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.621] Current Degree Measurement: 53.00
+</a>
+[10:58:32.635] Taking measurement at 53.00 degrees
+[10:58:32.643] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.660] Current Degree Measurement: 54.00
+</a>
+[10:58:32.674] Taking measurement at 54.00 degrees
+[10:58:32.683] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.696] Current Degree Measurement: 55.00
+</a>
+[10:58:32.711] Taking measurement at 55.00 degrees
+[10:58:32.723] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.741] Current Degree Measurement: 56.00
+</a>
+[10:58:32.756] Taking measurement at 56.00 degrees
+[10:58:32.765] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.785] Current Degree Measurement: 57.00
+</a>
+[10:58:32.800] Taking measurement at 57.00 degrees
+[10:58:32.810] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.831] Current Degree Measurement: 58.00
+</a>
+[10:58:32.848] Taking measurement at 58.00 degrees
+[10:58:32.856] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.877] Current Degree Measurement: 59.00
+</a>
+[10:58:32.897] Taking measurement at 59.00 degrees
+[10:58:32.906] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.922] Current Degree Measurement: 60.00
+</a>
+[10:58:32.938] Taking measurement at 60.00 degrees
+[10:58:32.946] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:32.962] Current Degree Measurement: 61.00
+</a>
+[10:58:32.976] Taking measurement at 61.00 degrees
+[10:58:32.985] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.001] Current Degree Measurement: 62.00
+</a>
+[10:58:33.016] Taking measurement at 62.00 degrees
+[10:58:33.024] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.043] Current Degree Measurement: 63.00
+</a>
+[10:58:33.057] Taking measurement at 63.00 degrees
+[10:58:33.065] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.083] Current Degree Measurement: 64.00
+</a>
+[10:58:33.098] Taking measurement at 64.00 degrees
+[10:58:33.105] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.121] Current Degree Measurement: 65.00
+</a>
+[10:58:33.136] Taking measurement at 65.00 degrees
+[10:58:33.150] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.171] Current Degree Measurement: 66.00
+</a>
+[10:58:33.186] Taking measurement at 66.00 degrees
+[10:58:33.195] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.212] Current Degree Measurement: 67.00
+</a>
+[10:58:33.228] Taking measurement at 67.00 degrees
+[10:58:33.237] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.255] Current Degree Measurement: 68.00
+</a>
+[10:58:33.270] Taking measurement at 68.00 degrees
+[10:58:33.277] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.293] Current Degree Measurement: 69.00
+</a>
+[10:58:33.308] Taking measurement at 69.00 degrees
+[10:58:33.316] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.332] Current Degree Measurement: 70.00
+</a>
+[10:58:33.348] Taking measurement at 70.00 degrees
+[10:58:33.356] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.372] Current Degree Measurement: 71.00
+</a>
+[10:58:33.387] Taking measurement at 71.00 degrees
+[10:58:33.396] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.413] Current Degree Measurement: 72.00
+</a>
+[10:58:33.428] Taking measurement at 72.00 degrees
+[10:58:33.436] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.456] Current Degree Measurement: 73.00
+</a>
+[10:58:33.471] Taking measurement at 73.00 degrees
+[10:58:33.481] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.499] Current Degree Measurement: 74.00
+</a>
+[10:58:33.513] Taking measurement at 74.00 degrees
+[10:58:33.521] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.537] Current Degree Measurement: 75.00
+</a>
+[10:58:33.553] Taking measurement at 75.00 degrees
+[10:58:33.563] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.579] Current Degree Measurement: 76.00
+</a>
+[10:58:33.594] Taking measurement at 76.00 degrees
+[10:58:33.602] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.619] Current Degree Measurement: 77.00
+</a>
+[10:58:33.633] Taking measurement at 77.00 degrees
+[10:58:33.641] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.657] Current Degree Measurement: 78.00
+</a>
+[10:58:33.671] Taking measurement at 78.00 degrees
+[10:58:33.679] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.694] Current Degree Measurement: 79.00
+</a>
+[10:58:33.710] Taking measurement at 79.00 degrees
+[10:58:33.718] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.737] Current Degree Measurement: 80.00
+</a>
+[10:58:33.751] Taking measurement at 80.00 degrees
+[10:58:33.759] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.776] Current Degree Measurement: 81.00
+</a>
+[10:58:33.791] Taking measurement at 81.00 degrees
+[10:58:33.798] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.819] Current Degree Measurement: 82.00
+</a>
+[10:58:33.839] Taking measurement at 82.00 degrees
+[10:58:33.846] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.864] Current Degree Measurement: 83.00
+</a>
+[10:58:33.878] Taking measurement at 83.00 degrees
+[10:58:33.886] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.902] Current Degree Measurement: 84.00
+</a>
+[10:58:33.917] Taking measurement at 84.00 degrees
+[10:58:33.928] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.942] Current Degree Measurement: 85.00
+</a>
+[10:58:33.958] Taking measurement at 85.00 degrees
+[10:58:33.966] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:33.983] Current Degree Measurement: 86.00
+</a>
+[10:58:33.999] Taking measurement at 86.00 degrees
+[10:58:34.007] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:34.024] Current Degree Measurement: 87.00
+</a>
+[10:58:34.039] Taking measurement at 87.00 degrees
+[10:58:34.046] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:34.062] Current Degree Measurement: 88.00
+</a>
+[10:58:34.078] Taking measurement at 88.00 degrees
+[10:58:34.086] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:34.102] Current Degree Measurement: 89.00
+</a>
+[10:58:34.117] Taking measurement at 89.00 degrees
+[10:58:34.124] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[10:58:34.140] Current Degree Measurement: 90.00
+</a>
+[10:58:34.155] Taking measurement at 90.00 degrees
+<a href="">[10:58:34.162] Done with current set of measurements!
+</a>Elapsed Time: 00:00:17
+Log saved to: C:\Users\austi\OneDrive\CSUN\Senior_Year_2019-2020\ECE492\Resources\MI4190\Matlab_Scripts\Automation Control\Misc\Logs\Dec-03-19_10.58.15_log.txt

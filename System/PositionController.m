@@ -10,7 +10,7 @@ fprintf('\n');
 % be changed (e.g., to a port such as COM3)
 MI4190 = serial('/dev/ttyUSB0');                 % Linux
     %if it does not work on linux, you may have to run the command:
-    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
 %MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
 %MI4190 = serial('COM3');                        % PC
 
