@@ -1,0 +1,130 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-16-20_18.16.46_log.txt
+
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+
+axis1CurrStatChar =
+
+    '769
+     '
+
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+[18:16:51.559] Verifying if Axis is in Position. . . . 
+[18:16:54.867] Moving Axis (AZ) from position: -84.05, to desired position: -90.00. . . . 
+[18:16:55.063] Verifying if Axis is in Position. . . . 
+[18:16:57.235] Verifying if Axis is in Position. . . . 
+[18:16:59.570] Verifying if Axis is in Position. . . . 
+[18:17:01.702] Axis (AZ) is in desired position: -89.41. Time elapsed: 10.14 seconds.
+[18:17:01.703] Enter the desired degree increment size (Must be between 1-180): 1
+<a href="">
+[18:17:05.222] Current Degree Measurement: -90.00
+</a>[18:17:05.239] Verifying if Axis is in Position. . . . 
+[18:17:07.372] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.13 seconds.
+[18:17:09.445] Verifying if Axis is in Position. . . . 
+
+[18:17:11.567] Taking measurement at -89.95 degrees
+[18:17:12.601] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:17:12.652] Current Degree Measurement: -89.00
+</a>[18:17:12.672] Verifying if Axis is in Position. . . . 
+[18:17:14.755] Verifying if Axis is in Position. . . . 
+[18:17:16.888] Axis (AZ) is in desired position: -89.37. Time elapsed: 4.22 seconds.
+[18:17:21.468] Verifying if Axis is in Position. . . . 
+
+[18:17:23.586] Taking measurement at -89.05 degrees
+[18:17:24.610] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:17:24.662] Current Degree Measurement: -88.00
+</a>[18:17:24.681] Verifying if Axis is in Position. . . . 
+[18:17:26.765] Verifying if Axis is in Position. . . . 
+[18:17:28.883] Axis (AZ) is in desired position: -88.37. Time elapsed: 4.20 seconds.
+[18:17:33.469] Verifying if Axis is in Position. . . . 
+
+[18:17:35.593] Taking measurement at -88.05 degrees
+[18:17:36.617] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:17:36.668] Current Degree Measurement: -87.00
+</a>[18:17:36.698] Verifying if Axis is in Position. . . . 
+[18:17:38.787] Verifying if Axis is in Position. . . . 
+[18:17:40.912] Axis (AZ) is in desired position: -87.37. Time elapsed: 4.21 seconds.
+[18:17:48.006] Verifying if Axis is in Position. . . . 
+
+[18:17:50.127] Taking measurement at -87.05 degrees
+[18:17:51.152] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:17:51.203] Current Degree Measurement: -86.00
+</a>[18:17:51.220] Verifying if Axis is in Position. . . . 
+[18:17:53.298] Verifying if Axis is in Position. . . . 
+[18:17:55.424] Axis (AZ) is in desired position: -86.38. Time elapsed: 4.20 seconds.
+[18:18:00.020] Verifying if Axis is in Position. . . . 
+
+[18:18:02.138] Taking measurement at -86.05 degrees
+[18:18:03.165] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:18:03.209] Current Degree Measurement: -85.00
+</a>[18:18:03.223] Verifying if Axis is in Position. . . . 
+[18:18:05.299] Verifying if Axis is in Position. . . . 
+[18:18:07.410] Axis (AZ) is in desired position: -85.38. Time elapsed: 4.19 seconds.
+[18:18:11.990] Verifying if Axis is in Position. . . . 
+
+[18:18:14.105] Taking measurement at -85.05 degrees
+[18:18:15.140] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:18:15.181] Current Degree Measurement: -84.00
+</a>[18:18:15.195] Verifying if Axis is in Position. . . . 
+[18:18:17.274] Verifying if Axis is in Position. . . . 
+[18:18:19.391] Axis (AZ) is in desired position: -84.38. Time elapsed: 4.20 seconds.
+[18:18:23.977] Verifying if Axis is in Position. . . . 
+
+[18:18:26.094] Taking measurement at -84.05 degrees
+[18:18:27.124] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:18:27.211] Current Degree Measurement: -83.00
+</a>[18:18:27.231] Verifying if Axis is in Position. . . . 
+[18:18:29.317] Verifying if Axis is in Position. . . . 
+[18:18:31.428] Axis (AZ) is in desired position: -83.36. Time elapsed: 4.20 seconds.
+[18:18:46.037] Verifying if Axis is in Position. . . . 
+
+[18:18:48.169] Taking measurement at -83.05 degrees
+[18:18:49.193] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:18:49.244] Current Degree Measurement: -82.00
+</a>[18:18:49.259] Verifying if Axis is in Position. . . . 
+[18:18:51.349] Verifying if Axis is in Position. . . . 
+[18:18:53.474] Axis (AZ) is in desired position: -82.38. Time elapsed: 4.22 seconds.
+[18:18:58.047] Verifying if Axis is in Position
+[18:19:00.173] Cancelling. . .
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cancelSystem', '/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m', 11)" style="font-weight:bold">cancelSystem</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m',11,0)">line 11</a>)
+    cprintf('strings','Log saved to: %s\n',logFile);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 30)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',30,0)">line 30</a>)
+            cancelSystem(loadBarProgress,loadBar)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 131)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',131,0)">line 131</a>)
+    AZInPosition =
+    verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,measurementApp,anglesRemaining,incrementSize);
+} 
+delete(loadBar)
+delete(measurementApp)
+fclose(MI4190)
+delete(MI4190)
+testing
+Beginning Measurements 16-Jan-2020 18:20:53

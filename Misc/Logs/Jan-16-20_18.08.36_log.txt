@@ -1,0 +1,43 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-16-20_18.08.36_log.txt
+
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+
+axis1CurrStatChar =
+
+    '769
+     '
+
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+[18:08:41.643] Verifying if Axis is in Position. . . . 
+[18:08:43.845] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.21 seconds.
+[18:08:43.853] Enter the desired degree increment size (Must be between 1-180): 1
+<a href="">
+[18:08:50.792] Current Degree Measurement: -90.00
+</a>[18:08:50.813] Verifying if Axis is in Position. . . . 
+[18:08:52.929] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.12 seconds.
+{Unrecognized function or variable 'incrementAmount'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 127)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',127,0)">line 127</a>)
+    measurementApp.StatusTable.Data = {AZCurrPos;AZCurrPos + incrementAmount;AZCurrVel,anglesRemaining}
+} 
+delete(loadBar)
+delete(measurementApp)
+testing
+Beginning Measurements 16-Jan-2020 18:09:52

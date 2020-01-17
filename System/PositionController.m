@@ -1,5 +1,7 @@
 close all; clear all; clc;
 
+measurementApp = startApp();
+
 [logFileName,logFile] = logFilePath();
 diary(logFile);
 cprintf('strings','Saving log to: %s\n',logFile);
@@ -48,15 +50,17 @@ idn = char(fread(MI4190, 100))'
 fprintf(MI4190, 'CONT1:AXIS(1):STAT?');
 axis1CurrStatChar = char(fread(MI4190, 100))'
 
-%Get current position of Axis (AZ) and store it in AZCurrPosChar
-%Convert AZCurrPosChar from a char array to a string, then to double
+%Get current position of Axis (AZ) and store it in AZCurrPos, along with
+%the current Velocity in AZCurrVel.
 AZCurrPos = getAZCurrPos(MI4190);
+AZCurrVel = getAZCurrVelocity(MI4190);
 
 %Define the ideal starting position of the Axis (AZ) and the threshold in
 %which the AZ should be in. Usually sits within +- 0.5 degrees of the
 %commanded position. Using 0.6 to get just outside that range.
 AZStartPos = -90.0000;
 POSITION_ERROR = 0.6;
+measurementApp.StatusTable.Data = {AZCurrPos;AZStartPos;AZCurrVel;'N/A'};
 
 %Create a waitbar to show progress during measurement cycle. Add elapsed
 %time
@@ -69,7 +73,7 @@ setappdata(loadBar,'canceling',0);
 %If the current position of Axis (AZ) is outside the range of the desired
 %starting position, in this case outside the range: (-90.06,-89.94), then
 %command it to go to the starting position (-90.00). 'v' enables verbose
-verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,0,loadBar,'v');
+verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,0,loadBar,measurementApp,'N','N','v');
 
 %Allow user to input desired increment size for degree changes on Axis (AZ)
 incrementSize = -1;
@@ -98,6 +102,9 @@ for currentDegree = degInterval
     itr = itr + 1;
     loadBarProgress = (itr/length(degInterval));
     
+    [~,idx] = find(degInterval == currentDegree);
+    anglesRemaining = length(degInterval) - idx;
+    
     if getappdata(loadBar,'canceling')
         cancelSystem(loadBarProgress,loadBar)
         return;
@@ -106,7 +113,7 @@ for currentDegree = degInterval
     waitbar(loadBarProgress,loadBar,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
     cprintf('-comment','\n[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),currentDegree);
     
-    verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,'v');
+    verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,measurementApp,anglesRemaining,incrementSize,'v');
     
     %verify connection to USRP via uhd_find_devices
     %Calls the USRP Error Checking function that for now simulates a random
@@ -117,10 +124,12 @@ for currentDegree = degInterval
     %taking measurement
     AZCurrVel = getAZCurrVelocity(MI4190);
     AZIdle = verifyIfIdle(MI4190,AZCurrVel);
-    
+    AZCurrPos = getAZCurrPos(MI4190);
+    measurementApp.StatusTable.Data = {AZCurrPos;AZCurrPos + incrementSize;AZCurrVel;anglesRemaining};
+
     %Make sure Axis (AZ) position did not change during USRP error checking
     %and also check that it is not moving.
-    AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar);
+    AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,measurementApp,anglesRemaining,incrementSize);
     if (AZIdle && AZInPosition)
         
         if getappdata(loadBar,'canceling')
@@ -166,7 +175,9 @@ elapsedTime = datestr(datetime(endTime) - datetime(startTime),'HH:MM:SS');
 fprintf('Elapsed Time: %s\n',elapsedTime);
 
 delete(loadBar);
+delete(measurementApp);
 fclose(MI4190);
+delete(MI4190);
 cprintf('strings','Log saved to: %s\n',logFile);
 diary off;
 

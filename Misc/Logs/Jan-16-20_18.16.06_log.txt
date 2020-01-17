@@ -1,0 +1,45 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-16-20_18.16.06_log.txt
+
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+
+axis1CurrStatChar =
+
+    '4865
+     '
+
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+[18:16:11.515] Verifying if Axis is in Position. . . . 
+{Unrecognized function or variable 'desiredPosition'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('moveAxisToPosition', '/home/ugikie/Desktop/PositionControl/Motion/moveAxisToPosition.m', 8)" style="font-weight:bold">moveAxisToPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Motion/moveAxisToPosition.m',8,0)">line 8</a>)
+  measurementApp.StatusTable.Data = {AZCurrPos;desiredPosition;AZCurrVel;'N/A'};
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 45)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',45,0)">line 45</a>)
+              moveAxisToPosition(MI4190,desiredPosition,AZCurrPos,loadBarProgress,loadBar,measurementApp,incrementSize,anglesRemaining);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 75)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',75,0)">line 75</a>)
+verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,0,loadBar,measurementApp,'N','N','v');
+} 
+delete(loadBar)
+delete(measurementApp)
+fclose(MI4190)
+delete(MI4190)
+testing
+Beginning Measurements 16-Jan-2020 18:16:46

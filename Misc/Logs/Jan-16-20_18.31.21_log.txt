@@ -1,0 +1,42 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-16-20_18.31.21_log.txt
+
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+
+axis1CurrStatChar =
+
+    '769
+     '
+
+[18:31:27.028] Verifying if Axis is in Position. . . . 
+[18:31:29.297] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.28 seconds.
+[18:31:29.304] Enter the desired degree increment size (Must be between 1-180): 1
+<a href="">
+[18:31:31.131] Current Degree Measurement: -90.00
+</a>[18:31:31.150] Verifying if Axis is in Position. . . . 
+[18:31:33.308] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.16 seconds.
+[18:31:35.420] Verifying if Axis is in Position
+[18:31:37.546] Cancelling. . .
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cancelSystem', '/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m', 11)" style="font-weight:bold">cancelSystem</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m',11,0)">line 11</a>)
+    cprintf('strings','Log saved to: %s\n',logFile);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 30)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',30,0)">line 30</a>)
+            cancelSystem(loadBarProgress,loadBar)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 132)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',132,0)">line 132</a>)
+    AZInPosition =
+    verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,measurementApp,anglesRemaining,incrementSize);
+} 
+delete(loadBar)
+
+delete(measurementApp)
+fclose(MI4190)
+delete(MI4190)
+testing
+Beginning Measurements 16-Jan-2020 18:31:50

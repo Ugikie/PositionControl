@@ -1,0 +1,46 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-16-20_18.27.24_log.txt
+
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+
+axis1CurrStatChar =
+
+    '4865
+     '
+
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+[18:27:28.946] Verifying if Axis is in Position. . . . 
+[18:27:32.258] Moving Axis (AZ) from position: -80.05, to desired position: -90.00. . . . 
+[18:27:32.403] Verifying if Axis is in Position. . . . 
+[18:27:34.549] Verifying if Axis is in Position. . . . 
+[18:27:36.662] Verifying if Axis is in Position. . . . 
+[18:27:38.772] Verifying if Axis is in Position. . . . 
+[18:27:40.929] Axis (AZ) is in desired position: -89.69. Time elapsed: 11.98 seconds.
+Elapsed Time: 00:00:12
+{Unrecognized function or variable 'MeasurementApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 177)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',177,0)">line 177</a>)
+delete(MeasurementApp);
+} 
+delete(loadBar)
+delete(measurementApp)
+fclose(MI4190)
+delete(MI4190)
+testing
+Beginning Measurements 16-Jan-2020 18:30:29
