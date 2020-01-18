@@ -1,0 +1,31 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_14.04.17_log.txt
+
+[14:04:24.173] Verifying if Axis is in Position. . . . 
+[14:04:27.481] Moving Axis (AZ) from position: -89.05, to desired position: -90.00. . . . 
+[14:04:27.558] Verifying if Axis is in Position. . . . 
+[14:04:29.732] Verifying if Axis is in Position. . . . 
+[14:04:34.437] Verifying if Axis is in Position. . . . 
+[14:04:36.619] Axis (AZ) is in desired position: -89.95. Time elapsed: 9.061 seconds.
+[14:04:38.638] Please enter a valid increment size!
+[14:04:41.788] Stopping Measurements. . .{Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 98)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',98,0)">line 98</a>)
+            if (measApp.wantToStop) break; end
+} 
+a = 2; b= 3; c = 4;
+a = 2 b = 3 c = 4
+ a = 2 b = 3 c = 4
+       ↑
+{Error: Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax error. To construct matrices, use brackets
+instead of parentheses.
+} 
+delete(loadBar)
+fclose(MI4190)
+delete(MI4190)
+return
+break
+{Error: A BREAK statement appeared outside of a loop. Use RETURN instead.
+} 
+return
+testing
+Beginning Measurements 17-Jan-2020 14:16:41

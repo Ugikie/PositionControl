@@ -1,0 +1,5 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_14.34.42_log.txt
+
+[14:34:43.742] Stopping Measurements. . .
+PositionController
+Beginning Measurements 17-Jan-2020 14:35:03

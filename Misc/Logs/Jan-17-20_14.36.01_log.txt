@@ -1,0 +1,8 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_14.36.01_log.txt
+
+[14:36:07.270] Verifying if Axis is in Position. . . . 
+[14:36:09.522] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.254 seconds.
+[14:36:11.564] Please enter a valid increment size!
+[14:36:18.485] Stopping Measurements. . .
+testing
+Beginning Measurements 17-Jan-2020 14:36:42

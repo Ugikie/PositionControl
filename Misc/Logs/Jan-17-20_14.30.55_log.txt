@@ -1,0 +1,18 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_14.30.55_log.txt
+
+[14:31:02.868] Verifying if Axis is in Position. . . . 
+[14:31:05.115] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.249 seconds.
+[14:31:07.154] Increment size chosen: 1.00
+<a href="">
+[14:31:07.190] Current Degree Measurement: -90.00
+</a>[14:31:07.219] Verifying if Axis is in Position. . . . 
+[14:31:09.824] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.605 seconds.
+[14:31:10.783] Stopping Measurements. . .Elapsed Time: 00:00:11
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 201)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',201,0)">line 201</a>)
+fclose(MI4190);
+} 
+testing
+Beginning Measurements 17-Jan-2020 14:32:28

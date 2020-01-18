@@ -1,0 +1,50 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_13.46.36_log.txt
+
+[13:46:42.596] Verifying if Axis is in Position. . . . 
+[13:46:45.891][WARNING] Axis is in motion and cannot be moved!
+[13:46:46.142] Verifying if Axis is in Position. . . . 
+[13:46:48.269] Verifying if Axis is in Position. . . . 
+[13:46:50.420] Verifying if Axis is in Position. . . . 
+[13:46:52.544] Verifying if Axis is in Position. . . . 
+[13:46:54.659] Verifying if Axis is in Position. . . . 
+[13:46:56.768] Verifying if Axis is in Position. . . . 
+[13:46:59.964][WARNING] Axis is in motion and cannot be moved!
+[13:47:00.041] Verifying if Axis is in Position. . . . 
+[13:47:03.220] Moving Axis (AZ) from position: -89.05, to desired position: -90.00. . . . 
+[13:47:03.285] Verifying if Axis is in Position. . . . 
+[13:47:05.411] Verifying if Axis is in Position. . . . 
+[13:47:09.551] Verifying if Axis is in Position. . . . 
+[13:47:11.707] Axis (AZ) is in desired position: -89.95. Time elapsed: 8.423 seconds.
+[13:47:13.726] Please enter a valid increment size!
+[13:47:17.747] Increment size chosen: 1.00
+<a href="">
+[13:47:17.798] Current Degree Measurement: -90.00
+</a>[13:47:17.827] Verifying if Axis is in Position. . . . 
+[13:47:20.413] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.586 seconds.
+[13:47:24.502] Verifying if Axis is in Position. . . . 
+
+[13:47:29.185] Taking measurement at -89.95 degrees
+[13:47:31.438] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:47:31.478] Current Degree Measurement: -89.00
+</a>[13:47:31.515] Verifying if Axis is in Position. . . . 
+[13:47:33.611] Verifying if Axis is in Position. . . . 
+[13:47:35.881] Axis (AZ) is in desired position: -89.36. Time elapsed: 4.366 seconds.
+[13:47:42.496] Verifying if Axis is in Position
+[13:47:44.617] Cancelling. . .
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cancelSystem', '/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m', 11)" style="font-weight:bold">cancelSystem</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m',11,0)">line 11</a>)
+    cprintf('strings','Log saved to: %s\n',logFile);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 31)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',31,0)">line 31</a>)
+            cancelSystem(loadBarProgress,loadBar)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 148)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',148,0)">line 148</a>)
+    AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,measApp,anglesRemaining,incrementSize);
+} 
+delete(loadBar)
+fclose(MI4190)
+delete(MI4190)
+testing
+Beginning Measurements 17-Jan-2020 14:04:17

@@ -1,0 +1,631 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_11.54.35_log.txt
+
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+
+axis1CurrStatChar =
+
+    '769
+     '
+
+[11:54:44.829] Verifying if Axis is in Position. . . . 
+[11:54:48.116] Moving Axis (AZ) from position: 89.96, to desired position: -90.00. . . . 
+[11:54:49.203] Verifying if Axis is in Position. . . . 
+[11:54:52.344] Verifying if Axis is in Position. . . . 
+[11:54:55.449] Verifying if Axis is in Position. . . . 
+[11:54:58.539] Verifying if Axis is in Position. . . . 
+[11:55:01.613] Verifying if Axis is in Position. . . . 
+[11:55:04.679] Verifying if Axis is in Position. . . . 
+[11:55:07.756] Verifying if Axis is in Position. . . . 
+[11:55:10.831] Verifying if Axis is in Position. . . . 
+[11:55:13.902] Verifying if Axis is in Position. . . . 
+[11:55:16.973] Verifying if Axis is in Position. . . . 
+[11:55:20.046] Verifying if Axis is in Position. . . . 
+[11:55:23.162] Verifying if Axis is in Position. . . . 
+[11:55:25.285] Axis (AZ) is in desired position: -89.94. Time elapsed: 37.08 seconds.
+[11:55:25.286] Enter the desired degree increment size (Must be between 1-180): 15
+<a href="">
+[11:55:29.990] Current Degree Measurement: -90.00
+</a>[11:55:31.009] Verifying if Axis is in Position. . . . 
+[11:55:33.143] Axis (AZ) is in desired position: -89.94. Time elapsed: 3.14 seconds.
+[11:55:36.239] Verifying if Axis is in Position. . . . 
+
+[11:55:38.355] Taking measurement at -89.94 degrees
+[11:55:39.382] Incrementing MI4190 Position by 15.00 degrees. . . . 
+<a href="">
+[11:55:39.424] Current Degree Measurement: -75.00
+</a>[11:55:40.443] Verifying if Axis is in Position. . . . 
+[11:55:43.535] Verifying if Axis is in Position. . . . 
+[11:55:46.611] Verifying if Axis is in Position. . . . 
+[11:55:48.725] Axis (AZ) is in desired position: -75.34. Time elapsed: 9.28 seconds.
+[11:55:54.308] Verifying if Axis is in Position. . . . 
+
+[11:55:56.431] Taking measurement at -75.04 degrees
+[11:55:57.455] Incrementing MI4190 Position by 15.00 degrees. . . . 
+<a href="">
+[11:55:57.483] Current Degree Measurement: -60.00
+</a>[11:55:58.502] Verifying if Axis is in Position. . . . 
+[11:56:01.585] Verifying if Axis is in Position
+[11:56:03.670] Cancelling. . .
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cancelSystem', '/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m', 11)" style="font-weight:bold">cancelSystem</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m',11,0)">line 11</a>)
+    cprintf('strings','Log saved to: %s\n',logFile);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 30)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',30,0)">line 30</a>)
+            cancelSystem(loadBarProgress,loadBar)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 116)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',116,0)">line 116</a>)
+    verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,measurementApp,anglesRemaining,incrementSize,'v');
+} 
+delete(loadBar)
+fclose(MI4190)
+delete(MI4190)
+delete(measurementApp)
+measurementApp = startapp();
+{Cannot find an exact (case-sensitive) match for 'startapp'
+
+The closest match is: startApp in /home/ugikie/Desktop/PositionControl/System/startApp.m
+} 
+measurementApp = startApp();
+measurementApp.writeConsoleLine('Saving log to: ')
+measurementApp.writeConsoleLine('\n')
+measurementApp.writeConsoleLine('')
+measurementApp.writeConsoleLine(' ')
+measurementApp.writeConsoleLine('Saving log to: %s',logFile)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/writeConsoleLine')" style="font-weight:bold">app1/writeConsoleLine</a>
+Too many input arguments.
+} 
+parse
+{Unrecognized function or variable 'parse'.
+} 
+contains
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('contains')" style="font-weight:bold">contains</a>
+Not enough input arguments.
+} 
+help contains
+ <strong>contains</strong> True if pattern is found in text.
+    TF = <strong>contains</strong>(STR,PATTERN) returns 1 (true) if STR contains PATTERN,
+    and returns 0 (false) otherwise.
+ 
+    STR can be a string array, a character vector, or a cell array of
+    character vectors. So can PATTERN. PATTERN and STR need not be the same
+    size. If PATTERN is a string array or cell array, then <strong>contains</strong> returns
+    true if it finds any element of PATTERN in STR. If STR is a string
+    array or cell array, then TF is a logical array that is the same size.
+  
+    TF = <strong>contains</strong>(STR,PATTERN,'IgnoreCase',IGNORE) ignores case when searching 
+    for PATTERN in STR if IGNORE is true. The default value of IGNORE is false.
+  
+    Examples
+        STR = "data.tar.gz";
+        P = "tar";
+        contains(STR,P)                   returns  1
+ 
+        STR = ["abstracts.docx","data.tar.gz"];
+        P = 'tar';         
+        contains(STR,P)                   returns  [0 1]
+ 
+        STR = 'data.tar.gz';
+        P = {'docx','tar'};
+        contains(STR,P)                   returns  1
+ 
+        STR ={'DATA.TAR.GZ','SUMMARY.PPT'};
+        P = "tar";
+        contains(STR,P,'IgnoreCase',true) returns  [1 0]
+ 
+    See also <a href="matlab:help endsWith">endsWith</a>, <a href="matlab:help startsWith">startsWith</a>.
+
+    <a href="matlab:doc contains">Documentation for contains</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('contains')">Other functions named contains</a>
+
+contains('saving to %s','%s')
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+replace
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('replace', '/usr/local/MATLAB/R2019b/toolbox/matlab/strfun/replace.m', 57)" style="font-weight:bold">replace</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/strfun/replace.m',57,0)">line 57</a>)
+Not enough input arguments.
+} 
+help replace
+ <strong>replace</strong> Replace segments from string elements
+    NEWSTR = <strong>replace</strong>(STR,OLD,NEW) replaces all occurrences of OLD in STR
+    with NEW.
+ 
+    STR, OLD, and NEW can be string arrays, character vectors, or cell
+    arrays of character vectors. If OLD is a character vector, then NEW
+    must be a character vector, or a string array or cell array with one
+    element. If OLD is a string array or cell array, then NEW must be a
+    character vector, a string array or cell array that is the same size as
+    OLD, or a string array or cell array with one element. All
+    nonoverlapping occurrences of each element of OLD in STR are replaced
+    by the corresponding element of NEW.
+ 
+    If STR and OLD are string arrays or cell arrays, and both contain a
+    string with no characters (""), then <strong>replace</strong> does not replace "" with
+    the contents of NEW.
+ 
+    Example:
+        claim = 'This is a good example';
+        new_claim = replace(claim,'good','great')
+ 
+        returns
+ 
+            'This is a great example.'
+ 
+    Example:
+        c_files = ["c:\cookies.m";
+                   "c:\candy.m";
+                   "c:\calories.m"];
+        d_files = replace(c_files,'c:','d:')
+ 
+        returns
+ 
+            "d:\cookies.m"
+            "d:\candy.m"
+            "d:\calories.m"
+ 
+    Example: 
+        STR = ["Submission Date: 11/29/15\r";
+               "Acceptance Date: 1/20/16\r";
+               "Contact: john.smith@example.com\r\n"];
+        OLD = {'\r\n','\r'};
+        NEW = '\n';
+        replace(STR,OLD,NEW)
+ 
+        returns
+ 
+            "Submission Date: 11/29/15\n"
+            "Acceptance Date: 1/20/16\n"
+            "Contact: john.smith@example.com\n"
+     
+    See also <a href="matlab:help strrep">strrep</a>, <a href="matlab:help regexp">regexp</a>, <a href="matlab:help regexprep">regexprep</a>.
+
+    <a href="matlab:doc replace">Documentation for replace</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('replace')">Other functions named replace</a>
+
+x = measurementApp.writeConsoleLine('Saving log to: %s',logFile)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/writeConsoleLine')" style="font-weight:bold">app1/writeConsoleLine</a>
+Too many input arguments.
+} 
+x
+{Unrecognized function or variable 'x'.
+} 
+x = 'Saving log to: %s'
+
+x =
+
+    'Saving log to: %s'
+
+contains(x,'%s')
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+replace(x,'%s',logFileName)
+
+ans =
+
+    'Saving log to: Jan-17-20_11.54.35_log'
+
+contains(x,['%s' '%d'])
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+help contains
+ <strong>contains</strong> True if pattern is found in text.
+    TF = <strong>contains</strong>(STR,PATTERN) returns 1 (true) if STR contains PATTERN,
+    and returns 0 (false) otherwise.
+ 
+    STR can be a string array, a character vector, or a cell array of
+    character vectors. So can PATTERN. PATTERN and STR need not be the same
+    size. If PATTERN is a string array or cell array, then <strong>contains</strong> returns
+    true if it finds any element of PATTERN in STR. If STR is a string
+    array or cell array, then TF is a logical array that is the same size.
+  
+    TF = <strong>contains</strong>(STR,PATTERN,'IgnoreCase',IGNORE) ignores case when searching 
+    for PATTERN in STR if IGNORE is true. The default value of IGNORE is false.
+  
+    Examples
+        STR = "data.tar.gz";
+        P = "tar";
+        contains(STR,P)                   returns  1
+ 
+        STR = ["abstracts.docx","data.tar.gz"];
+        P = 'tar';         
+        contains(STR,P)                   returns  [0 1]
+ 
+        STR = 'data.tar.gz';
+        P = {'docx','tar'};
+        contains(STR,P)                   returns  1
+ 
+        STR ={'DATA.TAR.GZ','SUMMARY.PPT'};
+        P = "tar";
+        contains(STR,P,'IgnoreCase',true) returns  [1 0]
+ 
+    See also <a href="matlab:help endsWith">endsWith</a>, <a href="matlab:help startsWith">startsWith</a>.
+
+    <a href="matlab:doc contains">Documentation for contains</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('contains')">Other functions named contains</a>
+
+x = 'Saving log to: %s'
+
+x =
+
+    'Saving log to: %s'
+
+contains(x,['%s' '%d'])
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+contains(x,{'%s' '%d'})
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+x = 'Saving %d log to: %s'
+
+x =
+
+    'Saving %d log to: %s'
+
+contains(x,{'%s' '%d'})
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+contains(x,{'%s';'%d'})
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+contains(x,{'%s','%d'})
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+help contains
+ <strong>contains</strong> True if pattern is found in text.
+    TF = <strong>contains</strong>(STR,PATTERN) returns 1 (true) if STR contains PATTERN,
+    and returns 0 (false) otherwise.
+ 
+    STR can be a string array, a character vector, or a cell array of
+    character vectors. So can PATTERN. PATTERN and STR need not be the same
+    size. If PATTERN is a string array or cell array, then <strong>contains</strong> returns
+    true if it finds any element of PATTERN in STR. If STR is a string
+    array or cell array, then TF is a logical array that is the same size.
+  
+    TF = <strong>contains</strong>(STR,PATTERN,'IgnoreCase',IGNORE) ignores case when searching 
+    for PATTERN in STR if IGNORE is true. The default value of IGNORE is false.
+  
+    Examples
+        STR = "data.tar.gz";
+        P = "tar";
+        contains(STR,P)                   returns  1
+ 
+        STR = ["abstracts.docx","data.tar.gz"];
+        P = 'tar';         
+        contains(STR,P)                   returns  [0 1]
+ 
+        STR = 'data.tar.gz';
+        P = {'docx','tar'};
+        contains(STR,P)                   returns  1
+ 
+        STR ={'DATA.TAR.GZ','SUMMARY.PPT'};
+        P = "tar";
+        contains(STR,P,'IgnoreCase',true) returns  [1 0]
+ 
+    See also <a href="matlab:help endsWith">endsWith</a>, <a href="matlab:help startsWith">startsWith</a>.
+
+    <a href="matlab:doc contains">Documentation for contains</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('contains')">Other functions named contains</a>
+
+x = 'Current degree measurement: %.2f'
+
+x =
+
+    'Current degree measurement: %.2f'
+
+contains(x,'%.2f')
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+replace(x,'%.2f',currentDegree)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('replace', '/usr/local/MATLAB/R2019b/toolbox/matlab/strfun/replace.m', 74)" style="font-weight:bold">replace</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/strfun/replace.m',74,0)">line 74</a>)
+New text must be a string array, character vector, or cell array of character vectors.
+} 
+currentDegree
+
+currentDegree =
+
+   -60
+
+int2str(currentDegree)
+
+ans =
+
+    '-60'
+
+strcat(in2str(currentDegree),'.00')
+{Unrecognized function or variable 'in2str'.
+} 
+strcat(int2str(currentDegree),'.00')
+
+ans =
+
+    '-60.00'
+
+x = '%s string, %.2f float'
+
+x =
+
+    '%s string, %.2f float'
+
+contains(x,{'%s','%.2f'})
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+replace(x,'%s','test')
+
+ans =
+
+    'test string, %.2f float'
+
+replace(x,'%.2f','-60.00')
+
+ans =
+
+    '%s string, -60.00 float'
+
+x = replace(x,'%s','test')
+
+x =
+
+    'test string, %.2f float'
+
+x = replace(x,'%.2f','-60.00')
+
+x =
+
+    'test string, -60.00 float'
+
+measurementApp = startApp()
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+measurementApp.writeConsoleLine('Saving log to: %s',logFileName)
+measurementApp.writeConsoleLine('[%s] Current Degree Measurement: %.2f',datstr(now,'HH:MM:SS.FFF'),currentDegree)
+{Unrecognized function or variable 'datstr'.
+} 
+measurementApp.writeConsoleLine('[%s] Current Degree Measurement: %.2f',datestr(now,'HH:MM:SS.FFF'),currentDegree)
+measurementApp = startApp()
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+measurementApp.writeConsoleLine('test\n')
+measurementApp = startApp()
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('\n')
+measurementApp.writeConsoleLine('test')
+measurementApp.writeConsoleLine('test')
+measurementApp.writeConsoleLine('\n')
+measurementApp.writeConsoleLine('test')
+measurementApp.writeConsoleLine('\n')
+{Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/writeConsoleLine', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 43)" style="font-weight:bold">app1/writeConsoleLine</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',43,0)">line 43</a>)
+            app.Console.Value = [lineIn;app.Console.Value];
+} 
+measurementApp.writeConsoleLine('test\n')
+{Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/writeConsoleLine', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 43)" style="font-weight:bold">app1/writeConsoleLine</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',43,0)">line 43</a>)
+            app.Console.Value = [lineIn;app.Console.Value];
+} 
+measurementApp = startApp()
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('\n')
+x = '\n'
+
+x =
+
+    '\n'
+
+equals(x,'
+ equals(x,'
+          ↑
+{Error: Character vector is not terminated properly.
+} 
+equals(x,'\n')
+{Undefined function 'equals' for input arguments of type 'char'.
+} 
+x == '\n'
+
+ans =
+
+  1×2 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   1   1
+
+[a,b] = x== '\n'
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eq')" style="font-weight:bold"> == </a>
+Too many output arguments.
+} 
+strcomp
+{Unrecognized function or variable 'strcomp'.
+} 
+strcmp
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('strcmp')" style="font-weight:bold">strcmp</a>
+Not enough input arguments.
+} 
+help strcmp
+ <strong>strcmp</strong> Compare strings or character vectors
+    TF = <strong>strcmp</strong>(S1,S2) compares S1 and S2 and returns logical 1 (true)
+    if they are identical, and returns logical 0 (false) otherwise. Either 
+    text input can be a character vector or a string scalar. 
+ 
+    TF = <strong>strcmp</strong>(S,A) compares S to each element of array A, where S
+    is a character vector, a string scalar, or a cell array with one element,
+    and A is a string array or a cell array of character vectors. <strong>strcmp</strong> 
+    returns TF, a logical array that is the same size as A and contains 
+    logical 1 (true) for those elements of A that are a match, and logical 0 
+    (false) for those elements that are not. TF = <strong>strcmp</strong>(A,S) returns the 
+    same result.
+ 
+    TF = <strong>strcmp</strong>(A1,A2) compares each element of A1 to the same element in A2, 
+    where A1 and A2 are equal-size string arrays or cell arrays of character 
+    vectors. Input A1 and/or A2 can also be a character array having the number 
+    of rows as there are elements in the other argument. <strong>strcmp</strong> returns TF, 
+    a logical array that is the same size as A1 or A2, and contains logical 1 
+    (true) for those elements of A1 and A2 that are a match, and logical 0 
+    (false) for those elements that are not.
+ 
+    When one of the inputs is an array, scalar expansion occurs as needed.
+ 
+    <strong>strcmp</strong> supports international character sets.
+ 
+    See also <a href="matlab:help strncmp">strncmp</a>, <a href="matlab:help strcmpi">strcmpi</a>, <a href="matlab:help strfind">strfind</a>, <a href="matlab:help deblank">deblank</a>, <a href="matlab:help regexp">regexp</a>, <a href="matlab:help string/eq">string/eq</a>.
+
+    <a href="matlab:doc strcmp">Documentation for strcmp</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('strcmp')">Other functions named strcmp</a>
+
+strcmp(x,'\n')
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+x = 'hi \n'
+
+x =
+
+    'hi \n'
+
+strcmp(x,'\n')
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+measurementApp = startApp()
+
+measurementApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+    MeasurementApp: [1×1 Figure]
+       PauseButton: [1×1 Button]
+        StopButton: [1×1 Button]
+       StartButton: [1×1 Button]
+       StatusTable: [1×1 Table]
+           Console: [1×1 TextArea]
+        consoleObj: [1×1 struct]
+
+measurementApp.writeConsoleLine('test\n')
+measurementApp.writeConsoleLine('test')
+measurementApp.writeConsoleLine('\n')
+measurementApp.writeConsoleLine('\n hi')
+close all; clear all; clc;
+
+measApp = startApp();
+
+[logFileName,logFile] = logFilePath();
+Beginning Measurements 17-Jan-2020 12:53:58
+diary(logFile);

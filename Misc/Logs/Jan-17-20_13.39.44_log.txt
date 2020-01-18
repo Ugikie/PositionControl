@@ -1,0 +1,20 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_13.39.44_log.txt
+
+[13:39:51.451] Verifying if Axis is in Position. . . . 
+[13:39:54.770] Moving Axis (AZ) from position: -50.05, to desired position: -90.00. . . . 
+[13:39:55.306] Verifying if Axis is in Position. . . . 
+[13:39:57.477] Verifying if Axis is in Position. . . . 
+[13:39:59.613] Verifying if Axis is in Position. . . . 
+[13:40:01.717] Verifying if Axis is in Position. . . . 
+[13:40:03.839] Verifying if Axis is in Position. . . . 
+[13:40:05.957] Verifying if Axis is in Position. . . . 
+[13:40:10.102] Verifying if Axis is in Position. . . . 
+[13:40:12.248] Axis (AZ) is in desired position: -89.94. Time elapsed: 16.942 seconds.
+[13:40:14.253] [13:40:14.283] Please enter a valid increment size!
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 97)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',97,0)">line 97</a>)
+} 
+delete(loadBar)
+fclose(MI4190)
+delete(MI4190)
+testing
+Beginning Measurements 17-Jan-2020 13:41:40

@@ -1,0 +1,59 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_13.41.40_log.txt
+
+[13:41:46.051] Verifying if Axis is in Position. . . . 
+[13:41:48.326] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.276 seconds.
+[13:41:50.363] Please enter a valid increment size!
+<a href="">
+[13:41:57.423] Current Degree Measurement: -90.00
+</a>[13:41:57.453] Verifying if Axis is in Position. . . . 
+[13:41:59.628] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.176 seconds.
+[13:42:03.757] Verifying if Axis is in Position. . . . 
+
+[13:42:07.931] Taking measurement at -89.94 degrees
+[13:42:10.530] Incrementing MI4190 Position by 1.00 degrees. . . . 
+
+[13:42:10.600] Cancelling. . .
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cancelSystem', '/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m', 11)" style="font-weight:bold">cancelSystem</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m',11,0)">line 11</a>)
+    cprintf('strings','Log saved to: %s\n',logFile);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 121)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',121,0)">line 121</a>)
+        cancelSystem(loadBarProgress,loadBar)
+} 
+delete(loadBar)
+fclose(MI4190)
+delete(MI4190)
+measApp = startApp()
+
+measApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+                 MeasurementApp: [1×1 Figure]
+                    PauseButton: [1×1 Button]
+                     StopButton: [1×1 Button]
+                    StartButton: [1×1 Button]
+                    StatusTable: [1×1 Table]
+                        Console: [1×1 TextArea]
+    IncrementSizeEditFieldLabel: [1×1 Label]
+         IncrementSizeEditField: [1×1 NumericEditField]
+                     consoleObj: [1×1 struct]
+
+measApp.IncrementSizeEditField.Editable = off;
+{Unrecognized function or variable 'off'.
+} 
+measApp.IncrementSizeEditField.Editable = false;
+sprintf('%.2f',incrementSize)
+
+ans =
+
+    '1.00'
+
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+delete(MI4190)
+testing
+Beginning Measurements 17-Jan-2020 13:46:36

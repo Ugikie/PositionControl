@@ -1,0 +1,18 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_14.27.31_log.txt
+
+[14:27:39.218] Verifying if Axis is in Position. . . . 
+[14:27:41.474] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.257 seconds.
+[14:27:42.273] Stopping Measurements. . .{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getappdata')" style="font-weight:bold">getappdata</a>
+Value must be a handle.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 87)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',87,0)">line 87</a>)
+while (~getappdata(loadBar,'canceling') && (incrementSize <= 0) || (incrementSize > 180))
+} 
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp)
+testing
+Beginning Measurements 17-Jan-2020 14:29:17

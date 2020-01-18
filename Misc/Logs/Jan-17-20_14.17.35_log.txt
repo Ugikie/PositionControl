@@ -1,0 +1,40 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_14.17.35_log.txt
+
+[14:17:42.213] Verifying if Axis is in Position. . . . 
+[14:17:44.452] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.240 seconds.
+[14:17:46.486] Please enter a valid increment size!
+[14:17:52.749] Stopping Measurements. . .{Unrecognized function or variable 'loadBar'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 92)" style="font-weight:bold">app1/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',92,0)">line 92</a>)
+            delete(loadBar);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/StopButtonPushed', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 85)" style="font-weight:bold">app1/StopButtonPushed</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',85,0)">line 85</a>)
+            MeasurementAppCloseRequest(app);
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 335)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',335,0)">line 335</a>)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+[14:17:53.513] Please enter a valid increment size!
+[14:17:53.550] Increment size chosen: 0.00
+[14:18:01.987] Stopping Measurements. . .{Unrecognized function or variable 'loadBar'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 92)" style="font-weight:bold">app1/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',92,0)">line 92</a>)
+            delete(loadBar);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/StopButtonPushed', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 85)" style="font-weight:bold">app1/StopButtonPushed</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',85,0)">line 85</a>)
+            MeasurementAppCloseRequest(app);
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 335)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',335,0)">line 335</a>)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 92)" style="font-weight:bold">app1/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',92,0)">line 92</a>)
+Unrecognized function or variable 'loadBar'.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp)
+delete(loadBar)
+fclose(MI4190)
+delete(MI4190)
+testing
+Beginning Measurements 17-Jan-2020 14:20:35

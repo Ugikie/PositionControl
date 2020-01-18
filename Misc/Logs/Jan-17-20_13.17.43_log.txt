@@ -1,0 +1,355 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-17-20_13.17.43_log.txt
+
+[13:17:51.981] Verifying if Axis is in Position. . . . 
+[13:17:55.303] Moving Axis (AZ) from position: -60.05, to desired position: -90.00. . . . 
+[13:17:55.562] Verifying if Axis is in Position. . . . 
+[13:17:57.725] Verifying if Axis is in Position. . . . 
+[13:17:59.850] Verifying if Axis is in Position. . . . 
+[13:18:01.963] Verifying if Axis is in Position. . . . 
+[13:18:04.072] Verifying if Axis is in Position. . . . 
+[13:18:06.163] Verifying if Axis is in Position. . . . 
+[13:18:10.307] Verifying if Axis is in Position. . . . 
+[13:18:12.418] Axis (AZ) is in desired position: -89.95. Time elapsed: 16.857 seconds.
+[13:18:14.426] Enter the desired degree increment size (Must be between 1-180): 5
+<a href="">
+[13:18:33.481] Current Degree Measurement: -90.00
+</a>[13:18:33.507] Verifying if Axis is in Position. . . . 
+[13:18:35.624] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.118 seconds.
+[13:18:39.706] Verifying if Axis is in Position. . . . 
+
+[13:18:43.818] Taking measurement at -89.95 degrees
+[13:18:45.877] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:18:45.929] Current Degree Measurement: -85.00
+</a>[13:18:45.955] Verifying if Axis is in Position. . . . 
+[13:18:48.057] Verifying if Axis is in Position. . . . 
+[13:18:50.156] Verifying if Axis is in Position. . . . 
+[13:18:52.262] Verifying if Axis is in Position. . . . 
+[13:18:54.394] Axis (AZ) is in desired position: -85.16. Time elapsed: 8.440 seconds.
+[13:18:58.466] Verifying if Axis is in Position. . . . 
+
+[13:19:02.601] Taking measurement at -85.05 degrees
+[13:19:04.655] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:19:04.712] Current Degree Measurement: -80.00
+</a>[13:19:04.736] Verifying if Axis is in Position. . . . 
+[13:19:06.825] Verifying if Axis is in Position. . . . 
+[13:19:08.927] Verifying if Axis is in Position. . . . 
+[13:19:11.046] Axis (AZ) is in desired position: -80.55. Time elapsed: 6.310 seconds.
+[13:19:17.622] Verifying if Axis is in Position. . . . 
+
+[13:19:21.755] Taking measurement at -80.05 degrees
+[13:19:23.807] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:19:23.863] Current Degree Measurement: -75.00
+</a>[13:19:23.895] Verifying if Axis is in Position. . . . 
+[13:19:25.998] Verifying if Axis is in Position. . . . 
+[13:19:28.094] Verifying if Axis is in Position. . . . 
+[13:19:30.225] Axis (AZ) is in desired position: -75.54. Time elapsed: 6.331 seconds.
+[13:19:36.800] Verifying if Axis is in Position. . . . 
+
+[13:19:40.920] Taking measurement at -75.05 degrees
+[13:19:42.974] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:19:43.044] Current Degree Measurement: -70.00
+</a>[13:19:43.070] Verifying if Axis is in Position. . . . 
+[13:19:45.161] Verifying if Axis is in Position. . . . 
+[13:19:47.265] Verifying if Axis is in Position. . . . 
+[13:19:49.389] Axis (AZ) is in desired position: -70.54. Time elapsed: 6.319 seconds.
+[13:19:55.972] Verifying if Axis is in Position. . . . 
+
+[13:20:00.103] Taking measurement at -70.05 degrees
+[13:20:02.167] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:20:02.212] Current Degree Measurement: -65.00
+</a>[13:20:02.231] Verifying if Axis is in Position. . . . 
+[13:20:04.335] Verifying if Axis is in Position. . . . 
+[13:20:06.439] Verifying if Axis is in Position. . . . 
+[13:20:08.565] Axis (AZ) is in desired position: -65.55. Time elapsed: 6.334 seconds.
+[13:20:15.147] Verifying if Axis is in Position. . . . 
+
+[13:20:19.276] Taking measurement at -65.05 degrees
+[13:20:21.335] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:20:21.381] Current Degree Measurement: -60.00
+</a>[13:20:21.401] Verifying if Axis is in Position. . . . 
+[13:20:23.486] Verifying if Axis is in Position. . . . 
+[13:20:25.585] Verifying if Axis is in Position. . . . 
+[13:20:27.715] Axis (AZ) is in desired position: -60.55. Time elapsed: 6.314 seconds.
+[13:20:34.297] Verifying if Axis is in Position. . . . 
+
+[13:20:38.437] Taking measurement at -60.05 degrees
+[13:20:40.502] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:20:40.545] Current Degree Measurement: -55.00
+</a>[13:20:40.568] Verifying if Axis is in Position. . . . 
+[13:20:42.644] Verifying if Axis is in Position. . . . 
+[13:20:44.746] Verifying if Axis is in Position. . . . 
+[13:20:46.849] Axis (AZ) is in desired position: -55.55. Time elapsed: 6.281 seconds.
+[13:20:53.430] Verifying if Axis is in Position. . . . 
+
+[13:20:57.553] Taking measurement at -55.05 degrees
+[13:20:59.615] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[13:20:59.649] Current Degree Measurement: -50.00
+</a>[13:20:59.673] Verifying if Axis is in Position. . . . 
+[13:21:01.753] Verifying if Axis is in Position. . . . 
+[13:21:04.528] Verifying if Axis is in Position
+[13:21:06.640] Cancelling. . .
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cancelSystem', '/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m', 11)" style="font-weight:bold">cancelSystem</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/cancelSystem.m',11,0)">line 11</a>)
+    cprintf('strings','Log saved to: %s\n',logFile);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 31)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',31,0)">line 31</a>)
+            cancelSystem(loadBarProgress,loadBar)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 123)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',123,0)">line 123</a>)
+    verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,loadBar,measApp,anglesRemaining,incrementSize,'v');
+} 
+fclose(MI4190)
+delete(MI4190)
+AZCurrPos
+
+AZCurrPos =
+
+  -55.0494
+
+AZCurrPos[1:6]
+ AZCurrPos[1:6]
+          ↑
+{Error: Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+} 
+AZCurrPos(1:6)
+{Index exceeds the number of array elements (1).
+} 
+AZCurrPos(1)
+
+ans =
+
+  -55.0494
+
+round(AZCurrPos,2)
+
+ans =
+
+  -55.0500
+
+vpa(AZCurrPos,2)
+ 
+ans =
+ 
+-55.0
+ 
+vpa(AZCurrPos,3)
+ 
+ans =
+ 
+-55.0
+ 
+AZCurrPos
+
+AZCurrPos =
+
+  -55.0494
+
+double2str(AZCurrPos)
+{Unrecognized function or variable 'double2str'.
+} 
+AZCurrPos - 1
+
+ans =
+
+  -56.0494
+
+int2str(AZCurrPos)
+
+ans =
+
+    '-55'
+
+float2str(AZCurrPos)
+{Unrecognized function or variable 'float2str'.
+} 
+doub2str(AZCurrPos)
+{Unrecognized function or variable 'doub2str'.
+} 
+double2str(AZCurrPos)
+{Unrecognized function or variable 'double2str'.
+} 
+help doubl2str
+
+doubl2str not found.
+
+Use the Help browser search field to <a href="matlab:docsearch doubl2str">search the documentation</a>, or
+type "<a href="matlab:help help">help help</a>" for help command options, such as help for methods.
+
+sprintf
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sprintf')" style="font-weight:bold">sprintf</a>
+Not enough input arguments.
+} 
+sprintf(AZCurrPos)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sprintf')" style="font-weight:bold">sprintf</a>
+Invalid format.
+} 
+help sprintf
+ <strong>sprintf</strong> Write formatted data to string or character vector
+    STR = <strong>sprintf</strong>(FORMAT, A, ...) applies FORMAT to all elements of
+    array A and any additional array arguments in column order, and returns
+    the results as STR. FORMAT can be a character vector or a string
+    scalar. The data type of STR is the same as the data type of FORMAT.
+ 
+    [STR, ERRMSG] = <strong>sprintf</strong>(FORMAT, A, ...) returns an error message when
+    the operation is unsuccessful.  Otherwise, ERRMSG is empty.
+ 
+    <strong>sprintf</strong> is the same as FPRINTF except that it returns the data in a 
+    MATLAB variable rather than writing to a file.
+ 
+    FORMAT describes the format of the output fields, and can include 
+    combinations of the following:
+ 
+       * Conversion specifications, which include a % character, a
+         conversion character (such as d, i, o, u, x, f, e, g, c, or s),
+         and optional flags, width, and precision fields.  For more
+         details, type "doc sprintf" at the command prompt.
+ 
+       * Literal text to print.
+ 
+       * Escape characters, including:
+             \b     Backspace            ''   Single quotation mark
+             \f     Form feed            %%   Percent character
+             \n     New line             \\   Backslash
+             \r     Carriage return      \xN  Hexadecimal number N
+             \t     Horizontal tab       \N   Octal number N%
+         where \n is a line termination character on all platforms.
+ 
+    Notes:
+ 
+    If you apply an integer or text conversion to a numeric value that
+    contains a decimal, MATLAB overrides the specified conversion, and
+    uses %e to express the value in exponential notation.
+ 
+    Numeric conversions print only the real component of complex numbers.
+ 
+    Examples
+       sprintf('%0.5g',(1+sqrt(5))/2)       % 1.618
+       sprintf('%0.5g',1/eps)               % 4.5036e+15       
+       sprintf('%15.5f',1/eps)              % 4503599627370496.00000
+       sprintf('%d',round(pi))              % 3
+       sprintf('%s','hello')                % hello
+       sprintf('The array is %dx%d.',2,3)   % The array is 2x3.
+ 
+    See also <a href="matlab:help fprintf">fprintf</a>, <a href="matlab:help sscanf">sscanf</a>, <a href="matlab:help num2str">num2str</a>, <a href="matlab:help int2str">int2str</a>, <a href="matlab:help char">char</a>, <a href="matlab:help string">string</a>, <a href="matlab:help compose">compose</a>.
+
+    <a href="matlab:doc sprintf">Documentation for sprintf</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('sprintf')">Other functions named sprintf</a>
+
+sprintf(AZCurrPos,'%.2f')
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sprintf')" style="font-weight:bold">sprintf</a>
+Invalid format.
+} 
+sprintf('%.2f',AZCurrPos)
+
+ans =
+
+    '-55.05'
+
+toc
+Elapsed time is 472.376017 seconds.
+sprintf('%.2f',toc)
+
+ans =
+
+    '479.57'
+
+x = 'test %.2f'
+
+x =
+
+    'test %.2f'
+
+replace(x,'%.2f',sprintf(
+ replace(x,'%.2f',sprintf(
+                          ↑
+{Error: Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+} 
+replace(x,'%.2f',sprintf('%.2f',AZCurrPos))
+
+ans =
+
+    'test -55.05'
+
+varargin
+help varargin
+ <strong>varargin</strong> Variable length input argument list.
+    Allows any number of arguments to a function.  The variable
+    <strong>varargin</strong> is a cell array containing the optional arguments to the
+    function.  <strong>varargin</strong> must be declared as the last input argument
+    and collects all the inputs from that point onwards. In the
+    declaration, <strong>varargin</strong> must be lowercase (i.e., varargin).
+ 
+    For example, the function,
+ 
+        function myplot(x,varargin)
+        plot(x,varargin{:})
+ 
+    collects all the inputs starting with the second input into the 
+    variable "varargin".  MYPLOT uses the comma-separated list syntax
+    varargin{:} to pass the optional parameters to plot.  The call,
+ 
+        myplot(sin(0:.1:1),'color',[.5 .7 .3],'linestyle',':')
+ 
+    results in varargin being a 1-by-4 cell array containing the
+    values 'color', [.5 .7 .3], 'linestyle', and ':'.  
+ 
+    See also <a href="matlab:help varargout">varargout</a>, <a href="matlab:help nargin">nargin</a>, <a href="matlab:help nargout">nargout</a>, <a href="matlab:help inputname">inputname</a>, <a href="matlab:help function">function</a>, <a href="matlab:help lists">lists</a>, <a href="matlab:help paren">paren</a>.
+
+    <a href="matlab:doc varargin">Documentation for varargin</a>
+
+measApp = startApp()
+
+measApp = 
+
+  <a href="matlab:helpPopup app1" style="font-weight:bold">app1</a> with properties:
+
+                 MeasurementApp: [1×1 Figure]
+                    PauseButton: [1×1 Button]
+                     StopButton: [1×1 Button]
+                    StartButton: [1×1 Button]
+                    StatusTable: [1×1 Table]
+                        Console: [1×1 TextArea]
+    IncrementSizeEditFieldLabel: [1×1 Label]
+         IncrementSizeEditField: [1×1 NumericEditField]
+                     consoleObj: [1×1 struct]
+
+measApp.IncrementSizeEditField
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.ui.control.NumericEditField" style="font-weight:bold">NumericEditField</a> (0) with properties:
+
+                    Value: 0
+       ValueDisplayFormat: '%11.4g'
+    RoundFractionalValues: 'off'
+                   Limits: [0 180]
+      LowerLimitInclusive: 'on'
+      UpperLimitInclusive: 'on'
+          ValueChangedFcn: ''
+                 Position: [114 179 49 22]
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.ui.control.NumericEditField'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+measApp.IncrementSizeEditField.Value
+
+ans =
+
+     0
+
+measApp.IncrementSizeEditField.Value
+
+ans =
+
+     1
+
+testing
+Beginning Measurements 17-Jan-2020 13:39:44
