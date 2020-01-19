@@ -1,0 +1,93 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.57.01_log.txt
+
+[16:57:07.643] Verifying if Axis is in Position. . . . 
+[16:57:11.009] Moving Axis (AZ) from position: -85.06, to desired position: -90.00. . . . 
+[16:57:19.610] Verifying if Axis is in Position. . . . 
+[16:57:21.847] Axis (AZ) is in desired position: -89.95. Time elapsed: 10.76 seconds.
+[16:57:23.941] Increment size chosen: 5.00
+<a href="">
+[16:57:24.042] Current Degree Measurement: -90.00
+</a>[16:57:24.172] Verifying if Axis is in Position. . . . 
+[16:57:26.375] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.20 seconds.
+
+[16:57:33.772] Taking measurement at -89.95 degrees
+[16:57:37.482] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:57:37.658] Current Degree Measurement: -85.00
+</a>[16:57:37.737] Verifying if Axis is in Position. . . . 
+[16:57:39.928] Verifying if Axis is in Position. . . . 
+[16:57:42.139] Verifying if Axis is in Position. . . . 
+[16:57:44.345] Axis (AZ) is in desired position: -85.58. Time elapsed: 6.61 seconds.
+
+[16:57:51.758] Taking measurement at -85.05 degrees
+[16:57:55.474] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:57:55.649] Current Degree Measurement: -80.00
+</a>[16:57:55.742] Verifying if Axis is in Position. . . . 
+[16:57:57.949] Verifying if Axis is in Position. . . . 
+[16:58:00.169] Verifying if Axis is in Position. . . . 
+[16:58:02.376] Axis (AZ) is in desired position: -80.42. Time elapsed: 6.63 seconds.
+
+[16:58:09.817] Taking measurement at -80.05 degrees
+[16:58:13.528] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:58:13.698] Current Degree Measurement: -75.00
+</a>[16:58:13.787] Verifying if Axis is in Position. . . . 
+[16:58:15.995] Verifying if Axis is in Position. . . . 
+[16:58:18.184] Verifying if Axis is in Position. . . . 
+[16:58:20.384] Axis (AZ) is in desired position: -75.42. Time elapsed: 6.60 seconds.
+
+[16:58:27.805] Taking measurement at -75.05 degrees
+[16:58:31.524] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:58:31.701] Current Degree Measurement: -70.00
+</a>[16:58:31.812] Verifying if Axis is in Position. . . . 
+[16:58:34.013] Verifying if Axis is in Position. . . . 
+[16:58:36.197] Verifying if Axis is in Position. . . . 
+[16:58:38.407] Axis (AZ) is in desired position: -70.43. Time elapsed: 6.60 seconds.
+
+[16:58:45.822] Taking measurement at -70.05 degrees
+[16:58:49.539] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:58:49.710] Current Degree Measurement: -65.00
+</a>[16:58:49.801] Verifying if Axis is in Position. . . . 
+[16:58:52.014] Verifying if Axis is in Position. . . . 
+[16:58:54.217] Verifying if Axis is in Position. . . . 
+[16:58:56.430] Axis (AZ) is in desired position: -65.42. Time elapsed: 6.63 seconds.
+
+[16:59:03.871] Taking measurement at -65.05 degrees
+[16:59:07.594] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:59:07.783] Current Degree Measurement: -60.00
+</a>[16:59:07.862] Verifying if Axis is in Position. . . . 
+[16:59:10.044] Verifying if Axis is in Position. . . . 
+[16:59:12.243] Verifying if Axis is in Position. . . . 
+[16:59:14.436] Axis (AZ) is in desired position: -60.44. Time elapsed: 6.57 seconds.
+
+[16:59:21.819] Taking measurement at -60.05 degrees
+[16:59:25.523] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:59:25.714] Current Degree Measurement: -55.00
+</a>[16:59:25.806] Verifying if Axis is in Position. . . . 
+[16:59:28.011] Verifying if Axis is in Position. . . . 
+[16:59:30.216] Verifying if Axis is in Position. . . . 
+[16:59:32.402] Axis (AZ) is in desired position: -55.42. Time elapsed: 6.60 seconds.
+
+[16:59:39.791] Taking measurement at -55.05 degrees
+[16:59:43.504] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:59:43.693] Current Degree Measurement: -50.00
+</a>[16:59:43.773] Verifying if Axis is in Position. . . . 
+[16:59:45.974] Verifying if Axis is in Position. . . . 
+[16:59:48.181] Verifying if Axis is in Position. . . . 
+[16:59:50.370] Axis (AZ) is in desired position: -50.44. Time elapsed: 6.60 seconds.
+[16:59:53.584] Stopping Measurements. . .
+Elapsed Time: 00:02:49
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.57.01_log.txt
+{Unrecognized function or variable 'measApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 233)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',233,0)">line 233</a>)
+delete(measApp);
+} 
+testing
+Beginning Measurements 18-Jan-2020 17:01:03

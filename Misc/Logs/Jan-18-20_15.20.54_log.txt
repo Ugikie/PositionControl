@@ -1,0 +1,273 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_15.20.54_log.txt
+
+[15:21:01.453] Verifying if Axis is in Position. . . . 
+[15:21:04.931] Moving Axis (AZ) from position: 89.09, to desired position: -90.00. . . . 
+[15:21:40.164] Verifying if Axis is in Position. . . . 
+[15:22:40.722] Stopping Measurements. . .
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waitbar', '/usr/local/MATLAB/R2019b/toolbox/matlab/uitools/waitbar.m', 121)" style="font-weight:bold">waitbar</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uitools/waitbar.m',121,0)">line 121</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 33)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',33,0)">line 33</a>)
+                waitbar(loadBarProgress,loadBar,sprintf('Axis (AZ) is in desired position. Continuing...'));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 102)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',102,0)">line 102</a>)
+verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,0,loadBar,measApp,'N','N','v');
+} 
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+delete(loadBar)
+delete(measApp)
+help clf
+ <strong>clf</strong> Clear current figure.
+    <strong>clf</strong> deletes all children of the current figure with visible handles.
+ 
+    <strong>clf</strong> RESET deletes all children (including ones with hidden
+    handles) and also resets all figure properties, except Position,
+    Units, PaperPosition and PaperUnits, to their default values.
+ 
+    <strong>clf</strong>(FIG) or <strong>clf</strong>(FIG,'RESET') clears the single figure with handle FIG.
+ 
+    FIG_H = <strong>clf</strong>(...) returns the handle of the figure.
+ 
+    See also <a href="matlab:help cla">cla</a>, <a href="matlab:help reset">reset</a>, <a href="matlab:help hold">hold</a>.
+
+    <a href="matlab:doc clf">Documentation for clf</a>
+
+fh = clf();
+% Set up the progress bar axis
+fh = clf();
+ax = axes(fh,'Position',[.1 .4 .8 .05],'box','on','xtick',[],'ytick',[],...
+    'color',[0.9375 0.9375 0.9375],'xlim',[0,1],'ylim',[0,1]); %gray94
+title(ax,'Progress')
+% Create empty patch that will be updated
+ph = patch(ax,[0 0 0 0],[0 0 1 1],[0.67578 1 0.18359]); %greenyellow
+% Create the percent-complete text that will be updated
+th = text(ax,1,1,'0%','VerticalAlignment','bottom','HorizontalAlignment','right'); 
+n = 100; 
+for i = 1:n
+    % update patch size and percentage text
+    ph.XData = [0 i/n i/n 0]; 
+    th.String = sprintf('%.0f%%',round(i/n*100)); 
+    drawnow %update graphics
+       
+end
+measApp = startApp();
+[15:40:54.588] Stopping Measurements. . .
+measApp = startApp();
+ax = axes(fh,'Position',[.1 .4 .8 .05],'box','on','xtick',[],'ytick',[],...
+    'color',[0.9375 0.9375 0.9375],'xlim',[0,1],'ylim',[0,1]); %gray94
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('axes')" style="font-weight:bold">axes</a>
+Cannot set property to a deleted object
+} 
+ax = axes(measApp.UIAxes,'Position',[.1 .4 .8 .05],'box','on','xtick',[],'ytick',[],...
+'color',[0.9375 0.9375 0.9375],'xlim',[0,1],'ylim',[0,1]); %gray94
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('axes')" style="font-weight:bold">axes</a>
+Axes cannot be a child of UIAxes.
+} 
+[15:43:13.147] Stopping Measurements. . .
+measApp = startApp();
+[15:43:32.617] Stopping Measurements. . .
+measApp = startApp();
+[15:46:13.366] Stopping Measurements. . .
+measApp = startApp();
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('axes')" style="font-weight:bold">axes</a>
+Handles of type app1 cannot be made the current Axes.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/PauseButtonValueChanged', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 131)" style="font-weight:bold">app1/PauseButtonValueChanged</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',131,0)">line 131</a>)
+            axes(app);
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 378)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',378,0)">line 378</a>)
+Error while evaluating StateButton PrivateValueChangedFcn.
+
+[15:46:45.312] Stopping Measurements. . .
+measApp = startApp();
+[15:47:49.731] Stopping Measurements. . .
+measApp = startApp();
+{Unrecognized function or variable 'fh'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/PauseButtonValueChanged', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 132)" style="font-weight:bold">app1/PauseButtonValueChanged</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',132,0)">line 132</a>)
+            ax = axes(fh,'Position',[.1 .4 .8 .05],'box','on','xtick',[],'ytick',[],...
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 378)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',378,0)">line 378</a>)
+Error while evaluating StateButton PrivateValueChangedFcn.
+
+[15:48:31.371] Stopping Measurements. . .
+measApp = startApp();
+[15:48:51.864] Stopping Measurements. . .
+measApp = startApp();
+[15:49:57.197] Stopping Measurements. . .
+measApp = startApp();
+[15:52:01.109] Stopping Measurements. . .
+measApp = startApp();
+[15:52:56.395] Stopping Measurements. . .
+measApp = startApp();
+[15:53:22.411] Stopping Measurements. . .
+measApp = startApp();
+[15:54:42.528] Stopping Measurements. . .
+ax = axes(app.Panel,'Position',[.1 .4 .8 .05],'box','on','xtick',[],'ytick',[],...
+    'color',[0.65 0.65 0.65],'xlim',[0,1],'ylim',[0,1]);
+{Unable to resolve the name app.Panel.
+} 
+fh = cfg();
+{Unrecognized function or variable 'cfg'.
+} 
+fh = clf();
+ax = axes(fh,'Position',[.1 .4 .8 .05],'box','on','xtick',[],'ytick',[],...
+    'color',[0.9375 0.9375 0.9375],'xlim',[0,1],'ylim',[0,1]); %gray94
+title(ax,'Progress')
+% Create empty patch that will be updated
+ph = patch(ax,[0 0 0 0],[0 0 1 1],[0.67578 1 0.18359]); %greenyellow
+% Create the percent-complete text that will be updated
+th = text(ax,1,1,'0%','VerticalAlignment','bottom','HorizontalAlignment','right'); 
+ph.XData = [0 0.5 0.5 0]
+
+ph = 
+
+  <a href="matlab:helpPopup matlab.graphics.primitive.Patch" style="font-weight:bold">Patch</a> with properties:
+
+    FaceColor: [0.6758 1 0.1836]
+    FaceAlpha: 1
+    EdgeColor: [0 0 0]
+    LineStyle: '-'
+        Faces: [1 2 3 4]
+     Vertices: [4×2 double]
+
+  Show <a href="matlab:if exist('ph', 'var'), matlab.graphics.internal.getForDisplay('ph', ph, 'matlab.graphics.primitive.Patch'), else, matlab.graphics.internal.getForDisplay('ph'), end">all properties</a>
+
+th.String = sprintf('%.0f%%',round(0.5*100))
+
+th = 
+
+  <a href="matlab:helpPopup matlab.graphics.primitive.Text" style="font-weight:bold">Text</a> (50%) with properties:
+
+                 String: '50%'
+               FontSize: 10
+             FontWeight: 'normal'
+               FontName: 'Helvetica'
+                  Color: [0 0 0]
+    HorizontalAlignment: 'right'
+               Position: [1 1 0]
+                  Units: 'data'
+
+  Show <a href="matlab:if exist('th', 'var'), matlab.graphics.internal.getForDisplay('th', th, 'matlab.graphics.primitive.Text'), else, matlab.graphics.internal.getForDisplay('th'), end">all properties</a>
+
+fh = clf();
+ax = axes(fh,'Position',[.1 .4 .8 .05],'box','on','xtick',[],'ytick',[],...
+    'color',[0.9375 0.9375 0.9375],'xlim',[0,1],'ylim',[0,1]); %gray94
+title(ax,'Progress')
+% Create empty patch that will be updated
+ph = patch(ax,[0 0 0 0],[0 0 1 1],[0.67578 1 0.18359]); %greenyellow
+% Create the percent-complete text that will be updated
+th = text(ax,1,1,'0%','VerticalAlignment','bottom','HorizontalAlignment','right'); 
+loadBarProgress = (itr/length(degInterval));
+{Unrecognized function or variable 'itr'.
+} 
+loadBarProgress = 0.5
+
+loadBarProgress =
+
+    0.5000
+
+ph.XData = [0 loadBarProgress loadBarProgress 0]
+
+ph = 
+
+  <a href="matlab:helpPopup matlab.graphics.primitive.Patch" style="font-weight:bold">Patch</a> with properties:
+
+    FaceColor: [0.6758 1 0.1836]
+    FaceAlpha: 1
+    EdgeColor: [0 0 0]
+    LineStyle: '-'
+        Faces: [1 2 3 4]
+     Vertices: [4×2 double]
+
+  Show <a href="matlab:if exist('ph', 'var'), matlab.graphics.internal.getForDisplay('ph', ph, 'matlab.graphics.primitive.Patch'), else, matlab.graphics.internal.getForDisplay('ph'), end">all properties</a>
+
+th.String = sprintf('%.0f%%',round(loadBarProgress*100))
+
+th = 
+
+  <a href="matlab:helpPopup matlab.graphics.primitive.Text" style="font-weight:bold">Text</a> (50%) with properties:
+
+                 String: '50%'
+               FontSize: 10
+             FontWeight: 'normal'
+               FontName: 'Helvetica'
+                  Color: [0 0 0]
+    HorizontalAlignment: 'right'
+               Position: [1 1 0]
+                  Units: 'data'
+
+  Show <a href="matlab:if exist('th', 'var'), matlab.graphics.internal.getForDisplay('th', th, 'matlab.graphics.primitive.Text'), else, matlab.graphics.internal.getForDisplay('th'), end">all properties</a>
+
+measApp = startApp();
+measApp.updateProgressBar(0.5)
+[16:05:30.157] Stopping Measurements. . .
+measApp = startApp();
+title(measApp.axObj,'Help')
+[16:05:55.245] Stopping Measurements. . .
+measApp = startApp();
+measApp.updateProgressBar(0.5,'test')
+[16:08:54.299] Stopping Measurements. . .
+measApp = startApp();
+measApp.updateProgressBar(0.5,'test %s','string')
+measApp.updateProgressBar(0.5,'Measurement in progress. Current Angle: %.2f',currentDegree));
+ measApp.updateProgressBar(0.5,'Measurement in progress. Current Angle: %.2f',currentDegree));
+                                                                                            ↑
+{Error: Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+} 
+measApp.updateProgressBar(0.5,'Measurement in progress. Current Angle: %.2f',currentDegree);
+{Unrecognized function or variable 'currentDegree'.
+} 
+measApp.updateProgressBar(0.5,'Measurement in progress. Current Angle: %.2f',-90.00);
+measApp.updateProgressBar(0.5,'Measurement in progress. Current Angle: %.2f',0);
+measApp.updateProgressBar(0.5,'Measurement in progress. Current Angle: %.2f',0.00);
+sprintf('%.2f'-90)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sprintf')" style="font-weight:bold">sprintf</a>
+Invalid format.
+} 
+sprintf('%.2f',-90)
+
+ans =
+
+    '-90.00'
+
+measApp.updateProgressBar(0.5,'Measurement in progress. Current Angle: %.2d',0.00);
+measApp.updateProgressBar(0.1,'Measurement in progress. Current Angle: %.2d',0.00);
+measApp.updateProgressBar(0.1,'Measurement in progress. Current Angle: %.2d',32);
+measApp.updateProgressBar(0.1,'Measurement in progress. Current Angle: %s','hi');
+measApp.updateProgressBar(0.1,'Measurement in progress. Current Angle: %.2d',22);
+measApp.writeConsoleLine(sprintf('test %s','hi'))
+[16:14:13.630] Stopping Measurements. . .
+measApp = startApp();
+measApp.writeConsoleLine(sprintf('[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),-90));
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 105)" style="font-weight:bold">app1/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',105,0)">line 105</a>)
+Too many input arguments.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)
+  In matlab.graphics.interaction.graphicscontrol/ObjectPicker/getHierarchy
+  In matlab.graphics.interaction.graphicscontrol/ObjectPicker/processMessage
+  In matlab.graphics.interaction.graphicscontrol/ObjectPicker/getHierarchy
+  In matlab.graphics.interaction.graphicscontrol/ObjectPicker/processMessage] 
+[16:16:36.650] Stopping Measurements. . .
+[Warning: Error while executing listener callback for Custom event. Source has been deleted:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app1/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp', 105)" style="font-weight:bold">app1/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Misc/Example Scripts/app1.mlapp',105,0)">line 105</a>)
+Too many input arguments.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp)
+measApp = startApp()l
+ measApp = startApp()l
+                     ↑
+{Error: Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax error. To construct matrices, use brackets
+instead of parentheses.
+} 
+measApp = startApp();
+measApp.writeConsoleLine(sprintf('[%s] Current Degree Measurement: %.2f\n',datestr(now,'HH:MM:SS.FFF'),-90));
+measApp.updateProgressBar(0.5,sprintf('Current Degree Measurement: %.2f',-90));
+[16:17:39.857] Stopping Measurements. . .
+testing
+Beginning Measurements 18-Jan-2020 16:21:16

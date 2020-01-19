@@ -1,0 +1,28 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.38.43_log.txt
+
+[16:38:54.936][WARNING] Axis is in motion and cannot be moved!
+[16:39:01.277][WARNING] Axis is in motion and cannot be moved!
+[16:39:09.523][WARNING] Axis is in motion and cannot be moved!
+[16:39:17.554][WARNING] Axis is in motion and cannot be moved!
+[16:39:22.423] Moving Axis (AZ) from position: -85.05, to desired position: -90.00. . . . 
+[16:39:35.447] Please enter a valid increment size!
+[16:39:39.010] Stopping Measurements. . .
+AZCurrVe
+{Unrecognized function or variable 'AZCurrVe'.
+} 
+AZCurrVel
+
+AZCurrVel =
+
+     0
+
+(AZCurrVel >= -0.01) && (AZCurrVel <= 0.01)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+testing
+Beginning Measurements 18-Jan-2020 16:41:07

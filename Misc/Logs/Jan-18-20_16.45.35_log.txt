@@ -1,0 +1,49 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.45.35_log.txt
+
+[16:45:41.725] Verifying if Axis is in Position. . . . 
+[16:45:45.087] Moving Axis (AZ) from position: -75.05, to desired position: -90.00. . . . 
+[16:45:58.029] Verifying if Axis is in Position. . . . 
+[16:46:00.235] Axis (AZ) is in desired position: -89.95. Time elapsed: 15.07 seconds.
+[16:46:02.353] Increment size chosen: 5.00
+<a href="">
+[16:46:02.461] Current Degree Measurement: -90.00
+</a>[16:46:02.557] Verifying if Axis is in Position. . . . 
+[16:46:04.768] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.21 seconds.
+
+[16:46:12.171] Taking measurement at -89.95 degrees
+[16:46:15.886] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:46:16.070] Current Degree Measurement: -85.00
+</a>[16:46:16.152] Verifying if Axis is in Position. . . . 
+[16:46:18.361] Verifying if Axis is in Position. . . . 
+[16:46:20.550] Verifying if Axis is in Position. . . . 
+[16:46:22.758] Axis (AZ) is in desired position: -85.57. Time elapsed: 6.61 seconds.
+
+[16:46:30.180] Taking measurement at -85.05 degrees
+[16:46:33.885] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:46:34.041] Current Degree Measurement: -80.00
+</a>[16:46:34.121] Verifying if Axis is in Position. . . . 
+[16:46:36.279] Verifying if Axis is in Position. . . . 
+[16:46:38.478] Verifying if Axis is in Position. . . . 
+[16:46:40.665] Axis (AZ) is in desired position: -80.44. Time elapsed: 6.54 seconds.
+
+[16:46:48.083] Taking measurement at -80.05 degrees
+[16:46:51.786] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:46:51.967] Current Degree Measurement: -75.00
+</a>[16:46:52.804] Verifying if Axis is in Position. . . . 
+[16:46:54.997] Verifying if Axis is in Position. . . . 
+[16:46:57.186] Verifying if Axis is in Position. . . . 
+[16:46:59.387] Axis (AZ) is in desired position: -75.24. Time elapsed: 6.58 seconds.
+[16:46:59.524] Stopping Measurements. . .
+Elapsed Time: 00:01:20
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.45.35_log.txt
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 226)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',226,0)">line 226</a>)
+    fclose(MI4190);
+} 
+testing
+Beginning Measurements 18-Jan-2020 16:48:46

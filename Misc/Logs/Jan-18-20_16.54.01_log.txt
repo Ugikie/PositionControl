@@ -1,0 +1,60 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.54.01_log.txt
+
+[16:54:07.555] Verifying if Axis is in Position. . . . 
+[16:54:09.776] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.22 seconds.
+[16:54:11.848] Please enter a valid increment size!
+[16:54:13.855] Increment size chosen: 5.00
+<a href="">
+[16:54:13.989] Current Degree Measurement: -90.00
+</a>[16:54:14.051] Verifying if Axis is in Position. . . . 
+[16:54:16.289] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.24 seconds.
+
+[16:54:23.725] Taking measurement at -89.95 degrees
+[16:54:27.442] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:54:27.627] Current Degree Measurement: -85.00
+</a>[16:54:27.731] Verifying if Axis is in Position. . . . 
+[16:54:29.892] Verifying if Axis is in Position. . . . 
+[16:54:32.081] Verifying if Axis is in Position. . . . 
+[16:54:34.272] Verifying if Axis is in Position. . . . 
+[16:54:36.473] Axis (AZ) is in desired position: -85.12. Time elapsed: 8.74 seconds.
+[16:54:41.557] Stopping Measurements. . .
+{Output argument "AZCurrVelDoub" (and maybe others) not assigned during call to "getAZCurrVelocity".
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 172)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',172,0)">line 172</a>)
+    AZCurrVel = getAZCurrVelocity(MI4190,measApp);
+} 
+[16:54:48.941] Stopping Measurements. . .
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp)
+fh = clf();
+ax = axes(clf,'Position',[.1 .4 .8 .075],'box','on','xtick',[],'ytick',[],...
+    'color',[0.65 0.65 0.65],'xlim',[0,1],'ylim',[0,1]);
+ph = patch(ax,[0 0 0 0],[0 0 1 1],[0 1 0]);
+ph.XData = [0 0.5 0.5 0]
+
+ph = 
+
+  <a href="matlab:helpPopup matlab.graphics.primitive.Patch" style="font-weight:bold">Patch</a> with properties:
+
+    FaceColor: [0 1 0]
+    FaceAlpha: 1
+    EdgeColor: [0 0 0]
+    LineStyle: '-'
+        Faces: [1 2 3 4]
+     Vertices: [4×2 double]
+
+  Show <a href="matlab:if exist('ph', 'var'), matlab.graphics.internal.getForDisplay('ph', ph, 'matlab.graphics.primitive.Patch'), else, matlab.graphics.internal.getForDisplay('ph'), end">all properties</a>
+
+0.05*2
+
+ans =
+
+    0.1000
+
+testing
+Beginning Measurements 18-Jan-2020 16:57:01

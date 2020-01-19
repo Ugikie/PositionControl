@@ -1,0 +1,55 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_13.19.05_log.txt
+
+[13:19:12.245] Verifying if Axis is in Position. . . . 
+[13:19:14.546] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.302 seconds.
+[13:19:16.591] Please enter a valid increment size!
+[13:19:35.644] Increment size chosen: 1.00
+<a href="">
+[13:19:35.852] Current Degree Measurement: -90.00
+</a>[13:19:35.878] Verifying if Axis is in Position. . . . 
+[13:19:38.116] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.238 seconds.
+
+[13:19:45.367] Taking measurement at -89.95 degrees
+[13:19:49.096] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:19:49.278] Current Degree Measurement: -89.00
+</a>[13:19:49.302] Verifying if Axis is in Position. . . . 
+[13:19:51.481] Verifying if Axis is in Position. . . . 
+[13:19:53.732] Axis (AZ) is in desired position: -89.32. Time elapsed: 4.430 seconds.
+
+[13:20:00.969] Taking measurement at -89.05 degrees
+[13:20:04.694] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:20:04.880] Current Degree Measurement: -88.00
+</a>[13:20:04.906] Verifying if Axis is in Position. . . . 
+[13:20:07.077] Verifying if Axis is in Position. . . . 
+[13:20:09.326] Axis (AZ) is in desired position: -88.31. Time elapsed: 4.420 seconds.
+
+[13:20:16.551] Taking measurement at -88.05 degrees
+[13:20:20.278] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:20:20.476] Current Degree Measurement: -87.00
+</a>[13:20:20.510] Verifying if Axis is in Position. . . . 
+[13:20:22.693] Verifying if Axis is in Position. . . . 
+[13:20:24.941] Axis (AZ) is in desired position: -87.31. Time elapsed: 4.431 seconds.
+
+[13:20:32.178] Taking measurement at -87.05 degrees
+[13:20:35.898] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:20:36.123] Current Degree Measurement: -86.00
+</a>[13:20:36.144] Verifying if Axis is in Position. . . . 
+[13:20:38.316] Verifying if Axis is in Position. . . . 
+[13:20:40.549] Axis (AZ) is in desired position: -86.31. Time elapsed: 4.405 seconds.
+[13:20:45.661] Stopping Measurements. . .
+{Output argument "AZCurrVelDoub" (and maybe others) not assigned during call to "getAZCurrVelocity".
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 176)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',176,0)">line 176</a>)
+    AZCurrVel = getAZCurrVelocity(MI4190,measApp);
+} 
+delete(measApp)
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+testing
+Beginning Measurements 18-Jan-2020 13:49:51

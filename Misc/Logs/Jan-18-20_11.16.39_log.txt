@@ -1,0 +1,28 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_11.16.39_log.txt
+
+[11:16:46.361] Verifying if Axis is in Position. . . . 
+[11:16:49.652] Moving Axis (AZ) from position: -86.05, to desired position: -90.00. . . . 
+[11:16:49.742] Verifying if Axis is in Position. . . . 
+[11:16:51.900] Verifying if Axis is in Position. . . . 
+[11:16:54.031] Verifying if Axis is in Position. . . . 
+[11:16:58.263] Verifying if Axis is in Position. . . . 
+[11:17:00.434] Axis (AZ) is in desired position: -89.95. Time elapsed: 10.692 seconds.
+[11:17:02.456] Please enter a valid increment size!
+[11:17:07.487] Increment size chosen: 1.00
+<a href="">
+[11:17:07.539] Current Degree Measurement: -90.00
+</a>[11:17:07.562] Verifying if Axis is in Position. . . . 
+[11:17:09.702] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.140 seconds.
+[11:17:26.353] Verifying if Axis is in Position. . . . 
+
+[11:17:30.542] Taking measurement at -89.95 degrees
+[11:17:32.604] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[11:17:32.649] Current Degree Measurement: -89.00
+</a>[11:17:32.675] Verifying if Axis is in Position. . . . 
+[11:17:34.763] Verifying if Axis is in Position. . . . 
+[11:17:36.917] Axis (AZ) is in desired position: -89.38. Time elapsed: 4.242 seconds.
+[11:17:41.020] Verifying if Axis is in Position. . . . 
+[11:17:43.859] Stopping Measurements. . .
+Elapsed Time: 00:00:58
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_11.16.39_log.txt

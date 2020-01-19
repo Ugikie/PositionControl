@@ -1,0 +1,20 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_13.15.36_log.txt
+
+[13:15:43.678] Verifying if Axis is in Position. . . . 
+[13:15:47.055] Moving Axis (AZ) from position: -85.06, to desired position: -90.00. . . . 
+[13:15:55.826] Verifying if Axis is in Position. . . . 
+[13:15:58.131] Axis (AZ) is in desired position: -89.95. Time elapsed: 10.951 seconds.
+[13:16:00.172] Please enter a valid increment size!
+[13:16:19.395] Stopping Measurements. . .
+measApp = startApp();
+measApp.StatusTable.Data{2} = AZStartPos;
+measApp.StatusTable.Data{4} = 'N/A';
+measApp.StatusTable.Data{1} = AZStartPos;
+measApp.StatusTable.Data{2} = AZStartPos;
+measApp.StatusTable.Data{1,2} = AZStartPos;
+measApp.StatusTable.Data{2,2} = AZStartPos;
+measApp.StatusTable.Data{3,1} = AZStartPos;
+measApp.StatusTable.Data{4,1} = AZStartPos;
+[13:17:50.490] Stopping Measurements. . .
+testing
+Beginning Measurements 18-Jan-2020 13:19:05

@@ -1,0 +1,63 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.24.33_log.txt
+
+[16:24:39.645] Verifying if Axis is in Position. . . . 
+[16:24:43.198] Moving Axis (AZ) from position: -80.05, to desired position: -90.00. . . . 
+[16:24:54.345] Verifying if Axis is in Position. . . . 
+[16:24:56.675] Axis (AZ) is in desired position: -89.95. Time elapsed: 13.25 seconds.
+[16:24:58.802] Please enter a valid increment size!
+[16:25:02.814] Increment size chosen: 5.00
+<a href="">
+[16:25:02.983] Current Degree Measurement: -90.00
+</a>[16:25:03.006] Verifying if Axis is in Position. . . . 
+[16:25:05.309] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.30 seconds.
+
+[16:25:12.725] Taking measurement at -89.95 degrees
+[16:25:16.547] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:25:16.790] Current Degree Measurement: -85.00
+</a>[16:25:16.814] Verifying if Axis is in Position. . . . 
+[16:25:19.031] Verifying if Axis is in Position. . . . 
+[16:25:21.317] Verifying if Axis is in Position. . . . 
+[16:25:23.676] Axis (AZ) is in desired position: -85.24. Time elapsed: 6.86 seconds.
+
+[16:25:31.089] Taking measurement at -85.05 degrees
+[16:25:34.907] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[16:25:35.174] Current Degree Measurement: -80.00
+</a>[16:25:35.191] Verifying if Axis is in Position. . . . 
+[16:25:37.413] Verifying if Axis is in Position. . . . 
+[16:25:39.690] Verifying if Axis is in Position. . . . 
+[16:25:43.717] Stopping Measurements. . .
+[16:25:47.394] Axis (AZ) is in desired position: -80.37. Time elapsed: 12.20 seconds.
+Elapsed Time: 00:01:08
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.24.33_log.txt
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 235)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',235,0)">line 235</a>)
+    fclose(MI4190);
+} 
+isempty(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+MI4190
+
+ Invalid instrument object.
+ This object has been deleted and cannot be
+ connected to the hardware. This object should
+ be removed from your workspace with CLEAR.
+ 
+
+measApp.MI4190Obj
+{Unable to resolve the name measApp.MI4190Obj.
+} 
+isvalid
+{Unrecognized function or variable 'isvalid'.
+} 
+testing
+Beginning Measurements 18-Jan-2020 16:36:21

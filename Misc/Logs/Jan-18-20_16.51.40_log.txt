@@ -1,0 +1,66 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.51.40_log.txt
+
+[16:51:46.844] Verifying if Axis is in Position. . . . 
+[16:51:49.068] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.22 seconds.
+[16:51:51.196] Please enter a valid increment size!
+[16:51:57.217] Increment size chosen: 5.00
+<a href="">
+[16:51:57.339] Current Degree Measurement: -90.00
+</a>[16:51:57.402] Verifying if Axis is in Position. . . . 
+[16:51:59.646] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.24 seconds.
+
+[16:52:07.068] Taking measurement at -89.95 degrees
+[16:52:09.267] Stopping Measurements. . .
+Elapsed Time: 00:00:25
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-18-20_16.51.40_log.txt
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 228)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',228,0)">line 228</a>)
+    fclose(MI4190);
+} 
+MI4190
+
+ Invalid instrument object.
+ This object has been deleted and cannot be
+ connected to the hardware. This object should
+ be removed from your workspace with CLEAR.
+ 
+
+isvalid
+{Unrecognized function or variable 'isvalid'.
+} 
+isvalid(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isempty(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isempty(MI4190) && isvalid(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+~isempty(MI4190) && ~isvalid(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+testing
+Beginning Measurements 18-Jan-2020 16:54:01
