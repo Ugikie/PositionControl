@@ -1,0 +1,75 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_20.06.41_log.txt
+
+
+AZCurrStat =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+[20:06:50.026] Verifying if Axis is in Position. . . . 
+[20:06:53.662] Axis (AZ) is in desired position: -89.95. Time elapsed: 3.64 seconds.
+[20:06:55.877] Increment size chosen: 10.00
+[20:06:55.881] Please enter a valid center frequency!
+[20:06:59.897] Center frequency chosen: 1.94995 GHz
+<a href="">
+[20:07:00.177] Current Degree Measurement: -90.00
+</a>[20:07:00.214] Verifying if Axis is in Position. . . . 
+[20:07:02.622] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.41 seconds.
+
+[20:07:11.090] Taking measurement at -89.95 degrees
+[20:07:15.289] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[20:07:15.541] Current Degree Measurement: -80.00
+</a>[20:07:15.564] Verifying if Axis is in Position. . . . 
+[20:07:17.933] Verifying if Axis is in Position. . . . 
+[20:07:20.268] Verifying if Axis is in Position. . . . 
+[20:07:22.597] Verifying if Axis is in Position. . . . 
+[20:07:24.930] Axis (AZ) is in desired position: -80.23. Time elapsed: 9.37 seconds.
+
+[20:07:32.577] Taking measurement at -80.05 degrees
+[20:07:36.454] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[20:07:36.686] Current Degree Measurement: -70.00
+</a>[20:07:36.709] Verifying if Axis is in Position. . . . 
+[20:07:39.045] Verifying if Axis is in Position. . . . 
+[20:07:41.373] Stopping Measurements. . .
+Elapsed Time: 00:00:54
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_20.06.41_log.txt
+{Unrecognized function or variable 'measApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 255)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',255,0)">line 255</a>)
+if (~isempty(measApp))
+} 
+isvalid(measApp)
+{Unrecognized function or variable 'measApp'.
+} 
+exists
+{Unrecognized function or variable 'exists'.
+} 
+exist
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('exist')" style="font-weight:bold">exist</a>
+Not enough input arguments.
+} 
+exist(measApp)
+{Unrecognized function or variable 'measApp'.
+} 
+exist('measApp','var') == 1
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+measApp = startApp();
+exist('measApp','var') == 1
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+[20:08:59.627] Stopping Measurements. . .
+testing
+Beginning Measurements 19-Jan-2020 20:09:28

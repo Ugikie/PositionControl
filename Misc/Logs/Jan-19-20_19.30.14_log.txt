@@ -1,0 +1,26 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.30.14_log.txt
+
+
+AZCurrStat =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+{Unrecognized property 'value' for class 'matlab.ui.control.SemicircularGauge'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAZCurrPos', '/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m', 12)" style="font-weight:bold">getAZCurrPos</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m',12,0)">line 12</a>)
+measApp.CurrentAngleGuage.value = AZCurrPosDoub;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 68)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',68,0)">line 68</a>)
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+} 
+[19:30:29.043] Stopping Measurements. . .
+[19:31:18.785] Stopping Measurements. . .
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp)
+testing
+Beginning Measurements 19-Jan-2020 19:31:30

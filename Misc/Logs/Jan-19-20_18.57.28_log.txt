@@ -1,0 +1,152 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_18.57.28_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[18:57:34.457] Verifying if Axis is in Position. . . . 
+[18:57:37.799] Moving Axis (AZ) from position: -80.05, to desired position: -90.00. . . . 
+[18:57:48.572] Verifying if Axis is in Position. . . . 
+[18:57:50.823] Axis (AZ) is in desired position: -89.95. Time elapsed: 12.92 seconds.
+[18:57:52.947] Please enter a valid increment size!
+[18:58:00.967] Increment size chosen: 10.00
+[18:58:00.979] Please enter a valid center frequency!
+[18:58:04.996] Center frequency chosen: 1.94995
+<a href="">
+[18:58:05.222] Current Degree Measurement: -90.00
+</a>[18:58:05.295] Verifying if Axis is in Position. . . . 
+[18:58:07.510] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.22 seconds.
+
+[18:58:14.877] Taking measurement at -89.95 degrees
+[18:58:18.577] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[18:58:18.763] Current Degree Measurement: -80.00
+</a>[18:58:18.841] Verifying if Axis is in Position. . . . 
+[18:58:21.046] Verifying if Axis is in Position. . . . 
+[18:58:23.242] Verifying if Axis is in Position. . . . 
+[18:58:25.459] Verifying if Axis is in Position. . . . 
+[18:58:27.663] Axis (AZ) is in desired position: -80.25. Time elapsed: 8.82 seconds.
+[18:58:36.594] Moving Axis (AZ) from position: -80.05, to desired position: -90.00. . . . 
+
+[18:58:52.920] Taking measurement at -89.95 degrees
+[18:58:56.597] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[18:58:56.779] Current Degree Measurement: -70.00
+</a>[18:58:56.857] Verifying if Axis is in Position. . . . 
+[18:58:59.050] Verifying if Axis is in Position. . . . 
+[18:59:01.234] Verifying if Axis is in Position. . . . 
+[18:59:03.430] Verifying if Axis is in Position. . . . 
+[18:59:05.631] Verifying if Axis is in Position. . . . 
+[18:59:09.040] Moving Axis (AZ) from position: -80.05, to desired position: -70.00. . . . 
+[18:59:20.001] Verifying if Axis is in Position. . . . 
+[18:59:22.218] Axis (AZ) is in desired position: -70.05. Time elapsed: 13.08 seconds.
+
+[18:59:29.643] Taking measurement at -70.05 degrees
+[18:59:33.355] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[18:59:33.524] Current Degree Measurement: -60.00
+</a>[18:59:33.627] Verifying if Axis is in Position. . . . 
+[18:59:35.821] Verifying if Axis is in Position. . . . 
+[18:59:38.011] Verifying if Axis is in Position. . . . 
+[18:59:40.197] Verifying if Axis is in Position. . . . 
+[18:59:42.385] Axis (AZ) is in desired position: -60.28. Time elapsed: 8.76 seconds.
+[18:59:42.868] Stopping Measurements. . .
+Elapsed Time: 00:02:09
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_18.57.28_log.txt
+{Unrecognized function or variable 'measApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 255)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',255,0)">line 255</a>)
+if (~isempty(measApp))
+} 
+measApp = startApp();
+centerFreq = measApp.CenterFrequencyValue.Value;
+centerFreqUnits = measApp.CenterFrequencyUnits.Value;
+centerFreq
+
+centerFreq =
+
+    1.9500
+
+centerFreqUnits
+
+centerFreqUnits =
+
+    'GHz'
+
+format long
+centerFreq
+
+centerFreq =
+
+   1.949950000000000
+
+format short
+centerFreq
+
+centerFreq =
+
+    1.9500
+
+format shortg
+centerFreq
+
+centerFreq =
+
+         1.95
+
+format short
+format short 5
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('format')" style="font-weight:bold">format</a>
+Invalid format option short.
+} 
+MI4190 = serial('/dev/ttyUSB0');                 % Linux
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 0.5;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+measApp.MI4190Obj = MI4190;
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+pause(1)
+
+warning('off','MATLAB:serial:fread:unsuccessfulRead');
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+% Configure as Controller (++mode 1), instrument address 4, and with
+% read-after-write (++auto 1) enabled
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+% Read the id of the Controller to verify connection:
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))';
+measApp.writeConsoleLine(sprintf('Position Controller ID: %s\n',idn));
+setVNACentFreq(centerFreq,centerFreqUnits,MI4190,measApp);
+setVNACentFreq(centerFreq,centerFreqUnits,MI4190,measApp);
+centerFreq = measApp.CenterFrequencyValue.Value;
+centerFreqUnits = measApp.CenterFrequencyUnits.Value;
+setVNACentFreq(centerFreq,centerFreqUnits,MI4190,measApp);
+[19:04:03.465] Stopping Measurements. . .
+delete(measApp)
+testing
+Beginning Measurements 19-Jan-2020 19:05:52

@@ -23,6 +23,6 @@ else
    measApp.MeasuringLamp.Color = 'red';
 
 end
-
+drawnow();
 end
 

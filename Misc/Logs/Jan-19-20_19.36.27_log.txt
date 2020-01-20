@@ -1,0 +1,58 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.36.27_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[19:36:33.673] Verifying if Axis is in Position. . . . 
+[19:36:37.447] Moving Axis (AZ) from position: -70.05, to desired position: -90.00. . . . 
+[19:36:51.092] Verifying if Axis is in Position. . . . 
+[19:36:53.432] Axis (AZ) is in desired position: -89.94. Time elapsed: 15.92 seconds.
+[19:36:55.612] Please enter a valid increment size!
+[19:37:07.667] Increment size chosen: 5.00
+[19:37:07.673] Please enter a valid center frequency!
+[19:37:14.696] Center frequency chosen: 1.94995 Select units...
+<a href="">
+[19:37:14.982] Current Degree Measurement: -90.00
+</a>[19:37:15.011] Verifying if Axis is in Position. . . . 
+[19:37:17.342] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.33 seconds.
+
+[19:37:24.940] Taking measurement at -89.94 degrees
+[19:37:28.762] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[19:37:29.268] Current Degree Measurement: -85.00
+</a>[19:37:29.292] Verifying if Axis is in Position. . . . 
+[19:37:31.774] Verifying if Axis is in Position. . . . 
+[19:37:34.083] Verifying if Axis is in Position. . . . 
+[19:37:38.340] Stopping Measurements. . .
+Elapsed Time: 00:01:06
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.36.27_log.txt
+{Unrecognized function or variable 'measApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 255)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',255,0)">line 255</a>)
+if (~isempty(measApp))
+} 
+centerFreq == 0 || strcmp(centerFreqUnits,'Select one...')
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+centerFreqUnits
+
+centerFreqUnits =
+
+    'Select units...'
+
+centerFreq
+
+centerFreq =
+
+    1.9500
+
+testing
+Beginning Measurements 19-Jan-2020 19:42:04

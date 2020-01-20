@@ -3,34 +3,42 @@ function [] = bootUSRPs(loadBarProgress,measApp)
 %   Detailed explanation goes here
 if (measApp.wantToStop) return; end
 
-fprintf('[%s]Booting up USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
-measApp.writeConsoleLine('[%s]Booting up USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
+fprintf('[%s] Booting up USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
+measApp.writeConsoleLine(sprintf('[%s] Booting up USRPs. . .\n',datestr(now,'HH:MM:SS.FFF')));
 measApp.updateProgressBar(loadBarProgress,sprintf('Booting up USRPs...')); 
 n310IP = '192.168.10.2';
 n210IP = '192.168.10.15';
 [~,usrpBoot] = system('bash USRPBoot');
 while ~(contains(usrpBoot,n310IP) && contains(usrpBoot,n210IP))
-    cprintf('err','[%s][ERROR] USRP not found. Rebooting. . .\n',datestr(now,'HH:MM:SS.FFF'));
-    measApp.writeConsoleLine('[%s][ERROR] USRP not found. Rebooting. . .\n',datestr(now,'HH:MM:SS.FFF'));
+    cprintf('err','[%s] [ERROR] USRP not found. Rebooting. . .\n',datestr(now,'HH:MM:SS.FFF'));
+    measApp.writeConsoleLine(sprintf('[%s] [ERROR] USRP not found. Rebooting. . .\n',datestr(now,'HH:MM:SS.FFF')));
     [~,usrpBoot] = system('bash USRPBoot');
+    
+    measApp.N210Lamp.Color = 'red';
+    measApp.N210DisconnectedLampLabel.Text = 'N210 | Disconnected';
+    measApp.N310Lamp.Color = 'red';
+    measApp.N310DisconnectedLabel.Text = 'N310 | Disconnected';
 end
+fprintf('[%s] Verified connection to USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
+measApp.writeConsoleLine(sprintf('[%s] Verified connection to USRPs. . .\n',datestr(now,'HH:MM:SS.FFF')));
 measApp.updateProgressBar(loadBarProgress,sprintf('Verified connection to USRPs...'));
-fprintf('[%s]Verified connection to USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
-measApp.writeConsoleLine('[%s]Verified connection to USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
 
 if (measApp.wantToStop) return; end
+fprintf('USRP N210 Has IP: ');
+cprintf('-comment','%s\n',n210IP);
+measApp.writeConsoleLine(sprintf('USRP N210 Has IP: %s and is now connected.\n',n210IP));
+measApp.N210Lamp.Color = 'green';
+measApp.N210DisconnectedLampLabel.Text = 'N210 | Connected';
 
 fprintf('USRP N310 Has IP: ');
 cprintf('-comment','%s\n',n310IP);
-measApp.writeConsoleLine('USRP N310 Has IP: %s\n',n310IP);
+measApp.writeConsoleLine(sprintf('USRP N310 Has IP: %s and is now connected.\n',n310IP));
+measApp.N310Lamp.Color = 'green';
+measApp.N310DisconnectedLabel.Text = 'N310 | Connected';
 
-fprintf('USRP N210 Has IP: ');
-cprintf('-comment','%s\n',n210IP);
-measApp.writeConsoleLine('USRP N210 Has IP: %s\n',n210IP);
-
+fprintf('[%s] Initiating USRP N210. . .\n',datestr(now,'HH:MM:SS.FFF'));
+measApp.writeConsoleLine(sprintf('[%s] Initiating USRP N210. . .\n',datestr(now,'HH:MM:SS.FFF')));
 measApp.updateProgressBar(loadBarProgress,sprintf('Initiating USRP N210...'));
-fprintf('[%s]Initiating USRP N210. . .\n',datestr(now,'HH:MM:SS.FFF'));
-measApp.writeConsoleLine('[%s]Initiating USRP N210. . .\n',datestr(now,'HH:MM:SS.FFF'));
 
 if (measApp.wantToStop) return; end
     

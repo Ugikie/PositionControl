@@ -1,0 +1,19 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.31.30_log.txt
+
+
+AZCurrStat =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+{Unrecognized property 'value' for class 'matlab.ui.control.SemicircularGauge'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAZCurrPos', '/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m', 12)" style="font-weight:bold">getAZCurrPos</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m',12,0)">line 12</a>)
+measApp.CurrentAngleGuage.value = AZCurrPosDoub;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 68)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',68,0)">line 68</a>)
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+} 
+[19:31:52.220] Stopping Measurements. . .
+testing
+Beginning Measurements 19-Jan-2020 19:31:58

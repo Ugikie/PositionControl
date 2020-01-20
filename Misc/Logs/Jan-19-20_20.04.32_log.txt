@@ -1,0 +1,13 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_20.04.32_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[20:04:39.772] Verifying if Axis is in Position. . . . 
+[20:04:42.207] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.44 seconds.
+[20:04:43.971] Stopping Measurements. . .
+PositionController
+Beginning Measurements 19-Jan-2020 20:04:50

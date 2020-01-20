@@ -58,12 +58,8 @@ measApp.writeConsoleLine(sprintf('Position Controller ID: %s\n',idn));
 
 if (measApp.wantToStop) delete(measApp); return; end
 
-%Check status of axis, returns an integer value representing a 16 bit value
-%of status bits. Details on page 3-42 of MI-4192 Manual
-%==Add function later to decode status value==%
-fprintf(MI4190, 'CONT1:AXIS(1):STAT?');
-AZCurrStat = char(fread(MI4190, 100))';
-measApp.writeConsoleLine(sprintf('AZ Current Status: %s\n',AZCurrStat));
+%Check status of Axis (AZ) Details in function description.
+AZCurrStat = getAndDecodeStatus(MI4190,measApp)
 
 if (measApp.wantToStop) delete(measApp); return; end
 
@@ -127,6 +123,31 @@ measApp.writeConsoleLine(sprintf('[%s] Increment size chosen: %.2f\n',datestr(no
 measApp.IncrementSizeEditField.Editable = false;
 degInterval = -90:incrementSize:90;
 
+%consider replacing method of waiting for center freq with a loop that
+%waits for button to be pressed on gui that says "choose freq" or something
+centerFreq = measApp.CenterFrequencyValue.Value;
+centerFreqUnits = measApp.CenterFrequencyUnits.Value;
+while (centerFreq == 0 || strcmp(centerFreqUnits,'Select units...'))
+    fprintf('[%s] Please enter a valid center frequency!\n',datestr(now,'HH:MM:SS.FFF'))
+    measApp.writeConsoleLine(sprintf('[%s] Please enter a valid center frequency!\n',datestr(now,'HH:MM:SS.FFF')))
+    while (centerFreq == 0 || strcmp(centerFreqUnits,'Select units...'))
+        if (measApp.wantToStop) break; end
+        centerFreq = measApp.CenterFrequencyValue.Value;
+        centerFreqUnits = measApp.CenterFrequencyUnits.Value;
+        pause(1);
+    end
+    if (measApp.wantToStop) break; end
+end
+if (measApp.wantToStop) return; end
+
+fprintf('[%s] Center frequency chosen: %.5f %s\n',datestr(now,'HH:MM:SS.FFF'),centerFreq,centerFreqUnits)
+measApp.writeConsoleLine(sprintf('[%s] Center frequency chosen: %.2f\n',datestr(now,'HH:MM:SS.FFF'),incrementSize))
+measApp.CenterFrequencyValue.Editable = false;
+measApp.CenterFrequencyUnits.Enable = false;
+setVNACentFreq(centerFreq,centerFreqUnits,MI4190,measApp);
+
+if (measApp.wantToStop) return; end
+
 %Initiates the boot process for the USRP N210 & N310.
 %%%bootUSRPs(0,measApp);
 gnuFileName = '/ArrayTest3.py ';
@@ -134,21 +155,21 @@ gnuFilePath = fileparts(matlab.desktop.editor.getActiveFilename);
 %Loops through each degree in the interval and communicates with the USRP
 %to take automatic measurements, with many checks along the way to ensure
 %the safety of the system.
-itr = 0;
+measApp.itrObj = 0;
 for currentDegree = degInterval
     if (measApp.wantToStop) break; end
     
     takeMeasurementCommand = ['sudo python ' gnuFilePath gnuFileName ' ' num2str(incrementSize) ' ' logFileName ' ' num2str(currentDegree)];
 
-    itr = itr + 1;
-    loadBarProgress = (itr/length(degInterval));
+    measApp.itrObj = measApp.itrObj + 1;
+    loadBarProgress = (measApp.itrObj/length(degInterval));
     
     [~,idx] = find(degInterval == currentDegree);
     anglesRemaining = length(degInterval) - idx;
     
     measApp.StatusTable.Data{2,1} = measApp.StatusTable.Data{1,1} + incrementSize;
     measApp.StatusTable.Data{4,1} = anglesRemaining;
-    
+    drawnow();
     if (measApp.wantToStop) break; end
     
     %measApp.updateProgressBar(loadBarProgress,sprintf('Measurement in progress. Current Angle: %.2f',currentDegree));
@@ -231,7 +252,7 @@ if (~isempty(MI4190) && isvalid(MI4190))
     clear MI4190;
 end
 
-if (~isempty(measApp))
+if (exist('measApp','var') == 1)
     delete(measApp);
 end
 

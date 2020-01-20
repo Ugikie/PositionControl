@@ -1,0 +1,2137 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_16.33.24_log.txt
+
+[16:33:31.168] Verifying if Axis is in Position. . . . 
+[16:33:33.371] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.20 seconds.
+[16:33:35.468] Please enter a valid increment size!
+[16:33:55.524] Increment size chosen: 1.00
+[16:33:55.538] Please enter a valid center frequency!
+[16:34:01.564] Center frequency chosen: 1.94995
+<a href="">
+[16:34:01.799] Current Degree Measurement: -90.00
+</a>[16:34:01.879] Verifying if Axis is in Position. . . . 
+[16:34:04.129] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.25 seconds.
+
+[16:34:11.526] Taking measurement at -89.94 degrees
+[16:34:15.245] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[16:34:15.420] Current Degree Measurement: -89.00
+</a>[16:34:15.518] Verifying if Axis is in Position. . . . 
+[16:34:17.715] Verifying if Axis is in Position. . . . 
+[16:34:19.913] Axis (AZ) is in desired position: -89.33. Time elapsed: 4.40 seconds.
+
+[16:34:45.424] Taking measurement at -89.05 degrees
+[16:34:49.137] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[16:34:49.298] Current Degree Measurement: -88.00
+</a>[16:34:49.382] Verifying if Axis is in Position. . . . 
+[16:34:51.583] Verifying if Axis is in Position. . . . 
+[16:34:53.790] Axis (AZ) is in desired position: -88.31. Time elapsed: 4.41 seconds.
+
+[16:35:01.189] Taking measurement at -88.05 degrees
+[16:35:04.905] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[16:35:05.089] Current Degree Measurement: -87.00
+</a>[16:35:05.183] Verifying if Axis is in Position. . . . 
+[16:35:07.389] Verifying if Axis is in Position. . . . 
+[16:35:09.596] Axis (AZ) is in desired position: -87.31. Time elapsed: 4.41 seconds.
+[16:35:26.912] Stopping Measurements. . .
+Elapsed Time: 00:02:05
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_16.33.24_log.txt
+{Unrecognized function or variable 'measApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 259)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',259,0)">line 259</a>)
+if (~isempty(measApp))
+} 
+uiresume(gcbf)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('uiresume', '/usr/local/MATLAB/R2019b/toolbox/matlab/uitools/uiresume.m', 26)" style="font-weight:bold">uiresume</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uitools/uiresume.m',26,0)">line 26</a>)
+Argument must be a Figure object.
+} 
+measApp = startApp();
+[16:36:45.076] Stopping Measurements. . .
+measApp = startApp();
+{Input XData value must be numeric.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/updateProgressBar', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 74)" style="font-weight:bold">measurementApp/updateProgressBar</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',74,0)">line 74</a>)
+            app.phObj.XData = [0 progress progress 0];
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/PauseButtonValueChanged', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 129)" style="font-weight:bold">measurementApp/PauseButtonValueChanged</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',129,0)">line 129</a>)
+                app.updateProgressBar('System Paused. . .');
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 378)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',378,0)">line 378</a>)
+Error while evaluating StateButton PrivateValueChangedFcn.
+
+[16:38:49.820] Stopping Measurements. . .
+measApp = startApp();
+measApp.ProgressBar
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.ui.container.Panel" style="font-weight:bold">Panel</a> with properties:
+
+              Title: ''
+    BackgroundColor: [0.9400 0.9400 0.9400]
+           Position: [20 21 914 39]
+              Units: 'pixels'
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.ui.container.Panel'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+measApp.phObj.XData
+
+ans =
+
+     0
+     0
+     0
+     0
+
+measApp.phObj.XData(2)
+
+ans =
+
+     0
+
+measApp.phObj.XData = [0 0.5 0.5 0]
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+
+measApp.phObj.XData(2)
+
+ans =
+
+    0.5000
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/updateProgressBar')" style="font-weight:bold">measurementApp/updateProgressBar</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/PauseButtonValueChanged', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 129)" style="font-weight:bold">measurementApp/PauseButtonValueChanged</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',129,0)">line 129</a>)
+                app.updateProgressBar(app,app.phObj.XData(2),'System Paused. . .');
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 378)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',378,0)">line 378</a>)
+Error while evaluating StateButton PrivateValueChangedFcn.
+
+[16:40:57.241] Stopping Measurements. . .
+measApp = startApp();
+{Unrecognized function or variable 'progressBarText'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/PauseButtonValueChanged', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 136)" style="font-weight:bold">measurementApp/PauseButtonValueChanged</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',136,0)">line 136</a>)
+                app.updateProgressBar(app.phObj.XData(2),progressBarText);
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 378)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',378,0)">line 378</a>)
+Error while evaluating StateButton PrivateValueChangedFcn.
+
+[16:41:35.740] Stopping Measurements. . .
+measApp = startApp();
+[16:42:14.958] Stopping Measurements. . .
+measApp = startApp();
+app.thObj.String
+{Unable to resolve the name app.thObj.String.
+} 
+measApp.thObj.String
+
+ans =
+
+    '0%'
+
+measApp.ProgressBar.Title
+
+ans =
+
+  0×0 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+measApp.axObj.Title
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.primitive.Text" style="font-weight:bold">Text</a> (Initializing. . .) with properties:
+
+                 String: 'Initializing. . .'
+               FontSize: 8.8000
+             FontWeight: 'bold'
+               FontName: 'Helvetica'
+                  Color: [0 0 0]
+    HorizontalAlignment: 'center'
+               Position: [0.5000 1.5500 0]
+                  Units: 'data'
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.primitive.Text'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+measApp.axObj.Title.Text
+
+ans = 
+
+    Text
+
+measApp.axObj.Title
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.primitive.Text" style="font-weight:bold">Text</a> (Initializing. . .) with properties:
+
+                 String: 'Initializing. . .'
+               FontSize: 8.8000
+             FontWeight: 'bold'
+               FontName: 'Helvetica'
+                  Color: [0 0 0]
+    HorizontalAlignment: 'center'
+               Position: [0.5000 1.5500 0]
+                  Units: 'data'
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.primitive.Text'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.primitive.Text'), else, matlab.graphics.internal.getForDisplay('ans'), end
+        BackgroundColor: 'none'
+           BeingDeleted: 'off'
+             BusyAction: 'queue'
+          ButtonDownFcn: ''
+               Children: [0×0 GraphicsPlaceholder]
+               Clipping: 'off'
+                  Color: [0 0 0]
+              CreateFcn: ''
+              DeleteFcn: ''
+              EdgeColor: 'none'
+                Editing: 'off'
+                 Extent: [0.4372 1.5500 0.1257 3.5000]
+              FontAngle: 'normal'
+               FontName: 'Helvetica'
+               FontSize: 8.8000
+          FontSmoothing: 'on'
+              FontUnits: 'points'
+             FontWeight: 'bold'
+       HandleVisibility: 'off'
+                HitTest: 'on'
+    HorizontalAlignment: 'center'
+            Interpreter: 'tex'
+          Interruptible: 'on'
+              LineStyle: '-'
+              LineWidth: 0.5000
+                 Margin: 3
+                 Parent: [1×1 Axes]
+          PickableParts: 'visible'
+               Position: [0.5000 1.5500 0]
+               Rotation: 0
+               Selected: 'off'
+     SelectionHighlight: 'on'
+                 String: 'Initializing. . .'
+                    Tag: ''
+                   Type: 'text'
+          UIContextMenu: [0×0 GraphicsPlaceholder]
+                  Units: 'data'
+               UserData: []
+      VerticalAlignment: 'bottom'
+                Visible: 'on'
+
+measApp.axObj.Title.String
+
+ans =
+
+    'Initializing. . .'
+
+[16:46:45.207] Stopping Measurements. . .
+measApp = startApp();
+[16:58:49.646] Stopping Measurements. . .
+AZCurrStat
+
+AZCurrStat =
+
+    '4865
+     '
+
+out = str2double(regexp(y,'\d*','match'))
+{Unrecognized function or variable 'y'.
+} 
+out = str2double(regexp(AZCurrStat,'\d*','match'))
+
+out =
+
+        4865
+
+dec2bin(AZCurrStat)
+
+ans =
+
+  5×6 <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+    '110100'
+    '111000'
+    '110110'
+    '110101'
+    '001010'
+
+AZCurrStat
+
+AZCurrStat =
+
+    '4865
+     '
+
+dec2bin(4865)
+
+ans =
+
+    '1001100000001'
+
+dec2bin(out)
+
+ans =
+
+    '1001100000001'
+
+decStat = str2double(regexp(AZCurrStat,'\d*','match'));
+
+binStat = dec2bin(decStat);
+
+binStat
+
+binStat =
+
+    '1001100000001'
+
+for i = binStat
+i
+end
+
+i =
+
+    '1'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '1'
+
+
+i =
+
+    '1'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '0'
+
+
+i =
+
+    '1'
+
+decStat = str2double(regexp(AZCurrStat,'\d*','match'));
+
+binStat = dec2bin(decStat);
+
+for i = binStat
+    fprintf('%s\n',i)
+end
+1
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+1
+for i = binStat
+    (i == 1)
+end
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+for i = binStat
+    (i == 48)
+end
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+for i = binStat
+    (i-48 == 1)
+end
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+str2double(AZCurrVel)
+
+ans =
+
+   NaN
+
+AZCurrStat
+
+AZCurrStat =
+
+    '4865
+     '
+
+binStat
+
+binStat =
+
+    '1001100000001'
+
+binStat(1) - '0'
+
+ans =
+
+     1
+
+binStat(1) - '0' == 1
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+binStat - '0'
+
+ans =
+
+     1     0     0     1     1     0     0     0     0     0     0     0     1
+
+binStat = dec2bin(decStat) - '0';
+
+idx = 12; %bits 13, 14, and 15 of status are unused.
+for i = binStat
+    if (i == 1)
+        disp(idx);
+    end
+    idx = idx - 1;
+end
+    12
+
+     9
+
+     8
+
+     0
+
+help case
+ <strong>case</strong> SWITCH statement case.
+    <strong>case</strong> is part of the SWITCH statement syntax, whose general form is:
+ 
+        SWITCH switch_expr
+          <strong>case</strong> case_expr, 
+            statement, ..., statement
+          <strong>case</strong> {case_expr1, case_expr2, case_expr3,...}
+            statement, ..., statement
+         ...
+          OTHERWISE, 
+            statement, ..., statement
+        END
+ 
+    See also <a href="matlab:help switch">switch</a>, <a href="matlab:help if">if</a>, <a href="matlab:help else">else</a>, <a href="matlab:help elseif">elseif</a>, <a href="matlab:help while">while</a>, <a href="matlab:help end">end</a>.
+
+    <a href="matlab:doc case">Documentation for case</a>
+
+help switch
+ <strong>switch</strong> Switch among several cases based on expression.
+    The general form of the <strong>switch</strong> statement is:
+ 
+        <strong>switch</strong> switch_expr
+          CASE case_expr, 
+            statement, ..., statement
+          CASE {case_expr1, case_expr2, case_expr3,...}
+            statement, ..., statement
+         ...
+          OTHERWISE, 
+            statement, ..., statement
+        END
+ 
+    The statements following the first CASE where the switch_expr matches
+    the case_expr are executed.  When the case expression is a cell array
+    (as in the second case above), the case_expr matches if any of the
+    elements of the cell array match the switch expression.  If none of
+    the case expressions match the switch expression then the OTHERWISE
+    case is executed (if it exists).  Only one CASE is executed and
+    execution resumes with the statement after the END.
+ 
+    The switch_expr can be a scalar or a character vector.  A scalar
+    switch_expr matches a case_expr if switch_expr==case_expr.  A character
+    vector switch_expr matches a case_expr if strcmp(switch_expr,case_expr)
+    returns 1 (true).
+ 
+    Only the statements between the matching CASE and the next CASE,
+    OTHERWISE, or END are executed.  Unlike C, the <strong>switch</strong> statement
+    does not fall through (so BREAKs are unnecessary).
+ 
+    Example:
+ 
+    To execute a certain block of code based on what the character vector, 
+    METHOD, is set to,
+ 
+        method = 'Bilinear';
+ 
+        switch lower(method)
+          case {'linear','bilinear'}
+            disp('Method is linear')
+          case 'cubic'
+            disp('Method is cubic')
+          case 'nearest'
+            disp('Method is nearest')
+          otherwise
+            disp('Unknown method.')
+        end
+ 
+        Method is linear
+ 
+    See also <a href="matlab:help case">case</a>, <a href="matlab:help otherwise">otherwise</a>, <a href="matlab:help if">if</a>, <a href="matlab:help while">while</a>, <a href="matlab:help for">for</a>, <a href="matlab:help end">end</a>.
+
+    <a href="matlab:doc switch">Documentation for switch</a>
+
+decStat = str2double(regexp(AZCurrStat,'\d*','match'));
+
+binStat = dec2bin(decStat) - '0';
+
+idx = 12; %bits 13, 14, and 15 of status are unused.
+for i = binStat
+    if (i == 1)
+        switch idx
+        case 12
+            disp('Status Changed.');
+        case 11
+            disp('Property Changed.');
+        case 10
+            disp('Position Trigger Active');
+        case 9
+            disp('Axis is Indexed.');
+        case 8
+            disp('Axis is Active.');
+        case 7
+            disp('Axis in Motion.');
+        case 6
+            disp('Error Limit Active.');
+        case 5
+            disp('Axis Enabled.');
+        case 4
+            disp('PAU Fault.');
+        case 3
+            disp('Forward Limit Active.');
+        case 2
+            disp('Reverse Limit Active.');
+        case 1
+            disp('Home Switch Active.');
+        case 0
+            disp('Latch is Set.');
+        otherwise
+            disp('Error in status decoding');    
+        end   
+    end
+    idx = idx - 1;
+end
+Status Changed.
+Axis is Indexed.
+Axis is Active.
+Latch is Set.
+tc = {'test'}
+
+tc =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'test'}
+
+tc
+
+tc =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'test'}
+
+tc = {tc,'tttt'}
+
+tc =
+
+  1×2 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {1×1 cell}    {'tttt'}
+
+tc
+
+tc =
+
+  1×2 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {1×1 cell}    {'tttt'}
+
+tc = {'test'}
+
+tc =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'test'}
+
+tc = [tc 'hey']
+
+tc =
+
+  1×2 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'test'}    {'hey'}
+
+tc(1)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'test'}
+
+tc(2)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'hey'}
+
+tc(2).
+ tc(2).
+       ↑
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+tc(2) = 'hey'
+{Conversion to cell from char is not possible.
+} 
+cell2char
+{Unrecognized function or variable 'cell2char'.
+} 
+cell
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cell')" style="font-weight:bold">cell</a>
+Not enough input arguments.
+} 
+help cell
+ <strong>cell</strong>  Create cell array.
+    <strong>cell</strong>(N) is an N-by-N cell array of empty matrices.
+ 
+    <strong>cell</strong>(M,N) or <strong>cell</strong>([M,N]) is an M-by-N cell array of empty
+    matrices.
+ 
+    <strong>cell</strong>(M,N,P,...) or <strong>cell</strong>([M N P ...]) is an M-by-N-by-P-by-...
+    cell array of empty matrices.
+ 
+    <strong>cell</strong>(SIZE(A)) is a cell array the same size as A containing
+    all empty matrices.
+ 
+    See also <a href="matlab:help ones">ones</a>, <a href="matlab:help zeros">zeros</a>, <a href="matlab:help struct">struct</a>, <a href="matlab:help deal">deal</a>, <a href="matlab:help paren">paren</a>.
+
+    <a href="matlab:doc cell">Documentation for cell</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('cell')">Other functions named cell</a>
+
+x = ['test']
+
+x =
+
+    'test'
+
+x = [x 'world']
+
+x =
+
+    'testworld'
+
+x = ['test']
+
+x =
+
+    'test'
+
+x = [x ', world']
+
+x =
+
+    'test, world'
+
+AZCurrStat
+
+AZCurrStat =
+
+    '4865
+     '
+
+AZCurrStat = [AZCurrStat ', fault']
+
+AZCurrStat =
+
+    '4865
+     , fault'
+
+AZCurrStat = [AZCurrStat ', test']
+
+AZCurrStat =
+
+    '4865
+     , fault, test'
+
+fprintf(MI4190, 'CONT1:AXIS(1):STAT?');
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fprintf', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fprintf.m', 156)" style="font-weight:bold">serial/fprintf</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fprintf.m',156,0)">line 156</a>)
+Unexpected error: Instrument object OBJ is an invalid object..
+} 
+AZCurrStat = '4865'
+
+AZCurrStat =
+
+    '4865'
+
+MI4190 = serial('/dev/ttyUSB0');                 % Linux
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 0.5;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+
+pause(1)
+
+warning('off','MATLAB:serial:fread:unsuccessfulRead');
+
+% Configure as Controller (++mode 1), instrument address 4, and with
+% read-after-write (++auto 1) enabled
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+
+% Read the id of the Controller to verify connection:
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+fprintf(MI4190, 'CONT1:AXIS(1):STAT?');
+AZCurrStat = char(fread(MI4190, 100))';
+AZCurrStat
+
+AZCurrStat =
+
+    '4865
+     '
+
+AZCurrStatbkp = AZCurrStat
+
+AZCurrStatbkp =
+
+    '4865
+     '
+
+AZCurrStat = [AZCurrStat ': ']
+
+AZCurrStat =
+
+    '4865
+     : '
+
+AZCurrStat = AZCurrStatbkp
+
+AZCurrStat =
+
+    '4865
+     '
+
+AZCurrStat = [AZCurrStat 'test, ']
+
+AZCurrStat =
+
+    '4865
+     test, '
+
+AZCurrStat = [AZCurrStat 'test, ']
+
+AZCurrStat =
+
+    '4865
+     test, test, '
+
+AZCurrStat = [AZCurrStat 'test, ']
+
+AZCurrStat =
+
+    '4865
+     test, test, test, '
+
+AZCurrStat = AZCurrStatbkp
+
+AZCurrStat =
+
+    '4865
+     '
+
+zeros
+
+ans =
+
+     0
+
+hepl zeros
+{Unrecognized function or variable 'hepl'.
+} 
+help zeros
+ <strong>zeros</strong>  Zeros array.
+    <strong>zeros</strong>(N) is an N-by-N matrix of zeros.
+ 
+    <strong>zeros</strong>(M,N) or <strong>zeros</strong>([M,N]) is an M-by-N matrix of zeros.
+ 
+    <strong>zeros</strong>(M,N,P,...) or <strong>zeros</strong>([M N P ...]) is an M-by-N-by-P-by-... array of
+    zeros.
+ 
+    <strong>zeros</strong>(SIZE(A)) is the same size as A and all zeros.
+ 
+    <strong>zeros</strong> with no arguments is the scalar 0.
+ 
+    <strong>zeros</strong>(..., CLASSNAME) is an array of zeros of class specified by the
+    string CLASSNAME.
+ 
+    <strong>zeros</strong>(..., 'like', Y) is an array of zeros with the same data type, sparsity,
+    and complexity (real or complex) as the numeric variable Y.
+ 
+    Note: The size inputs M, N, and P... should be nonnegative integers. 
+    Negative integers are treated as 0.
+ 
+    Example:
+       x = zeros(2,3,'int8');
+ 
+    See also <a href="matlab:help eye">eye</a>, <a href="matlab:help ones">ones</a>.
+
+    <a href="matlab:doc zeros">Documentation for zeros</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('zeros')">Other functions named zeros</a>
+
+AZCS = zeros(AZCurrStat)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros')" style="font-weight:bold">zeros</a>
+CLASSNAME input must be a valid numeric or logical class name.
+} 
+AZCS = zeros(size(AZCurrStat))
+
+AZCS =
+
+     0     0     0     0     0
+
+decStat = str2double(regexp(AZCurrStat,'\d*','match'));
+
+binStat = dec2bin(decStat) - '0';
+idx = 12; %bits 13, 14, and 15 of status are unused.
+for i = binStat
+    if (i == 1)
+        switch idx
+        case 12
+            AZCurrStat = [AZCurrStat 'Status Changed., '];
+        case 11
+            AZCurrStat = [AZCurrStat 'Property Changed.'];
+        case 10
+            AZCurrStat = [AZCurrStat 'Position Trigger Active'];
+        case 9
+            AZCurrStat = [AZCurrStat 'Axis is Indexed.'];
+        case 8
+            AZCurrStat = [AZCurrStat 'Axis is Active.'];
+        case 7
+            AZCurrStat = [AZCurrStat 'Axis in Motion.'];
+        case 6
+            AZCurrStat = [AZCurrStat 'Error Limit Active.'];
+        case 5
+            AZCurrStat = [AZCurrStat 'Axis Enabled.'];
+        case 4
+            AZCurrStat = [AZCurrStat 'PAU Fault.'];
+        case 3
+            AZCurrStat = [AZCurrStat 'Forward Limit Active.'];
+        case 2
+            AZCurrStat = [AZCurrStat 'Reverse Limit Active.'];
+        case 1
+            AZCurrStat = [AZCurrStat 'Home Switch Active.'];
+        case 0
+            AZCurrStat = [AZCurrStat 'Latch is Set.'];
+        otherwise
+            AZCurrStat = [AZCurrStat 'Error in status decoding'];    
+        end   
+    end
+    idx = idx - 1;
+end
+AZCurrStat
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed.Axis is Active.Latch is Set.'
+
+AZCurrStat = getAndDecodeStatus(MI4190,measApp)
+{Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAndDecodeStatus', '/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m', 8)" style="font-weight:bold">getAndDecodeStatus</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m',8,0)">line 8</a>)
+if (measApp.wantToStop) delete(measApp); return; end
+} 
+measApp = startApp(0l
+ measApp = startApp(0l
+                     ↑
+{Error: Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax error. To construct matrices, use brackets
+instead of parentheses.
+} 
+measApp = startApp();
+AZCurrStat = getAndDecodeStatus(MI4190,measApp)
+
+AZCurrStat =
+
+    '769
+     Status Changed., Property Changed, Forward Limit Active, '
+
+dec2bin(769)
+
+ans =
+
+    '1100000001'
+
+fprintf(MI4190, 'CONT1:AXIS(1):STAT?');
+AZCurrStat = char(fread(MI4190, 100))'
+
+AZCurrStat =
+
+    '769
+     '
+
+decStat = str2double(regexp(AZCurrStat,'\d*','match'))
+
+decStat =
+
+   769
+
+binStat = dec2bin(decStat) - '0'
+
+binStat =
+
+     1     1     0     0     0     0     0     0     0     1
+
+size(binStat)
+
+ans =
+
+     1    10
+
+length(binStat)
+
+ans =
+
+    10
+
+[zeros(3) binStat]
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+Dimensions of arrays being concatenated are not consistent.
+} 
+zeros(3)
+
+ans =
+
+     0     0     0
+     0     0     0
+     0     0     0
+
+zeros(1,3)
+
+ans =
+
+     0     0     0
+
+[zeros(1,3) binStat]
+
+ans =
+
+     0     0     0     1     1     0     0     0     0     0     0     0     1
+
+[zeros(1,12 - size(binStat) + 1) binStat]
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros')" style="font-weight:bold">zeros</a>
+Size inputs must be scalar.
+} 
+[zeros(1,(12 - size(binStat) + 1)) binStat]
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros')" style="font-weight:bold">zeros</a>
+Size inputs must be scalar.
+} 
+12 - size(binStat) + 1
+
+ans =
+
+    12     3
+
+12 - (size(binStat) + 1)
+
+ans =
+
+    10     1
+
+12 - (length(binStat) + 1)
+
+ans =
+
+     1
+
+length(binStat)
+
+ans =
+
+    10
+
+12 - length(binStat) + 1
+
+ans =
+
+     3
+
+(12 - length(binStat)) + 1
+
+ans =
+
+     3
+
+[zeros(1,12 - length(binStat) + 1) binStat]
+
+ans =
+
+     0     0     0     1     1     0     0     0     0     0     0     0     1
+
+decStat
+
+decStat =
+
+   769
+
+dec2bin(decStat)
+
+ans =
+
+    '1100000001'
+
+dec2bin(decStat) - '0'
+
+ans =
+
+     1     1     0     0     0     0     0     0     0     1
+
+[zeros(1,12 - length(binStat) + 1) dec2bin(decStat) - '0']
+
+ans =
+
+     0     0     0     1     1     0     0     0     0     0     0     0     1
+
+AZCurrStat = getAndDecodeStatus(MI4190,measApp)
+{Unrecognized function or variable 'binStat'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAndDecodeStatus', '/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m', 17)" style="font-weight:bold">getAndDecodeStatus</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m',17,0)">line 17</a>)
+binStat = [zeros(1,12 - length(binStat) + 1) dec2bin(decStat) - '0'];
+} 
+AZCurrStat = getAndDecodeStatus(MI4190,measApp)
+
+AZCurrStat =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+getAndDecodeStatus(MI4190,measApp)
+
+ans =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+measApp.FaultLamp.Color = 'red'
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                   FaultLampLabel: [1×1 Label]
+                        FaultLamp: [1×1 Lamp]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+               progressBarTextObj: []
+
+measApp.FaultLamp.Color = [0.65 0.65 0.65];
+measApp.InMotionLamp.Color = 'green'
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                   FaultLampLabel: [1×1 Label]
+                        FaultLamp: [1×1 Lamp]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+               progressBarTextObj: []
+
+measApp.InMotionLamp.Color = [0.65 0.65 0.65];
+measApp.writeConsoleLine(sprintf('\nAZ Current Status: %s\n',AZCurrStat));
+measApp.writeConsoleLine(sprintf('AZ Current Status: %s\n',AZCurrStat));
+measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF')));
+getAndDecodeStatus(MI4190,measApp)
+
+ans =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF')));
+measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF')));
+measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF')));
+measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF')));
+measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position. . .',datestr(now,'HH:MM:SS.FFF')));
+measApp.Console.Data
+{Unrecognized method, property, or field 'Data' for class 'matlab.ui.control.TextArea'.
+} 
+measApp.Console.Value
+
+ans =
+
+  21×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'[17:38:24.026] Verifying if Axis is in Position. . .'     }
+    {'[17:38:05.059] Verifying if Axis is in Position'          }
+    {'[17:38:04.610] Verifying if Axis is in Position'          }
+    {'[17:38:04.032] Verifying if Axis is in Position'          }
+    {'[17:38:02.291] Verifying if Axis is in Position'          }
+    {0×0 char                                                   }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'[17:37:02.479] Verifying if Axis is in Position'          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {0×0 char                                                   }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Status Changed., Property Changed, Forward Limit Active, '}
+    {'Console Started'                                          }
+
+replace
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('replace', '/usr/local/MATLAB/R2019b/toolbox/matlab/strfun/replace.m', 57)" style="font-weight:bold">replace</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/strfun/replace.m',57,0)">line 57</a>)
+Not enough input arguments.
+} 
+replace(measApp.Console.Value,'0x0 char',' ')
+
+ans =
+
+  21×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'[17:38:24.026] Verifying if Axis is in Position. . .'     }
+    {'[17:38:05.059] Verifying if Axis is in Position'          }
+    {'[17:38:04.610] Verifying if Axis is in Position'          }
+    {'[17:38:04.032] Verifying if Axis is in Position'          }
+    {'[17:38:02.291] Verifying if Axis is in Position'          }
+    {0×0 char                                                   }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'[17:37:02.479] Verifying if Axis is in Position'          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {0×0 char                                                   }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Status Changed., Property Changed, Forward Limit Active, '}
+    {'Console Started'                                          }
+
+measApp.Console.Value(6)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 char}
+
+measApp.Console.Value(6) = '0x0 char'
+{Conversion to cell from char is not possible.
+} 
+x = measApp.Console.Value(6)
+
+x =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 char}
+
+cell2mat(measApp.Console.Value(6))
+
+ans =
+
+  0×0 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+isempty(cell2mat(measApp.Console.Value(6)))
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+measApp.Console.Value(6) = ' '
+{Conversion to cell from char is not possible.
+} 
+measApp.Console.Value(6) = { }
+{Unable to perform assignment because the left and right sides have a different number of elements.
+} 
+measApp.Console.Value(6) = {' '}
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                   FaultLampLabel: [1×1 Label]
+                        FaultLamp: [1×1 Lamp]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+               progressBarTextObj: []
+
+measApp.Console.Value
+
+ans =
+
+  21×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'[17:38:24.026] Verifying if Axis is in Position. . .'     }
+    {'[17:38:05.059] Verifying if Axis is in Position'          }
+    {'[17:38:04.610] Verifying if Axis is in Position'          }
+    {'[17:38:04.032] Verifying if Axis is in Position'          }
+    {'[17:38:02.291] Verifying if Axis is in Position'          }
+    {' '                                                        }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'[17:37:02.479] Verifying if Axis is in Position'          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {0×0 char                                                   }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Status Changed., Property Changed, Forward Limit Active, '}
+    {'Console Started'                                          }
+
+size(measApp.Console.Value)
+
+ans =
+
+    21     1
+
+length(measApp.Console.Value)
+
+ans =
+
+    21
+
+isempty(measApp.Console.Value(6))
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+measApp.Console.Value(6)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {' '}
+
+measApp.Console.Value(12)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 char}
+
+isempty(measApp.Console.Value(12))
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+measApp.Console.Value(12)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 char}
+
+isempty(cell2mat(measApp.Console.Value(12)))
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+isempty(cell2mat(measApp.Console.Value(6)))
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+for i = length(app.Console.Value)
+                if isempty(cell2mat(app.Console.Value(i)))
+                    app.Console.Value(i) = {' '};
+                end
+            end
+{Unable to resolve the name app.Console.Value.
+} 
+for i = length(measApp.Console.Value)
+                if isempty(cell2mat(measApp.Console.Value(i)))
+                    measApp.Console.Value(i) = {' '};
+                end
+            end
+measAapp.Console.Value
+{Unable to resolve the name measAapp.Console.Value.
+} 
+measApp.Console.Value
+
+ans =
+
+  21×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'[17:38:24.026] Verifying if Axis is in Position. . .'     }
+    {'[17:38:05.059] Verifying if Axis is in Position'          }
+    {'[17:38:04.610] Verifying if Axis is in Position'          }
+    {'[17:38:04.032] Verifying if Axis is in Position'          }
+    {'[17:38:02.291] Verifying if Axis is in Position'          }
+    {' '                                                        }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'[17:37:02.479] Verifying if Axis is in Position'          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {0×0 char                                                   }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Axis is Indexed, Axis is Active, Latch is Set, '          }
+    {'AZ Current Status: 769'                                   }
+    {'Status Changed., Property Changed, Forward Limit Active, '}
+    {'Console Started'                                          }
+
+isempty(cell2mat(measApp.Console.Value(12)))
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+[18:12:56.766] Stopping Measurements. . .
+measApp = startApp();
+[18:16:13.848] Stopping Measurements. . .
+measApp = startApp();
+measApp.N210Lamp.Color = 'green'
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                   FaultLampLabel: [1×1 Label]
+                        FaultLamp: [1×1 Lamp]
+        N210DisconnectedLampLabel: [1×1 Label]
+                         N210Lamp: [1×1 Lamp]
+        N310DisconnectedLampLabel: [1×1 Label]
+                         N310Lamp: [1×1 Lamp]
+                       USRPsLabel: [1×1 Label]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+               progressBarTextObj: []
+
+measApp.N210Lamp.Text = 'N210 | Connected';
+{Unrecognized property 'Text' for class 'matlab.ui.control.Lamp'.
+} 
+measApp.N210Lamp.Label = 'N210 | Connected';
+{Unrecognized property 'Label' for class 'matlab.ui.control.Lamp'.
+} 
+measApp.N210Lamp
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.ui.control.Lamp" style="font-weight:bold">Lamp</a> ([0 1 0]) with properties:
+
+       Color: [0 1 0]
+    Position: [145 289 20 20]
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.ui.control.Lamp'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.ui.control.Lamp'), else, matlab.graphics.internal.getForDisplay('ans'), end
+        BeingDeleted: 'off'
+          BusyAction: 'queue'
+               Color: [0 1 0]
+           CreateFcn: ''
+           DeleteFcn: ''
+              Enable: 'on'
+    HandleVisibility: 'on'
+       InnerPosition: [145 289 20 20]
+       Interruptible: 'on'
+              Layout: [0×0 matlab.ui.layout.LayoutOptions]
+       OuterPosition: [145 289 20 20]
+              Parent: [1×1 Figure]
+            Position: [145 289 20 20]
+                 Tag: ''
+             Tooltip: ''
+                Type: 'uilamp'
+            UserData: []
+             Visible: 'on'
+
+measApp.N210Lamp.Label
+{Unrecognized method, property, or field 'Label' for class 'matlab.ui.control.Lamp'.
+} 
+measApp.N210Lamp.Tag
+
+ans =
+
+  0×0 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+measApp.N210Lamp.Tooltip
+
+ans =
+
+  0×0 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+measApp.N210Lamp.Text
+{Unrecognized method, property, or field 'Text' for class 'matlab.ui.control.Lamp'.
+} 
+measApp.N210LampLabel.Text
+{Unrecognized method, property, or field 'N210LampLabel' for class 'measurementApp'.
+} 
+measApp.N210DisconnectedLampLabel.Text
+
+ans =
+
+    'N210 | Disconnected'
+
+measApp.N210Lamp.Color = 'red'
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                   FaultLampLabel: [1×1 Label]
+                        FaultLamp: [1×1 Lamp]
+        N210DisconnectedLampLabel: [1×1 Label]
+                         N210Lamp: [1×1 Lamp]
+        N310DisconnectedLampLabel: [1×1 Label]
+                         N310Lamp: [1×1 Lamp]
+                       USRPsLabel: [1×1 Label]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+               progressBarTextObj: []
+
+measApp.N210Lamp.Color = 'green';
+measApp.N210DisconnectedLabel.Text = 'N210 | Connected';
+{Unrecognized method, property, or field 'N210DisconnectedLabel' for class 'measurementApp'.
+} 
+measApp.N210Lamp.Color = 'green';
+measApp.N210DisconnectedLampLabel.Text = 'N210 | Connected';
+measApp.N210DisconnectedLampLabel.Text = 'N210 | Disconnected';
+measApp.N210DisconnectedLampLabel.Text = 'N210 | Connected';
+[18:23:59.653] Stopping Measurements. . .
+measApp = startApp();
+fprintf('USRP N210 Has IP: ');
+USRP N210 Has IP: cprintf('-comment','%s\n',n210IP);
+{Unrecognized function or variable 'n210IP'.
+} 
+n310IP = '192.168.10.2';
+n210IP = '192.168.10.15';
+fprintf('USRP N210 Has IP: ');
+USRP N210 Has IP: cprintf('-comment','%s\n',n210IP);
+<a href="">192.168.10.15
+</a>measApp.writeConsoleLine('USRP N210 Has IP: %s\n',n210IP);
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/writeConsoleLine')" style="font-weight:bold">measurementApp/writeConsoleLine</a>
+Too many input arguments.
+} 
+fprintf('USRP N210 Has IP: ');
+USRP N210 Has IP: cprintf('-comment','%s\n',n210IP);
+<a href="">192.168.10.15
+</a>measApp.writeConsoleLine(sprintf('USRP N210 Has IP: %s\n',n210IP));
+measApp.N210Lamp.Color = 'green';
+measApp.N210DisconnectedLampLabel.Text = 'N210 | Connected';
+
+fprintf('USRP N310 Has IP: ');
+USRP N310 Has IP: cprintf('-comment','%s\n',n310IP);
+<a href="">192.168.10.2
+</a>measApp.writeConsoleLine(sprintf('USRP N310 Has IP: %s\n',n310IP));
+measApp.N310Lamp.Color = 'green';
+measApp.N310DisconnectedLampLabel.Text = 'N310 | Connected';
+{Unrecognized method, property, or field 'N310DisconnectedLampLabel' for class 'measurementApp'.
+} 
+[18:28:35.294] Stopping Measurements. . .
+measApp = startApp();
+fprintf('USRP N210 Has IP: ');
+USRP N210 Has IP: cprintf('-comment','%s\n',n210IP);
+<a href="">192.168.10.15
+</a>measApp.writeConsoleLine(sprintf('USRP N210 Has IP: %s\n',n210IP));
+measApp.N210Lamp.Color = 'green';
+measApp.N210DisconnectedLampLabel.Text = 'N210 | Connected';
+
+fprintf('USRP N310 Has IP: ');
+USRP N310 Has IP: cprintf('-comment','%s\n',n310IP);
+<a href="">192.168.10.2
+</a>measApp.writeConsoleLine(sprintf('USRP N310 Has IP: %s\n',n310IP));
+measApp.N310Lamp.Color = 'green';
+measApp.N310DisconnectedLampLabel.Text = 'N310 | Connected';
+{Unrecognized method, property, or field 'N310DisconnectedLampLabel' for class 'measurementApp'.
+} 
+[18:29:36.696] Stopping Measurements. . .
+measApp = startApp();
+fprintf('USRP N210 Has IP: ');
+USRP N210 Has IP: cprintf('-comment','%s\n',n210IP);
+<a href="">192.168.10.15
+</a>measApp.writeConsoleLine(sprintf('USRP N210 Has IP: %s\n',n210IP));
+measApp.N210Lamp.Color = 'green';
+measApp.N210DisconnectedLampLabel.Text = 'N210 | Connected';
+
+fprintf('USRP N310 Has IP: ');
+USRP N310 Has IP: cprintf('-comment','%s\n',n310IP);
+<a href="">192.168.10.2
+</a>measApp.writeConsoleLine(sprintf('USRP N310 Has IP: %s\n',n310IP));
+measApp.N310Lamp.Color = 'green';
+measApp.N310DisconnectedLabel.Text = 'N310 | Connected';
+measApp.writeConsoleLine(sprintf('USRP N310 Has IP: %s and is now connected\n',n310IP));
+[18:30:36.710] Stopping Measurements. . .
+measApp = startApp();
+measApp.N310Lamp.Color = 'green';
+                  measApp.N310DisconnectedLabel.Text = 'N310 | Connected';
+cprintf('err','[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF'));
+[18:33:29.902][ERROR] USRP is not connected!              measApp.writeConsoleLine(sprintf('[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF')));
+              measApp.updateProgressBar(loadBarProgress,sprintf('USRP not connected. Rebooting it...'));
+              fprintf('[%s]Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF'));
+[18:33:29.938]Rebooting USRP. . .              measApp.writeConsoleLine(sprintf('[%s]Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF')));
+              
+              measApp.N310Lamp.Color = 'red';
+              measApp.N310DisconnectedLabel.Text = 'N310 | Disconnected';
+
+fprintf('[%s]Booting up USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
+[18:33:47.148]Booting up USRPs. . .
+measApp.N310Lamp.Color = 'green';
+                  measApp.N310DisconnectedLabel.Text = 'N310 | Connected';
+cprintf('err','[%s] [ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF'));
+[18:36:02.316] [ERROR] USRP is not connected!              measApp.writeConsoleLine(sprintf('[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF')));
+              measApp.updateProgressBar(loadBarProgress,sprintf('USRP not connected. Rebooting it...'));
+              fprintf('[%s] Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF'));
+[18:36:02.343] Rebooting USRP. . .              measApp.writeConsoleLine(sprintf('[%s] Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF')));
+              
+              measApp.N310Lamp.Color = 'red';
+              measApp.N310DisconnectedLabel.Text = 'N310 | Disconnected';
+fprintf('[%s] Booting up USRPs. . .\n',datestr(now,'HH:MM:SS.FFF'));
+[18:36:26.582] Booting up USRPs. . .
+measApp.N310Lamp.Color = 'green';
+                  measApp.N310DisconnectedLabel.Text = 'N310 | Connected';
+cprintf('err','[%s] [ERROR] USRP is not connected!\n',datestr(now,'HH:MM:SS.FFF'));
+[18:37:44.683] [ERROR] USRP is not connected!
+              measApp.writeConsoleLine(sprintf('[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF')));
+              measApp.updateProgressBar(loadBarProgress,sprintf('USRP not connected. Rebooting it...'));
+              fprintf('[%s] Rebooting USRP. . .\n',datestr(now,'HH:MM:SS.FFF'));
+[18:37:44.720] Rebooting USRP. . .
+              measApp.writeConsoleLine(sprintf('[%s] Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF')));
+              
+              measApp.N310Lamp.Color = 'red';
+              measApp.N310DisconnectedLabel.Text = 'N310 | Disconnected';
+[18:42:23.916] Stopping Measurements. . .
+measApp = startApp();
+measApp.ResetPositionButton.Value
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+measApp.ResetPositionButton.Value = 1
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                   FaultLampLabel: [1×1 Label]
+                        FaultLamp: [1×1 Lamp]
+                       USRPsLabel: [1×1 Label]
+        N210DisconnectedLampLabel: [1×1 Label]
+                         N210Lamp: [1×1 Lamp]
+            N310DisconnectedLabel: [1×1 Label]
+                         N310Lamp: [1×1 Lamp]
+              ResetPositionButton: [1×1 StateButton]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+               progressBarTextObj: []
+
+measApp.ResetPositionButton.Enable = false
+
+measApp = 
+
+  <a href="matlab:helpPopup measurementApp" style="font-weight:bold">measurementApp</a> with properties:
+
+                   MeasurementApp: [1×1 Figure]
+                       StopButton: [1×1 Button]
+                      StartButton: [1×1 Button]
+                      StatusTable: [1×1 Table]
+                          Console: [1×1 TextArea]
+      IncrementSizeEditFieldLabel: [1×1 Label]
+           IncrementSizeEditField: [1×1 NumericEditField]
+                      PauseButton: [1×1 StateButton]
+                    IdleLampLabel: [1×1 Label]
+                         IdleLamp: [1×1 Lamp]
+                InMotionLampLabel: [1×1 Label]
+                     InMotionLamp: [1×1 Lamp]
+               MeasuringLampLabel: [1×1 Label]
+                    MeasuringLamp: [1×1 Lamp]
+                        HornImage: [1×1 UIAxes]
+                      ProgressBar: [1×1 Panel]
+    CenterFrequencyEditFieldLabel: [1×1 Label]
+             CenterFrequencyValue: [1×1 NumericEditField]
+             CenterFrequencyUnits: [1×1 DropDown]
+                   FaultLampLabel: [1×1 Label]
+                        FaultLamp: [1×1 Lamp]
+                       USRPsLabel: [1×1 Label]
+        N210DisconnectedLampLabel: [1×1 Label]
+                         N210Lamp: [1×1 Lamp]
+            N310DisconnectedLabel: [1×1 Label]
+                         N310Lamp: [1×1 Lamp]
+              ResetPositionButton: [1×1 StateButton]
+                       consoleObj: [1×1 struct]
+                        MI4190Obj: []
+                       wantToStop: 0
+                         imageObj: [341×466×3 uint8]
+                   imageHandleObj: [1×1 Image]
+                            axObj: [1×1 Axes]
+                            phObj: [1×1 Patch]
+                            thObj: [1×1 Text]
+               progressBarTextObj: []
+
+[18:46:05.868] Stopping Measurements. . .
+measApp = startApp();
+{Unrecognized function or variable 'AZCurrPos'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/ResetPositionButtonPushed', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 178)" style="font-weight:bold">measurementApp/ResetPositionButtonPushed</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',178,0)">line 178</a>)
+            moveAxisToPosition(app.MI4190Obj,-90,AZCurrPos,loadBarProgress,app,incrementSize,anglesRemaining);
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 335)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',335,0)">line 335</a>)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+. . . . 
+{Index in position 1 exceeds array bounds.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/ResetPositionButtonPushed', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 178)" style="font-weight:bold">measurementApp/ResetPositionButtonPushed</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',178,0)">line 178</a>)
+            verifyIfInPosition(app.MI4190Obj,-90,0.6,app.phObj.XData(2),app,app.StatusTable.Data(4,1),app.IncrementSizeEditField.Value);
+} 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', '/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m', 335)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/uicomponents/uicomponents/+matlab/+ui/+control/+internal/+controller/ComponentController.m',335,0)">line 335</a>)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+[18:52:37.995] Stopping Measurements. . .
+testing
+Beginning Measurements 19-Jan-2020 18:52:44

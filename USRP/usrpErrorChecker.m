@@ -17,11 +17,14 @@ function [] = usrpErrorChecker(loadBarProgress,measApp)
           while (~contains(usrpResponse,'ttl=')) %TTL= will only show on a successful ping
               
 
-              cprintf('err','[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF'));
+              cprintf('err','[%s] [ERROR] USRP is not connected!\n',datestr(now,'HH:MM:SS.FFF'));
               measApp.writeConsoleLine(sprintf('[%s][ERROR] USRP is not connected!',datestr(now,'HH:MM:SS.FFF')));
               measApp.updateProgressBar(loadBarProgress,sprintf('USRP not connected. Rebooting it...'));
-              fprintf('[%s]Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF'));
-              measApp.writeConsoleLine(sprintf('[%s]Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF')));
+              fprintf('[%s] Rebooting USRP. . .\n',datestr(now,'HH:MM:SS.FFF'));
+              measApp.writeConsoleLine(sprintf('[%s] Rebooting USRP. . .',datestr(now,'HH:MM:SS.FFF')));
+              
+              measApp.N310Lamp.Color = 'red';
+              measApp.N310DisconnectedLabel.Text = 'N310 | Disconnected';
               bootUSRPs(loadBarProgress,measApp);
              
               cprintf('strings','[%s] Checking USRP for errors. . .\n',datestr(now,'HH:MM:SS.FFF'));
@@ -35,6 +38,8 @@ function [] = usrpErrorChecker(loadBarProgress,measApp)
                   fprintf('[%s] Error Cleared from USRP. Time elapsed: %.2f seconds\n',datestr(now,'HH:MM:SS.FFF'),toc');
                   measApp.writeConsoleLine(sprintf('[%s] Error Cleared from USRP. Time elapsed: %.2f seconds\n',datestr(now,'HH:MM:SS.FFF'),toc'));
                   measApp.updateProgressBar(loadBarProgress,sprintf('Error Cleared from USRP. Continuing...'));
+                  measApp.N310Lamp.Color = 'green';
+                  measApp.N310DisconnectedLabel.Text = 'N310 | Connected';
                   return;
 
               end

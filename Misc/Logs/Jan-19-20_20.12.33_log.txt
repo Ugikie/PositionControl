@@ -1,0 +1,28 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_20.12.33_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[20:12:40.903] Verifying if Axis is in Position. . . . 
+[20:12:45.705] Moving Axis (AZ) from position: -80.05, to desired position: -90.00. . . . 
+[20:12:57.847] Verifying if Axis is in Position. . . . 
+[20:13:00.202] Axis (AZ) is in desired position: -89.95. Time elapsed: 14.44 seconds.
+[20:13:02.372] Increment size chosen: 5.00
+[20:13:02.375] Center frequency chosen: 1.94995 GHz
+<a href="">
+[20:13:02.654] Current Degree Measurement: -90.00
+</a>[20:13:02.674] Verifying if Axis is in Position. . . . 
+[20:13:05.031] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.36 seconds.
+
+[20:13:15.326] Taking measurement at -89.95 degrees
+[20:13:19.214] Incrementing MI4190 Position by 5.00 degrees. . . . 
+<a href="">
+[20:13:19.455] Current Degree Measurement: -85.00
+</a>[20:13:19.475] Verifying if Axis is in Position. . . . 
+[20:13:21.805] Verifying if Axis is in Position. . . . 
+[20:13:24.108] Stopping Measurements. . .
+Elapsed Time: 00:00:44
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_20.12.33_log.txt

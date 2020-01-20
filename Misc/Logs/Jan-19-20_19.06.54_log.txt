@@ -1,0 +1,169 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.06.54_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[19:07:01.228] Verifying if Axis is in Position. . . . 
+[19:07:03.428] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.20 seconds.
+[19:07:05.546] Increment size chosen: 10.00
+[19:07:05.550] Center frequency chosen: 1.94995 GHz
+<a href="">
+[19:07:05.782] Current Degree Measurement: -90.00
+</a>[19:07:06.123] Verifying if Axis is in Position. . . . 
+[19:07:08.359] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.24 seconds.
+
+[19:07:15.789] Taking measurement at -89.94 degrees
+[19:07:19.516] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:07:19.704] Current Degree Measurement: -80.00
+</a>[19:07:19.791] Verifying if Axis is in Position. . . . 
+[19:07:21.992] Verifying if Axis is in Position. . . . 
+[19:07:24.190] Verifying if Axis is in Position. . . . 
+[19:07:26.392] Verifying if Axis is in Position. . . . 
+[19:07:28.578] Axis (AZ) is in desired position: -80.23. Time elapsed: 8.79 seconds.
+
+[19:07:36.003] Taking measurement at -80.05 degrees
+[19:07:39.702] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:07:39.903] Current Degree Measurement: -70.00
+</a>[19:07:39.999] Verifying if Axis is in Position. . . . 
+[19:07:42.197] Verifying if Axis is in Position. . . . 
+[19:07:44.385] Verifying if Axis is in Position. . . . 
+[19:07:46.579] Verifying if Axis is in Position. . . . 
+[19:07:48.782] Axis (AZ) is in desired position: -70.23. Time elapsed: 8.78 seconds.
+[19:07:54.166] Moving Axis (AZ) from position: -70.05, to desired position: -90.00. . . . 
+[19:08:14.955] Moving Axis (AZ) from position: -89.95, to desired position: -70.00. . . . 
+
+[19:08:33.507] Taking measurement at -70.05 degrees
+[19:08:37.204] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:08:37.382] Current Degree Measurement: -60.00
+</a>[19:08:37.481] Verifying if Axis is in Position. . . . 
+[19:08:39.699] Verifying if Axis is in Position. . . . 
+[19:08:41.908] Verifying if Axis is in Position. . . . 
+[19:08:44.120] Verifying if Axis is in Position. . . . 
+[19:08:46.332] Axis (AZ) is in desired position: -60.22. Time elapsed: 8.85 seconds.
+
+[19:08:53.744] Taking measurement at -60.05 degrees
+[19:08:57.443] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:08:57.619] Current Degree Measurement: -50.00
+</a>[19:08:57.703] Verifying if Axis is in Position. . . . 
+[19:08:59.924] Verifying if Axis is in Position. . . . 
+[19:09:02.118] Verifying if Axis is in Position. . . . 
+[19:09:04.311] Verifying if Axis is in Position. . . . 
+[19:09:06.516] Axis (AZ) is in desired position: -50.22. Time elapsed: 8.81 seconds.
+[19:09:07.896] Stopping Measurements. . .
+Elapsed Time: 00:02:07
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.06.54_log.txt
+{Unrecognized function or variable 'measApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 255)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',255,0)">line 255</a>)
+if (~isempty(measApp))
+} 
+for i = 1:5
+end
+c=0
+
+c =
+
+     0
+
+for i = 1:5
+c = c+1
+if (c = 5)
+ if (c = 5)
+       ↑
+{Error: Incorrect use of '=' operator. To assign a value to a variable, use '='. To compare values for equality, use '=='.
+} 
+for i = 1:5
+if (c == 5)
+break
+end
+i = 1
+c = c + 1;
+i
+c
+end
+
+i =
+
+     1
+
+
+i =
+
+     1
+
+
+c =
+
+     1
+
+
+i =
+
+     1
+
+
+i =
+
+     1
+
+
+c =
+
+     2
+
+
+i =
+
+     1
+
+
+i =
+
+     1
+
+
+c =
+
+     3
+
+
+i =
+
+     1
+
+
+i =
+
+     1
+
+
+c =
+
+     4
+
+
+i =
+
+     1
+
+
+i =
+
+     1
+
+
+c =
+
+     5
+
+measApp = startApp();
+[19:28:30.966] Stopping Measurements. . .
+testing
+Beginning Measurements 19-Jan-2020 19:28:39

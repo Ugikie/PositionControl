@@ -1,0 +1,280 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.42.04_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[19:42:11.188] Verifying if Axis is in Position. . . . 
+[19:42:14.999] Moving Axis (AZ) from position: -85.04, to desired position: -90.00. . . . 
+[19:42:24.058] Verifying if Axis is in Position. . . . 
+[19:42:26.374] Axis (AZ) is in desired position: -89.95. Time elapsed: 11.34 seconds.
+[19:42:28.556] Please enter a valid increment size!
+[19:42:34.577] Increment size chosen: 10.00
+[19:42:34.592] Please enter a valid center frequency!
+[19:42:40.613] Center frequency chosen: 1.94995 GHz
+<a href="">
+[19:42:40.905] Current Degree Measurement: -90.00
+</a>[19:42:40.934] Verifying if Axis is in Position. . . . 
+[19:42:43.417] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.48 seconds.
+
+[19:42:51.037] Taking measurement at -89.95 degrees
+[19:42:54.872] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:42:55.116] Current Degree Measurement: -80.00
+</a>[19:42:55.136] Verifying if Axis is in Position. . . . 
+[19:42:57.454] Verifying if Axis is in Position. . . . 
+[19:42:59.762] Verifying if Axis is in Position. . . . 
+[19:43:02.065] Verifying if Axis is in Position. . . . 
+[19:43:04.363] Axis (AZ) is in desired position: -80.19. Time elapsed: 9.23 seconds.
+
+[19:43:11.958] Taking measurement at -80.05 degrees
+[19:43:15.782] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:43:16.042] Current Degree Measurement: -70.00
+</a>[19:43:16.060] Verifying if Axis is in Position. . . . 
+[19:43:18.375] Verifying if Axis is in Position. . . . 
+[19:43:20.669] Verifying if Axis is in Position. . . . 
+[19:43:22.991] Verifying if Axis is in Position. . . . 
+[19:43:25.295] Axis (AZ) is in desired position: -70.13. Time elapsed: 9.23 seconds.
+
+[19:43:32.893] Taking measurement at -70.05 degrees
+[19:43:36.726] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:43:36.995] Current Degree Measurement: -60.00
+</a>[19:43:37.025] Verifying if Axis is in Position. . . . 
+[19:43:39.312] Verifying if Axis is in Position. . . . 
+[19:43:41.588] Verifying if Axis is in Position. . . . 
+[19:43:43.914] Verifying if Axis is in Position. . . . 
+[19:43:46.236] Axis (AZ) is in desired position: -60.18. Time elapsed: 9.21 seconds.
+
+[19:44:07.176] Taking measurement at -60.05 degrees
+[19:44:11.016] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[19:44:11.282] Current Degree Measurement: -50.00
+</a>[19:44:11.308] Verifying if Axis is in Position. . . . 
+[19:44:13.612] Verifying if Axis is in Position. . . . 
+[19:44:15.906] Verifying if Axis is in Position. . . . 
+[19:44:18.202] Verifying if Axis is in Position. . . . 
+[19:44:20.513] Axis (AZ) is in desired position: -50.16. Time elapsed: 9.21 seconds.
+
+[19:44:28.131] Taking measurement at -50.05 degrees
+[19:44:31.167] Stopping Measurements. . .
+Elapsed Time: 00:02:22
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_19.42.04_log.txt
+{Unrecognized function or variable 'measApp'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 255)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',255,0)">line 255</a>)
+if (~isempty(measApp))
+} 
+measApp = startApp();
+[19:51:14.182] Stopping Measurements. . .
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 134)" style="font-weight:bold">measurementApp/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',134,0)">line 134</a>)
+Undefined function 'isvalid' for input arguments of type 'double'.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp)
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+measApp = startApp();
+[19:53:03.179] Stopping Measurements. . .
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 134)" style="font-weight:bold">measurementApp/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',134,0)">line 134</a>)
+Undefined function 'isvalid' for input arguments of type 'double'.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp);
+isvalid(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+measApp = startApp();
+MI4190 = serial('/dev/ttyUSB0');                 % Linux
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 0.5;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+measApp.MI4190Obj = MI4190;
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+pause(1)
+
+warning('off','MATLAB:serial:fread:unsuccessfulRead');
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+% Configure as Controller (++mode 1), instrument address 4, and with
+% read-after-write (++auto 1) enabled
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+% Read the id of the Controller to verify connection:
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))';
+measApp.writeConsoleLine(sprintf('Position Controller ID: %s\n',idn));
+%===============================END SETUP=================================%
+[19:54:16.324] Stopping Measurements. . .
+[19:54:32.446] Stopping Measurements. . .
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+isvalid(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isempty(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isvalid(measApp.MI4190Obj)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isempty(measApp.MI4190Obj)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isempty(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isvalid(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+x = 1
+
+x =
+
+     1
+
+isvalid(x)
+{Undefined function 'isvalid' for input arguments of type 'double'.
+} 
+MI4190 = serial('/dev/ttyUSB0');                 % Linux
+isvalid(MI4190)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+delete(measApp.MI4190Obj)
+isvalid(measApp.MI4190Obj)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isempty(measApp.MI4190Obj)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+measApp.MI4190Obj
+
+ Invalid instrument object.
+ This object has been deleted and cannot be
+ connected to the hardware. This object should
+ be removed from your workspace with CLEAR.
+ 
+
+[19:56:48.444] Stopping Measurements. . .
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+delete(measApp)
+measApp = startApp();
+isvalid(measApp.MI4190Obj)
+{Undefined function 'isvalid' for input arguments of type 'double'.
+} 
+measApp.MI4190Obj
+
+ans =
+
+     []
+
+isempty(measApp.MI4190Obj)
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+[20:00:03.993] Stopping Measurements. . .
+[Warning: Error occurred while executing the listener callback for event Custom defined for class asyncio.Channel:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 134)" style="font-weight:bold">measurementApp/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',134,0)">line 134</a>)
+Undefined function 'isvalid' for input arguments of type 'double'.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+[20:01:22.206] Stopping Measurements. . .
+[Warning: Error while executing listener callback for Custom event. Source has been deleted:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/MeasurementAppCloseRequest', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 134)" style="font-weight:bold">measurementApp/MeasurementAppCloseRequest</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',134,0)">line 134</a>)
+Undefined function 'isvalid' for input arguments of type 'double'.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio/Channel/onCustomEvent', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 477)" style="font-weight:bold">asyncio/Channel/onCustomEvent</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',477,0)">line 477</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)', '/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m', 409)" style="font-weight:bold">asyncio.Channel>@(source,data)obj.onCustomEvent(data.Type,data.Data)</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/asynciolib/+asyncio/Channel.m',409,0)">line 409</a>)] 
+measApp = startApp();
+[20:01:42.873] Stopping Measurements. . .
+testing
+Beginning Measurements 19-Jan-2020 20:01:51

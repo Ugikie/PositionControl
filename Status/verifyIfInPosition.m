@@ -19,9 +19,11 @@ tic
           if (verbose == 'v')
             fprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF'));
             dots(4);
-            measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position',datestr(now,'HH:MM:SS.FFF')));
+            measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position. . .',datestr(now,'HH:MM:SS.FFF')));
             measApp.updateProgressBar(loadBarProgress,sprintf('Verifying if Axis is in Position'));
           end
+          
+          if (measApp.wantToStop) return; end
           
           AZCurrPos = getAZCurrPos(MI4190,measApp);
           AZCurrVel = getAZCurrVelocity(MI4190,measApp);          
@@ -48,5 +50,6 @@ tic
     if(~axisInPosition && (AZCurrVel == 0.00))
         moveAxisToPosition(MI4190,desiredPosition,AZCurrPos,loadBarProgress,measApp,incrementSize,anglesRemaining);
     end
+    drawnow();
     pause(2);
 end

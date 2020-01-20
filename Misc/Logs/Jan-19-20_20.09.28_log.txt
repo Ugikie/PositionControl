@@ -1,0 +1,39 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-19-20_20.09.28_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[20:09:34.769] Verifying if Axis is in Position. . . . 
+[20:09:37.245] Verifying if Axis is in Position. . . . 
+[20:09:40.883] Moving Axis (AZ) from position: -70.05, to desired position: -90.00. . . . 
+[20:09:54.959] Verifying if Axis is in Position. . . . 
+[20:09:58.254] Axis (AZ) is in desired position: -89.95. Time elapsed: 17.32 seconds.
+[20:10:00.668] Increment size chosen: 10.00
+[20:10:00.677] Center frequency chosen: 1.94995 GHz
+<a href="">
+[20:10:01.000] Current Degree Measurement: -90.00
+</a>[20:10:01.026] Verifying if Axis is in Position. . . . 
+[20:10:03.424] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.40 seconds.
+
+[20:10:11.264] Taking measurement at -89.95 degrees
+[20:10:15.141] Incrementing MI4190 Position by 10.00 degrees. . . . 
+<a href="">
+[20:10:15.405] Current Degree Measurement: -80.00
+</a>[20:10:15.425] Verifying if Axis is in Position. . . . 
+[20:10:17.767] Verifying if Axis is in Position. . . . 
+[20:10:18.918] Stopping Measurements. . .
+{Output argument "AZCurrVelDoub" (and maybe others) not assigned during call to "getAZCurrVelocity".
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 27)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',27,0)">line 27</a>)
+          AZCurrVel = getAZCurrVelocity(MI4190,measApp);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 179)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',179,0)">line 179</a>)
+    verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,measApp,anglesRemaining,incrementSize,'v');
+} 
+[20:10:23.363] Stopping Measurements. . .
+delete(measApp)
+testing
+Beginning Measurements 19-Jan-2020 20:12:33
