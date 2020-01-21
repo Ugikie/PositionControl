@@ -95,7 +95,7 @@ verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,0,measApp,'N','N','v');
 if (measApp.wantToStop) delete(measApp); return; end
 
 %Allow user to input desired increment size for degree changes on Axis (AZ)
-incrementSize = -1;
+incrementSize = measApp.incrementSizeObj;
 while ((incrementSize <= 0) || (incrementSize > 180)) 
     if (measApp.wantToStop) break; end
     updateLamps(AZCurrVel,measApp,false,false);
@@ -103,13 +103,13 @@ while ((incrementSize <= 0) || (incrementSize > 180))
     
     %incrementSize = input('Enter the desired degree increment size (Must be between 1-180): ');
     
-    incrementSize = measApp.IncrementSizeEditField.Value;
+    incrementSize = measApp.incrementSizeObj;
     while (incrementSize == 0)
         fprintf('[%s] Please enter a valid increment size!\n',datestr(now,'HH:MM:SS.FFF'))
         measApp.writeConsoleLine(sprintf('[%s] Please enter a valid increment size!\n',datestr(now,'HH:MM:SS.FFF')))
         while (incrementSize == 0)
             if (measApp.wantToStop) break; end
-            incrementSize = measApp.IncrementSizeEditField.Value;
+            incrementSize = measApp.incrementSizeObj;
             pause(1)
         end
         if (measApp.wantToStop) break; end
@@ -121,19 +121,18 @@ if (measApp.wantToStop) delete(measApp); return; end
 fprintf('[%s] Increment size chosen: %.2f\n',datestr(now,'HH:MM:SS.FFF'),incrementSize)
 measApp.writeConsoleLine(sprintf('[%s] Increment size chosen: %.2f\n',datestr(now,'HH:MM:SS.FFF'),incrementSize))
 measApp.IncrementSizeEditField.Editable = false;
+measApp.IncrementSizeConfirmButton.Enable = false;
 degInterval = -90:incrementSize:90;
 
-%consider replacing method of waiting for center freq with a loop that
-%waits for button to be pressed on gui that says "choose freq" or something
-centerFreq = measApp.CenterFrequencyValue.Value;
-centerFreqUnits = measApp.CenterFrequencyUnits.Value;
+centerFreq = measApp.centerFreqObj;
+centerFreqUnits = measApp.centerFreqUnitsObj;
 while (centerFreq == 0 || strcmp(centerFreqUnits,'Select units...'))
     fprintf('[%s] Please enter a valid center frequency!\n',datestr(now,'HH:MM:SS.FFF'))
     measApp.writeConsoleLine(sprintf('[%s] Please enter a valid center frequency!\n',datestr(now,'HH:MM:SS.FFF')))
     while (centerFreq == 0 || strcmp(centerFreqUnits,'Select units...'))
         if (measApp.wantToStop) break; end
-        centerFreq = measApp.CenterFrequencyValue.Value;
-        centerFreqUnits = measApp.CenterFrequencyUnits.Value;
+        centerFreq = measApp.centerFreqObj;
+        centerFreqUnits = measApp.centerFreqUnitsObj;
         pause(1);
     end
     if (measApp.wantToStop) break; end
@@ -141,9 +140,10 @@ end
 if (measApp.wantToStop) return; end
 
 fprintf('[%s] Center frequency chosen: %.5f %s\n',datestr(now,'HH:MM:SS.FFF'),centerFreq,centerFreqUnits)
-measApp.writeConsoleLine(sprintf('[%s] Center frequency chosen: %.2f\n',datestr(now,'HH:MM:SS.FFF'),incrementSize))
+measApp.writeConsoleLine(sprintf('[%s] Center frequency chosen: %.5f %s\n',datestr(now,'HH:MM:SS.FFF'),centerFreq,centerFreqUnits))
 measApp.CenterFrequencyValue.Editable = false;
 measApp.CenterFrequencyUnits.Enable = false;
+measApp.CenterFreqConfirmButton.Enable = false;
 setVNACentFreq(centerFreq,centerFreqUnits,MI4190,measApp);
 
 if (measApp.wantToStop) return; end
@@ -252,7 +252,7 @@ if (~isempty(MI4190) && isvalid(MI4190))
     clear MI4190;
 end
 
-if (exist('measApp','var') == 1)
+if (exist('measApp','var'))
     delete(measApp);
 end
 
