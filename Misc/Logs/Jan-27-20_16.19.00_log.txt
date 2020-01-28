@@ -1,0 +1,37 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-27-20_16.19.00_log.txt
+
+
+AZCurrStat =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+[16:19:07.574] Verifying if Axis is in Position. . . . 
+[16:19:11.382] Moving Axis (AZ) from position: -88.05, to desired position: -90.00. . . . 
+[16:19:20.455] Verifying if Axis is in Position. . . . 
+[16:19:22.886] Axis (AZ) is in desired position: -89.94. Time elapsed: 11.44 seconds.
+
+[16:19:25.123] Please enter a valid increment size!
+[16:19:30.139] Increment size chosen: 1.00
+[16:19:30.177] Please enter a valid center frequency!
+[16:19:38.190] Center frequency chosen: 1.94995 GHz
+[16:19:38.350] Booting up USRPs. . .
+[16:20:08.130] Verified connection to USRPs. . .
+[16:20:08.138] USRP N210 Has IP: <a href="">192.168.10.15
+</a>[16:20:08.502] USRP N310 Has IP: <a href="">192.168.10.2
+</a>[16:20:08.533] Initiating USRP N210. . .
+<a href="">
+[16:20:08.757] Current Degree Measurement: -90.00
+</a>[16:20:08.792] Verifying if Axis is in Position. . . . 
+[16:20:11.206] Axis (AZ) is in desired position: -89.94. Time elapsed: 2.41 seconds.
+[16:20:13.348] Checking USRP for errors. . . 
+[16:20:15.416] No USRP Error!
+
+[16:20:21.260] Taking measurement at -89.94 degrees
+[16:20:49.406] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[16:20:49.842] Current Degree Measurement: -89.00
+</a>[16:20:49.870] Verifying if Axis is in Position. . . . 
+[16:20:52.294] Stopping Measurements. . .
+Elapsed Time: 00:01:45
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-27-20_16.19.00_log.txt

@@ -15,6 +15,7 @@ if (measApp.wantToStop) delete(measApp); return; end
 % configured to work for a Mac, so if a PC is being used this will need to
 % be changed (e.g., to a port such as COM3)
 MI4190 = serial('/dev/ttyUSB0');                 % Linux
+system('sudo chmod 666 /dev/ttyUSB0');
     %if it does not work on linux, you may have to run the command:
     % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
 %MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac

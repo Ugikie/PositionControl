@@ -1,0 +1,19 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-27-20_16.18.16_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',16,1)">16  </a>tic
+[16:18:33.241] Stopping Measurements. . .
+[16:18:37.382] Stopping Measurements. . .
+delete(measApp)
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+PositionController
+Beginning Measurements 27-Jan-2020 16:19:00

@@ -16,6 +16,7 @@ if ((AZCurrVel >= -0.01) && (AZCurrVel <= 0.01))
     fprintf('[%s] Moving Axis (AZ) from position: %.2f, to desired position: %.2f',datestr(now,'HH:MM:SS.FFF'), AZCurrPos, desiredPos);
     measApp.writeConsoleLine(sprintf('[%s] Moving Axis (AZ) from position: %.2f, to desired position: %.2f',datestr(now,'HH:MM:SS.FFF'), AZCurrPos, desiredPos));
     measApp.updateProgressBar(loadBarProgress,sprintf('Moving Axis (AZ) from position: %.2f, to desired position: %.2f',AZCurrPos, desiredPos));
+    drawnow();
     pause(0.0001);
     fprintf(MI4190, 'CONT1:AXIS(1):POS:COMM %f\n', desiredPos);
     fprintf(MI4190, 'CONT1:AXIS(1):MOT:STAR');

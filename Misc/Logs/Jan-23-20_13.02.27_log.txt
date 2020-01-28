@@ -1,0 +1,48 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-23-20_13.02.27_log.txt
+
+
+AZCurrStat =
+
+    '4608
+     Status Changed., Axis is Indexed, '
+
+[13:02:36.214] Verifying if Axis is in Position. . . . 
+[13:02:39.876] Moving Axis (AZ) from position: 0.04, to desired position: -90.00. . . . 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('affine2d.set.T')" style="font-weight:bold">affine2d.set.T</a>
+Expected T to be finite.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('affine2d/set.T', '/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m', 364)" style="font-weight:bold">affine2d/set.T</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m',364,0)">line 364</a>)
+            validateattributes(t,{'single','double'},{'size',[3 3],'finite','nonsparse'},...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('affine2d', '/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m', 118)" style="font-weight:bold">affine2d</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m',118,0)">line 118</a>)
+                self.T = A;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imrotate', '/usr/local/MATLAB/R2019b/toolbox/images/images/imrotate.m', 135)" style="font-weight:bold">imrotate</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/images/images/imrotate.m',135,0)">line 135</a>)
+        tform = affine2d([cosd(ang) -sind(ang) 0; sind(ang) cosd(ang) 0; 0 0 1]);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/rotateHornImage', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 69)" style="font-weight:bold">measurementApp/rotateHornImage</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',69,0)">line 69</a>)
+            app.imageHandleObj.CData = imrotate(app.imageObj,rotation);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAZCurrPos', '/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m', 11)" style="font-weight:bold">getAZCurrPos</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m',11,0)">line 11</a>)
+measApp.rotateHornImage(AZCurrPosDoub);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 28)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',28,0)">line 28</a>)
+          AZCurrPos = getAZCurrPos(MI4190,measApp);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('moveAxisToPosition', '/home/ugikie/Desktop/PositionControl/Motion/moveAxisToPosition.m', 23)" style="font-weight:bold">moveAxisToPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Motion/moveAxisToPosition.m',23,0)">line 23</a>)
+    verifyIfInPosition(MI4190,desiredPos,0.6,loadBarProgress,measApp,anglesRemaining,incrementSize);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 43)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',43,0)">line 43</a>)
+              moveAxisToPosition(MI4190,desiredPosition,AZCurrPos,loadBarProgress,measApp,incrementSize,anglesRemaining);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testing', '/home/ugikie/Desktop/PositionControl/System/testing.m', 93)" style="font-weight:bold">testing</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/testing.m',93,0)">line 93</a>)
+verifyIfInPosition(MI4190,AZStartPos,POSITION_ERROR,0,measApp,'N','N','v');
+} 
+[13:03:07.337] Stopping Measurements. . .
+delete(measApp)
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+testing
+Beginning Measurements 23-Jan-2020 13:03:37

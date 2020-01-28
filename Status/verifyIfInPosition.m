@@ -22,7 +22,7 @@ tic
             measApp.writeConsoleLine(sprintf('[%s] Verifying if Axis is in Position. . .',datestr(now,'HH:MM:SS.FFF')));
             measApp.updateProgressBar(loadBarProgress,sprintf('Verifying if Axis is in Position'));
           end
-          
+          drawnow();
           if (measApp.wantToStop) return; end
           
           AZCurrPos = getAZCurrPos(MI4190,measApp);
@@ -35,6 +35,7 @@ tic
                 measApp.updateProgressBar(loadBarProgress,sprintf('Axis (AZ) is in desired position. Continuing...'));
                 fprintf('[%s] Axis (AZ) is in desired position: %.2f. Time elapsed: %.2f seconds.\n',datestr(now,'HH:MM:SS.FFF'), AZCurrPos, toc');
                 measApp.writeConsoleLine(sprintf('[%s] Axis (AZ) is in desired position: %.2f. Time elapsed: %.2f seconds.\n',datestr(now,'HH:MM:SS.FFF'), AZCurrPos, toc'));
+                measApp.StatusTable.Data{2,1} = measApp.StatusTable.Data{1,1} + incrementSize;
               end
               axisInPosition = true;
               break;

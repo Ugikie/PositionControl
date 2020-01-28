@@ -1,0 +1,26 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-27-20_16.25.52_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[16:25:59.288] Verifying if Axis is in Position. . . . 
+[16:26:01.806] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.52 seconds.
+
+[16:26:04.039] Please enter a valid increment size!
+[16:26:14.052] Increment size chosen: 1.00
+[16:26:14.091] Please enter a valid center frequency!
+[16:26:22.105] Center frequency chosen: 1.94995 GHz
+[16:26:22.247] Booting up USRPs. . .
+[16:26:52.835] Verified connection to USRPs. . .
+[16:26:52.842] USRP N210 Has IP: <a href="">192.168.10.15
+</a>[16:26:53.050] USRP N310 Has IP: <a href="">192.168.10.2
+</a>[16:26:53.085] Initiating USRP N210. . .
+<a href="">
+[16:26:53.273] Current Degree Measurement: -90.00
+</a>[16:26:53.291] Verifying if Axis is in Position. . . . 
+[16:26:55.848] Stopping Measurements. . .
+Elapsed Time: 00:00:57
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-27-20_16.25.52_log.txt

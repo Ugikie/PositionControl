@@ -1,0 +1,58 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-27-20_16.08.28_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[16:08:35.783] Verifying if Axis is in Position. . . . 
+[16:08:39.469] Moving Axis (AZ) from position: -87.05, to desired position: -90.00. . . . 
+[16:08:48.450] Verifying if Axis is in Position. . . . 
+[16:08:50.803] Axis (AZ) is in desired position: -89.95. Time elapsed: 11.30 seconds.
+
+[16:08:52.993] Please enter a valid increment size!
+[16:08:58.004] Increment size chosen: 1.00
+[16:08:58.010] Please enter a valid center frequency!
+[16:09:05.029] Center frequency chosen: 1.94995 GHz
+[16:09:05.157] Booting up USRPs. . .
+[16:09:35.647] Verified connection to USRPs. . .
+USRP N210 Has IP: <a href="">192.168.10.15
+</a>USRP N310 Has IP: <a href="">192.168.10.2
+</a>[16:09:35.706] Initiating USRP N210. . .
+<a href="">
+[16:09:35.845] Current Degree Measurement: -90.00
+</a>[16:09:35.859] Verifying if Axis is in Position. . . . 
+[16:09:38.180] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.32 seconds.
+[16:09:40.301] Checking USRP for errors. . . 
+[16:09:42.359] No USRP Error!
+
+[16:09:47.948] Taking measurement at -89.95 degrees
+[16:10:18.131] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[16:10:18.420] Current Degree Measurement: -89.00
+</a>[16:10:18.441] Verifying if Axis is in Position. . . . 
+[16:10:20.708] Verifying if Axis is in Position. . . . 
+[16:10:23.003] Axis (AZ) is in desired position: -89.33. Time elapsed: 4.56 seconds.
+[16:10:25.112] Checking USRP for errors. . . 
+[16:10:27.137] No USRP Error!
+
+[16:10:32.602] Taking measurement at -89.05 degrees
+[16:10:46.666] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[16:10:46.845] Current Degree Measurement: -88.00
+</a>[16:10:46.873] Verifying if Axis is in Position. . . . 
+[16:10:49.173] Verifying if Axis is in Position. . . . 
+[16:10:51.431] Axis (AZ) is in desired position: -88.30. Time elapsed: 4.56 seconds.
+[16:10:53.547] Checking USRP for errors. . . 
+[16:10:55.570] No USRP Error!
+[16:10:58.195] Stopping Measurements. . .
+[16:11:12.221] Stopping Measurements. . .
+[16:11:15.682] Stopping Measurements. . .
+delete(measApp)
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+PositionController
+Beginning Measurements 27-Jan-2020 16:18:16

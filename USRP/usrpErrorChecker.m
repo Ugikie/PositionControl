@@ -7,6 +7,7 @@ function [] = usrpErrorChecker(loadBarProgress,measApp)
     cprintf('strings','[%s] Checking USRP for errors',datestr(now,'HH:MM:SS.FFF'));
     measApp.writeConsoleLine(sprintf('[%s] Checking USRP for errors',datestr(now,'HH:MM:SS.FFF')));
     measApp.updateProgressBar(loadBarProgress,sprintf('Checking USRP for errors...'));
+    drawnow();
     dots(3);
     
     MAX_ERROR_WAIT_TIME = 10000; %seconds
@@ -25,11 +26,13 @@ function [] = usrpErrorChecker(loadBarProgress,measApp)
               
               measApp.N310Lamp.Color = 'red';
               measApp.N310DisconnectedLabel.Text = 'N310 | Disconnected';
+              drawnow();
               bootUSRPs(loadBarProgress,measApp);
              
               cprintf('strings','[%s] Checking USRP for errors. . .\n',datestr(now,'HH:MM:SS.FFF'));
               measApp.writeConsoleLine(sprintf('[%s] Checking USRP for errors. . .\n',datestr(now,'HH:MM:SS.FFF')));
               measApp.updateProgressBar(loadBarProgress,sprintf('Checking USRP for errors...'));
+              drawnow();
               usrpResponse = pingUSRP();
               
 
@@ -40,6 +43,7 @@ function [] = usrpErrorChecker(loadBarProgress,measApp)
                   measApp.updateProgressBar(loadBarProgress,sprintf('Error Cleared from USRP. Continuing...'));
                   measApp.N310Lamp.Color = 'green';
                   measApp.N310DisconnectedLabel.Text = 'N310 | Connected';
+                  drawnow();
                   return;
 
               end
@@ -49,7 +53,7 @@ function [] = usrpErrorChecker(loadBarProgress,measApp)
           fprintf('[%s] No USRP Error!\n',datestr(now,'HH:MM:SS.FFF'));
           measApp.writeConsoleLine(sprintf('[%s] No USRP Error!\n',datestr(now,'HH:MM:SS.FFF')));
           measApp.updateProgressBar(loadBarProgress,sprintf('No initial Error from USRP. Continuing...'));
-          
+          drawnow();
           break;
     
     end

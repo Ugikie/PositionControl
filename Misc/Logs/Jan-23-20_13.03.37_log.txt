@@ -1,0 +1,55 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Jan-23-20_13.03.37_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[13:03:44.809] Verifying if Axis is in Position. . . . 
+[13:03:47.213] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.41 seconds.
+[13:03:49.369] Please enter a valid increment size!
+[13:03:58.387] Increment size chosen: 1.00
+[13:03:58.401] Please enter a valid center frequency!
+[13:04:07.431] Center frequency chosen: 1.94995 GHz
+<a href="">
+[13:04:07.694] Current Degree Measurement: -90.00
+</a>[13:04:07.722] Verifying if Axis is in Position. . . . 
+[13:04:10.110] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.39 seconds.
+
+[13:04:17.657] Taking measurement at -89.95 degrees
+[13:04:21.515] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:04:21.737] Current Degree Measurement: -89.00
+</a>[13:04:21.760] Verifying if Axis is in Position. . . . 
+[13:04:24.039] Verifying if Axis is in Position. . . . 
+[13:04:26.330] Axis (AZ) is in desired position: -89.32. Time elapsed: 4.57 seconds.
+
+[13:04:33.866] Taking measurement at -89.05 degrees
+[13:04:37.682] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:04:37.878] Current Degree Measurement: -88.00
+</a>[13:04:37.905] Verifying if Axis is in Position. . . . 
+[13:04:40.177] Verifying if Axis is in Position. . . . 
+[13:04:42.481] Axis (AZ) is in desired position: -88.31. Time elapsed: 4.58 seconds.
+
+[13:04:49.997] Taking measurement at -88.05 degrees
+[13:04:53.817] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:04:54.029] Current Degree Measurement: -87.00
+</a>[13:04:54.064] Verifying if Axis is in Position. . . . 
+[13:04:56.348] Verifying if Axis is in Position. . . . 
+[13:04:58.621] Axis (AZ) is in desired position: -87.30. Time elapsed: 4.56 seconds.
+
+[13:05:14.045] Taking measurement at -87.05 degrees
+[13:05:17.887] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:05:18.097] Current Degree Measurement: -86.00
+</a>[13:05:18.116] Verifying if Axis is in Position. . . . 
+[13:05:20.399] Verifying if Axis is in Position. . . . 
+[13:05:22.695] Axis (AZ) is in desired position: -86.30. Time elapsed: 4.58 seconds.
+[13:05:30.859] Stopping Measurements. . .
+[13:05:38.918] Stopping Measurements. . .
+delete(measApp)
+PositionController
+Beginning Measurements 23-Jan-2020 14:09:15
