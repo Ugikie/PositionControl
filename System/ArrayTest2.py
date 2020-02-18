@@ -3,14 +3,12 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Arraytest2
-# Generated: Sun Oct  6 17:33:34 2019
+# Generated: Tue Feb  4 13:45:44 2020
 ##################################################
 
 if __name__ == '__main__':
     import ctypes
     import sys
-    import datetime
-    import time
     if sys.platform.startswith('linux'):
         try:
             x11 = ctypes.cdll.LoadLibrary('libX11.so')
@@ -31,6 +29,7 @@ import sip
 import sys
 import time
 from gnuradio import qtgui
+
 
 class ArrayTest2(gr.top_block, Qt.QWidget):
 
@@ -189,18 +188,15 @@ class ArrayTest2(gr.top_block, Qt.QWidget):
             self.qtgui_freq_sink_x_0.set_line_color(i, colors[i])
             self.qtgui_freq_sink_x_0.set_line_alpha(i, alphas[i])
 
-
-	    st = datetime.datetime.fromtimestamp(time.time()).strftime('%H:%M:%S')
-        first_arg = sys.argv[1]
         self._qtgui_freq_sink_x_0_win = sip.wrapinstance(self.qtgui_freq_sink_x_0.pyqwidget(), Qt.QWidget)
         self.top_grid_layout.addWidget(self._qtgui_freq_sink_x_0_win)
-        self.blocks_file_sink_0_2 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/ugikie/Documents/USRP_DATA/ArrayTest3' + "_" + first_arg, False)
+        self.blocks_file_sink_0_2 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/dave/Documents/USRP_DATA/ArrayTest3', False)
         self.blocks_file_sink_0_2.set_unbuffered(False)
-        self.blocks_file_sink_0_1 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/ugikie/Documents/USRP_DATA/ArrayTest0' + "_" + first_arg, False)
+        self.blocks_file_sink_0_1 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/dave/Documents/USRP_DATA/ArrayTest0', False)
         self.blocks_file_sink_0_1.set_unbuffered(False)
-        self.blocks_file_sink_0_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/ugikie/Documents/USRP_DATA/ArrayTest1' + "_" + first_arg, False)
+        self.blocks_file_sink_0_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/dave/Documents/USRP_DATA/ArrayTest1', False)
         self.blocks_file_sink_0_0.set_unbuffered(False)
-        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/ugikie/Documents/USRP_DATA/ArrayTest2' + "_" + first_arg, False)
+        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/dave/Documents/USRP_DATA/ArrayTest2', False)
         self.blocks_file_sink_0.set_unbuffered(False)
 
 

@@ -1,0 +1,25 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Feb-15-20_05.17.10_log.txt
+
+[sudo] password for ugikie: 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+
+AZCurrStat =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+[05:17:22.390] Verifying if Axis is in Position. . . . 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+[05:17:25.077] Stopping Measurements. . .
+PositionController
+Beginning Measurements 15-Feb-2020 05:17:36

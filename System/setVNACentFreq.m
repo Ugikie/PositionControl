@@ -6,8 +6,8 @@ function [] = setVNACentFreq(centerFreq,units,MI4190,measApp)
 if (measApp.wantToStop) return; end
 
 fprintf(MI4190, '++addr 16');
-fprintf(MI4190, sprintf('CENT %f %s',centerFreq,units));
-fprintf(MI4190, 'CENT');
+fprintf(MI4190, sprintf('STAR %f %s',centerFreq,units));
+fprintf(MI4190, sprintf('STOP %f %s',centerFreq,units));
 fprintf(MI4190, '++addr 4');
 
 if (measApp.wantToStop) return; end

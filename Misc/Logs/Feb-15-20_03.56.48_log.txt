@@ -1,0 +1,231 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Feb-15-20_03.56.48_log.txt
+
+chmod: cannot access '/dev/ttyUSB0': No such file or directory
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[03:56:57.453] Verifying if Axis is in Position. . . . 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[03:57:01.370] Moving Axis (AZ) from position: 0.03, to desired position: -90.00. . . . 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[03:57:24.375] Verifying if Axis is in Position. . . . 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[03:57:27.115] Axis (AZ) is in desired position: -89.95. Time elapsed: 25.70 seconds.
+
+[03:57:29.397] Please enter a valid increment size!
+[03:57:37.424] Increment size chosen: 1.00
+[03:57:37.447] Please enter a valid center frequency!
+[03:58:03.501] Center frequency chosen: 1.94995 GHz
+[03:58:03.549] Booting up USRPs. . .
+[03:58:15.461] Verified connection to USRPs. . .
+[03:58:15.468] USRP N210 Has IP: <a href="">192.168.10.15
+</a>[03:58:15.920] USRP N310 Has IP: <a href="">192.168.10.2
+</a>[03:58:15.942] Initiating USRP N210. . .
+<a href="">
+[03:58:16.130] Current Degree Measurement: -90.00
+</a>[03:58:16.146] Verifying if Axis is in Position. . . . 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[03:58:18.509] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.36 seconds.
+[03:58:20.667] Checking USRP for errors. . . 
+[03:58:22.747] No USRP Error!
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+
+[03:58:26.634] Taking measurement at -89.95 degrees
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+[03:58:55.953] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[03:58:56.340] Current Degree Measurement: -89.00
+</a>[03:58:56.356] Verifying if Axis is in Position. . . . 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read any data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_nodata')">TCPIP Read Warnings</a>.] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('affine2d.set.T')" style="font-weight:bold">affine2d.set.T</a>
+Expected T to be finite.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('affine2d/set.T', '/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m', 364)" style="font-weight:bold">affine2d/set.T</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m',364,0)">line 364</a>)
+            validateattributes(t,{'single','double'},{'size',[3 3],'finite','nonsparse'},...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('affine2d', '/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m', 118)" style="font-weight:bold">affine2d</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/images/images/affine2d.m',118,0)">line 118</a>)
+                self.T = A;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imrotate', '/usr/local/MATLAB/R2019b/toolbox/images/images/imrotate.m', 135)" style="font-weight:bold">imrotate</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/images/images/imrotate.m',135,0)">line 135</a>)
+        tform = affine2d([cosd(ang) -sind(ang) 0; sind(ang) cosd(ang) 0; 0 0 1]);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('measurementApp/rotateHornImage', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp', 69)" style="font-weight:bold">measurementApp/rotateHornImage</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/measurementApp.mlapp',69,0)">line 69</a>)
+            app.imageHandleObj.CData = imrotate(app.imageObj,rotation);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAZCurrPos', '/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m', 11)" style="font-weight:bold">getAZCurrPos</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAZCurrPos.m',11,0)">line 11</a>)
+measApp.rotateHornImage(AZCurrPosDoub);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('verifyIfInPosition', '/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m', 28)" style="font-weight:bold">verifyIfInPosition</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/verifyIfInPosition.m',28,0)">line 28</a>)
+          AZCurrPos = getAZCurrPos(MI4190,measApp);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PositionController', '/home/ugikie/Desktop/PositionControl/System/PositionController.m', 186)" style="font-weight:bold">PositionController</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/PositionController.m',186,0)">line 186</a>)
+    AZInPosition = verifyIfInPosition(MI4190,currentDegree,POSITION_ERROR,loadBarProgress,measApp,anglesRemaining,incrementSize,'v');
+} 
+[04:00:02.241] Stopping Measurements. . .
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icinterface/fclose', '/usr/local/MATLAB/R2019b/toolbox/shared/instrument/@icinterface/fclose.m', 54)" style="font-weight:bold">icinterface/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/shared/instrument/@icinterface/fclose.m',54,0)">line 54</a>)
+Failure while closing: Instrument object OBJ is an invalid object.
+} 
+[04:00:10.935] Stopping Measurements. . .
+delete(measApp)
+measApp = startApp();
+MI4190 = tcpip('192.168.10.6', 1234);
+system('sudo chmod 666 /dev/ttyUSB0');            % Linux Ethernet
+chmod: cannot access '/dev/ttyUSB0': No such file or directory
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 0.5;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+measApp.MI4190Obj = MI4190;
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+pause(1)
+
+warning('off','MATLAB:tcpip:fread:unsuccessfulRead');
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+% Configure as Controller (++mode 1), instrument address 4, and with
+% read-after-write (++auto 1) enabled
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+% fprintf(MI4190, '++eoi 1');
+
+if (measApp.wantToStop) delete(measApp); return; end
+
+% Read the id of the Controller to verify connection:
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))';
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+measApp.writeConsoleLine(sprintf('Position Controller ID: %s\n',idn));
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+AZCurrPos = getAZCurrPos(MI4190,measApp);
+[Warning: The specified amount of data was not returned within the Timeout period.
+'tcpip' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')"'>TCPIP Read Warnings</a>.] 
+helpview(fullfile(docroot,'instrument','instrument.map'), 'tcpip_somedata')
+[04:27:00.442] Stopping Measurements. . .
+PositionController
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.cef/webwindow/setAlwaysOnTop')" style="font-weight:bold">matlab.internal.cef/webwindow/setAlwaysOnTop</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.webwindow/setAlwaysOnTop', '/usr/local/MATLAB/R2019b/toolbox/matlab/cefclient/+matlab/+internal/webwindow.m', 210)" style="font-weight:bold">matlab.internal.webwindow/setAlwaysOnTop</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/cefclient/+matlab/+internal/webwindow.m',210,0)">line 210</a>)
+            setAlwaysOnTop(obj.impl,newValue)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('startApp', '/home/ugikie/Desktop/PositionControl/System/MeasurementApp/startApp.m', 9)" style="font-weight:bold">startApp</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/MeasurementApp/startApp.m',9,0)">line 9</a>)
+    activeWindows(index).setAlwaysOnTop(true);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PositionController', '/home/ugikie/Desktop/PositionControl/System/PositionController.m', 3)" style="font-weight:bold">PositionController</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/PositionController.m',3,0)">line 3</a>)
+measApp = startApp();
+} 
+[04:47:39.239] Stopping Measurements. . .
+[04:47:40.684] Stopping Measurements. . .
+[04:47:42.034] Stopping Measurements. . .
+delete(measApp)
+{Unrecognized function or variable 'measApp'.
+} 

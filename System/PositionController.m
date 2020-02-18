@@ -14,8 +14,9 @@ if (measApp.wantToStop) delete(measApp); return; end
 % Specify the virtual serial port created by USB driver. It is currently
 % configured to work for a Mac, so if a PC is being used this will need to
 % be changed (e.g., to a port such as COM3)
-MI4190 = serial('/dev/ttyUSB0');                 % Linux
-system('sudo chmod 666 /dev/ttyUSB0');
+MI4190 = serial('/dev/ttyUSB0');                 % Linux Serial
+%MI4190 = tcpip('192.168.10.6', 1234);
+system('sudo chmod 666 /dev/ttyUSB0');            % Linux Ethernet
     %if it does not work on linux, you may have to run the command:
     % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
 %MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
@@ -28,7 +29,7 @@ system('sudo chmod 666 /dev/ttyUSB0');
 MI4190.Terminator = 'CR/LF';
 
 % Reduce timeout to 0.5 second (default is 10 seconds)
-MI4190.Timeout = 0.5;
+MI4190.Timeout = 1;
 
 % Open virtual serial port
 fclose(MI4190);
@@ -48,6 +49,7 @@ if (measApp.wantToStop) delete(measApp); return; end
 fprintf(MI4190, '++mode 1');
 fprintf(MI4190, '++addr 4');
 fprintf(MI4190, '++auto 1');
+% fprintf(MI4190, '++eoi 1');
 
 if (measApp.wantToStop) delete(measApp); return; end
 
@@ -227,9 +229,7 @@ for currentDegree = degInterval
             updateLamps(AZCurrVel,measApp,false,false);
             
             cprintf('-comments','[%s] Done with current set of measurements!\n',datestr(now,'HH:MM:SS.FFF'));
-            measApp.writeConsoleLine(sprintf('[%s] Done with current set of measurements!\n',datestr(now,'HH:MM:SS.FFF')));
-            waitbar(1,sprintf('Done with current set of measurements!'));
-            
+            measApp.writeConsoleLine(sprintf('[%s] Done with current set of measurements!\n',datestr(now,'HH:MM:SS.FFF')));            
         
         end
         

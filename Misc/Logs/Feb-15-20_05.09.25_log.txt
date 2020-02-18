@@ -1,0 +1,17 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Feb-15-20_05.09.25_log.txt
+
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read any data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_nodata')">Serial Read Warnings</a>.] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regexp')" style="font-weight:bold">regexp</a>
+The 'STRING' input must be either a char row vector, a cell array of char row vectors, or a string array.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAndDecodeStatus', '/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m', 15)" style="font-weight:bold">getAndDecodeStatus</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m',15,0)">line 15</a>)
+decStat = str2double(regexp(AZCurrStat,'\d*','match'));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PositionController', '/home/ugikie/Desktop/PositionControl/System/PositionController.m', 65)" style="font-weight:bold">PositionController</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/PositionController.m',65,0)">line 65</a>)
+AZCurrStat = getAndDecodeStatus(MI4190,measApp)
+} 
+[05:09:42.991] Stopping Measurements. . .
+delete(measApp)

@@ -1,0 +1,166 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Feb-15-20_05.10.46_log.txt
+
+[sudo] password for ugikie: 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read any data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_nodata')">Serial Read Warnings</a>.] 
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read any data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_nodata')">Serial Read Warnings</a>.] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regexp')" style="font-weight:bold">regexp</a>
+The 'STRING' input must be either a char row vector, a cell array of char row vectors, or a string array.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getAndDecodeStatus', '/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m', 15)" style="font-weight:bold">getAndDecodeStatus</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/Status/getAndDecodeStatus.m',15,0)">line 15</a>)
+decStat = str2double(regexp(AZCurrStat,'\d*','match'));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PositionController', '/home/ugikie/Desktop/PositionControl/System/PositionController.m', 65)" style="font-weight:bold">PositionController</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/PositionController.m',65,0)">line 65</a>)
+AZCurrStat = getAndDecodeStatus(MI4190,measApp)
+} 
+[05:11:05.014] Stopping Measurements. . .
+delete(measApp)
+MI4190 = serial('/dev/ttyUSB0');
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 1;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+% fprintf(MI4190, '++eoi 1');
+
+if (measApp.wantToStop) delete(measApp); return; end
+{Invalid or deleted object.
+} 
+fclose(MI4190)
+delete(MI4190)
+clear all
+MI4190 = serial('/dev/ttyUSB0');                 % Linux Serial
+%MI4190 = tcpip('192.168.10.6', 1234);
+system('sudo chmod 666 /dev/ttyUSB0');            % Linux Ethernet
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 1;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read any data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_nodata')">Serial Read Warnings</a>.] 
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+serialportlist('available')
+
+ans = 
+
+    "/dev/ttyS4"
+
+fclose(MI4190)
+serialportlist('available')
+
+ans = 
+
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "/dev/ttyS4"    "/dev/ttyUSB0"
+
+fopen(MI4190)
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+fprintf(MI4190, '++ver');
+idn = char(fread(MI4190, 100))'
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+
+idn =
+
+    'Prologix GPIB-USB Controller version 6.107
+     '
+
+warning('off','MATLAB:tcpip:fread:unsuccessfulRead');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read any data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_nodata')">Serial Read Warnings</a>.] 
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+fprintf(MI4190, '++eoi 1')
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read any data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_nodata')">Serial Read Warnings</a>.] 
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+fclose(MI4190)
+delete(MI4190)
+clear all
+MI4190 = serial('/dev/ttyUSB0');                 % Linux Serial
+%MI4190 = tcpip('192.168.10.6', 1234);
+system('sudo chmod 666 /dev/ttyUSB0');            % Linux Ethernet
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 1;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+% fprintf(MI4190, '++eoi 1');
+
+if (measApp.wantToStop) delete(measApp); return; end
+{Unable to resolve the name measApp.wantToStop.
+} 
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+% fprintf(MI4190, '++eoi 1');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+[Warning: The specified amount of data was not returned within the Timeout period.
+'serial' unable to read all requested data. For more information on possible reasons, see <a href="matlab: helpview(fullfile(docroot,'instrument','instrument.map'), 'serial_somedata')"'>Serial Read Warnings</a>.] 
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+PositionController
+Beginning Measurements 15-Feb-2020 05:15:46
