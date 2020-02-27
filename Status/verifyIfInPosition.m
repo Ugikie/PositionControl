@@ -52,5 +52,4 @@ tic
         moveAxisToPosition(MI4190,desiredPosition,AZCurrPos,loadBarProgress,measApp,incrementSize,anglesRemaining);
     end
     drawnow();
-    pause(2);
 end
