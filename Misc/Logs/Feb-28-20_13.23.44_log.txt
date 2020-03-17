@@ -1,0 +1,63 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Feb-28-20_13.23.44_log.txt
+
+[sudo] password for ugikie: 
+
+AZCurrStat =
+
+    '769
+     Axis is Indexed, Axis is Active, Latch is Set, '
+
+[13:23:55.853] Verifying if Axis is in Position. . . . 
+[13:23:59.526] Moving Axis (AZ) from position: -0.02, to desired position: -90.00. . . . 
+[13:24:03.130] Moving Axis (AZ) from position: -0.02, to desired position: -90.00. . . . 
+[13:24:08.953] Moving Axis (AZ) from position: -0.02, to desired position: -90.00. . . . 
+[13:24:14.760] Moving Axis (AZ) from position: -0.02, to desired position: -90.00. . . . 
+[13:24:20.573] Moving Axis (AZ) from position: -0.02, to desired position: -90.00. . . . 
+[13:24:24.253] Moving Axis (AZ) from position: -0.02, to desired position: -90.00. . . . 
+[13:24:25.416] Stopping Measurements. . .
+[13:24:25.599] Verifying if Axis is in Position. . . . 
+fopen(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fopen', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fopen.m', 72)" style="font-weight:bold">serial/fopen</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fopen.m',72,0)">line 72</a>)
+Open failed: Instrument object OBJ is an invalid object.
+} 
+MI4190 = serial('/dev/ttyUSB0');                 % Linux Serial
+%MI4190 = tcpip('192.168.10.6', 1234);
+system('sudo chmod 666 /dev/ttyUSB0');            % Linux Ethernet
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 1;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+warning('off','MATLAB:serial:fread:unsuccessfulRead');
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+% fprintf(MI4190, '++eoi 1');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+fprintf(MI4190, 'CONT1:AXIS(1):POS:COMM %f', -90.00)
+fprintf(MI4190, 'CONT1:AXIS(1):MOT:STAR')
+fprintf(MI4190, 'CONT1:AXIS(1):POS:COMM %f\n', -90.00)
+fprintf(MI4190, 'CONT1:AXIS(1):MOT:STAR')
+fclose(MI4190)
+delete(MI4190)
+PositionController
+Beginning Measurements 28-Feb-2020 13:28:35

@@ -1,0 +1,10 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Feb-28-20_14.32.06_log.txt
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fopen', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fopen.m', 72)" style="font-weight:bold">serial/fopen</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fopen.m',72,0)">line 72</a>)
+Open failed: Port: /dev/ttyUSB0 is not available. No ports are available.
+Use INSTRFIND to determine if other instrument objects are connected to the requested device.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PositionController', '/home/ugikie/Desktop/PositionControl/System/PositionController.m', 36)" style="font-weight:bold">PositionController</a> (<a href="matlab: opentoline('/home/ugikie/Desktop/PositionControl/System/PositionController.m',36,0)">line 36</a>)
+fopen(MI4190);
+} 
+[14:32:08.631] Stopping Measurements. . .

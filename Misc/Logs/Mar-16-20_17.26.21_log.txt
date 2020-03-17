@@ -1,0 +1,1830 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Mar-16-20_17.26.21_log.txt
+
+[sudo] password for ugikie: 
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[17:26:32.430] Verifying if Axis is in Position. . . . 
+[17:26:34.854] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.42 seconds.
+
+[17:26:35.064] Please enter a valid increment size!
+[17:26:42.077] Increment size chosen: 1.00
+[17:26:42.117] Please enter a valid center frequency!
+[17:26:49.160] Center frequency chosen: 1.94995 GHz
+[17:26:49.599] Booting up USRPs. . .
+[17:27:17.100] Verified connection to USRPs. . .
+[17:27:17.118] USRP N310 Has IP: <a href="">192.168.10.2
+</a><a href="">
+[17:27:17.344] Current Degree Measurement: -90.00
+</a>[17:27:17.364] Verifying if Axis is in Position. . . . 
+[17:27:19.774] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.41 seconds.
+[17:27:19.881] Checking USRP for errors. . . 
+[17:27:21.940] No USRP Error!
+
+[17:27:25.760] Taking measurement at -89.95 degrees
+[17:27:53.238] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:27:53.432] Current Degree Measurement: -89.00
+</a>[17:27:53.464] Verifying if Axis is in Position. . . . 
+[17:27:55.754] Verifying if Axis is in Position. . . . 
+[17:27:58.030] Axis (AZ) is in desired position: -89.31. Time elapsed: 4.57 seconds.
+[17:27:58.148] Checking USRP for errors. . . 
+[17:28:00.198] No USRP Error!
+
+[17:28:01.365] Taking measurement at -89.05 degrees
+[17:28:13.401] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:28:13.620] Current Degree Measurement: -88.00
+</a>[17:28:13.640] Verifying if Axis is in Position. . . . 
+[17:28:15.924] Verifying if Axis is in Position. . . . 
+[17:28:18.239] Axis (AZ) is in desired position: -88.29. Time elapsed: 4.60 seconds.
+[17:28:18.357] Checking USRP for errors. . . 
+[17:28:20.399] No USRP Error!
+
+[17:28:21.560] Taking measurement at -88.05 degrees
+[17:28:33.654] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:28:33.846] Current Degree Measurement: -87.00
+</a>[17:28:33.871] Verifying if Axis is in Position. . . . 
+[17:28:36.168] Verifying if Axis is in Position. . . . 
+[17:28:38.444] Axis (AZ) is in desired position: -87.29. Time elapsed: 4.57 seconds.
+[17:28:38.547] Checking USRP for errors. . . 
+[17:28:40.597] No USRP Error!
+
+[17:28:41.757] Taking measurement at -87.05 degrees
+[17:28:53.858] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:28:54.190] Current Degree Measurement: -86.00
+</a>[17:28:54.215] Verifying if Axis is in Position. . . . 
+[17:28:56.520] Verifying if Axis is in Position. . . . 
+[17:28:58.813] Axis (AZ) is in desired position: -86.28. Time elapsed: 4.60 seconds.
+[17:28:58.914] Checking USRP for errors. . . 
+[17:29:00.960] No USRP Error!
+
+[17:29:04.775] Taking measurement at -86.05 degrees
+[17:29:16.837] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:29:17.040] Current Degree Measurement: -85.00
+</a>[17:29:17.057] Verifying if Axis is in Position. . . . 
+[17:29:19.353] Verifying if Axis is in Position. . . . 
+[17:29:21.646] Axis (AZ) is in desired position: -85.29. Time elapsed: 4.59 seconds.
+[17:29:21.748] Checking USRP for errors. . . 
+[17:29:23.788] No USRP Error!
+
+[17:29:24.945] Taking measurement at -85.05 degrees
+[17:29:37.013] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:29:37.193] Current Degree Measurement: -84.00
+</a>[17:29:37.212] Verifying if Axis is in Position. . . . 
+[17:29:39.516] Verifying if Axis is in Position. . . . 
+[17:29:41.816] Axis (AZ) is in desired position: -84.27. Time elapsed: 4.60 seconds.
+[17:29:41.928] Checking USRP for errors. . . 
+[17:29:43.980] No USRP Error!
+
+[17:29:45.185] Taking measurement at -84.05 degrees
+[17:29:57.228] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:29:57.409] Current Degree Measurement: -83.00
+</a>[17:29:57.426] Verifying if Axis is in Position. . . . 
+[17:29:59.727] Verifying if Axis is in Position. . . . 
+[17:30:02.016] Axis (AZ) is in desired position: -83.29. Time elapsed: 4.59 seconds.
+[17:30:02.115] Checking USRP for errors. . . 
+[17:30:04.160] No USRP Error!
+
+[17:30:05.323] Taking measurement at -83.05 degrees
+[17:30:17.317] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:30:17.527] Current Degree Measurement: -82.00
+</a>[17:30:17.544] Verifying if Axis is in Position. . . . 
+[17:30:19.864] Verifying if Axis is in Position. . . . 
+[17:30:22.166] Axis (AZ) is in desired position: -82.29. Time elapsed: 4.62 seconds.
+[17:30:22.266] Checking USRP for errors. . . 
+[17:30:24.307] No USRP Error!
+
+[17:30:25.472] Taking measurement at -82.05 degrees
+[17:30:37.520] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:30:37.700] Current Degree Measurement: -81.00
+</a>[17:30:37.717] Verifying if Axis is in Position. . . . 
+[17:30:40.029] Verifying if Axis is in Position. . . . 
+[17:30:42.322] Axis (AZ) is in desired position: -81.28. Time elapsed: 4.60 seconds.
+[17:30:42.431] Checking USRP for errors. . . 
+[17:30:44.475] No USRP Error!
+
+[17:30:45.633] Taking measurement at -81.05 degrees
+[17:30:57.679] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:30:57.863] Current Degree Measurement: -80.00
+</a>[17:30:57.884] Verifying if Axis is in Position. . . . 
+[17:31:00.191] Verifying if Axis is in Position. . . . 
+[17:31:02.467] Axis (AZ) is in desired position: -80.27. Time elapsed: 4.58 seconds.
+[17:31:02.566] Checking USRP for errors. . . 
+[17:31:04.609] No USRP Error!
+
+[17:31:08.422] Taking measurement at -80.05 degrees
+[17:31:20.479] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:31:20.657] Current Degree Measurement: -79.00
+</a>[17:31:20.677] Verifying if Axis is in Position. . . . 
+[17:31:23.016] Verifying if Axis is in Position. . . . 
+[17:31:25.312] Axis (AZ) is in desired position: -79.28. Time elapsed: 4.64 seconds.
+[17:31:25.411] Checking USRP for errors. . . 
+[17:31:27.466] No USRP Error!
+
+[17:31:28.646] Taking measurement at -79.05 degrees
+[17:31:40.693] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:31:40.896] Current Degree Measurement: -78.00
+</a>[17:31:40.914] Verifying if Axis is in Position. . . . 
+[17:31:43.208] Verifying if Axis is in Position. . . . 
+[17:31:45.505] Axis (AZ) is in desired position: -78.29. Time elapsed: 4.59 seconds.
+[17:31:45.615] Checking USRP for errors. . . 
+[17:31:47.664] No USRP Error!
+
+[17:31:48.831] Taking measurement at -78.05 degrees
+[17:32:00.880] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:32:01.061] Current Degree Measurement: -77.00
+</a>[17:32:01.079] Verifying if Axis is in Position. . . . 
+[17:32:03.384] Verifying if Axis is in Position. . . . 
+[17:32:05.686] Axis (AZ) is in desired position: -77.28. Time elapsed: 4.61 seconds.
+[17:32:05.788] Checking USRP for errors. . . 
+[17:32:07.837] No USRP Error!
+
+[17:32:09.029] Taking measurement at -77.05 degrees
+[17:32:22.105] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:32:22.307] Current Degree Measurement: -76.00
+</a>[17:32:22.325] Verifying if Axis is in Position. . . . 
+[17:32:24.644] Verifying if Axis is in Position. . . . 
+[17:32:26.940] Axis (AZ) is in desired position: -76.29. Time elapsed: 4.61 seconds.
+[17:32:27.060] Checking USRP for errors. . . 
+[17:32:29.111] No USRP Error!
+
+[17:32:30.293] Taking measurement at -76.05 degrees
+[17:32:42.314] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:32:42.515] Current Degree Measurement: -75.00
+</a>[17:32:42.535] Verifying if Axis is in Position. . . . 
+[17:32:44.845] Verifying if Axis is in Position. . . . 
+[17:32:47.145] Axis (AZ) is in desired position: -75.29. Time elapsed: 4.61 seconds.
+[17:32:47.249] Checking USRP for errors. . . 
+[17:32:49.300] No USRP Error!
+
+[17:32:55.728] Taking measurement at -75.05 degrees
+[17:33:07.772] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:33:07.960] Current Degree Measurement: -74.00
+</a>[17:33:07.980] Verifying if Axis is in Position. . . . 
+[17:33:10.289] Verifying if Axis is in Position. . . . 
+[17:33:12.567] Axis (AZ) is in desired position: -74.28. Time elapsed: 4.59 seconds.
+[17:33:12.665] Checking USRP for errors. . . 
+[17:33:14.715] No USRP Error!
+
+[17:33:15.896] Taking measurement at -74.05 degrees
+[17:33:27.951] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:33:28.145] Current Degree Measurement: -73.00
+</a>[17:33:28.164] Verifying if Axis is in Position. . . . 
+[17:33:30.529] Verifying if Axis is in Position. . . . 
+[17:33:32.832] Axis (AZ) is in desired position: -73.27. Time elapsed: 4.67 seconds.
+[17:33:32.936] Checking USRP for errors. . . 
+[17:33:34.993] No USRP Error!
+
+[17:33:38.780] Taking measurement at -73.05 degrees
+[17:33:50.872] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:33:51.039] Current Degree Measurement: -72.00
+</a>[17:33:51.059] Verifying if Axis is in Position. . . . 
+[17:33:53.362] Verifying if Axis is in Position. . . . 
+[17:33:55.671] Axis (AZ) is in desired position: -72.28. Time elapsed: 4.61 seconds.
+[17:33:55.789] Checking USRP for errors. . . 
+[17:33:57.843] No USRP Error!
+
+[17:33:59.029] Taking measurement at -72.05 degrees
+[17:34:11.070] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:34:11.259] Current Degree Measurement: -71.00
+</a>[17:34:11.279] Verifying if Axis is in Position. . . . 
+[17:34:13.588] Verifying if Axis is in Position. . . . 
+[17:34:15.884] Axis (AZ) is in desired position: -71.29. Time elapsed: 4.61 seconds.
+[17:34:15.984] Checking USRP for errors. . . 
+[17:34:18.036] No USRP Error!
+
+[17:34:19.196] Taking measurement at -71.05 degrees
+[17:34:32.247] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:34:32.429] Current Degree Measurement: -70.00
+</a>[17:34:32.450] Verifying if Axis is in Position. . . . 
+[17:34:34.774] Verifying if Axis is in Position. . . . 
+[17:34:37.094] Axis (AZ) is in desired position: -70.27. Time elapsed: 4.64 seconds.
+[17:34:37.195] Checking USRP for errors. . . 
+[17:34:39.250] No USRP Error!
+
+[17:34:40.414] Taking measurement at -70.05 degrees
+[17:34:52.431] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:34:52.648] Current Degree Measurement: -69.00
+</a>[17:34:52.667] Verifying if Axis is in Position. . . . 
+[17:34:54.995] Verifying if Axis is in Position. . . . 
+[17:34:57.310] Axis (AZ) is in desired position: -69.27. Time elapsed: 4.64 seconds.
+[17:34:57.417] Checking USRP for errors. . . 
+[17:34:59.473] No USRP Error!
+
+[17:35:00.634] Taking measurement at -69.05 degrees
+[17:35:12.680] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:35:12.875] Current Degree Measurement: -68.00
+</a>[17:35:12.894] Verifying if Axis is in Position. . . . 
+[17:35:15.216] Verifying if Axis is in Position. . . . 
+[17:35:17.516] Axis (AZ) is in desired position: -68.28. Time elapsed: 4.62 seconds.
+[17:35:17.627] Checking USRP for errors. . . 
+[17:35:19.686] No USRP Error!
+
+[17:35:20.877] Taking measurement at -68.05 degrees
+[17:35:32.893] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:35:33.082] Current Degree Measurement: -67.00
+</a>[17:35:33.101] Verifying if Axis is in Position. . . . 
+[17:35:35.413] Verifying if Axis is in Position. . . . 
+[17:35:37.729] Axis (AZ) is in desired position: -67.29. Time elapsed: 4.63 seconds.
+[17:35:37.837] Checking USRP for errors. . . 
+[17:35:39.896] No USRP Error!
+
+[17:35:41.093] Taking measurement at -67.05 degrees
+[17:35:53.134] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:35:53.321] Current Degree Measurement: -66.00
+</a>[17:35:53.341] Verifying if Axis is in Position. . . . 
+[17:35:55.674] Verifying if Axis is in Position. . . . 
+[17:35:57.973] Axis (AZ) is in desired position: -66.28. Time elapsed: 4.63 seconds.
+[17:35:58.076] Checking USRP for errors. . . 
+[17:36:00.135] No USRP Error!
+
+[17:36:01.290] Taking measurement at -66.05 degrees
+[17:36:13.301] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:36:13.516] Current Degree Measurement: -65.00
+</a>[17:36:13.538] Verifying if Axis is in Position. . . . 
+[17:36:15.846] Verifying if Axis is in Position. . . . 
+[17:36:18.145] Axis (AZ) is in desired position: -65.30. Time elapsed: 4.61 seconds.
+[17:36:18.250] Checking USRP for errors. . . 
+[17:36:20.309] No USRP Error!
+
+[17:36:24.109] Taking measurement at -65.05 degrees
+[17:36:37.178] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:36:37.387] Current Degree Measurement: -64.00
+</a>[17:36:37.408] Verifying if Axis is in Position. . . . 
+[17:36:39.728] Verifying if Axis is in Position. . . . 
+[17:36:42.027] Axis (AZ) is in desired position: -64.29. Time elapsed: 4.62 seconds.
+[17:36:42.131] Checking USRP for errors. . . 
+[17:36:44.191] No USRP Error!
+
+[17:36:45.379] Taking measurement at -64.05 degrees
+[17:36:57.425] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:36:57.620] Current Degree Measurement: -63.00
+</a>[17:36:57.641] Verifying if Axis is in Position. . . . 
+[17:37:00.356] Verifying if Axis is in Position. . . . 
+[17:37:02.740] Axis (AZ) is in desired position: -63.20. Time elapsed: 5.10 seconds.
+[17:37:02.863] Checking USRP for errors. . . 
+[17:37:04.917] No USRP Error!
+
+[17:37:06.101] Taking measurement at -63.05 degrees
+[17:37:19.154] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:37:19.383] Current Degree Measurement: -62.00
+</a>[17:37:19.407] Verifying if Axis is in Position. . . . 
+[17:37:21.779] Verifying if Axis is in Position. . . . 
+[17:37:24.103] Axis (AZ) is in desired position: -62.27. Time elapsed: 4.70 seconds.
+[17:37:24.216] Checking USRP for errors. . . 
+[17:37:26.280] No USRP Error!
+
+[17:37:32.708] Taking measurement at -62.05 degrees
+[17:37:44.807] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:37:45.027] Current Degree Measurement: -61.00
+</a>[17:37:45.047] Verifying if Axis is in Position. . . . 
+[17:37:47.367] Verifying if Axis is in Position. . . . 
+[17:37:49.672] Axis (AZ) is in desired position: -61.28. Time elapsed: 4.63 seconds.
+[17:37:49.792] Checking USRP for errors. . . 
+[17:37:51.855] No USRP Error!
+
+[17:37:53.042] Taking measurement at -61.05 degrees
+[17:38:05.116] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:38:05.316] Current Degree Measurement: -60.00
+</a>[17:38:05.337] Verifying if Axis is in Position. . . . 
+[17:38:07.653] Verifying if Axis is in Position. . . . 
+[17:38:09.963] Axis (AZ) is in desired position: -60.29. Time elapsed: 4.63 seconds.
+[17:38:10.070] Checking USRP for errors. . . 
+[17:38:12.134] No USRP Error!
+
+[17:38:15.941] Taking measurement at -60.05 degrees
+[17:38:27.984] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:38:28.180] Current Degree Measurement: -59.00
+</a>[17:38:28.201] Verifying if Axis is in Position. . . . 
+[17:38:30.521] Verifying if Axis is in Position. . . . 
+[17:38:32.827] Axis (AZ) is in desired position: -59.27. Time elapsed: 4.63 seconds.
+[17:38:32.934] Checking USRP for errors. . . 
+[17:38:34.996] No USRP Error!
+
+[17:38:38.795] Taking measurement at -59.05 degrees
+[17:38:50.839] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:38:51.052] Current Degree Measurement: -58.00
+</a>[17:38:51.072] Verifying if Axis is in Position. . . . 
+[17:38:53.405] Verifying if Axis is in Position. . . . 
+[17:38:55.718] Axis (AZ) is in desired position: -58.27. Time elapsed: 4.65 seconds.
+[17:38:55.835] Checking USRP for errors. . . 
+[17:38:57.893] No USRP Error!
+
+[17:38:59.082] Taking measurement at -58.05 degrees
+[17:39:12.168] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:39:12.347] Current Degree Measurement: -57.00
+</a>[17:39:12.369] Verifying if Axis is in Position. . . . 
+[17:39:14.698] Verifying if Axis is in Position. . . . 
+[17:39:17.003] Axis (AZ) is in desired position: -57.27. Time elapsed: 4.63 seconds.
+[17:39:17.116] Checking USRP for errors. . . 
+[17:39:19.173] No USRP Error!
+
+[17:39:20.366] Taking measurement at -57.05 degrees
+[17:39:32.420] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:39:32.611] Current Degree Measurement: -56.00
+</a>[17:39:32.632] Verifying if Axis is in Position. . . . 
+[17:39:34.970] Verifying if Axis is in Position. . . . 
+[17:39:37.291] Axis (AZ) is in desired position: -56.28. Time elapsed: 4.66 seconds.
+[17:39:37.408] Checking USRP for errors. . . 
+[17:39:39.470] No USRP Error!
+
+[17:39:40.657] Taking measurement at -56.05 degrees
+[17:39:52.719] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:39:52.920] Current Degree Measurement: -55.00
+</a>[17:39:52.941] Verifying if Axis is in Position. . . . 
+[17:39:55.261] Verifying if Axis is in Position. . . . 
+[17:39:57.591] Axis (AZ) is in desired position: -55.28. Time elapsed: 4.65 seconds.
+[17:39:57.698] Checking USRP for errors. . . 
+[17:39:59.760] No USRP Error!
+
+[17:40:00.954] Taking measurement at -55.05 degrees
+[17:40:13.029] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:40:13.239] Current Degree Measurement: -54.00
+</a>[17:40:13.265] Verifying if Axis is in Position. . . . 
+[17:40:15.606] Verifying if Axis is in Position. . . . 
+[17:40:17.918] Axis (AZ) is in desired position: -54.27. Time elapsed: 4.65 seconds.
+[17:40:18.027] Checking USRP for errors. . . 
+[17:40:20.084] No USRP Error!
+
+[17:40:21.272] Taking measurement at -54.05 degrees
+[17:40:33.297] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:40:33.484] Current Degree Measurement: -53.00
+</a>[17:40:33.506] Verifying if Axis is in Position. . . . 
+[17:40:35.837] Verifying if Axis is in Position. . . . 
+[17:40:38.147] Axis (AZ) is in desired position: -53.28. Time elapsed: 4.64 seconds.
+[17:40:38.264] Checking USRP for errors. . . 
+[17:40:40.329] No USRP Error!
+
+[17:40:41.514] Taking measurement at -53.05 degrees
+[17:40:53.589] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:40:53.795] Current Degree Measurement: -52.00
+</a>[17:40:53.818] Verifying if Axis is in Position. . . . 
+[17:40:56.155] Verifying if Axis is in Position. . . . 
+[17:40:58.488] Axis (AZ) is in desired position: -52.27. Time elapsed: 4.67 seconds.
+[17:40:58.613] Checking USRP for errors. . . 
+[17:41:00.679] No USRP Error!
+
+[17:41:01.870] Taking measurement at -52.05 degrees
+[17:41:13.925] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:41:14.125] Current Degree Measurement: -51.00
+</a>[17:41:14.148] Verifying if Axis is in Position. . . . 
+[17:41:16.479] Verifying if Axis is in Position. . . . 
+[17:41:18.790] Axis (AZ) is in desired position: -51.28. Time elapsed: 4.64 seconds.
+[17:41:18.905] Checking USRP for errors. . . 
+[17:41:20.967] No USRP Error!
+
+[17:41:22.156] Taking measurement at -51.05 degrees
+[17:41:35.171] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:41:35.390] Current Degree Measurement: -50.00
+</a>[17:41:35.408] Verifying if Axis is in Position. . . . 
+[17:41:37.746] Verifying if Axis is in Position. . . . 
+[17:41:40.056] Axis (AZ) is in desired position: -50.28. Time elapsed: 4.65 seconds.
+[17:41:40.168] Checking USRP for errors. . . 
+[17:41:42.229] No USRP Error!
+
+[17:41:43.411] Taking measurement at -50.05 degrees
+[17:41:55.502] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:41:55.700] Current Degree Measurement: -49.00
+</a>[17:41:55.720] Verifying if Axis is in Position. . . . 
+[17:41:58.075] Verifying if Axis is in Position. . . . 
+[17:42:00.389] Axis (AZ) is in desired position: -49.27. Time elapsed: 4.67 seconds.
+[17:42:00.502] Checking USRP for errors. . . 
+[17:42:02.570] No USRP Error!
+
+[17:42:03.767] Taking measurement at -49.05 degrees
+[17:42:15.789] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:42:15.993] Current Degree Measurement: -48.00
+</a>[17:42:16.017] Verifying if Axis is in Position. . . . 
+[17:42:18.360] Verifying if Axis is in Position. . . . 
+[17:42:20.664] Axis (AZ) is in desired position: -48.28. Time elapsed: 4.65 seconds.
+[17:42:20.785] Checking USRP for errors. . . 
+[17:42:22.852] No USRP Error!
+
+[17:42:24.049] Taking measurement at -48.05 degrees
+[17:42:37.132] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:42:37.329] Current Degree Measurement: -47.00
+</a>[17:42:37.356] Verifying if Axis is in Position. . . . 
+[17:42:39.687] Verifying if Axis is in Position. . . . 
+[17:42:41.995] Axis (AZ) is in desired position: -47.28. Time elapsed: 4.64 seconds.
+[17:42:42.110] Checking USRP for errors. . . 
+[17:42:44.189] No USRP Error!
+
+[17:42:50.614] Taking measurement at -47.05 degrees
+[17:43:02.690] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:43:02.886] Current Degree Measurement: -46.00
+</a>[17:43:02.911] Verifying if Axis is in Position. . . . 
+[17:43:05.229] Verifying if Axis is in Position. . . . 
+[17:43:07.544] Axis (AZ) is in desired position: -46.28. Time elapsed: 4.63 seconds.
+[17:43:07.663] Checking USRP for errors. . . 
+[17:43:09.731] No USRP Error!
+
+[17:43:10.931] Taking measurement at -46.05 degrees
+[17:43:23.026] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:43:23.217] Current Degree Measurement: -45.00
+</a>[17:43:23.240] Verifying if Axis is in Position. . . . 
+[17:43:25.575] Verifying if Axis is in Position. . . . 
+[17:43:27.897] Axis (AZ) is in desired position: -45.29. Time elapsed: 4.66 seconds.
+[17:43:28.009] Checking USRP for errors. . . 
+[17:43:30.075] No USRP Error!
+
+[17:43:31.271] Taking measurement at -45.05 degrees
+[17:43:43.339] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:43:43.528] Current Degree Measurement: -44.00
+</a>[17:43:43.555] Verifying if Axis is in Position. . . . 
+[17:43:45.874] Verifying if Axis is in Position. . . . 
+[17:43:48.209] Axis (AZ) is in desired position: -44.28. Time elapsed: 4.65 seconds.
+[17:43:48.327] Checking USRP for errors. . . 
+[17:43:50.395] No USRP Error!
+
+[17:43:54.168] Taking measurement at -44.05 degrees
+[17:44:07.222] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:44:07.433] Current Degree Measurement: -43.00
+</a>[17:44:07.457] Verifying if Axis is in Position. . . . 
+[17:44:09.796] Verifying if Axis is in Position. . . . 
+[17:44:12.120] Axis (AZ) is in desired position: -43.27. Time elapsed: 4.66 seconds.
+[17:44:12.237] Checking USRP for errors. . . 
+[17:44:14.307] No USRP Error!
+
+[17:44:18.135] Taking measurement at -43.05 degrees
+[17:44:31.223] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:44:31.432] Current Degree Measurement: -42.00
+</a>[17:44:31.457] Verifying if Axis is in Position. . . . 
+[17:44:33.793] Verifying if Axis is in Position. . . . 
+[17:44:36.111] Axis (AZ) is in desired position: -42.28. Time elapsed: 4.65 seconds.
+[17:44:36.238] Checking USRP for errors. . . 
+[17:44:38.307] No USRP Error!
+
+[17:44:39.505] Taking measurement at -42.05 degrees
+[17:44:51.588] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:44:51.785] Current Degree Measurement: -41.00
+</a>[17:44:51.811] Verifying if Axis is in Position. . . . 
+[17:44:54.140] Verifying if Axis is in Position. . . . 
+[17:44:56.468] Axis (AZ) is in desired position: -41.27. Time elapsed: 4.66 seconds.
+[17:44:56.583] Checking USRP for errors. . . 
+[17:44:58.647] No USRP Error!
+
+[17:44:59.846] Taking measurement at -41.05 degrees
+[17:45:11.908] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:45:12.114] Current Degree Measurement: -40.00
+</a>[17:45:12.140] Verifying if Axis is in Position. . . . 
+[17:45:14.509] Verifying if Axis is in Position. . . . 
+[17:45:16.833] Axis (AZ) is in desired position: -40.27. Time elapsed: 4.69 seconds.
+[17:45:16.969] Checking USRP for errors. . . 
+[17:45:19.033] No USRP Error!
+
+[17:45:20.247] Taking measurement at -40.05 degrees
+[17:45:32.327] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:45:32.548] Current Degree Measurement: -39.00
+</a>[17:45:32.572] Verifying if Axis is in Position. . . . 
+[17:45:34.917] Verifying if Axis is in Position. . . . 
+[17:45:37.256] Axis (AZ) is in desired position: -39.28. Time elapsed: 4.68 seconds.
+[17:45:37.377] Checking USRP for errors. . . 
+[17:45:39.447] No USRP Error!
+
+[17:45:45.911] Taking measurement at -39.05 degrees
+[17:45:58.023] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:45:58.217] Current Degree Measurement: -38.00
+</a>[17:45:58.243] Verifying if Axis is in Position. . . . 
+[17:46:00.592] Verifying if Axis is in Position. . . . 
+[17:46:02.933] Axis (AZ) is in desired position: -38.27. Time elapsed: 4.69 seconds.
+[17:46:03.058] Checking USRP for errors. . . 
+[17:46:05.135] No USRP Error!
+
+[17:46:06.336] Taking measurement at -38.05 degrees
+[17:46:18.519] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:46:18.727] Current Degree Measurement: -37.00
+</a>[17:46:18.756] Verifying if Axis is in Position. . . . 
+[17:46:21.095] Verifying if Axis is in Position. . . . 
+[17:46:23.417] Axis (AZ) is in desired position: -37.28. Time elapsed: 4.66 seconds.
+[17:46:23.536] Checking USRP for errors. . . 
+[17:46:25.611] No USRP Error!
+
+[17:46:26.802] Taking measurement at -37.05 degrees
+[17:46:39.895] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:46:40.103] Current Degree Measurement: -36.00
+</a>[17:46:40.129] Verifying if Axis is in Position. . . . 
+[17:46:42.476] Verifying if Axis is in Position. . . . 
+[17:46:44.798] Axis (AZ) is in desired position: -36.28. Time elapsed: 4.67 seconds.
+[17:46:44.916] Checking USRP for errors. . . 
+[17:46:46.992] No USRP Error!
+
+[17:46:48.190] Taking measurement at -36.05 degrees
+[17:47:01.288] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:47:01.479] Current Degree Measurement: -35.00
+</a>[17:47:01.505] Verifying if Axis is in Position. . . . 
+[17:47:03.842] Verifying if Axis is in Position. . . . 
+[17:47:06.162] Axis (AZ) is in desired position: -35.28. Time elapsed: 4.66 seconds.
+[17:47:06.282] Checking USRP for errors. . . 
+[17:47:08.359] No USRP Error!
+
+[17:47:09.566] Taking measurement at -35.05 degrees
+[17:47:21.636] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:47:21.844] Current Degree Measurement: -34.00
+</a>[17:47:21.870] Verifying if Axis is in Position. . . . 
+[17:47:24.256] Verifying if Axis is in Position. . . . 
+[17:47:26.621] Axis (AZ) is in desired position: -34.27. Time elapsed: 4.75 seconds.
+[17:47:26.758] Checking USRP for errors. . . 
+[17:47:28.839] No USRP Error!
+
+[17:47:30.045] Taking measurement at -34.05 degrees
+[17:47:43.068] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:47:43.286] Current Degree Measurement: -33.00
+</a>[17:47:43.314] Verifying if Axis is in Position. . . . 
+[17:47:45.648] Verifying if Axis is in Position. . . . 
+[17:47:47.973] Axis (AZ) is in desired position: -33.28. Time elapsed: 4.66 seconds.
+[17:47:48.092] Checking USRP for errors. . . 
+[17:47:50.171] No USRP Error!
+
+[17:47:51.376] Taking measurement at -33.05 degrees
+[17:48:03.447] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:48:03.636] Current Degree Measurement: -32.00
+</a>[17:48:03.664] Verifying if Axis is in Position. . . . 
+[17:48:06.003] Verifying if Axis is in Position. . . . 
+[17:48:08.336] Axis (AZ) is in desired position: -32.27. Time elapsed: 4.67 seconds.
+[17:48:08.466] Checking USRP for errors. . . 
+[17:48:10.539] No USRP Error!
+
+[17:48:11.750] Taking measurement at -32.05 degrees
+[17:48:23.840] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:48:24.041] Current Degree Measurement: -31.00
+</a>[17:48:24.068] Verifying if Axis is in Position. . . . 
+[17:48:26.402] Verifying if Axis is in Position. . . . 
+[17:48:28.721] Axis (AZ) is in desired position: -31.29. Time elapsed: 4.65 seconds.
+[17:48:28.849] Checking USRP for errors. . . 
+[17:48:30.933] No USRP Error!
+
+[17:48:32.132] Taking measurement at -31.05 degrees
+[17:48:45.201] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:48:45.409] Current Degree Measurement: -30.00
+</a>[17:48:45.438] Verifying if Axis is in Position. . . . 
+[17:48:47.786] Verifying if Axis is in Position. . . . 
+[17:48:50.112] Axis (AZ) is in desired position: -30.27. Time elapsed: 4.67 seconds.
+[17:48:50.232] Checking USRP for errors. . . 
+[17:48:52.305] No USRP Error!
+
+[17:48:53.496] Taking measurement at -30.05 degrees
+[17:49:05.564] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:49:05.773] Current Degree Measurement: -29.00
+</a>[17:49:05.804] Verifying if Axis is in Position. . . . 
+[17:49:08.162] Verifying if Axis is in Position. . . . 
+[17:49:10.488] Axis (AZ) is in desired position: -29.27. Time elapsed: 4.68 seconds.
+[17:49:10.619] Checking USRP for errors. . . 
+[17:49:12.697] No USRP Error!
+
+[17:49:13.907] Taking measurement at -29.05 degrees
+[17:49:25.978] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:49:26.180] Current Degree Measurement: -28.00
+</a>[17:49:26.208] Verifying if Axis is in Position. . . . 
+[17:49:28.570] Verifying if Axis is in Position. . . . 
+[17:49:30.894] Axis (AZ) is in desired position: -28.27. Time elapsed: 4.69 seconds.
+[17:49:31.015] Checking USRP for errors. . . 
+[17:49:33.093] No USRP Error!
+
+[17:49:34.299] Taking measurement at -28.05 degrees
+[17:49:46.334] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:49:46.555] Current Degree Measurement: -27.00
+</a>[17:49:46.583] Verifying if Axis is in Position. . . . 
+[17:49:48.936] Verifying if Axis is in Position. . . . 
+[17:49:51.266] Axis (AZ) is in desired position: -27.27. Time elapsed: 4.68 seconds.
+[17:49:51.389] Checking USRP for errors. . . 
+[17:49:53.464] No USRP Error!
+
+[17:49:54.664] Taking measurement at -27.05 degrees
+[17:50:06.686] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:50:06.890] Current Degree Measurement: -26.00
+</a>[17:50:06.918] Verifying if Axis is in Position. . . . 
+[17:50:09.286] Verifying if Axis is in Position. . . . 
+[17:50:11.616] Axis (AZ) is in desired position: -26.26. Time elapsed: 4.70 seconds.
+[17:50:11.744] Checking USRP for errors. . . 
+[17:50:13.831] No USRP Error!
+
+[17:50:15.043] Taking measurement at -26.05 degrees
+[17:50:28.109] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:50:28.316] Current Degree Measurement: -25.00
+</a>[17:50:28.344] Verifying if Axis is in Position. . . . 
+[17:50:30.686] Verifying if Axis is in Position. . . . 
+[17:50:33.020] Axis (AZ) is in desired position: -25.27. Time elapsed: 4.68 seconds.
+[17:50:33.146] Checking USRP for errors. . . 
+[17:50:35.229] No USRP Error!
+
+[17:50:36.435] Taking measurement at -25.05 degrees
+[17:50:48.493] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:50:48.697] Current Degree Measurement: -24.00
+</a>[17:50:48.724] Verifying if Axis is in Position. . . . 
+[17:50:51.091] Verifying if Axis is in Position. . . . 
+[17:50:53.421] Axis (AZ) is in desired position: -24.27. Time elapsed: 4.70 seconds.
+[17:50:53.565] Checking USRP for errors. . . 
+[17:50:55.641] No USRP Error!
+
+[17:50:59.444] Taking measurement at -24.05 degrees
+[17:51:11.515] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:51:11.719] Current Degree Measurement: -23.00
+</a>[17:51:11.743] Verifying if Axis is in Position. . . . 
+[17:51:14.093] Verifying if Axis is in Position. . . . 
+[17:51:16.417] Axis (AZ) is in desired position: -23.27. Time elapsed: 4.67 seconds.
+[17:51:16.544] Checking USRP for errors. . . 
+[17:51:18.619] No USRP Error!
+
+[17:51:19.836] Taking measurement at -23.05 degrees
+[17:51:31.921] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:51:32.143] Current Degree Measurement: -22.00
+</a>[17:51:32.172] Verifying if Axis is in Position. . . . 
+[17:51:34.527] Verifying if Axis is in Position. . . . 
+[17:51:36.854] Axis (AZ) is in desired position: -22.28. Time elapsed: 4.68 seconds.
+[17:51:36.980] Checking USRP for errors. . . 
+[17:51:39.056] No USRP Error!
+
+[17:51:40.242] Taking measurement at -22.05 degrees
+[17:51:53.296] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:51:53.503] Current Degree Measurement: -21.00
+</a>[17:51:53.534] Verifying if Axis is in Position. . . . 
+[17:51:55.895] Verifying if Axis is in Position. . . . 
+[17:51:58.214] Axis (AZ) is in desired position: -21.26. Time elapsed: 4.68 seconds.
+[17:51:58.340] Checking USRP for errors. . . 
+[17:52:00.419] No USRP Error!
+
+[17:52:04.230] Taking measurement at -21.05 degrees
+[17:52:16.303] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:52:16.530] Current Degree Measurement: -20.00
+</a>[17:52:16.559] Verifying if Axis is in Position. . . . 
+[17:52:18.934] Verifying if Axis is in Position. . . . 
+[17:52:21.256] Axis (AZ) is in desired position: -20.27. Time elapsed: 4.70 seconds.
+[17:52:21.386] Checking USRP for errors. . . 
+[17:52:23.470] No USRP Error!
+
+[17:52:24.699] Taking measurement at -20.05 degrees
+[17:52:36.792] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:52:37.027] Current Degree Measurement: -19.00
+</a>[17:52:37.057] Verifying if Axis is in Position. . . . 
+[17:52:39.406] Verifying if Axis is in Position. . . . 
+[17:52:41.725] Axis (AZ) is in desired position: -19.28. Time elapsed: 4.67 seconds.
+[17:52:41.852] Checking USRP for errors. . . 
+[17:52:43.933] No USRP Error!
+
+[17:52:45.141] Taking measurement at -19.05 degrees
+[17:52:58.182] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:52:58.403] Current Degree Measurement: -18.00
+</a>[17:52:58.433] Verifying if Axis is in Position. . . . 
+[17:53:00.790] Verifying if Axis is in Position. . . . 
+[17:53:03.129] Axis (AZ) is in desired position: -18.26. Time elapsed: 4.70 seconds.
+[17:53:03.273] Checking USRP for errors. . . 
+[17:53:05.368] No USRP Error!
+
+[17:53:06.580] Taking measurement at -18.05 degrees
+[17:53:18.637] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:53:18.847] Current Degree Measurement: -17.00
+</a>[17:53:18.878] Verifying if Axis is in Position. . . . 
+[17:53:21.239] Verifying if Axis is in Position. . . . 
+[17:53:23.563] Axis (AZ) is in desired position: -17.27. Time elapsed: 4.69 seconds.
+[17:53:23.699] Checking USRP for errors. . . 
+[17:53:25.784] No USRP Error!
+
+[17:53:26.996] Taking measurement at -17.05 degrees
+[17:53:40.078] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:53:40.286] Current Degree Measurement: -16.00
+</a>[17:53:40.317] Verifying if Axis is in Position. . . . 
+[17:53:42.669] Verifying if Axis is in Position. . . . 
+[17:53:45.008] Axis (AZ) is in desired position: -16.28. Time elapsed: 4.69 seconds.
+[17:53:45.139] Checking USRP for errors. . . 
+[17:53:47.221] No USRP Error!
+
+[17:53:48.410] Taking measurement at -16.05 degrees
+[17:54:00.508] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:54:00.738] Current Degree Measurement: -15.00
+</a>[17:54:00.769] Verifying if Axis is in Position. . . . 
+[17:54:03.132] Verifying if Axis is in Position. . . . 
+[17:54:05.467] Axis (AZ) is in desired position: -15.26. Time elapsed: 4.70 seconds.
+[17:54:05.621] Checking USRP for errors. . . 
+[17:54:07.707] No USRP Error!
+
+[17:54:08.918] Taking measurement at -15.05 degrees
+[17:54:21.005] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:54:21.248] Current Degree Measurement: -14.00
+</a>[17:54:21.278] Verifying if Axis is in Position. . . . 
+[17:54:23.641] Verifying if Axis is in Position. . . . 
+[17:54:25.973] Axis (AZ) is in desired position: -14.27. Time elapsed: 4.69 seconds.
+[17:54:26.100] Checking USRP for errors. . . 
+[17:54:28.179] No USRP Error!
+
+[17:54:29.396] Taking measurement at -14.05 degrees
+[17:54:41.457] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:54:41.689] Current Degree Measurement: -13.00
+</a>[17:54:41.721] Verifying if Axis is in Position. . . . 
+[17:54:44.071] Verifying if Axis is in Position. . . . 
+[17:54:46.410] Axis (AZ) is in desired position: -13.28. Time elapsed: 4.69 seconds.
+[17:54:46.539] Checking USRP for errors. . . 
+[17:54:48.621] No USRP Error!
+
+[17:54:55.048] Taking measurement at -13.05 degrees
+[17:55:08.130] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:55:08.347] Current Degree Measurement: -12.00
+</a>[17:55:08.383] Verifying if Axis is in Position. . . . 
+[17:55:10.731] Verifying if Axis is in Position. . . . 
+[17:55:13.055] Axis (AZ) is in desired position: -12.27. Time elapsed: 4.67 seconds.
+[17:55:13.184] Checking USRP for errors. . . 
+[17:55:15.265] No USRP Error!
+
+[17:55:16.481] Taking measurement at -12.05 degrees
+[17:55:28.564] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:55:28.777] Current Degree Measurement: -11.00
+</a>[17:55:28.809] Verifying if Axis is in Position. . . . 
+[17:55:31.159] Verifying if Axis is in Position. . . . 
+[17:55:33.501] Axis (AZ) is in desired position: -11.27. Time elapsed: 4.69 seconds.
+[17:55:33.642] Checking USRP for errors. . . 
+[17:55:35.727] No USRP Error!
+
+[17:55:36.946] Taking measurement at -11.05 degrees
+[17:55:49.011] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:55:49.232] Current Degree Measurement: -10.00
+</a>[17:55:49.263] Verifying if Axis is in Position. . . . 
+[17:55:51.611] Verifying if Axis is in Position. . . . 
+[17:55:53.926] Axis (AZ) is in desired position: -10.28. Time elapsed: 4.66 seconds.
+[17:55:54.057] Checking USRP for errors. . . 
+[17:55:56.148] No USRP Error!
+
+[17:55:59.982] Taking measurement at -10.05 degrees
+[17:56:13.114] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:56:13.344] Current Degree Measurement: -9.00
+</a>[17:56:13.373] Verifying if Axis is in Position. . . . 
+[17:56:15.726] Verifying if Axis is in Position. . . . 
+[17:56:18.067] Axis (AZ) is in desired position: -9.26. Time elapsed: 4.69 seconds.
+[17:56:18.200] Checking USRP for errors. . . 
+[17:56:20.289] No USRP Error!
+
+[17:56:21.486] Taking measurement at -9.05 degrees
+[17:56:33.565] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:56:33.780] Current Degree Measurement: -8.00
+</a>[17:56:33.809] Verifying if Axis is in Position. . . . 
+[17:56:36.145] Verifying if Axis is in Position. . . . 
+[17:56:38.477] Axis (AZ) is in desired position: -8.28. Time elapsed: 4.67 seconds.
+[17:56:38.608] Checking USRP for errors. . . 
+[17:56:40.697] No USRP Error!
+
+[17:56:44.531] Taking measurement at -8.05 degrees
+[17:56:56.586] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:56:56.815] Current Degree Measurement: -7.00
+</a>[17:56:56.851] Verifying if Axis is in Position. . . . 
+[17:56:59.203] Verifying if Axis is in Position. . . . 
+[17:57:01.534] Axis (AZ) is in desired position: -7.27. Time elapsed: 4.68 seconds.
+[17:57:01.667] Checking USRP for errors. . . 
+[17:57:03.753] No USRP Error!
+
+[17:57:10.209] Taking measurement at -7.05 degrees
+[17:57:22.290] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:57:22.504] Current Degree Measurement: -6.00
+</a>[17:57:22.538] Verifying if Axis is in Position. . . . 
+[17:57:24.878] Verifying if Axis is in Position. . . . 
+[17:57:27.206] Axis (AZ) is in desired position: -6.26. Time elapsed: 4.67 seconds.
+[17:57:27.338] Checking USRP for errors. . . 
+[17:57:29.431] No USRP Error!
+
+[17:57:33.267] Taking measurement at -6.05 degrees
+[17:57:45.306] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:57:45.528] Current Degree Measurement: -5.00
+</a>[17:57:45.557] Verifying if Axis is in Position. . . . 
+[17:57:47.921] Verifying if Axis is in Position. . . . 
+[17:57:50.261] Axis (AZ) is in desired position: -5.27. Time elapsed: 4.70 seconds.
+[17:57:50.400] Checking USRP for errors. . . 
+[17:57:52.488] No USRP Error!
+
+[17:57:53.710] Taking measurement at -5.05 degrees
+[17:58:05.777] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:58:05.985] Current Degree Measurement: -4.00
+</a>[17:58:06.014] Verifying if Axis is in Position. . . . 
+[17:58:08.373] Verifying if Axis is in Position. . . . 
+[17:58:10.714] Axis (AZ) is in desired position: -4.27. Time elapsed: 4.70 seconds.
+[17:58:10.852] Checking USRP for errors. . . 
+[17:58:12.939] No USRP Error!
+
+[17:58:14.147] Taking measurement at -4.05 degrees
+[17:58:27.196] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:58:27.441] Current Degree Measurement: -3.00
+</a>[17:58:27.474] Verifying if Axis is in Position. . . . 
+[17:58:29.837] Verifying if Axis is in Position. . . . 
+[17:58:32.186] Axis (AZ) is in desired position: -3.26. Time elapsed: 4.71 seconds.
+[17:58:32.325] Checking USRP for errors. . . 
+[17:58:34.417] No USRP Error!
+
+[17:58:35.636] Taking measurement at -3.05 degrees
+[17:58:47.734] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:58:47.965] Current Degree Measurement: -2.00
+</a>[17:58:48.000] Verifying if Axis is in Position. . . . 
+[17:58:50.349] Verifying if Axis is in Position. . . . 
+[17:58:52.682] Axis (AZ) is in desired position: -2.27. Time elapsed: 4.68 seconds.
+[17:58:52.822] Checking USRP for errors. . . 
+[17:58:54.912] No USRP Error!
+
+[17:58:56.125] Taking measurement at -2.05 degrees
+[17:59:09.197] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:59:09.426] Current Degree Measurement: -1.00
+</a>[17:59:09.459] Verifying if Axis is in Position. . . . 
+[17:59:11.823] Verifying if Axis is in Position. . . . 
+[17:59:14.159] Axis (AZ) is in desired position: -1.26. Time elapsed: 4.70 seconds.
+[17:59:14.292] Checking USRP for errors. . . 
+[17:59:16.392] No USRP Error!
+
+[17:59:25.456] Taking measurement at -1.05 degrees
+[17:59:37.515] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:59:37.770] Current Degree Measurement: 0.00
+</a>[17:59:37.805] Verifying if Axis is in Position. . . . 
+[17:59:40.164] Verifying if Axis is in Position. . . . 
+[17:59:42.512] Axis (AZ) is in desired position: -0.26. Time elapsed: 4.71 seconds.
+[17:59:42.654] Checking USRP for errors. . . 
+[17:59:44.743] No USRP Error!
+
+[17:59:45.965] Taking measurement at -0.05 degrees
+[17:59:58.055] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[17:59:58.283] Current Degree Measurement: 1.00
+</a>[17:59:58.320] Verifying if Axis is in Position. . . . 
+[18:00:00.677] Verifying if Axis is in Position. . . . 
+[18:00:03.024] Axis (AZ) is in desired position: 0.73. Time elapsed: 4.70 seconds.
+[18:00:03.166] Checking USRP for errors. . . 
+[18:00:05.253] No USRP Error!
+
+[18:00:06.470] Taking measurement at 0.95 degrees
+[18:00:18.535] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:00:18.772] Current Degree Measurement: 2.00
+</a>[18:00:18.807] Verifying if Axis is in Position. . . . 
+[18:00:21.166] Verifying if Axis is in Position. . . . 
+[18:00:23.501] Axis (AZ) is in desired position: 1.74. Time elapsed: 4.69 seconds.
+[18:00:23.642] Checking USRP for errors. . . 
+[18:00:25.732] No USRP Error!
+
+[18:00:26.945] Taking measurement at 1.95 degrees
+[18:00:40.028] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:00:40.255] Current Degree Measurement: 3.00
+</a>[18:00:40.299] Verifying if Axis is in Position. . . . 
+[18:00:42.641] Verifying if Axis is in Position. . . . 
+[18:00:44.986] Axis (AZ) is in desired position: 2.74. Time elapsed: 4.69 seconds.
+[18:00:45.132] Checking USRP for errors. . . 
+[18:00:47.221] No USRP Error!
+
+[18:00:48.450] Taking measurement at 2.95 degrees
+[18:01:00.544] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:01:00.759] Current Degree Measurement: 4.00
+</a>[18:01:00.796] Verifying if Axis is in Position. . . . 
+[18:01:03.171] Verifying if Axis is in Position. . . . 
+[18:01:05.523] Axis (AZ) is in desired position: 3.73. Time elapsed: 4.73 seconds.
+[18:01:05.672] Checking USRP for errors. . . 
+[18:01:07.774] No USRP Error!
+
+[18:01:08.996] Taking measurement at 3.95 degrees
+[18:01:22.105] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:01:22.352] Current Degree Measurement: 5.00
+</a>[18:01:22.384] Verifying if Axis is in Position. . . . 
+[18:01:24.736] Verifying if Axis is in Position. . . . 
+[18:01:27.073] Axis (AZ) is in desired position: 4.74. Time elapsed: 4.69 seconds.
+[18:01:27.209] Checking USRP for errors. . . 
+[18:01:29.301] No USRP Error!
+
+[18:01:30.527] Taking measurement at 4.95 degrees
+[18:01:42.645] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:01:42.891] Current Degree Measurement: 6.00
+</a>[18:01:42.926] Verifying if Axis is in Position. . . . 
+[18:01:45.271] Verifying if Axis is in Position. . . . 
+[18:01:47.631] Axis (AZ) is in desired position: 5.74. Time elapsed: 4.71 seconds.
+[18:01:47.768] Checking USRP for errors. . . 
+[18:01:49.865] No USRP Error!
+
+[18:01:51.079] Taking measurement at 5.95 degrees
+[18:02:04.177] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:02:04.401] Current Degree Measurement: 7.00
+</a>[18:02:04.438] Verifying if Axis is in Position. . . . 
+[18:02:06.801] Verifying if Axis is in Position. . . . 
+[18:02:09.139] Axis (AZ) is in desired position: 6.73. Time elapsed: 4.70 seconds.
+[18:02:09.279] Checking USRP for errors. . . 
+[18:02:11.371] No USRP Error!
+
+[18:02:12.594] Taking measurement at 6.95 degrees
+[18:02:24.647] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:02:24.871] Current Degree Measurement: 8.00
+</a>[18:02:24.908] Verifying if Axis is in Position. . . . 
+[18:02:27.257] Verifying if Axis is in Position. . . . 
+[18:02:29.592] Axis (AZ) is in desired position: 7.73. Time elapsed: 4.68 seconds.
+[18:02:29.748] Checking USRP for errors. . . 
+[18:02:31.838] No USRP Error!
+
+[18:02:33.077] Taking measurement at 7.95 degrees
+[18:02:46.145] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:02:46.381] Current Degree Measurement: 9.00
+</a>[18:02:46.419] Verifying if Axis is in Position. . . . 
+[18:02:48.785] Verifying if Axis is in Position. . . . 
+[18:02:51.136] Axis (AZ) is in desired position: 8.73. Time elapsed: 4.72 seconds.
+[18:02:51.277] Checking USRP for errors. . . 
+[18:02:53.369] No USRP Error!
+
+[18:03:02.456] Taking measurement at 8.95 degrees
+[18:03:14.561] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:03:14.790] Current Degree Measurement: 10.00
+</a>[18:03:14.826] Verifying if Axis is in Position. . . . 
+[18:03:17.203] Verifying if Axis is in Position. . . . 
+[18:03:19.537] Axis (AZ) is in desired position: 9.73. Time elapsed: 4.71 seconds.
+[18:03:19.685] Checking USRP for errors. . . 
+[18:03:21.779] No USRP Error!
+
+[18:03:23.002] Taking measurement at 9.95 degrees
+[18:03:36.086] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:03:36.312] Current Degree Measurement: 11.00
+</a>[18:03:36.355] Verifying if Axis is in Position. . . . 
+[18:03:38.727] Verifying if Axis is in Position. . . . 
+[18:03:41.066] Axis (AZ) is in desired position: 10.74. Time elapsed: 4.71 seconds.
+[18:03:41.210] Checking USRP for errors. . . 
+[18:03:43.305] No USRP Error!
+
+[18:03:44.538] Taking measurement at 10.95 degrees
+[18:03:56.635] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:03:56.861] Current Degree Measurement: 12.00
+</a>[18:03:56.900] Verifying if Axis is in Position. . . . 
+[18:03:59.273] Verifying if Axis is in Position. . . . 
+[18:04:01.620] Axis (AZ) is in desired position: 11.74. Time elapsed: 4.72 seconds.
+[18:04:01.765] Checking USRP for errors. . . 
+[18:04:03.856] No USRP Error!
+
+[18:04:05.088] Taking measurement at 11.95 degrees
+[18:04:18.183] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:04:18.434] Current Degree Measurement: 13.00
+</a>[18:04:18.472] Verifying if Axis is in Position. . . . 
+[18:04:20.833] Verifying if Axis is in Position. . . . 
+[18:04:23.187] Axis (AZ) is in desired position: 12.73. Time elapsed: 4.72 seconds.
+[18:04:23.350] Checking USRP for errors. . . 
+[18:04:25.445] No USRP Error!
+
+[18:04:26.646] Taking measurement at 12.95 degrees
+[18:04:38.726] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:04:38.948] Current Degree Measurement: 14.00
+</a>[18:04:38.985] Verifying if Axis is in Position. . . . 
+[18:04:41.362] Verifying if Axis is in Position. . . . 
+[18:04:43.685] Axis (AZ) is in desired position: 13.74. Time elapsed: 4.70 seconds.
+[18:04:43.826] Checking USRP for errors. . . 
+[18:04:45.923] No USRP Error!
+
+[18:04:47.148] Taking measurement at 13.95 degrees
+[18:04:59.239] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:04:59.481] Current Degree Measurement: 15.00
+</a>[18:04:59.520] Verifying if Axis is in Position. . . . 
+[18:05:01.890] Verifying if Axis is in Position. . . . 
+[18:05:04.232] Axis (AZ) is in desired position: 14.74. Time elapsed: 4.71 seconds.
+[18:05:04.375] Checking USRP for errors. . . 
+[18:05:06.469] No USRP Error!
+
+[18:05:12.935] Taking measurement at 14.95 degrees
+[18:05:26.056] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:05:26.282] Current Degree Measurement: 16.00
+</a>[18:05:26.325] Verifying if Axis is in Position. . . . 
+[18:05:28.710] Verifying if Axis is in Position. . . . 
+[18:05:31.073] Axis (AZ) is in desired position: 15.74. Time elapsed: 4.75 seconds.
+[18:05:31.220] Checking USRP for errors. . . 
+[18:05:33.324] No USRP Error!
+
+[18:05:37.167] Taking measurement at 15.95 degrees
+[18:05:50.213] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:05:50.441] Current Degree Measurement: 17.00
+</a>[18:05:50.481] Verifying if Axis is in Position. . . . 
+[18:05:52.862] Verifying if Axis is in Position. . . . 
+[18:05:55.199] Axis (AZ) is in desired position: 16.74. Time elapsed: 4.72 seconds.
+[18:05:55.343] Checking USRP for errors. . . 
+[18:05:57.437] No USRP Error!
+
+[18:05:58.645] Taking measurement at 16.95 degrees
+[18:06:10.821] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:06:11.057] Current Degree Measurement: 18.00
+</a>[18:06:11.100] Verifying if Axis is in Position. . . . 
+[18:06:13.491] Verifying if Axis is in Position. . . . 
+[18:06:15.856] Axis (AZ) is in desired position: 17.74. Time elapsed: 4.76 seconds.
+[18:06:16.001] Checking USRP for errors. . . 
+[18:06:18.095] No USRP Error!
+
+[18:06:19.332] Taking measurement at 17.95 degrees
+[18:06:31.401] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:06:31.674] Current Degree Measurement: 19.00
+</a>[18:06:31.720] Verifying if Axis is in Position. . . . 
+[18:06:34.103] Verifying if Axis is in Position. . . . 
+[18:06:36.459] Axis (AZ) is in desired position: 18.75. Time elapsed: 4.74 seconds.
+[18:06:36.604] Checking USRP for errors. . . 
+[18:06:38.701] No USRP Error!
+
+[18:06:39.930] Taking measurement at 18.95 degrees
+[18:06:52.050] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:06:52.284] Current Degree Measurement: 20.00
+</a>[18:06:52.325] Verifying if Axis is in Position. . . . 
+[18:06:54.692] Verifying if Axis is in Position. . . . 
+[18:06:57.034] Axis (AZ) is in desired position: 19.73. Time elapsed: 4.71 seconds.
+[18:06:57.176] Checking USRP for errors. . . 
+[18:06:59.269] No USRP Error!
+
+[18:07:00.505] Taking measurement at 19.95 degrees
+[18:07:12.611] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:07:12.845] Current Degree Measurement: 21.00
+</a>[18:07:12.889] Verifying if Axis is in Position. . . . 
+[18:07:15.279] Verifying if Axis is in Position. . . . 
+[18:07:17.635] Axis (AZ) is in desired position: 20.74. Time elapsed: 4.75 seconds.
+[18:07:17.777] Checking USRP for errors. . . 
+[18:07:19.881] No USRP Error!
+
+[18:07:26.331] Taking measurement at 20.95 degrees
+[18:07:38.426] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:07:38.655] Current Degree Measurement: 22.00
+</a>[18:07:38.700] Verifying if Axis is in Position. . . . 
+[18:07:41.088] Verifying if Axis is in Position. . . . 
+[18:07:43.461] Axis (AZ) is in desired position: 21.76. Time elapsed: 4.76 seconds.
+[18:07:43.604] Checking USRP for errors. . . 
+[18:07:45.713] No USRP Error!
+
+[18:07:46.940] Taking measurement at 21.95 degrees
+[18:08:00.039] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:08:00.310] Current Degree Measurement: 23.00
+</a>[18:08:00.347] Verifying if Axis is in Position. . . . 
+[18:08:02.713] Verifying if Axis is in Position. . . . 
+[18:08:05.081] Axis (AZ) is in desired position: 22.74. Time elapsed: 4.73 seconds.
+[18:08:05.230] Checking USRP for errors. . . 
+[18:08:07.338] No USRP Error!
+
+[18:08:08.590] Taking measurement at 22.95 degrees
+[18:08:20.669] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:08:20.906] Current Degree Measurement: 24.00
+</a>[18:08:20.947] Verifying if Axis is in Position. . . . 
+[18:08:23.325] Verifying if Axis is in Position. . . . 
+[18:08:25.689] Axis (AZ) is in desired position: 23.74. Time elapsed: 4.74 seconds.
+[18:08:25.838] Checking USRP for errors. . . 
+[18:08:27.941] No USRP Error!
+
+[18:08:29.186] Taking measurement at 23.96 degrees
+[18:08:41.281] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:08:41.517] Current Degree Measurement: 25.00
+</a>[18:08:41.556] Verifying if Axis is in Position. . . . 
+[18:08:43.920] Verifying if Axis is in Position. . . . 
+[18:08:46.275] Axis (AZ) is in desired position: 24.75. Time elapsed: 4.72 seconds.
+[18:08:46.420] Checking USRP for errors. . . 
+[18:08:48.528] No USRP Error!
+
+[18:08:49.756] Taking measurement at 24.95 degrees
+[18:09:01.893] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:09:02.125] Current Degree Measurement: 26.00
+</a>[18:09:02.167] Verifying if Axis is in Position. . . . 
+[18:09:04.560] Verifying if Axis is in Position. . . . 
+[18:09:06.902] Axis (AZ) is in desired position: 25.74. Time elapsed: 4.74 seconds.
+[18:09:07.060] Checking USRP for errors. . . 
+[18:09:09.160] No USRP Error!
+
+[18:09:10.389] Taking measurement at 25.95 degrees
+[18:09:22.457] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:09:22.718] Current Degree Measurement: 27.00
+</a>[18:09:22.762] Verifying if Axis is in Position. . . . 
+[18:09:25.253] Verifying if Axis is in Position. . . . 
+[18:09:27.621] Axis (AZ) is in desired position: 26.77. Time elapsed: 4.86 seconds.
+[18:09:27.788] Checking USRP for errors. . . 
+[18:09:29.910] No USRP Error!
+
+[18:09:31.129] Taking measurement at 26.95 degrees
+[18:09:44.234] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:09:44.478] Current Degree Measurement: 28.00
+</a>[18:09:44.522] Verifying if Axis is in Position. . . . 
+[18:09:46.914] Verifying if Axis is in Position. . . . 
+[18:09:49.281] Axis (AZ) is in desired position: 27.75. Time elapsed: 4.76 seconds.
+[18:09:49.436] Checking USRP for errors. . . 
+[18:09:51.551] No USRP Error!
+
+[18:09:52.789] Taking measurement at 27.95 degrees
+[18:10:04.901] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:10:05.134] Current Degree Measurement: 29.00
+</a>[18:10:05.177] Verifying if Axis is in Position. . . . 
+[18:10:07.564] Verifying if Axis is in Position. . . . 
+[18:10:09.938] Axis (AZ) is in desired position: 28.74. Time elapsed: 4.76 seconds.
+[18:10:10.099] Checking USRP for errors. . . 
+[18:10:12.209] No USRP Error!
+
+[18:10:13.434] Taking measurement at 28.95 degrees
+[18:10:25.537] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:10:25.783] Current Degree Measurement: 30.00
+</a>[18:10:25.826] Verifying if Axis is in Position. . . . 
+[18:10:28.213] Verifying if Axis is in Position. . . . 
+[18:10:30.598] Axis (AZ) is in desired position: 29.74. Time elapsed: 4.77 seconds.
+[18:10:30.745] Checking USRP for errors. . . 
+[18:10:32.848] No USRP Error!
+
+[18:10:34.088] Taking measurement at 29.95 degrees
+[18:10:47.214] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:10:47.464] Current Degree Measurement: 31.00
+</a>[18:10:47.510] Verifying if Axis is in Position. . . . 
+[18:10:49.884] Verifying if Axis is in Position. . . . 
+[18:10:52.247] Axis (AZ) is in desired position: 30.75. Time elapsed: 4.74 seconds.
+[18:10:52.398] Checking USRP for errors. . . 
+[18:10:54.513] No USRP Error!
+
+[18:10:55.749] Taking measurement at 30.95 degrees
+[18:11:07.827] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:11:08.095] Current Degree Measurement: 32.00
+</a>[18:11:08.140] Verifying if Axis is in Position. . . . 
+[18:11:10.538] Verifying if Axis is in Position. . . . 
+[18:11:12.871] Axis (AZ) is in desired position: 31.75. Time elapsed: 4.73 seconds.
+[18:11:13.044] Checking USRP for errors. . . 
+[18:11:15.159] No USRP Error!
+
+[18:11:16.395] Taking measurement at 31.95 degrees
+[18:11:28.474] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:11:28.718] Current Degree Measurement: 33.00
+</a>[18:11:28.757] Verifying if Axis is in Position. . . . 
+[18:11:31.150] Verifying if Axis is in Position. . . . 
+[18:11:33.507] Axis (AZ) is in desired position: 32.74. Time elapsed: 4.75 seconds.
+[18:11:33.688] Checking USRP for errors. . . 
+[18:11:35.800] No USRP Error!
+
+[18:11:37.047] Taking measurement at 32.95 degrees
+[18:11:50.155] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:11:50.410] Current Degree Measurement: 34.00
+</a>[18:11:50.464] Verifying if Axis is in Position. . . . 
+[18:11:52.873] Verifying if Axis is in Position. . . . 
+[18:11:55.316] Axis (AZ) is in desired position: 33.76. Time elapsed: 4.85 seconds.
+[18:11:55.499] Checking USRP for errors. . . 
+[18:11:57.612] No USRP Error!
+
+[18:11:58.870] Taking measurement at 33.95 degrees
+[18:12:10.984] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:12:11.225] Current Degree Measurement: 35.00
+</a>[18:12:11.269] Verifying if Axis is in Position. . . . 
+[18:12:13.650] Verifying if Axis is in Position. . . . 
+[18:12:16.029] Axis (AZ) is in desired position: 34.74. Time elapsed: 4.76 seconds.
+[18:12:16.187] Checking USRP for errors. . . 
+[18:12:18.300] No USRP Error!
+
+[18:12:19.512] Taking measurement at 34.95 degrees
+[18:12:31.653] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:12:31.900] Current Degree Measurement: 36.00
+</a>[18:12:31.945] Verifying if Axis is in Position. . . . 
+[18:12:34.319] Verifying if Axis is in Position. . . . 
+[18:12:36.687] Axis (AZ) is in desired position: 35.75. Time elapsed: 4.74 seconds.
+[18:12:36.842] Checking USRP for errors. . . 
+[18:12:38.954] No USRP Error!
+
+[18:12:40.180] Taking measurement at 35.95 degrees
+[18:12:52.307] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:12:52.570] Current Degree Measurement: 37.00
+</a>[18:12:52.626] Verifying if Axis is in Position. . . . 
+[18:12:55.029] Verifying if Axis is in Position. . . . 
+[18:12:57.372] Axis (AZ) is in desired position: 36.75. Time elapsed: 4.75 seconds.
+[18:12:57.533] Checking USRP for errors. . . 
+[18:12:59.641] No USRP Error!
+
+[18:13:00.871] Taking measurement at 36.95 degrees
+[18:13:13.018] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:13:13.271] Current Degree Measurement: 38.00
+</a>[18:13:13.315] Verifying if Axis is in Position. . . . 
+[18:13:15.685] Verifying if Axis is in Position. . . . 
+[18:13:18.042] Axis (AZ) is in desired position: 37.74. Time elapsed: 4.73 seconds.
+[18:13:18.208] Checking USRP for errors. . . 
+[18:13:20.317] No USRP Error!
+
+[18:13:21.562] Taking measurement at 37.95 degrees
+[18:13:33.691] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:13:33.977] Current Degree Measurement: 39.00
+</a>[18:13:34.022] Verifying if Axis is in Position. . . . 
+[18:13:36.439] Verifying if Axis is in Position. . . . 
+[18:13:38.811] Axis (AZ) is in desired position: 38.76. Time elapsed: 4.79 seconds.
+[18:13:38.978] Checking USRP for errors. . . 
+[18:13:41.101] No USRP Error!
+
+[18:13:42.350] Taking measurement at 38.95 degrees
+[18:13:54.486] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:13:54.793] Current Degree Measurement: 40.00
+</a>[18:13:54.854] Verifying if Axis is in Position. . . . 
+[18:13:57.222] Verifying if Axis is in Position. . . . 
+[18:13:59.601] Axis (AZ) is in desired position: 39.75. Time elapsed: 4.75 seconds.
+[18:13:59.767] Checking USRP for errors. . . 
+[18:14:01.890] No USRP Error!
+
+[18:14:03.133] Taking measurement at 39.95 degrees
+[18:14:16.241] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:14:16.502] Current Degree Measurement: 41.00
+</a>[18:14:16.546] Verifying if Axis is in Position. . . . 
+[18:14:18.941] Verifying if Axis is in Position. . . . 
+[18:14:21.289] Axis (AZ) is in desired position: 40.74. Time elapsed: 4.74 seconds.
+[18:14:21.445] Checking USRP for errors. . . 
+[18:14:23.567] No USRP Error!
+
+[18:14:24.831] Taking measurement at 40.95 degrees
+[18:14:36.930] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:14:37.180] Current Degree Measurement: 42.00
+</a>[18:14:37.231] Verifying if Axis is in Position. . . . 
+[18:14:39.644] Verifying if Axis is in Position. . . . 
+[18:14:42.002] Axis (AZ) is in desired position: 41.76. Time elapsed: 4.77 seconds.
+[18:14:42.155] Checking USRP for errors. . . 
+[18:14:44.263] No USRP Error!
+
+[18:14:45.483] Taking measurement at 41.95 degrees
+[18:14:57.598] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:14:57.845] Current Degree Measurement: 43.00
+</a>[18:14:57.893] Verifying if Axis is in Position. . . . 
+[18:15:00.280] Verifying if Axis is in Position. . . . 
+[18:15:02.644] Axis (AZ) is in desired position: 42.75. Time elapsed: 4.75 seconds.
+[18:15:02.799] Checking USRP for errors. . . 
+[18:15:04.907] No USRP Error!
+
+[18:15:06.150] Taking measurement at 42.95 degrees
+[18:15:19.293] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:15:19.530] Current Degree Measurement: 44.00
+</a>[18:15:19.577] Verifying if Axis is in Position. . . . 
+[18:15:21.984] Verifying if Axis is in Position. . . . 
+[18:15:24.350] Axis (AZ) is in desired position: 43.75. Time elapsed: 4.77 seconds.
+[18:15:24.517] Checking USRP for errors. . . 
+[18:15:26.632] No USRP Error!
+
+[18:15:27.885] Taking measurement at 43.95 degrees
+[18:15:41.055] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:15:41.339] Current Degree Measurement: 45.00
+</a>[18:15:41.392] Verifying if Axis is in Position. . . . 
+[18:15:43.783] Verifying if Axis is in Position. . . . 
+[18:15:46.156] Axis (AZ) is in desired position: 44.75. Time elapsed: 4.76 seconds.
+[18:15:46.314] Checking USRP for errors. . . 
+[18:15:48.424] No USRP Error!
+
+[18:15:49.658] Taking measurement at 44.95 degrees
+[18:16:01.773] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:16:02.014] Current Degree Measurement: 46.00
+</a>[18:16:02.073] Verifying if Axis is in Position. . . . 
+[18:16:04.468] Verifying if Axis is in Position. . . . 
+[18:16:06.806] Axis (AZ) is in desired position: 45.75. Time elapsed: 4.73 seconds.
+[18:16:06.985] Checking USRP for errors. . . 
+[18:16:09.103] No USRP Error!
+
+[18:16:10.365] Taking measurement at 45.95 degrees
+[18:16:22.475] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:16:22.791] Current Degree Measurement: 47.00
+</a>[18:16:22.852] Verifying if Axis is in Position. . . . 
+[18:16:25.299] Verifying if Axis is in Position. . . . 
+[18:16:27.729] Axis (AZ) is in desired position: 46.78. Time elapsed: 4.88 seconds.
+[18:16:27.947] Checking USRP for errors. . . 
+[18:16:30.111] No USRP Error!
+
+[18:16:31.376] Taking measurement at 46.95 degrees
+[18:16:43.502] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:16:43.836] Current Degree Measurement: 48.00
+</a>[18:16:43.899] Verifying if Axis is in Position. . . . 
+[18:16:46.365] Verifying if Axis is in Position. . . . 
+[18:16:48.748] Axis (AZ) is in desired position: 47.78. Time elapsed: 4.85 seconds.
+[18:16:48.958] Checking USRP for errors. . . 
+[18:16:51.105] No USRP Error!
+
+[18:16:52.364] Taking measurement at 47.95 degrees
+[18:17:04.568] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:17:04.857] Current Degree Measurement: 49.00
+</a>[18:17:04.909] Verifying if Axis is in Position. . . . 
+[18:17:07.354] Verifying if Axis is in Position. . . . 
+[18:17:09.753] Axis (AZ) is in desired position: 48.77. Time elapsed: 4.84 seconds.
+[18:17:09.975] Checking USRP for errors. . . 
+[18:17:12.122] No USRP Error!
+
+[18:17:13.359] Taking measurement at 48.95 degrees
+[18:17:25.472] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:17:25.771] Current Degree Measurement: 50.00
+</a>[18:17:25.837] Verifying if Axis is in Position. . . . 
+[18:17:28.253] Verifying if Axis is in Position. . . . 
+[18:17:30.626] Axis (AZ) is in desired position: 49.75. Time elapsed: 4.79 seconds.
+[18:17:30.850] Checking USRP for errors. . . 
+[18:17:33.013] No USRP Error!
+
+[18:17:34.281] Taking measurement at 49.95 degrees
+[18:17:46.462] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:17:46.764] Current Degree Measurement: 51.00
+</a>[18:17:46.815] Verifying if Axis is in Position. . . . 
+[18:17:49.219] Verifying if Axis is in Position. . . . 
+[18:17:51.583] Axis (AZ) is in desired position: 50.76. Time elapsed: 4.77 seconds.
+[18:17:51.765] Checking USRP for errors. . . 
+[18:17:53.909] No USRP Error!
+
+[18:18:00.403] Taking measurement at 50.95 degrees
+[18:18:12.526] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:18:12.842] Current Degree Measurement: 52.00
+</a>[18:18:12.908] Verifying if Axis is in Position. . . . 
+[18:18:15.372] Verifying if Axis is in Position. . . . 
+[18:18:17.774] Axis (AZ) is in desired position: 51.78. Time elapsed: 4.87 seconds.
+[18:18:17.977] Checking USRP for errors. . . 
+[18:18:20.137] No USRP Error!
+
+[18:18:21.403] Taking measurement at 51.95 degrees
+[18:18:33.563] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:18:33.906] Current Degree Measurement: 53.00
+</a>[18:18:33.976] Verifying if Axis is in Position. . . . 
+[18:18:36.439] Verifying if Axis is in Position. . . . 
+[18:18:38.835] Axis (AZ) is in desired position: 52.78. Time elapsed: 4.86 seconds.
+[18:18:39.053] Checking USRP for errors. . . 
+[18:18:41.208] No USRP Error!
+
+[18:18:42.467] Taking measurement at 52.95 degrees
+[18:18:54.630] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:18:54.957] Current Degree Measurement: 54.00
+</a>[18:18:55.021] Verifying if Axis is in Position. . . . 
+[18:18:57.477] Verifying if Axis is in Position. . . . 
+[18:18:59.868] Axis (AZ) is in desired position: 53.78. Time elapsed: 4.85 seconds.
+[18:19:00.078] Checking USRP for errors. . . 
+[18:19:02.243] No USRP Error!
+
+[18:19:03.523] Taking measurement at 53.95 degrees
+[18:19:15.685] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:19:16.021] Current Degree Measurement: 55.00
+</a>[18:19:16.077] Verifying if Axis is in Position. . . . 
+[18:19:18.545] Verifying if Axis is in Position. . . . 
+[18:19:20.945] Axis (AZ) is in desired position: 54.78. Time elapsed: 4.87 seconds.
+[18:19:21.178] Checking USRP for errors. . . 
+[18:19:23.341] No USRP Error!
+
+[18:19:24.607] Taking measurement at 54.95 degrees
+[18:19:36.760] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:19:37.069] Current Degree Measurement: 56.00
+</a>[18:19:37.134] Verifying if Axis is in Position. . . . 
+[18:19:39.593] Verifying if Axis is in Position. . . . 
+[18:19:42.002] Axis (AZ) is in desired position: 55.79. Time elapsed: 4.87 seconds.
+[18:19:42.226] Checking USRP for errors. . . 
+[18:19:44.393] No USRP Error!
+
+[18:19:45.675] Taking measurement at 55.95 degrees
+[18:19:57.800] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:19:58.110] Current Degree Measurement: 57.00
+</a>[18:19:58.160] Verifying if Axis is in Position. . . . 
+[18:20:00.568] Verifying if Axis is in Position. . . . 
+[18:20:02.952] Axis (AZ) is in desired position: 56.76. Time elapsed: 4.79 seconds.
+[18:20:03.113] Checking USRP for errors. . . 
+[18:20:05.255] No USRP Error!
+
+[18:20:06.508] Taking measurement at 56.95 degrees
+[18:20:18.590] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:20:18.839] Current Degree Measurement: 58.00
+</a>[18:20:18.891] Verifying if Axis is in Position. . . . 
+[18:20:21.296] Verifying if Axis is in Position. . . . 
+[18:20:23.655] Axis (AZ) is in desired position: 57.75. Time elapsed: 4.76 seconds.
+[18:20:23.816] Checking USRP for errors. . . 
+[18:20:25.944] No USRP Error!
+
+[18:20:27.201] Taking measurement at 57.95 degrees
+[18:20:39.330] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:20:39.604] Current Degree Measurement: 59.00
+</a>[18:20:39.655] Verifying if Axis is in Position. . . . 
+[18:20:42.046] Verifying if Axis is in Position. . . . 
+[18:20:44.417] Axis (AZ) is in desired position: 58.75. Time elapsed: 4.76 seconds.
+[18:20:44.587] Checking USRP for errors. . . 
+[18:20:46.707] No USRP Error!
+
+[18:20:47.956] Taking measurement at 58.95 degrees
+[18:21:00.053] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:21:00.315] Current Degree Measurement: 60.00
+</a>[18:21:00.368] Verifying if Axis is in Position. . . . 
+[18:21:02.778] Verifying if Axis is in Position. . . . 
+[18:21:05.129] Axis (AZ) is in desired position: 59.75. Time elapsed: 4.76 seconds.
+[18:21:05.298] Checking USRP for errors. . . 
+[18:21:07.427] No USRP Error!
+
+[18:21:08.686] Taking measurement at 59.95 degrees
+[18:21:20.856] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:21:21.111] Current Degree Measurement: 61.00
+</a>[18:21:21.184] Verifying if Axis is in Position. . . . 
+[18:21:23.625] Verifying if Axis is in Position. . . . 
+[18:21:25.995] Axis (AZ) is in desired position: 60.76. Time elapsed: 4.81 seconds.
+[18:21:26.163] Checking USRP for errors. . . 
+[18:21:28.286] No USRP Error!
+
+[18:21:29.517] Taking measurement at 60.95 degrees
+[18:21:41.654] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:21:41.914] Current Degree Measurement: 62.00
+</a>[18:21:41.965] Verifying if Axis is in Position. . . . 
+[18:21:44.380] Verifying if Axis is in Position. . . . 
+[18:21:46.740] Axis (AZ) is in desired position: 61.75. Time elapsed: 4.78 seconds.
+[18:21:46.908] Checking USRP for errors. . . 
+[18:21:49.035] No USRP Error!
+
+[18:21:55.524] Taking measurement at 61.95 degrees
+[18:22:07.637] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:22:07.885] Current Degree Measurement: 63.00
+</a>[18:22:07.933] Verifying if Axis is in Position. . . . 
+[18:22:10.349] Verifying if Axis is in Position. . . . 
+[18:22:12.707] Axis (AZ) is in desired position: 62.75. Time elapsed: 4.77 seconds.
+[18:22:12.874] Checking USRP for errors. . . 
+[18:22:14.997] No USRP Error!
+
+[18:22:16.265] Taking measurement at 62.95 degrees
+[18:22:28.389] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:22:28.645] Current Degree Measurement: 64.00
+</a>[18:22:28.696] Verifying if Axis is in Position. . . . 
+[18:22:31.105] Verifying if Axis is in Position. . . . 
+[18:22:33.476] Axis (AZ) is in desired position: 63.75. Time elapsed: 4.78 seconds.
+[18:22:33.646] Checking USRP for errors. . . 
+[18:22:35.770] No USRP Error!
+
+[18:22:36.996] Taking measurement at 63.95 degrees
+[18:22:50.155] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:22:50.429] Current Degree Measurement: 65.00
+</a>[18:22:50.487] Verifying if Axis is in Position. . . . 
+[18:22:52.892] Verifying if Axis is in Position. . . . 
+[18:22:55.283] Axis (AZ) is in desired position: 64.75. Time elapsed: 4.80 seconds.
+[18:22:55.449] Checking USRP for errors. . . 
+[18:22:57.573] No USRP Error!
+
+[18:22:58.825] Taking measurement at 64.95 degrees
+[18:23:10.972] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:23:11.229] Current Degree Measurement: 66.00
+</a>[18:23:11.280] Verifying if Axis is in Position. . . . 
+[18:23:13.730] Verifying if Axis is in Position. . . . 
+[18:23:16.072] Axis (AZ) is in desired position: 65.76. Time elapsed: 4.79 seconds.
+[18:23:16.240] Checking USRP for errors. . . 
+[18:23:18.365] No USRP Error!
+
+[18:23:19.623] Taking measurement at 65.95 degrees
+[18:23:31.762] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:23:32.042] Current Degree Measurement: 67.00
+</a>[18:23:32.108] Verifying if Axis is in Position. . . . 
+[18:23:34.517] Verifying if Axis is in Position. . . . 
+[18:23:36.878] Axis (AZ) is in desired position: 66.75. Time elapsed: 4.77 seconds.
+[18:23:37.049] Checking USRP for errors. . . 
+[18:23:39.173] No USRP Error!
+
+[18:23:40.435] Taking measurement at 66.95 degrees
+[18:23:52.554] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:23:52.818] Current Degree Measurement: 68.00
+</a>[18:23:52.879] Verifying if Axis is in Position. . . . 
+[18:23:55.292] Verifying if Axis is in Position. . . . 
+[18:23:57.676] Axis (AZ) is in desired position: 67.76. Time elapsed: 4.80 seconds.
+[18:23:57.845] Checking USRP for errors. . . 
+[18:23:59.971] No USRP Error!
+
+[18:24:01.219] Taking measurement at 67.95 degrees
+[18:24:13.320] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:24:13.580] Current Degree Measurement: 69.00
+</a>[18:24:13.632] Verifying if Axis is in Position. . . . 
+[18:24:16.034] Verifying if Axis is in Position. . . . 
+[18:24:18.398] Axis (AZ) is in desired position: 68.75. Time elapsed: 4.77 seconds.
+[18:24:18.563] Checking USRP for errors. . . 
+[18:24:20.693] No USRP Error!
+
+[18:24:21.974] Taking measurement at 68.95 degrees
+[18:24:35.131] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:24:35.428] Current Degree Measurement: 70.00
+</a>[18:24:35.481] Verifying if Axis is in Position. . . . 
+[18:24:37.903] Verifying if Axis is in Position. . . . 
+[18:24:40.296] Axis (AZ) is in desired position: 69.76. Time elapsed: 4.82 seconds.
+[18:24:40.459] Checking USRP for errors. . . 
+[18:24:42.589] No USRP Error!
+
+[18:24:43.858] Taking measurement at 69.95 degrees
+[18:24:56.981] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:24:57.250] Current Degree Measurement: 71.00
+</a>[18:24:57.305] Verifying if Axis is in Position. . . . 
+[18:24:59.717] Verifying if Axis is in Position. . . . 
+[18:25:02.097] Axis (AZ) is in desired position: 70.75. Time elapsed: 4.79 seconds.
+[18:25:02.270] Checking USRP for errors. . . 
+[18:25:04.398] No USRP Error!
+
+[18:25:05.656] Taking measurement at 70.95 degrees
+[18:25:17.787] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:25:18.059] Current Degree Measurement: 72.00
+</a>[18:25:18.113] Verifying if Axis is in Position. . . . 
+[18:25:20.538] Verifying if Axis is in Position. . . . 
+[18:25:22.927] Axis (AZ) is in desired position: 71.76. Time elapsed: 4.81 seconds.
+[18:25:23.094] Checking USRP for errors. . . 
+[18:25:25.229] No USRP Error!
+
+[18:25:26.489] Taking measurement at 71.95 degrees
+[18:25:38.601] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:25:38.868] Current Degree Measurement: 73.00
+</a>[18:25:38.922] Verifying if Axis is in Position. . . . 
+[18:25:41.343] Verifying if Axis is in Position. . . . 
+[18:25:43.709] Axis (AZ) is in desired position: 72.75. Time elapsed: 4.79 seconds.
+[18:25:43.878] Checking USRP for errors. . . 
+[18:25:46.001] No USRP Error!
+
+[18:25:47.266] Taking measurement at 72.95 degrees
+[18:25:59.397] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:25:59.669] Current Degree Measurement: 74.00
+</a>[18:25:59.723] Verifying if Axis is in Position. . . . 
+[18:26:02.131] Verifying if Axis is in Position. . . . 
+[18:26:04.505] Axis (AZ) is in desired position: 73.76. Time elapsed: 4.78 seconds.
+[18:26:04.671] Checking USRP for errors. . . 
+[18:26:06.815] No USRP Error!
+
+[18:26:08.071] Taking measurement at 73.95 degrees
+[18:26:21.207] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:26:21.476] Current Degree Measurement: 75.00
+</a>[18:26:21.527] Verifying if Axis is in Position. . . . 
+[18:26:23.947] Verifying if Axis is in Position. . . . 
+[18:26:26.329] Axis (AZ) is in desired position: 74.74. Time elapsed: 4.80 seconds.
+[18:26:26.504] Checking USRP for errors. . . 
+[18:26:28.635] No USRP Error!
+
+[18:26:29.906] Taking measurement at 74.95 degrees
+[18:26:42.012] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:26:42.274] Current Degree Measurement: 76.00
+</a>[18:26:42.328] Verifying if Axis is in Position. . . . 
+[18:26:44.728] Verifying if Axis is in Position. . . . 
+[18:26:47.098] Axis (AZ) is in desired position: 75.75. Time elapsed: 4.77 seconds.
+[18:26:47.274] Checking USRP for errors. . . 
+[18:26:49.407] No USRP Error!
+
+[18:26:50.670] Taking measurement at 75.95 degrees
+[18:27:02.765] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:27:03.031] Current Degree Measurement: 77.00
+</a>[18:27:03.090] Verifying if Axis is in Position. . . . 
+[18:27:05.495] Verifying if Axis is in Position. . . . 
+[18:27:07.873] Axis (AZ) is in desired position: 76.76. Time elapsed: 4.78 seconds.
+[18:27:08.044] Checking USRP for errors. . . 
+[18:27:10.174] No USRP Error!
+
+[18:27:16.683] Taking measurement at 76.95 degrees
+[18:27:28.775] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:27:29.034] Current Degree Measurement: 78.00
+</a>[18:27:29.094] Verifying if Axis is in Position. . . . 
+[18:27:31.503] Verifying if Axis is in Position. . . . 
+[18:27:33.886] Axis (AZ) is in desired position: 77.74. Time elapsed: 4.79 seconds.
+[18:27:34.066] Checking USRP for errors. . . 
+[18:27:36.199] No USRP Error!
+
+[18:27:40.081] Taking measurement at 77.95 degrees
+[18:27:53.220] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:27:53.483] Current Degree Measurement: 79.00
+</a>[18:27:53.539] Verifying if Axis is in Position. . . . 
+[18:27:55.953] Verifying if Axis is in Position. . . . 
+[18:27:58.335] Axis (AZ) is in desired position: 78.75. Time elapsed: 4.80 seconds.
+[18:27:58.513] Checking USRP for errors. . . 
+[18:28:00.651] No USRP Error!
+
+[18:28:04.507] Taking measurement at 78.95 degrees
+[18:28:16.634] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:28:16.898] Current Degree Measurement: 80.00
+</a>[18:28:16.961] Verifying if Axis is in Position. . . . 
+[18:28:19.371] Verifying if Axis is in Position. . . . 
+[18:28:21.754] Axis (AZ) is in desired position: 79.75. Time elapsed: 4.79 seconds.
+[18:28:21.936] Checking USRP for errors. . . 
+[18:28:24.084] No USRP Error!
+
+[18:28:25.365] Taking measurement at 79.95 degrees
+[18:28:37.468] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:28:37.732] Current Degree Measurement: 81.00
+</a>[18:28:37.792] Verifying if Axis is in Position. . . . 
+[18:28:40.200] Verifying if Axis is in Position. . . . 
+[18:28:42.577] Axis (AZ) is in desired position: 80.75. Time elapsed: 4.79 seconds.
+[18:28:42.760] Checking USRP for errors. . . 
+[18:28:44.891] No USRP Error!
+
+[18:28:46.158] Taking measurement at 80.95 degrees
+[18:28:59.281] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:28:59.549] Current Degree Measurement: 82.00
+</a>[18:28:59.612] Verifying if Axis is in Position. . . . 
+[18:29:02.019] Verifying if Axis is in Position. . . . 
+[18:29:04.383] Axis (AZ) is in desired position: 81.76. Time elapsed: 4.77 seconds.
+[18:29:04.567] Checking USRP for errors. . . 
+[18:29:06.703] No USRP Error!
+
+[18:29:07.964] Taking measurement at 81.95 degrees
+[18:29:21.060] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:29:21.339] Current Degree Measurement: 83.00
+</a>[18:29:21.398] Verifying if Axis is in Position. . . . 
+[18:29:23.823] Verifying if Axis is in Position. . . . 
+[18:29:26.203] Axis (AZ) is in desired position: 82.76. Time elapsed: 4.81 seconds.
+[18:29:26.384] Checking USRP for errors. . . 
+[18:29:28.523] No USRP Error!
+
+[18:29:29.791] Taking measurement at 82.95 degrees
+[18:29:41.914] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:29:42.201] Current Degree Measurement: 84.00
+</a>[18:29:42.263] Verifying if Axis is in Position. . . . 
+[18:29:44.680] Verifying if Axis is in Position. . . . 
+[18:29:47.061] Axis (AZ) is in desired position: 83.75. Time elapsed: 4.80 seconds.
+[18:29:47.235] Checking USRP for errors. . . 
+[18:29:49.369] No USRP Error!
+
+[18:29:50.643] Taking measurement at 83.95 degrees
+[18:30:02.778] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:30:03.055] Current Degree Measurement: 85.00
+</a>[18:30:03.124] Verifying if Axis is in Position. . . . 
+[18:30:05.542] Verifying if Axis is in Position. . . . 
+[18:30:07.938] Axis (AZ) is in desired position: 84.75. Time elapsed: 4.81 seconds.
+[18:30:08.119] Checking USRP for errors. . . 
+[18:30:10.272] No USRP Error!
+
+[18:30:11.551] Taking measurement at 84.95 degrees
+[18:30:23.700] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:30:23.981] Current Degree Measurement: 86.00
+</a>[18:30:24.040] Verifying if Axis is in Position. . . . 
+[18:30:26.485] Verifying if Axis is in Position. . . . 
+[18:30:28.863] Axis (AZ) is in desired position: 85.76. Time elapsed: 4.82 seconds.
+[18:30:29.033] Checking USRP for errors. . . 
+[18:30:31.185] No USRP Error!
+
+[18:30:32.452] Taking measurement at 85.95 degrees
+[18:30:44.577] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:30:44.850] Current Degree Measurement: 87.00
+</a>[18:30:44.910] Verifying if Axis is in Position. . . . 
+[18:30:47.322] Verifying if Axis is in Position. . . . 
+[18:30:49.708] Axis (AZ) is in desired position: 86.75. Time elapsed: 4.80 seconds.
+[18:30:49.880] Checking USRP for errors. . . 
+[18:30:52.013] No USRP Error!
+
+[18:30:55.889] Taking measurement at 86.95 degrees
+[18:31:07.993] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:31:08.266] Current Degree Measurement: 88.00
+</a>[18:31:08.328] Verifying if Axis is in Position. . . . 
+[18:31:10.759] Verifying if Axis is in Position. . . . 
+[18:31:13.113] Axis (AZ) is in desired position: 87.76. Time elapsed: 4.78 seconds.
+[18:31:13.288] Checking USRP for errors. . . 
+[18:31:15.423] No USRP Error!
+
+[18:31:16.703] Taking measurement at 87.95 degrees
+[18:31:28.832] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:31:29.096] Current Degree Measurement: 89.00
+</a>[18:31:29.153] Verifying if Axis is in Position. . . . 
+[18:31:31.549] Verifying if Axis is in Position. . . . 
+[18:31:33.922] Axis (AZ) is in desired position: 88.75. Time elapsed: 4.77 seconds.
+[18:31:34.105] Checking USRP for errors. . . 
+[18:31:36.242] No USRP Error!
+
+[18:31:37.503] Taking measurement at 88.95 degrees
+[18:31:49.646] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[18:31:49.933] Current Degree Measurement: 90.00
+</a>[18:31:49.996] Verifying if Axis is in Position. . . . 
+[18:31:52.407] Verifying if Axis is in Position. . . . 
+[18:31:54.788] Axis (AZ) is in desired position: 89.75. Time elapsed: 4.79 seconds.
+[18:31:54.970] Checking USRP for errors. . . 
+[18:31:57.110] No USRP Error!
+
+[18:31:58.383] Taking measurement at 89.95 degrees
+<a href="">[18:32:10.529] Done with current set of measurements!
+</a>Elapsed Time: 01:05:38
+Log saved to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Mar-16-20_17.26.21_log.txt

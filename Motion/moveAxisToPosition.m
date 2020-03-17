@@ -18,7 +18,7 @@ if ((AZCurrVel >= -0.01) && (AZCurrVel <= 0.01))
     measApp.updateProgressBar(loadBarProgress,sprintf('Moving Axis (AZ) from position: %.2f, to desired position: %.2f',AZCurrPos, desiredPos));
     drawnow();
     pause(0.0001);
-    fprintf(MI4190, 'CONT1:AXIS(1):POS:COMM %f', desiredPos);
+    fprintf(MI4190, 'CONT1:AXIS(1):POS:COMM %f\n', desiredPos);
     fprintf(MI4190, 'CONT1:AXIS(1):MOT:STAR');
     dots(4);
     verifyIfInPosition(MI4190,desiredPos,0.6,loadBarProgress,measApp,anglesRemaining,incrementSize);

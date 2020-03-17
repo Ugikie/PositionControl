@@ -1,0 +1,211 @@
+Saving log to: /home/ugikie/Desktop/PositionControl/Misc/Logs/Feb-28-20_13.28.35_log.txt
+
+
+AZCurrStat =
+
+    '4865
+     Status Changed., Axis is Indexed, Axis is Active, Latch is Set, '
+
+[13:28:42.416] Verifying if Axis is in Position. . . . 
+[13:28:44.847] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.43 seconds.
+
+[13:28:45.024] Please enter a valid increment size!
+[13:29:18.055] Increment size chosen: 1.00
+[13:29:18.096] Please enter a valid center frequency!
+[13:29:21.102] Center frequency chosen: 1.94995 GHz
+[13:29:21.227] Booting up USRPs. . .
+[13:29:33.904] Verified connection to USRPs. . .
+[13:29:33.912] USRP N210 Has IP: <a href="">192.168.10.15
+</a>[13:29:34.468] USRP N310 Has IP: <a href="">192.168.10.2
+</a>[13:29:34.490] Initiating USRP N210. . .
+<a href="">
+[13:29:34.638] Current Degree Measurement: -90.00
+</a>[13:29:34.652] Verifying if Axis is in Position. . . . 
+[13:29:36.984] Axis (AZ) is in desired position: -89.95. Time elapsed: 2.33 seconds.
+[13:29:37.101] Checking USRP for errors. . . 
+[13:29:39.165] No USRP Error!
+
+[13:29:40.334] Taking measurement at -89.95 degrees
+[13:30:07.618] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:30:07.821] Current Degree Measurement: -89.00
+</a>[13:30:07.843] Verifying if Axis is in Position. . . . 
+[13:30:10.139] Verifying if Axis is in Position. . . . 
+[13:30:12.436] Axis (AZ) is in desired position: -89.32. Time elapsed: 4.59 seconds.
+[13:30:12.542] Checking USRP for errors. . . 
+[13:30:14.592] No USRP Error!
+
+[13:30:15.744] Taking measurement at -89.05 degrees
+[13:30:27.785] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:30:27.986] Current Degree Measurement: -88.00
+</a>[13:30:28.006] Verifying if Axis is in Position. . . . 
+[13:30:30.305] Verifying if Axis is in Position. . . . 
+[13:30:32.600] Axis (AZ) is in desired position: -88.30. Time elapsed: 4.59 seconds.
+[13:30:32.701] Checking USRP for errors. . . 
+[13:30:34.749] No USRP Error!
+
+[13:30:35.905] Taking measurement at -88.05 degrees
+[13:30:49.007] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:30:49.207] Current Degree Measurement: -87.00
+</a>[13:30:49.222] Verifying if Axis is in Position. . . . 
+[13:30:51.516] Verifying if Axis is in Position. . . . 
+[13:30:53.790] Axis (AZ) is in desired position: -87.30. Time elapsed: 4.57 seconds.
+[13:30:53.914] Checking USRP for errors. . . 
+[13:30:55.967] No USRP Error!
+
+[13:30:57.147] Taking measurement at -87.05 degrees
+[13:31:09.268] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:31:09.484] Current Degree Measurement: -86.00
+</a>[13:31:09.502] Verifying if Axis is in Position. . . . 
+[13:31:11.791] Verifying if Axis is in Position. . . . 
+[13:31:14.108] Axis (AZ) is in desired position: -86.29. Time elapsed: 4.61 seconds.
+[13:31:14.221] Checking USRP for errors. . . 
+[13:31:16.272] No USRP Error!
+
+[13:31:17.462] Taking measurement at -86.05 degrees
+[13:31:29.512] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:31:29.741] Current Degree Measurement: -85.00
+</a>[13:31:29.755] Verifying if Axis is in Position. . . . 
+[13:31:32.046] Verifying if Axis is in Position. . . . 
+[13:31:34.368] Axis (AZ) is in desired position: -85.29. Time elapsed: 4.61 seconds.
+[13:31:34.484] Checking USRP for errors. . . 
+[13:31:36.534] No USRP Error!
+
+[13:31:40.323] Taking measurement at -85.05 degrees
+[13:31:52.386] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:31:52.606] Current Degree Measurement: -84.00
+</a>[13:31:52.619] Verifying if Axis is in Position. . . . 
+[13:31:54.919] Verifying if Axis is in Position. . . . 
+[13:31:57.211] Axis (AZ) is in desired position: -84.28. Time elapsed: 4.59 seconds.
+[13:31:57.320] Checking USRP for errors. . . 
+[13:31:59.360] No USRP Error!
+
+[13:32:00.523] Taking measurement at -84.05 degrees
+[13:32:12.610] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:32:12.853] Current Degree Measurement: -83.00
+</a>[13:32:12.869] Verifying if Axis is in Position. . . . 
+[13:32:15.216] Verifying if Axis is in Position. . . . 
+[13:32:17.487] Axis (AZ) is in desired position: -83.27. Time elapsed: 4.62 seconds.
+[13:32:17.599] Checking USRP for errors. . . 
+[13:32:19.644] No USRP Error!
+
+[13:32:23.456] Taking measurement at -83.05 degrees
+[13:32:35.533] Incrementing MI4190 Position by 1.00 degrees. . . . 
+<a href="">
+[13:32:35.707] Current Degree Measurement: -82.00
+</a>[13:32:35.724] Verifying if Axis is in Position. . . . 
+[13:32:38.007] Verifying if Axis is in Position. . . . 
+[13:32:40.488] Axis (AZ) is in desired position: -82.31. Time elapsed: 4.76 seconds.
+[13:32:40.591] Checking USRP for errors. . . 
+[13:32:42.634] No USRP Error!
+[13:32:42.684] Stopping Measurements. . .
+[13:32:49.915] Stopping Measurements. . .
+delete(measApp)
+fclose(MI4190)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('serial/fclose', '/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m', 53)" style="font-weight:bold">serial/fclose</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2019b/toolbox/matlab/serial/@serial/fclose.m',53,0)">line 53</a>)
+Unexpected Error: Instrument object OBJ is an invalid object.
+} 
+clear all
+MI4190 = serial('/dev/ttyUSB0');                 % Linux Serial
+%MI4190 = tcpip('192.168.10.6', 1234);
+system('sudo chmod 666 /dev/ttyUSB0');            % Linux Ethernet
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 1;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+warning('off','MATLAB:serial:fread:unsuccessfulRead');
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '++auto 1');
+fprintf(MI4190, '++addr 16');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+fprintf(MI4190, '++addr 4');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+    'M. I. Technologies,Model 4192/4195,0,4.2.1
+     '
+
+fprintf(MI4190, '++addr 16');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+fclose(MI4190)
+delete(MI4190)
+clear all
+MI4190 = serial('/dev/ttyUSB0');                 % Linux Serial
+%MI4190 = tcpip('192.168.10.6', 1234);
+system('sudo chmod 666 /dev/ttyUSB0');            % Linux Ethernet
+    %if it does not work on linux, you may have to run the command:
+    % 'sudo chmod 666 /dev/ttyUSB0' to enable permissions.
+%MI4190 = serial('/dev/tty.usbserial-PX2DN8ZM'); % Mac
+%MI4190 = serial('COM3');                        % PC
+
+% Prologix Controller 4.2 requires CR as command terminator, LF is
+% optional. The controller terminates internal query responses with CR and
+% LF. Responses from the instrument are passed through as is. (See Prologix
+% Controller Manual)
+MI4190.Terminator = 'CR/LF';
+
+% Reduce timeout to 0.5 second (default is 10 seconds)
+MI4190.Timeout = 1;
+
+% Open virtual serial port
+fclose(MI4190);
+fopen(MI4190);
+warning('off','MATLAB:serial:fread:unsuccessfulRead');
+fprintf(MI4190, '++mode 1');
+fprintf(MI4190, '++addr 16');
+fprintf(MI4190, '++auto 1');
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold">char</a> array
+
+fprintf(MI4190, '++eoi 0')
+fprintf(MI4190, '*idn?');
+idn = char(fread(MI4190, 100))'
+
+idn =
+
+  0×1 empty <a href="matlab:helpPopup char" style="font-weight:bold
