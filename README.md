@@ -1,6 +1,6 @@
 # PositionControl
 
-> *Copyright 2019 [Austin Adam](https://github.com/Ugikie)*
+> *Copyright 2020 [Austin Adam](https://github.com/Ugikie)*
 
 **Position Control** is a ready-to-use Matlab library to control the MI-4190 position controller and automate measurements with a USRP N310
 
@@ -85,16 +85,16 @@ desiredFileName_Nov-23-19_18.40.14_log.txt
 Here are some ideas for the future of the project. The list will be updated with each new addition to the script, and as items are completed.  
 ![#54B948](https://placehold.it/15/54B948/000000?text=+) Completed    ![#fdb813](https://placehold.it/15/fdb813/000000?text=+) Work In Progress    ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Not yet implemented
 - ![#54B948](https://placehold.it/15/54B948/000000?text=+) `Add continuous checks for USRP response throughout the code.`
+- ![#54B948](https://placehold.it/15/f03c15/000000?text=+) `Add prompt for user to input desired VNA frequency.`
+- ![#54B948](https://placehold.it/15/f03c15/000000?text=+) `Allow user to start/stop/pause VNA signal.`
+- ![#54B948](https://placehold.it/15/f03c15/000000?text=+) `Fix cancel button on waitbar.`
+- ![#54B948](https://placehold.it/15/f03c15/000000?text=+) `Speed up verifyIfInPosition.`
+- ![#54B948](https://placehold.it/15/f03c15/000000?text=+) `Add function to decode status codes.`
+- ![#54B948](https://placehold.it/15/f03c15/000000?text=+) `Create GUI For entire script with start/stop/pause functionality and command window output. Can select increment amount, control VNA, and save output to file location.`
+- ![#54B948](https://placehold.it/15/f03c15/000000?text=+) `Add proper abort/stop functions.`
 - ![#fdb813](https://placehold.it/15/fdb813/000000?text=+) `Fix elapsed time to be more accurate & informational.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Add prompt for user to input desired VNA frequency.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Allow user to start/stop/pause VNA signal.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Fix cancel button on waitbar.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Add prompt for user to input desired number of samples for GNU script.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Speed up verifyIfInPosition.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Add function to decode status codes.`
+- ![#fdb813](https://placehold.it/15/f03c15/000000?text=+) `Add prompt for user to input desired number of samples for GNU script.`
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Add check in the beginning to ensure the Axis (AZ) is enabled.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Create GUI For entire script with start/stop/pause functionality and command window output. Can select increment amount, control VNA, and save output to file location.`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Add proper abort/stop functions.`
 
 ## Known Issues
 - Obviously running the script without either the USRP or Position Controller connected will result in errors in the console.
