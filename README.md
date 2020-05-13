@@ -94,7 +94,7 @@ Here are some ideas for the future of the project. The list will be updated with
 - ![#54B948](https://placehold.it/15/54B948/000000?text=+) `Add proper abort/stop functions.`
 - ![#fdb813](https://placehold.it/15/fdb813/000000?text=+) `Fix elapsed time to be more accurate & informational.`
 - ![#fdb813](https://placehold.it/15/fdb813/000000?text=+) `Add prompt for user to input desired number of samples for GNU script.`
-- ![#f03c15](https://placehold.it/15/fdb813/000000?text=+) `Add check in the beginning to ensure the Axis (AZ) is enabled.`
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Add check in the beginning to ensure the Axis (AZ) is enabled.`
 
 ## Known Issues
 - Obviously running the script without either the USRP or Position Controller connected will result in errors in the console.
